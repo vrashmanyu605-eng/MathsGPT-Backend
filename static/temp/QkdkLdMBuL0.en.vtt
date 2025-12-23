@@ -1,0 +1,3296 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.359 --> 00:00:02.750 align:start position:0%
+ 
+if<00:00:00.520><c> you've</c><00:00:00.719><c> been</c><00:00:00.919><c> hearing</c><00:00:01.319><c> about</c><00:00:01.719><c> Kafka</c><00:00:02.520><c> but</c>
+
+00:00:02.750 --> 00:00:02.760 align:start position:0%
+if you've been hearing about Kafka but
+ 
+
+00:00:02.760 --> 00:00:04.950 align:start position:0%
+if you've been hearing about Kafka but
+you<00:00:02.879><c> don't</c><00:00:03.399><c> understand</c><00:00:03.719><c> what</c><00:00:03.879><c> it</c><00:00:04.040><c> is</c><00:00:04.400><c> and</c><00:00:04.759><c> why</c>
+
+00:00:04.950 --> 00:00:04.960 align:start position:0%
+you don't understand what it is and why
+ 
+
+00:00:04.960 --> 00:00:07.990 align:start position:0%
+you don't understand what it is and why
+all<00:00:05.160><c> the</c><00:00:05.359><c> hype</c><00:00:06.160><c> let</c><00:00:06.319><c> me</c><00:00:06.560><c> clarify</c><00:00:07.040><c> it</c><00:00:07.279><c> using</c>
+
+00:00:07.990 --> 00:00:08.000 align:start position:0%
+all the hype let me clarify it using
+ 
+
+00:00:08.000 --> 00:00:10.430 align:start position:0%
+all the hype let me clarify it using
+real<00:00:08.240><c> life</c><00:00:08.519><c> examples</c><00:00:09.400><c> that</c><00:00:09.519><c> will</c><00:00:09.800><c> make</c>
+
+00:00:10.430 --> 00:00:10.440 align:start position:0%
+real life examples that will make
+ 
+
+00:00:10.440 --> 00:00:13.150 align:start position:0%
+real life examples that will make
+everything<00:00:11.040><c> finally</c><00:00:11.559><c> click</c><00:00:11.880><c> for</c><00:00:12.080><c> you</c><00:00:12.799><c> imagine</c>
+
+00:00:13.150 --> 00:00:13.160 align:start position:0%
+everything finally click for you imagine
+ 
+
+00:00:13.160 --> 00:00:15.430 align:start position:0%
+everything finally click for you imagine
+we're<00:00:13.400><c> building</c><00:00:13.799><c> an</c><00:00:14.000><c> e-commerce</c><00:00:14.719><c> application</c>
+
+00:00:15.430 --> 00:00:15.440 align:start position:0%
+we're building an e-commerce application
+ 
+
+00:00:15.440 --> 00:00:17.950 align:start position:0%
+we're building an e-commerce application
+called<00:00:16.160><c> stream</c><00:00:16.600><c> store</c><00:00:17.279><c> and</c><00:00:17.480><c> we</c><00:00:17.640><c> have</c><00:00:17.760><c> some</c>
+
+00:00:17.950 --> 00:00:17.960 align:start position:0%
+called stream store and we have some
+ 
+
+00:00:17.960 --> 00:00:20.910 align:start position:0%
+called stream store and we have some
+microservices<00:00:18.960><c> handling</c><00:00:19.480><c> payments</c><00:00:20.160><c> orders</c>
+
+00:00:20.910 --> 00:00:20.920 align:start position:0%
+microservices handling payments orders
+ 
+
+00:00:20.920 --> 00:00:23.349 align:start position:0%
+microservices handling payments orders
+inventory<00:00:21.560><c> and</c><00:00:21.720><c> so</c><00:00:21.880><c> on</c><00:00:22.640><c> and</c><00:00:22.800><c> when</c><00:00:23.000><c> something</c>
+
+00:00:23.349 --> 00:00:23.359 align:start position:0%
+inventory and so on and when something
+ 
+
+00:00:23.359 --> 00:00:25.990 align:start position:0%
+inventory and so on and when something
+happens<00:00:23.640><c> in</c><00:00:23.760><c> our</c><00:00:24.000><c> application</c><00:00:25.000><c> like</c><00:00:25.439><c> customer</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+happens in our application like customer
+ 
+
+00:00:26.000 --> 00:00:28.950 align:start position:0%
+happens in our application like customer
+places<00:00:26.400><c> an</c><00:00:26.599><c> order</c><00:00:27.439><c> it's</c><00:00:27.640><c> like</c><00:00:27.920><c> dominoes</c><00:00:28.640><c> where</c>
+
+00:00:28.950 --> 00:00:28.960 align:start position:0%
+places an order it's like dominoes where
+ 
+
+00:00:28.960 --> 00:00:32.350 align:start position:0%
+places an order it's like dominoes where
+a<00:00:29.160><c> chain</c><00:00:29.480><c> reaction</c><00:00:30.119><c> of</c><00:00:30.439><c> updates</c><00:00:31.439><c> and</c><00:00:31.800><c> events</c>
+
+00:00:32.350 --> 00:00:32.360 align:start position:0%
+a chain reaction of updates and events
+ 
+
+00:00:32.360 --> 00:00:35.270 align:start position:0%
+a chain reaction of updates and events
+by<00:00:32.599><c> other</c><00:00:32.920><c> services</c><00:00:33.719><c> get</c><00:00:33.920><c> triggered</c><00:00:34.680><c> like</c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+by other services get triggered like
+ 
+
+00:00:35.280 --> 00:00:36.790 align:start position:0%
+by other services get triggered like
+stock<00:00:35.640><c> needs</c><00:00:35.840><c> to</c><00:00:35.960><c> be</c><00:00:36.120><c> updated</c><00:00:36.520><c> in</c><00:00:36.600><c> the</c>
+
+00:00:36.790 --> 00:00:36.800 align:start position:0%
+stock needs to be updated in the
+ 
+
+00:00:36.800 --> 00:00:39.750 align:start position:0%
+stock needs to be updated in the
+database<00:00:37.600><c> now</c><00:00:37.800><c> that</c><00:00:38.000><c> we</c><00:00:38.239><c> sold</c><00:00:38.680><c> some</c><00:00:38.840><c> of</c><00:00:38.960><c> it</c><00:00:39.559><c> a</c>
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+database now that we sold some of it a
+ 
+
+00:00:39.760 --> 00:00:42.029 align:start position:0%
+database now that we sold some of it a
+notification<00:00:40.520><c> or</c><00:00:40.800><c> confirmation</c><00:00:41.440><c> email</c><00:00:41.840><c> needs</c>
+
+00:00:42.029 --> 00:00:42.039 align:start position:0%
+notification or confirmation email needs
+ 
+
+00:00:42.039 --> 00:00:44.270 align:start position:0%
+notification or confirmation email needs
+to<00:00:42.160><c> be</c><00:00:42.239><c> sent</c><00:00:42.520><c> to</c><00:00:42.640><c> the</c><00:00:42.840><c> customer</c><00:00:43.680><c> an</c><00:00:43.920><c> invoice</c>
+
+00:00:44.270 --> 00:00:44.280 align:start position:0%
+to be sent to the customer an invoice
+ 
+
+00:00:44.280 --> 00:00:46.029 align:start position:0%
+to be sent to the customer an invoice
+needs<00:00:44.480><c> to</c><00:00:44.559><c> be</c><00:00:44.719><c> generated</c><00:00:45.200><c> with</c><00:00:45.360><c> the</c><00:00:45.559><c> right</c>
+
+00:00:46.029 --> 00:00:46.039 align:start position:0%
+needs to be generated with the right
+ 
+
+00:00:46.039 --> 00:00:50.270 align:start position:0%
+needs to be generated with the right
+sales<00:00:46.559><c> tax</c><00:00:47.559><c> and</c><00:00:47.920><c> sent</c><00:00:48.559><c> per</c><00:00:48.840><c> email</c><00:00:49.640><c> to</c><00:00:49.840><c> the</c>
+
+00:00:50.270 --> 00:00:50.280 align:start position:0%
+sales tax and sent per email to the
+ 
+
+00:00:50.280 --> 00:00:53.029 align:start position:0%
+sales tax and sent per email to the
+customer<00:00:51.280><c> um</c><00:00:51.480><c> maybe</c><00:00:51.840><c> revenue</c><00:00:52.239><c> and</c><00:00:52.440><c> sales</c><00:00:52.800><c> data</c>
+
+00:00:53.029 --> 00:00:53.039 align:start position:0%
+customer um maybe revenue and sales data
+ 
+
+00:00:53.039 --> 00:00:54.790 align:start position:0%
+customer um maybe revenue and sales data
+needs<00:00:53.239><c> to</c><00:00:53.320><c> be</c><00:00:53.480><c> updated</c><00:00:54.000><c> on</c><00:00:54.199><c> our</c><00:00:54.440><c> sales</c>
+
+00:00:54.790 --> 00:00:54.800 align:start position:0%
+needs to be updated on our sales
+ 
+
+00:00:54.800 --> 00:00:58.110 align:start position:0%
+needs to be updated on our sales
+dashboard<00:00:55.719><c> and</c><00:00:55.879><c> so</c><00:00:56.039><c> on</c><00:00:56.640><c> now</c><00:00:57.079><c> we</c><00:00:57.280><c> are</c><00:00:57.559><c> a</c><00:00:57.800><c> small</c>
+
+00:00:58.110 --> 00:00:58.120 align:start position:0%
+dashboard and so on now we are a small
+ 
+
+00:00:58.120 --> 00:01:00.310 align:start position:0%
+dashboard and so on now we are a small
+startup<00:00:58.800><c> so</c><00:00:59.120><c> we</c><00:00:59.199><c> are</c><00:00:59.359><c> starting</c><00:01:00.039><c> with</c><00:01:00.160><c> the</c>
+
+00:01:00.310 --> 00:01:00.320 align:start position:0%
+startup so we are starting with the
+ 
+
+00:01:00.320 --> 00:01:03.149 align:start position:0%
+startup so we are starting with the
+simplest<00:01:01.280><c> straightforward</c><00:01:02.120><c> microservices</c>
+
+00:01:03.149 --> 00:01:03.159 align:start position:0%
+simplest straightforward microservices
+ 
+
+00:01:03.159 --> 00:01:05.390 align:start position:0%
+simplest straightforward microservices
+architecture<00:01:04.159><c> where</c><00:01:04.439><c> the</c><00:01:04.600><c> microservices</c>
+
+00:01:05.390 --> 00:01:05.400 align:start position:0%
+architecture where the microservices
+ 
+
+00:01:05.400 --> 00:01:07.310 align:start position:0%
+architecture where the microservices
+just<00:01:05.720><c> call</c><00:01:06.000><c> each</c><00:01:06.159><c> other</c><00:01:06.680><c> like</c><00:01:06.840><c> the</c><00:01:06.960><c> order</c>
+
+00:01:07.310 --> 00:01:07.320 align:start position:0%
+just call each other like the order
+ 
+
+00:01:07.320 --> 00:01:09.990 align:start position:0%
+just call each other like the order
+service<00:01:07.640><c> would</c><00:01:07.799><c> say</c><00:01:08.680><c> hey</c><00:01:08.840><c> all</c><00:01:09.080><c> you</c><00:01:09.320><c> guys</c><00:01:09.840><c> we</c>
+
+00:01:09.990 --> 00:01:10.000 align:start position:0%
+service would say hey all you guys we
+ 
+
+00:01:10.000 --> 00:01:12.510 align:start position:0%
+service would say hey all you guys we
+just<00:01:10.200><c> closed</c><00:01:10.600><c> an</c><00:01:10.759><c> order</c><00:01:11.439><c> go</c><00:01:11.720><c> update</c><00:01:12.280><c> your</c>
+
+00:01:12.510 --> 00:01:12.520 align:start position:0%
+just closed an order go update your
+ 
+
+00:01:12.520 --> 00:01:15.429 align:start position:0%
+just closed an order go update your
+stuff<00:01:13.040><c> accordingly</c><00:01:14.040><c> and</c><00:01:14.280><c> it</c><00:01:14.479><c> all</c><00:01:14.680><c> worked</c>
+
+00:01:15.429 --> 00:01:15.439 align:start position:0%
+stuff accordingly and it all worked
+ 
+
+00:01:15.439 --> 00:01:18.630 align:start position:0%
+stuff accordingly and it all worked
+great<00:01:15.720><c> at</c><00:01:16.000><c> first</c><00:01:16.720><c> but</c><00:01:16.920><c> suddenly</c><00:01:17.720><c> we</c><00:01:17.920><c> become</c><00:01:18.400><c> a</c>
+
+00:01:18.630 --> 00:01:18.640 align:start position:0%
+great at first but suddenly we become a
+ 
+
+00:01:18.640 --> 00:01:21.950 align:start position:0%
+great at first but suddenly we become a
+hit<00:01:19.400><c> and</c><00:01:19.680><c> people</c><00:01:20.000><c> are</c><00:01:20.240><c> loving</c><00:01:20.600><c> our</c><00:01:20.880><c> store</c><00:01:21.600><c> or</c>
+
+00:01:21.950 --> 00:01:21.960 align:start position:0%
+hit and people are loving our store or
+ 
+
+00:01:21.960 --> 00:01:24.630 align:start position:0%
+hit and people are loving our store or
+we<00:01:22.119><c> just</c><00:01:22.360><c> announced</c><00:01:22.920><c> Black</c><00:01:23.200><c> Friday</c><00:01:23.520><c> sales</c><00:01:24.360><c> and</c>
+
+00:01:24.630 --> 00:01:24.640 align:start position:0%
+we just announced Black Friday sales and
+ 
+
+00:01:24.640 --> 00:01:27.270 align:start position:0%
+we just announced Black Friday sales and
+our<00:01:25.400><c> store</c><00:01:25.799><c> is</c><00:01:25.960><c> getting</c><00:01:26.560><c> hundreds</c><00:01:27.040><c> of</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+our store is getting hundreds of
+ 
+
+00:01:27.280 --> 00:01:30.030 align:start position:0%
+our store is getting hundreds of
+thousands<00:01:27.640><c> of</c><00:01:27.880><c> customers</c><00:01:28.720><c> which</c><00:01:28.840><c> is</c><00:01:29.040><c> amazing</c>
+
+00:01:30.030 --> 00:01:30.040 align:start position:0%
+thousands of customers which is amazing
+ 
+
+00:01:30.040 --> 00:01:33.109 align:start position:0%
+thousands of customers which is amazing
+but<00:01:30.759><c> suddenly</c><00:01:31.320><c> our</c><00:01:31.560><c> application</c><00:01:32.280><c> starts</c>
+
+00:01:33.109 --> 00:01:33.119 align:start position:0%
+but suddenly our application starts
+ 
+
+00:01:33.119 --> 00:01:35.789 align:start position:0%
+but suddenly our application starts
+crashing<00:01:34.119><c> everything</c><00:01:34.479><c> is</c><00:01:34.640><c> slowing</c><00:01:35.079><c> down</c>
+
+00:01:35.789 --> 00:01:35.799 align:start position:0%
+crashing everything is slowing down
+ 
+
+00:01:35.799 --> 00:01:37.630 align:start position:0%
+crashing everything is slowing down
+users<00:01:36.240><c> are</c><00:01:36.439><c> sitting</c><00:01:36.759><c> in</c><00:01:36.880><c> front</c><00:01:37.079><c> of</c><00:01:37.240><c> loading</c>
+
+00:01:37.630 --> 00:01:37.640 align:start position:0%
+users are sitting in front of loading
+ 
+
+00:01:37.640 --> 00:01:40.990 align:start position:0%
+users are sitting in front of loading
+screens<00:01:38.640><c> because</c><00:01:39.000><c> our</c><00:01:39.360><c> architecture</c><00:01:40.320><c> cannot</c>
+
+00:01:40.990 --> 00:01:41.000 align:start position:0%
+screens because our architecture cannot
+ 
+
+00:01:41.000 --> 00:01:44.270 align:start position:0%
+screens because our architecture cannot
+handle<00:01:41.720><c> this</c><00:01:41.880><c> load</c><00:01:42.720><c> we</c><00:01:42.920><c> get</c><00:01:43.159><c> in</c><00:01:43.439><c> panic</c><00:01:43.920><c> because</c>
+
+00:01:44.270 --> 00:01:44.280 align:start position:0%
+handle this load we get in panic because
+ 
+
+00:01:44.280 --> 00:01:47.550 align:start position:0%
+handle this load we get in panic because
+we<00:01:44.399><c> are</c><00:01:44.560><c> losing</c><00:01:45.159><c> cells</c><00:01:46.079><c> every</c><00:01:46.479><c> minute</c><00:01:47.240><c> our</c>
+
+00:01:47.550 --> 00:01:47.560 align:start position:0%
+we are losing cells every minute our
+ 
+
+00:01:47.560 --> 00:01:49.990 align:start position:0%
+we are losing cells every minute our
+architecture<00:01:48.280><c> that</c><00:01:48.439><c> looked</c><00:01:49.079><c> pretty</c><00:01:49.360><c> clean</c>
+
+00:01:49.990 --> 00:01:50.000 align:start position:0%
+architecture that looked pretty clean
+ 
+
+00:01:50.000 --> 00:01:52.230 align:start position:0%
+architecture that looked pretty clean
+and<00:01:50.200><c> straightforward</c><00:01:50.920><c> on</c><00:01:51.079><c> the</c><00:01:51.240><c> Whiteboard</c>
+
+00:01:52.230 --> 00:01:52.240 align:start position:0%
+and straightforward on the Whiteboard
+ 
+
+00:01:52.240 --> 00:01:54.990 align:start position:0%
+and straightforward on the Whiteboard
+becomes<00:01:52.840><c> a</c><00:01:53.040><c> nightmare</c><00:01:53.920><c> so</c><00:01:54.200><c> here</c><00:01:54.399><c> is</c><00:01:54.759><c> what's</c>
+
+00:01:54.990 --> 00:01:55.000 align:start position:0%
+becomes a nightmare so here is what's
+ 
+
+00:01:55.000 --> 00:01:57.429 align:start position:0%
+becomes a nightmare so here is what's
+happening<00:01:55.439><c> in</c><00:01:55.560><c> the</c><00:01:55.719><c> background</c><00:01:56.520><c> first</c><00:01:56.719><c> of</c><00:01:56.840><c> all</c>
+
+00:01:57.429 --> 00:01:57.439 align:start position:0%
+happening in the background first of all
+ 
+
+00:01:57.439 --> 00:01:59.950 align:start position:0%
+happening in the background first of all
+we<00:01:57.640><c> have</c><00:01:57.960><c> what's</c><00:01:58.159><c> called</c><00:01:58.640><c> tight</c><00:01:59.039><c> coupling</c>
+
+00:01:59.950 --> 00:01:59.960 align:start position:0%
+we have what's called tight coupling
+ 
+
+00:01:59.960 --> 00:02:02.310 align:start position:0%
+we have what's called tight coupling
+between<00:02:00.280><c> the</c><00:02:00.399><c> services</c><00:02:01.119><c> which</c><00:02:01.240><c> means</c><00:02:02.079><c> when</c>
+
+00:02:02.310 --> 00:02:02.320 align:start position:0%
+between the services which means when
+ 
+
+00:02:02.320 --> 00:02:04.550 align:start position:0%
+between the services which means when
+the<00:02:02.479><c> payment</c><00:02:02.840><c> service</c><00:02:03.360><c> goes</c><00:02:03.719><c> down</c><00:02:04.360><c> for</c>
+
+00:02:04.550 --> 00:02:04.560 align:start position:0%
+the payment service goes down for
+ 
+
+00:02:04.560 --> 00:02:06.870 align:start position:0%
+the payment service goes down for
+example<00:02:05.439><c> because</c><00:02:05.960><c> some</c><00:02:06.240><c> API</c><00:02:06.640><c> in</c><00:02:06.759><c> the</c>
+
+00:02:06.870 --> 00:02:06.880 align:start position:0%
+example because some API in the
+ 
+
+00:02:06.880 --> 00:02:09.270 align:start position:0%
+example because some API in the
+background<00:02:07.200><c> isn't</c><00:02:07.520><c> responsive</c><00:02:08.520><c> or</c><00:02:09.000><c> the</c>
+
+00:02:09.270 --> 00:02:09.280 align:start position:0%
+background isn't responsive or the
+ 
+
+00:02:09.280 --> 00:02:11.790 align:start position:0%
+background isn't responsive or the
+service<00:02:09.720><c> itself</c><00:02:10.160><c> just</c><00:02:10.440><c> crashes</c><00:02:10.879><c> under</c><00:02:11.239><c> load</c>
+
+00:02:11.790 --> 00:02:11.800 align:start position:0%
+service itself just crashes under load
+ 
+
+00:02:11.800 --> 00:02:14.229 align:start position:0%
+service itself just crashes under load
+and<00:02:11.959><c> when</c><00:02:12.120><c> that</c><00:02:12.319><c> happens</c><00:02:12.760><c> our</c><00:02:13.160><c> entire</c><00:02:13.760><c> order</c>
+
+00:02:14.229 --> 00:02:14.239 align:start position:0%
+and when that happens our entire order
+ 
+
+00:02:14.239 --> 00:02:16.589 align:start position:0%
+and when that happens our entire order
+process<00:02:14.760><c> freezes</c><00:02:15.720><c> we</c><00:02:15.920><c> have</c><00:02:16.120><c> synchronous</c>
+
+00:02:16.589 --> 00:02:16.599 align:start position:0%
+process freezes we have synchronous
+ 
+
+00:02:16.599 --> 00:02:18.790 align:start position:0%
+process freezes we have synchronous
+communication<00:02:17.200><c> so</c><00:02:17.480><c> each</c><00:02:17.680><c> order</c><00:02:17.959><c> feels</c><00:02:18.360><c> like</c><00:02:18.640><c> a</c>
+
+00:02:18.790 --> 00:02:18.800 align:start position:0%
+communication so each order feels like a
+ 
+
+00:02:18.800 --> 00:02:21.550 align:start position:0%
+communication so each order feels like a
+game<00:02:19.000><c> of</c><00:02:19.239><c> dominoes</c><00:02:19.959><c> one</c><00:02:20.280><c> slow</c><00:02:20.680><c> service</c><00:02:21.239><c> and</c>
+
+00:02:21.550 --> 00:02:21.560 align:start position:0%
+game of dominoes one slow service and
+ 
+
+00:02:21.560 --> 00:02:24.830 align:start position:0%
+game of dominoes one slow service and
+everything<00:02:22.560><c> backs</c><00:02:22.920><c> up</c><00:02:23.640><c> and</c><00:02:23.920><c> as</c><00:02:24.000><c> I</c><00:02:24.200><c> said</c><00:02:24.480><c> during</c>
+
+00:02:24.830 --> 00:02:24.840 align:start position:0%
+everything backs up and as I said during
+ 
+
+00:02:24.840 --> 00:02:27.070 align:start position:0%
+everything backs up and as I said during
+peak<00:02:25.200><c> times</c><00:02:25.840><c> customers</c><00:02:26.360><c> are</c><00:02:26.599><c> literally</c>
+
+00:02:27.070 --> 00:02:27.080 align:start position:0%
+peak times customers are literally
+ 
+
+00:02:27.080 --> 00:02:30.270 align:start position:0%
+peak times customers are literally
+staring<00:02:27.640><c> at</c><00:02:27.879><c> loading</c><00:02:28.239><c> screens</c><00:02:29.200><c> and</c><00:02:29.920><c> we</c><00:02:30.040><c> also</c>
+
+00:02:30.270 --> 00:02:30.280 align:start position:0%
+staring at loading screens and we also
+ 
+
+00:02:30.280 --> 00:02:32.790 align:start position:0%
+staring at loading screens and we also
+have<00:02:30.480><c> lots</c><00:02:30.680><c> of</c><00:02:30.959><c> single</c><00:02:31.440><c> points</c><00:02:31.720><c> of</c><00:02:31.879><c> failure</c>
+
+00:02:32.790 --> 00:02:32.800 align:start position:0%
+have lots of single points of failure
+ 
+
+00:02:32.800 --> 00:02:34.990 align:start position:0%
+have lots of single points of failure
+which<00:02:32.959><c> means</c><00:02:33.640><c> a</c><00:02:33.879><c> 10-minute</c><00:02:34.519><c> inventory</c>
+
+00:02:34.990 --> 00:02:35.000 align:start position:0%
+which means a 10-minute inventory
+ 
+
+00:02:35.000 --> 00:02:38.030 align:start position:0%
+which means a 10-minute inventory
+service<00:02:35.400><c> outage</c><00:02:36.120><c> meant</c><00:02:36.879><c> 2</c><00:02:37.200><c> hours</c><00:02:37.480><c> of</c><00:02:37.640><c> order</c>
+
+00:02:38.030 --> 00:02:38.040 align:start position:0%
+service outage meant 2 hours of order
+ 
+
+00:02:38.040 --> 00:02:40.750 align:start position:0%
+service outage meant 2 hours of order
+backlogs<00:02:38.640><c> and</c><00:02:38.920><c> countless</c><00:02:39.560><c> lost</c><00:02:39.920><c> sales</c><00:02:40.519><c> and</c><00:02:40.640><c> we</c>
+
+00:02:40.750 --> 00:02:40.760 align:start position:0%
+backlogs and countless lost sales and we
+ 
+
+00:02:40.760 --> 00:02:43.030 align:start position:0%
+backlogs and countless lost sales and we
+are<00:02:40.879><c> also</c><00:02:41.080><c> losing</c><00:02:41.400><c> a</c><00:02:41.480><c> lot</c><00:02:41.640><c> of</c><00:02:41.800><c> analytics</c><00:02:42.360><c> data</c>
+
+00:02:43.030 --> 00:02:43.040 align:start position:0%
+are also losing a lot of analytics data
+ 
+
+00:02:43.040 --> 00:02:44.830 align:start position:0%
+are also losing a lot of analytics data
+when<00:02:43.200><c> the</c><00:02:43.440><c> analytics</c><00:02:43.879><c> service</c><00:02:44.239><c> goes</c><00:02:44.480><c> down</c><00:02:44.640><c> for</c>
+
+00:02:44.830 --> 00:02:44.840 align:start position:0%
+when the analytics service goes down for
+ 
+
+00:02:44.840 --> 00:02:47.710 align:start position:0%
+when the analytics service goes down for
+an<00:02:45.040><c> hour</c><00:02:45.400><c> we're</c><00:02:45.599><c> losing</c><00:02:46.599><c> important</c><00:02:47.360><c> Black</c>
+
+00:02:47.710 --> 00:02:47.720 align:start position:0%
+an hour we're losing important Black
+ 
+
+00:02:47.720 --> 00:02:51.309 align:start position:0%
+an hour we're losing important Black
+Friday<00:02:48.360><c> sales</c><00:02:48.760><c> data</c><00:02:49.360><c> after</c><00:02:49.760><c> another</c><00:02:50.720><c> hectic</c>
+
+00:02:51.309 --> 00:02:51.319 align:start position:0%
+Friday sales data after another hectic
+ 
+
+00:02:51.319 --> 00:02:55.070 align:start position:0%
+Friday sales data after another hectic
+and<00:02:51.599><c> chaotic</c><00:02:52.239><c> week</c><00:02:53.159><c> we</c><00:02:53.400><c> thought</c><00:02:54.280><c> what</c><00:02:54.440><c> if</c><00:02:54.599><c> we</c>
+
+00:02:55.070 --> 00:02:55.080 align:start position:0%
+and chaotic week we thought what if we
+ 
+
+00:02:55.080 --> 00:02:58.149 align:start position:0%
+and chaotic week we thought what if we
+redesign<00:02:55.760><c> the</c><00:02:55.959><c> system</c><00:02:56.519><c> so</c><00:02:56.800><c> that</c><00:02:57.200><c> the</c><00:02:57.360><c> orders</c>
+
+00:02:58.149 --> 00:02:58.159 align:start position:0%
+redesign the system so that the orders
+ 
+
+00:02:58.159 --> 00:03:01.470 align:start position:0%
+redesign the system so that the orders
+flow<00:02:58.680><c> through</c><00:02:58.879><c> the</c><00:02:59.080><c> system</c><00:02:59.920><c> like</c><00:03:00.360><c> items</c><00:03:00.959><c> on</c><00:03:01.280><c> a</c>
+
+00:03:01.470 --> 00:03:01.480 align:start position:0%
+flow through the system like items on a
+ 
+
+00:03:01.480 --> 00:03:03.949 align:start position:0%
+flow through the system like items on a
+conveyor<00:03:01.959><c> belt</c><00:03:02.599><c> instead</c><00:03:02.920><c> of</c><00:03:03.120><c> our</c><00:03:03.560><c> current</c>
+
+00:03:03.949 --> 00:03:03.959 align:start position:0%
+conveyor belt instead of our current
+ 
+
+00:03:03.959 --> 00:03:07.270 align:start position:0%
+conveyor belt instead of our current
+game<00:03:04.280><c> of</c><00:03:04.680><c> hot</c><00:03:04.959><c> potato</c><00:03:05.920><c> and</c><00:03:06.080><c> instead</c><00:03:06.400><c> of</c><00:03:06.680><c> apps</c>
+
+00:03:07.270 --> 00:03:07.280 align:start position:0%
+game of hot potato and instead of apps
+ 
+
+00:03:07.280 --> 00:03:09.350 align:start position:0%
+game of hot potato and instead of apps
+calling<00:03:07.640><c> each</c><00:03:07.879><c> other</c><00:03:08.239><c> directly</c><00:03:08.840><c> and</c><00:03:09.080><c> waiting</c>
+
+00:03:09.350 --> 00:03:09.360 align:start position:0%
+calling each other directly and waiting
+ 
+
+00:03:09.360 --> 00:03:12.589 align:start position:0%
+calling each other directly and waiting
+for<00:03:09.640><c> reply</c><00:03:10.560><c> we</c><00:03:10.760><c> remove</c><00:03:11.200><c> that</c><00:03:11.360><c> tide</c><00:03:11.680><c> coupling</c>
+
+00:03:12.589 --> 00:03:12.599 align:start position:0%
+for reply we remove that tide coupling
+ 
+
+00:03:12.599 --> 00:03:16.110 align:start position:0%
+for reply we remove that tide coupling
+we<00:03:13.360><c> basically</c><00:03:13.840><c> make</c><00:03:14.239><c> space</c><00:03:15.080><c> between</c><00:03:15.519><c> them</c><00:03:15.879><c> and</c>
+
+00:03:16.110 --> 00:03:16.120 align:start position:0%
+we basically make space between them and
+ 
+
+00:03:16.120 --> 00:03:19.270 align:start position:0%
+we basically make space between them and
+introduce<00:03:16.680><c> a</c><00:03:16.879><c> tool</c><00:03:17.680><c> that</c><00:03:17.879><c> sits</c><00:03:18.159><c> in</c><00:03:18.280><c> the</c><00:03:18.400><c> middle</c>
+
+00:03:19.270 --> 00:03:19.280 align:start position:0%
+introduce a tool that sits in the middle
+ 
+
+00:03:19.280 --> 00:03:22.390 align:start position:0%
+introduce a tool that sits in the middle
+and<00:03:19.519><c> acts</c><00:03:19.760><c> as</c><00:03:19.879><c> a</c><00:03:20.000><c> broker</c><00:03:20.920><c> think</c><00:03:21.159><c> of</c><00:03:21.319><c> it</c><00:03:21.560><c> as</c><00:03:22.000><c> post</c>
+
+00:03:22.390 --> 00:03:22.400 align:start position:0%
+and acts as a broker think of it as post
+ 
+
+00:03:22.400 --> 00:03:25.110 align:start position:0%
+and acts as a broker think of it as post
+office<00:03:23.360><c> when</c><00:03:23.480><c> you</c><00:03:23.599><c> order</c><00:03:23.959><c> something</c><00:03:24.280><c> online</c>
+
+00:03:25.110 --> 00:03:25.120 align:start position:0%
+office when you order something online
+ 
+
+00:03:25.120 --> 00:03:27.309 align:start position:0%
+office when you order something online
+the<00:03:25.239><c> sellers</c><00:03:25.959><c> don't</c><00:03:26.280><c> come</c><00:03:26.519><c> knocking</c><00:03:26.920><c> on</c><00:03:27.120><c> your</c>
+
+00:03:27.309 --> 00:03:27.319 align:start position:0%
+the sellers don't come knocking on your
+ 
+
+00:03:27.319 --> 00:03:30.470 align:start position:0%
+the sellers don't come knocking on your
+door<00:03:28.000><c> to</c><00:03:28.280><c> deliver</c><00:03:28.840><c> package</c><00:03:29.519><c> themselves</c>
+
+00:03:30.470 --> 00:03:30.480 align:start position:0%
+door to deliver package themselves
+ 
+
+00:03:30.480 --> 00:03:32.710 align:start position:0%
+door to deliver package themselves
+they<00:03:30.680><c> hand</c><00:03:30.840><c> it</c><00:03:31.000><c> over</c><00:03:31.200><c> to</c><00:03:31.400><c> the</c><00:03:31.599><c> post</c><00:03:31.959><c> office</c><00:03:32.519><c> or</c>
+
+00:03:32.710 --> 00:03:32.720 align:start position:0%
+they hand it over to the post office or
+ 
+
+00:03:32.720 --> 00:03:35.550 align:start position:0%
+they hand it over to the post office or
+some<00:03:32.879><c> middleman</c><00:03:33.640><c> to</c><00:03:33.959><c> deliver</c><00:03:34.439><c> your</c><00:03:34.760><c> package</c>
+
+00:03:35.550 --> 00:03:35.560 align:start position:0%
+some middleman to deliver your package
+ 
+
+00:03:35.560 --> 00:03:37.990 align:start position:0%
+some middleman to deliver your package
+or<00:03:35.799><c> if</c><00:03:35.920><c> you</c><00:03:36.040><c> are</c><00:03:36.239><c> returning</c><00:03:36.799><c> your</c><00:03:37.000><c> purchase</c><00:03:37.799><c> or</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+or if you are returning your purchase or
+ 
+
+00:03:38.000 --> 00:03:40.149 align:start position:0%
+or if you are returning your purchase or
+sending<00:03:38.319><c> a</c><00:03:38.560><c> package</c><00:03:38.879><c> to</c><00:03:39.120><c> someone</c><00:03:39.799><c> you</c><00:03:39.920><c> don't</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+sending a package to someone you don't
+ 
+
+00:03:40.159 --> 00:03:41.910 align:start position:0%
+sending a package to someone you don't
+fly<00:03:40.480><c> to</c><00:03:40.680><c> their</c><00:03:40.959><c> place</c><00:03:41.239><c> to</c><00:03:41.400><c> give</c><00:03:41.560><c> them</c><00:03:41.720><c> the</c>
+
+00:03:41.910 --> 00:03:41.920 align:start position:0%
+fly to their place to give them the
+ 
+
+00:03:41.920 --> 00:03:44.670 align:start position:0%
+fly to their place to give them the
+package<00:03:42.280><c> in</c><00:03:42.519><c> person</c><00:03:43.480><c> post</c><00:03:43.799><c> office</c><00:03:44.239><c> has</c><00:03:44.480><c> this</c>
+
+00:03:44.670 --> 00:03:44.680 align:start position:0%
+package in person post office has this
+ 
+
+00:03:44.680 --> 00:03:46.509 align:start position:0%
+package in person post office has this
+infrastructure<00:03:45.360><c> and</c><00:03:45.599><c> handles</c><00:03:46.200><c> the</c>
+
+00:03:46.509 --> 00:03:46.519 align:start position:0%
+infrastructure and handles the
+ 
+
+00:03:46.519 --> 00:03:50.270 align:start position:0%
+infrastructure and handles the
+processing<00:03:47.519><c> so</c><00:03:48.000><c> Kafka</c><00:03:48.599><c> is</c><00:03:48.799><c> like</c><00:03:49.480><c> the</c><00:03:49.640><c> mail</c>
+
+00:03:50.270 --> 00:03:50.280 align:start position:0%
+processing so Kafka is like the mail
+ 
+
+00:03:50.280 --> 00:03:52.589 align:start position:0%
+processing so Kafka is like the mail
+delivery<00:03:50.799><c> service</c><00:03:51.159><c> or</c><00:03:51.400><c> post</c><00:03:51.760><c> office</c><00:03:52.159><c> which</c>
+
+00:03:52.589 --> 00:03:52.599 align:start position:0%
+delivery service or post office which
+ 
+
+00:03:52.599 --> 00:03:54.830 align:start position:0%
+delivery service or post office which
+sits<00:03:52.920><c> in</c><00:03:53.040><c> the</c><00:03:53.159><c> middle</c><00:03:53.840><c> so</c><00:03:54.079><c> now</c><00:03:54.319><c> the</c><00:03:54.439><c> order</c>
+
+00:03:54.830 --> 00:03:54.840 align:start position:0%
+sits in the middle so now the order
+ 
+
+00:03:54.840 --> 00:03:57.710 align:start position:0%
+sits in the middle so now the order
+service<00:03:55.480><c> goes</c><00:03:55.720><c> to</c><00:03:56.000><c> Kafka</c><00:03:56.799><c> and</c><00:03:57.000><c> hands</c><00:03:57.280><c> over</c><00:03:57.519><c> a</c>
+
+00:03:57.710 --> 00:03:57.720 align:start position:0%
+service goes to Kafka and hands over a
+ 
+
+00:03:57.720 --> 00:04:00.309 align:start position:0%
+service goes to Kafka and hands over a
+package<00:03:58.159><c> called</c><00:03:58.560><c> event</c><00:03:59.319><c> that</c><00:03:59.439><c> says</c>
+
+00:04:00.309 --> 00:04:00.319 align:start position:0%
+package called event that says
+ 
+
+00:04:00.319 --> 00:04:03.710 align:start position:0%
+package called event that says
+hey<00:04:00.560><c> order</c><00:04:01.439><c> was</c><00:04:01.720><c> made</c><00:04:02.079><c> for</c><00:04:02.400><c> this</c><00:04:02.640><c> customer</c><00:04:03.280><c> for</c>
+
+00:04:03.710 --> 00:04:03.720 align:start position:0%
+hey order was made for this customer for
+ 
+
+00:04:03.720 --> 00:04:05.509 align:start position:0%
+hey order was made for this customer for
+these<00:04:04.000><c> products</c><00:04:04.760><c> and</c><00:04:04.920><c> here</c><00:04:05.040><c> are</c><00:04:05.239><c> all</c><00:04:05.360><c> the</c>
+
+00:04:05.509 --> 00:04:05.519 align:start position:0%
+these products and here are all the
+ 
+
+00:04:05.519 --> 00:04:07.229 align:start position:0%
+these products and here are all the
+details<00:04:06.120><c> please</c><00:04:06.400><c> make</c><00:04:06.599><c> this</c><00:04:06.760><c> information</c>
+
+00:04:07.229 --> 00:04:07.239 align:start position:0%
+details please make this information
+ 
+
+00:04:07.239 --> 00:04:09.190 align:start position:0%
+details please make this information
+available<00:04:07.799><c> for</c><00:04:08.040><c> anyone</c><00:04:08.400><c> who</c><00:04:08.560><c> needs</c><00:04:08.799><c> it</c><00:04:08.959><c> to</c>
+
+00:04:09.190 --> 00:04:09.200 align:start position:0%
+available for anyone who needs it to
+ 
+
+00:04:09.200 --> 00:04:11.190 align:start position:0%
+available for anyone who needs it to
+update<00:04:09.599><c> and</c><00:04:09.799><c> do</c><00:04:10.040><c> stuff</c><00:04:10.280><c> in</c><00:04:10.360><c> the</c><00:04:10.519><c> background</c>
+
+00:04:11.190 --> 00:04:11.200 align:start position:0%
+update and do stuff in the background
+ 
+
+00:04:11.200 --> 00:04:14.030 align:start position:0%
+update and do stuff in the background
+bye<00:04:12.000><c> and</c><00:04:12.400><c> it</c><00:04:12.560><c> just</c><00:04:12.760><c> basically</c><00:04:13.120><c> goes</c><00:04:13.400><c> back</c><00:04:13.760><c> and</c>
+
+00:04:14.030 --> 00:04:14.040 align:start position:0%
+bye and it just basically goes back and
+ 
+
+00:04:14.040 --> 00:04:16.990 align:start position:0%
+bye and it just basically goes back and
+continues<00:04:14.480><c> its</c><00:04:14.680><c> work</c><00:04:15.560><c> and</c><00:04:15.959><c> an</c><00:04:16.120><c> event</c><00:04:16.680><c> looks</c>
+
+00:04:16.990 --> 00:04:17.000 align:start position:0%
+continues its work and an event looks
+ 
+
+00:04:17.000 --> 00:04:19.030 align:start position:0%
+continues its work and an event looks
+like<00:04:17.239><c> this</c><00:04:17.720><c> with</c><00:04:18.000><c> very</c><00:04:18.199><c> simple</c><00:04:18.519><c> structure</c>
+
+00:04:19.030 --> 00:04:19.040 align:start position:0%
+like this with very simple structure
+ 
+
+00:04:19.040 --> 00:04:21.590 align:start position:0%
+like this with very simple structure
+with<00:04:19.239><c> key</c><00:04:19.479><c> value</c><00:04:19.799><c> pair</c><00:04:20.519><c> and</c><00:04:20.840><c> metadata</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+with key value pair and metadata
+ 
+
+00:04:21.600 --> 00:04:23.990 align:start position:0%
+with key value pair and metadata
+information<00:04:22.479><c> so</c><00:04:22.680><c> the</c><00:04:22.800><c> order</c><00:04:23.120><c> service</c><00:04:23.800><c> does</c>
+
+00:04:23.990 --> 00:04:24.000 align:start position:0%
+information so the order service does
+ 
+
+00:04:24.000 --> 00:04:26.749 align:start position:0%
+information so the order service does
+not<00:04:24.240><c> need</c><00:04:24.400><c> to</c><00:04:24.639><c> wait</c><00:04:25.199><c> there</c><00:04:25.800><c> to</c><00:04:26.080><c> make</c><00:04:26.240><c> sure</c><00:04:26.560><c> that</c>
+
+00:04:26.749 --> 00:04:26.759 align:start position:0%
+not need to wait there to make sure that
+ 
+
+00:04:26.759 --> 00:04:29.189 align:start position:0%
+not need to wait there to make sure that
+the<00:04:26.919><c> others</c><00:04:27.560><c> actually</c><00:04:27.960><c> got</c><00:04:28.240><c> the</c><00:04:28.400><c> information</c>
+
+00:04:29.189 --> 00:04:29.199 align:start position:0%
+the others actually got the information
+ 
+
+00:04:29.199 --> 00:04:32.670 align:start position:0%
+the others actually got the information
+it<00:04:29.320><c> can</c><00:04:29.720><c> trust</c><00:04:30.479><c> this</c><00:04:30.840><c> broker</c><00:04:31.800><c> that</c><00:04:32.000><c> it</c><00:04:32.120><c> will</c><00:04:32.320><c> be</c>
+
+00:04:32.670 --> 00:04:32.680 align:start position:0%
+it can trust this broker that it will be
+ 
+
+00:04:32.680 --> 00:04:35.870 align:start position:0%
+it can trust this broker that it will be
+delivered<00:04:33.400><c> to</c><00:04:33.960><c> the</c><00:04:34.199><c> right</c><00:04:34.600><c> services</c><00:04:35.440><c> and</c><00:04:35.639><c> all</c>
+
+00:04:35.870 --> 00:04:35.880 align:start position:0%
+delivered to the right services and all
+ 
+
+00:04:35.880 --> 00:04:37.670 align:start position:0%
+delivered to the right services and all
+this<00:04:36.199><c> will</c><00:04:36.400><c> happen</c><00:04:36.639><c> in</c><00:04:36.720><c> the</c><00:04:36.840><c> background</c><00:04:37.520><c> like</c>
+
+00:04:37.670 --> 00:04:37.680 align:start position:0%
+this will happen in the background like
+ 
+
+00:04:37.680 --> 00:04:39.430 align:start position:0%
+this will happen in the background like
+in<00:04:37.800><c> the</c><00:04:37.919><c> post</c><00:04:38.199><c> office</c><00:04:38.560><c> you</c><00:04:38.720><c> just</c><00:04:38.960><c> drop</c><00:04:39.240><c> off</c>
+
+00:04:39.430 --> 00:04:39.440 align:start position:0%
+in the post office you just drop off
+ 
+
+00:04:39.440 --> 00:04:41.749 align:start position:0%
+in the post office you just drop off
+your<00:04:39.680><c> package</c><00:04:40.000><c> and</c><00:04:40.199><c> go</c><00:04:40.400><c> home</c><00:04:41.039><c> you</c><00:04:41.160><c> don't</c><00:04:41.440><c> wait</c>
+
+00:04:41.749 --> 00:04:41.759 align:start position:0%
+your package and go home you don't wait
+ 
+
+00:04:41.759 --> 00:04:44.230 align:start position:0%
+your package and go home you don't wait
+there<00:04:42.320><c> sitting</c><00:04:43.120><c> and</c><00:04:43.320><c> checking</c><00:04:43.800><c> whether</c><00:04:44.039><c> they</c>
+
+00:04:44.230 --> 00:04:44.240 align:start position:0%
+there sitting and checking whether they
+ 
+
+00:04:44.240 --> 00:04:46.790 align:start position:0%
+there sitting and checking whether they
+actually<00:04:44.520><c> ship</c><00:04:44.919><c> the</c><00:04:45.360><c> package</c><00:04:45.720><c> or</c><00:04:45.880><c> not</c><00:04:46.560><c> because</c>
+
+00:04:46.790 --> 00:04:46.800 align:start position:0%
+actually ship the package or not because
+ 
+
+00:04:46.800 --> 00:04:49.189 align:start position:0%
+actually ship the package or not because
+you<00:04:46.919><c> know</c><00:04:47.199><c> that</c><00:04:47.360><c> will</c><00:04:47.520><c> take</c><00:04:47.680><c> care</c><00:04:47.919><c> of</c><00:04:48.080><c> the</c><00:04:48.240><c> rest</c>
+
+00:04:49.189 --> 00:04:49.199 align:start position:0%
+you know that will take care of the rest
+ 
+
+00:04:49.199 --> 00:04:51.350 align:start position:0%
+you know that will take care of the rest
+and<00:04:49.360><c> the</c><00:04:49.479><c> order</c><00:04:49.759><c> service</c><00:04:50.360><c> that</c><00:04:50.720><c> gives</c><00:04:51.199><c> that</c>
+
+00:04:51.350 --> 00:04:51.360 align:start position:0%
+and the order service that gives that
+ 
+
+00:04:51.360 --> 00:04:53.790 align:start position:0%
+and the order service that gives that
+information<00:04:51.840><c> to</c><00:04:52.120><c> Kafka</c><00:04:52.919><c> or</c><00:04:53.320><c> basically</c><00:04:53.680><c> a</c>
+
+00:04:53.790 --> 00:04:53.800 align:start position:0%
+information to Kafka or basically a
+ 
+
+00:04:53.800 --> 00:04:56.029 align:start position:0%
+information to Kafka or basically a
+service<00:04:54.199><c> that</c><00:04:54.400><c> produces</c><00:04:55.080><c> this</c><00:04:55.280><c> event</c><00:04:55.840><c> and</c>
+
+00:04:56.029 --> 00:04:56.039 align:start position:0%
+service that produces this event and
+ 
+
+00:04:56.039 --> 00:04:58.749 align:start position:0%
+service that produces this event and
+hands<00:04:56.320><c> it</c><00:04:56.479><c> over</c><00:04:56.720><c> to</c><00:04:57.000><c> kfka</c><00:04:57.560><c> is</c><00:04:57.759><c> called</c><00:04:58.479><c> a</c>
+
+00:04:58.749 --> 00:04:58.759 align:start position:0%
+hands it over to kfka is called a
+ 
+
+00:04:58.759 --> 00:05:01.629 align:start position:0%
+hands it over to kfka is called a
+producer<00:04:59.720><c> because</c><00:04:59.919><c> it</c><00:05:00.120><c> produces</c><00:05:00.880><c> events</c><00:05:01.479><c> and</c>
+
+00:05:01.629 --> 00:05:01.639 align:start position:0%
+producer because it produces events and
+ 
+
+00:05:01.639 --> 00:05:03.830 align:start position:0%
+producer because it produces events and
+in<00:05:01.840><c> code</c><00:05:02.400><c> this</c><00:05:02.520><c> is</c><00:05:02.720><c> how</c><00:05:02.880><c> it</c><00:05:02.960><c> would</c><00:05:03.160><c> look</c><00:05:03.400><c> like</c>
+
+00:05:03.830 --> 00:05:03.840 align:start position:0%
+in code this is how it would look like
+ 
+
+00:05:03.840 --> 00:05:06.469 align:start position:0%
+in code this is how it would look like
+using<00:05:04.560><c> Kafka</c><00:05:05.080><c> producer</c><00:05:05.639><c> API</c><00:05:06.160><c> so</c><00:05:06.320><c> in</c>
+
+00:05:06.469 --> 00:05:06.479 align:start position:0%
+using Kafka producer API so in
+ 
+
+00:05:06.479 --> 00:05:08.870 align:start position:0%
+using Kafka producer API so in
+JavaScript<00:05:07.000><c> or</c><00:05:07.160><c> Java</c><00:05:07.520><c> code</c><00:05:07.880><c> you</c><00:05:08.039><c> basically</c>
+
+00:05:08.870 --> 00:05:08.880 align:start position:0%
+JavaScript or Java code you basically
+ 
+
+00:05:08.880 --> 00:05:12.710 align:start position:0%
+JavaScript or Java code you basically
+use<00:05:09.199><c> that</c><00:05:09.400><c> API</c><00:05:10.199><c> to</c><00:05:10.680><c> create</c><00:05:11.000><c> an</c><00:05:11.199><c> event</c><00:05:11.960><c> and</c><00:05:12.560><c> give</c>
+
+00:05:12.710 --> 00:05:12.720 align:start position:0%
+use that API to create an event and give
+ 
+
+00:05:12.720 --> 00:05:15.029 align:start position:0%
+use that API to create an event and give
+it<00:05:12.840><c> to</c><00:05:13.080><c> CFA</c><00:05:13.960><c> now</c><00:05:14.400><c> where</c><00:05:14.600><c> does</c><00:05:14.840><c> this</c>
+
+00:05:15.029 --> 00:05:15.039 align:start position:0%
+it to CFA now where does this
+ 
+
+00:05:15.039 --> 00:05:17.830 align:start position:0%
+it to CFA now where does this
+information<00:05:15.800><c> or</c><00:05:16.080><c> these</c><00:05:16.280><c> events</c><00:05:16.840><c> get</c><00:05:17.120><c> saved</c>
+
+00:05:17.830 --> 00:05:17.840 align:start position:0%
+information or these events get saved
+ 
+
+00:05:17.840 --> 00:05:21.070 align:start position:0%
+information or these events get saved
+when<00:05:18.319><c> producers</c><00:05:19.240><c> of</c><00:05:19.520><c> those</c><00:05:19.800><c> events</c><00:05:20.680><c> give</c><00:05:20.919><c> them</c>
+
+00:05:21.070 --> 00:05:21.080 align:start position:0%
+when producers of those events give them
+ 
+
+00:05:21.080 --> 00:05:23.309 align:start position:0%
+when producers of those events give them
+to<00:05:21.280><c> Kafka</c><00:05:22.120><c> because</c><00:05:22.440><c> we</c><00:05:22.560><c> have</c><00:05:22.759><c> bunch</c><00:05:22.960><c> of</c><00:05:23.120><c> other</c>
+
+00:05:23.309 --> 00:05:23.319 align:start position:0%
+to Kafka because we have bunch of other
+ 
+
+00:05:23.319 --> 00:05:25.990 align:start position:0%
+to Kafka because we have bunch of other
+services<00:05:24.039><c> like</c><00:05:24.440><c> inventory</c><00:05:25.160><c> payment</c><00:05:25.720><c> and</c><00:05:25.840><c> so</c>
+
+00:05:25.990 --> 00:05:26.000 align:start position:0%
+services like inventory payment and so
+ 
+
+00:05:26.000 --> 00:05:28.950 align:start position:0%
+services like inventory payment and so
+on<00:05:26.520><c> that</c><00:05:26.720><c> also</c><00:05:27.080><c> produce</c><00:05:27.840><c> certain</c><00:05:28.160><c> events</c><00:05:28.759><c> and</c>
+
+00:05:28.950 --> 00:05:28.960 align:start position:0%
+on that also produce certain events and
+ 
+
+00:05:28.960 --> 00:05:30.990 align:start position:0%
+on that also produce certain events and
+hand<00:05:29.120><c> it</c><00:05:29.240><c> over</c><00:05:29.360><c> to</c><00:05:29.720><c> kka</c><00:05:30.479><c> with</c><00:05:30.680><c> all</c><00:05:30.840><c> the</c>
+
+00:05:30.990 --> 00:05:31.000 align:start position:0%
+hand it over to kka with all the
+ 
+
+00:05:31.000 --> 00:05:33.430 align:start position:0%
+hand it over to kka with all the
+information<00:05:31.560><c> that</c><00:05:31.759><c> other</c><00:05:32.039><c> services</c><00:05:32.560><c> may</c><00:05:32.720><c> need</c>
+
+00:05:33.430 --> 00:05:33.440 align:start position:0%
+information that other services may need
+ 
+
+00:05:33.440 --> 00:05:35.230 align:start position:0%
+information that other services may need
+when<00:05:33.759><c> inventory</c><00:05:34.240><c> gets</c><00:05:34.479><c> updated</c><00:05:34.960><c> or</c><00:05:35.120><c> the</c>
+
+00:05:35.230 --> 00:05:35.240 align:start position:0%
+when inventory gets updated or the
+ 
+
+00:05:35.240 --> 00:05:37.189 align:start position:0%
+when inventory gets updated or the
+payment<00:05:35.560><c> service</c><00:05:35.960><c> says</c><00:05:36.479><c> that</c><00:05:36.680><c> the</c><00:05:36.880><c> payment</c>
+
+00:05:37.189 --> 00:05:37.199 align:start position:0%
+payment service says that the payment
+ 
+
+00:05:37.199 --> 00:05:39.629 align:start position:0%
+payment service says that the payment
+just<00:05:37.360><c> failed</c><00:05:38.120><c> and</c><00:05:38.280><c> so</c><00:05:38.440><c> on</c><00:05:38.840><c> so</c><00:05:39.039><c> do</c><00:05:39.240><c> all</c><00:05:39.440><c> these</c>
+
+00:05:39.629 --> 00:05:39.639 align:start position:0%
+just failed and so on so do all these
+ 
+
+00:05:39.639 --> 00:05:41.990 align:start position:0%
+just failed and so on so do all these
+events<00:05:40.000><c> from</c><00:05:40.319><c> different</c><00:05:40.759><c> producers</c><00:05:41.720><c> get</c>
+
+00:05:41.990 --> 00:05:42.000 align:start position:0%
+events from different producers get
+ 
+
+00:05:42.000 --> 00:05:45.870 align:start position:0%
+events from different producers get
+dumped<00:05:42.520><c> into</c><00:05:43.280><c> a</c><00:05:43.560><c> giant</c><00:05:43.960><c> bucket</c><00:05:44.360><c> in</c><00:05:44.639><c> Kafka</c><00:05:45.600><c> or</c>
+
+00:05:45.870 --> 00:05:45.880 align:start position:0%
+dumped into a giant bucket in Kafka or
+ 
+
+00:05:45.880 --> 00:05:48.749 align:start position:0%
+dumped into a giant bucket in Kafka or
+are<00:05:46.080><c> they</c><00:05:46.319><c> organized</c><00:05:46.960><c> somehow</c><00:05:47.840><c> if</c><00:05:48.000><c> we</c><00:05:48.160><c> had</c><00:05:48.440><c> one</c>
+
+00:05:48.749 --> 00:05:48.759 align:start position:0%
+are they organized somehow if we had one
+ 
+
+00:05:48.759 --> 00:05:51.070 align:start position:0%
+are they organized somehow if we had one
+big<00:05:49.120><c> bucket</c><00:05:49.840><c> handling</c><00:05:50.400><c> all</c><00:05:50.560><c> the</c><00:05:50.680><c> rights</c><00:05:50.919><c> and</c>
+
+00:05:51.070 --> 00:05:51.080 align:start position:0%
+big bucket handling all the rights and
+ 
+
+00:05:51.080 --> 00:05:54.390 align:start position:0%
+big bucket handling all the rights and
+reads<00:05:52.000><c> it</c><00:05:52.120><c> will</c><00:05:52.360><c> not</c><00:05:52.600><c> be</c><00:05:53.360><c> very</c><00:05:53.720><c> performant</c>
+
+00:05:54.390 --> 00:05:54.400 align:start position:0%
+reads it will not be very performant
+ 
+
+00:05:54.400 --> 00:05:56.909 align:start position:0%
+reads it will not be very performant
+right<00:05:54.960><c> it's</c><00:05:55.120><c> like</c><00:05:55.319><c> having</c><00:05:55.639><c> one</c><00:05:55.880><c> single</c><00:05:56.360><c> queue</c>
+
+00:05:56.909 --> 00:05:56.919 align:start position:0%
+right it's like having one single queue
+ 
+
+00:05:56.919 --> 00:06:00.110 align:start position:0%
+right it's like having one single queue
+in<00:05:57.080><c> the</c><00:05:57.280><c> post</c><00:05:57.639><c> office</c><00:05:58.319><c> so</c><00:05:58.720><c> if</c><00:05:59.160><c> weather</c><00:05:59.720><c> sending</c>
+
+00:06:00.110 --> 00:06:00.120 align:start position:0%
+in the post office so if weather sending
+ 
+
+00:06:00.120 --> 00:06:02.710 align:start position:0%
+in the post office so if weather sending
+a<00:06:00.319><c> letter</c><00:06:00.960><c> or</c><00:06:01.400><c> package</c><00:06:01.880><c> or</c><00:06:02.120><c> picking</c><00:06:02.400><c> up</c><00:06:02.560><c> your</c>
+
+00:06:02.710 --> 00:06:02.720 align:start position:0%
+a letter or package or picking up your
+ 
+
+00:06:02.720 --> 00:06:04.950 align:start position:0%
+a letter or package or picking up your
+delivery<00:06:03.639><c> everyone</c><00:06:04.039><c> would</c><00:06:04.199><c> be</c><00:06:04.319><c> standing</c><00:06:04.800><c> in</c>
+
+00:06:04.950 --> 00:06:04.960 align:start position:0%
+delivery everyone would be standing in
+ 
+
+00:06:04.960 --> 00:06:08.350 align:start position:0%
+delivery everyone would be standing in
+the<00:06:05.199><c> same</c><00:06:05.639><c> queue</c><00:06:06.560><c> instead</c><00:06:07.319><c> imagine</c><00:06:07.840><c> that</c><00:06:08.039><c> post</c>
+
+00:06:08.350 --> 00:06:08.360 align:start position:0%
+the same queue instead imagine that post
+ 
+
+00:06:08.360 --> 00:06:11.070 align:start position:0%
+the same queue instead imagine that post
+office<00:06:08.639><c> will</c><00:06:08.880><c> add</c><00:06:09.479><c> sections</c><00:06:10.440><c> with</c><00:06:10.599><c> their</c><00:06:10.759><c> own</c>
+
+00:06:11.070 --> 00:06:11.080 align:start position:0%
+office will add sections with their own
+ 
+
+00:06:11.080 --> 00:06:14.510 align:start position:0%
+office will add sections with their own
+cues<00:06:11.960><c> like</c><00:06:12.199><c> a</c><00:06:12.360><c> section</c><00:06:12.880><c> for</c><00:06:13.280><c> letters</c><00:06:14.199><c> another</c>
+
+00:06:14.510 --> 00:06:14.520 align:start position:0%
+cues like a section for letters another
+ 
+
+00:06:14.520 --> 00:06:17.710 align:start position:0%
+cues like a section for letters another
+one<00:06:14.720><c> for</c><00:06:15.199><c> large</c><00:06:15.599><c> packages</c><00:06:16.599><c> and</c><00:06:16.759><c> so</c><00:06:16.880><c> on</c><00:06:17.199><c> so</c>
+
+00:06:17.710 --> 00:06:17.720 align:start position:0%
+one for large packages and so on so
+ 
+
+00:06:17.720 --> 00:06:21.550 align:start position:0%
+one for large packages and so on so
+Kafka<00:06:18.599><c> has</c><00:06:18.919><c> what's</c><00:06:19.160><c> called</c><00:06:19.720><c> topics</c><00:06:20.520><c> to</c><00:06:20.919><c> group</c>
+
+00:06:21.550 --> 00:06:21.560 align:start position:0%
+Kafka has what's called topics to group
+ 
+
+00:06:21.560 --> 00:06:24.430 align:start position:0%
+Kafka has what's called topics to group
+the<00:06:21.759><c> same</c><00:06:22.280><c> type</c><00:06:22.479><c> of</c><00:06:22.759><c> events</c><00:06:23.479><c> so</c><00:06:23.680><c> for</c><00:06:23.840><c> example</c>
+
+00:06:24.430 --> 00:06:24.440 align:start position:0%
+the same type of events so for example
+ 
+
+00:06:24.440 --> 00:06:27.749 align:start position:0%
+the same type of events so for example
+order<00:06:24.960><c> service</c><00:06:25.960><c> will</c><00:06:26.360><c> write</c><00:06:26.720><c> events</c><00:06:27.319><c> to</c>
+
+00:06:27.749 --> 00:06:27.759 align:start position:0%
+order service will write events to
+ 
+
+00:06:27.759 --> 00:06:30.589 align:start position:0%
+order service will write events to
+orders<00:06:28.319><c> topic</c><00:06:28.960><c> the</c><00:06:29.120><c> payments</c><00:06:29.599><c> service</c><00:06:30.280><c> May</c>
+
+00:06:30.589 --> 00:06:30.599 align:start position:0%
+orders topic the payments service May
+ 
+
+00:06:30.599 --> 00:06:34.150 align:start position:0%
+orders topic the payments service May
+update<00:06:31.160><c> payments</c><00:06:31.599><c> topic</c><00:06:32.080><c> and</c><00:06:32.240><c> so</c><00:06:32.400><c> on</c><00:06:33.120><c> now</c><00:06:34.000><c> how</c>
+
+00:06:34.150 --> 00:06:34.160 align:start position:0%
+update payments topic and so on now how
+ 
+
+00:06:34.160 --> 00:06:36.469 align:start position:0%
+update payments topic and so on now how
+do<00:06:34.440><c> those</c><00:06:34.880><c> topics</c><00:06:35.280><c> get</c><00:06:35.479><c> created</c><00:06:36.039><c> or</c><00:06:36.280><c> who</c>
+
+00:06:36.469 --> 00:06:36.479 align:start position:0%
+do those topics get created or who
+ 
+
+00:06:36.479 --> 00:06:39.070 align:start position:0%
+do those topics get created or who
+defines<00:06:36.919><c> them</c><00:06:37.280><c> well</c><00:06:38.000><c> just</c><00:06:38.160><c> like</c><00:06:38.360><c> you</c><00:06:38.520><c> define</c><00:06:38.919><c> a</c>
+
+00:06:39.070 --> 00:06:39.080 align:start position:0%
+defines them well just like you define a
+ 
+
+00:06:39.080 --> 00:06:42.110 align:start position:0%
+defines them well just like you define a
+SQL<00:06:39.520><c> schema</c><00:06:39.919><c> for</c><00:06:40.120><c> your</c><00:06:40.440><c> database</c><00:06:41.440><c> based</c><00:06:41.720><c> on</c>
+
+00:06:42.110 --> 00:06:42.120 align:start position:0%
+SQL schema for your database based on
+ 
+
+00:06:42.120 --> 00:06:44.230 align:start position:0%
+SQL schema for your database based on
+what<00:06:42.280><c> your</c><00:06:42.479><c> application</c><00:06:43.080><c> needs</c><00:06:43.800><c> and</c><00:06:44.000><c> what</c>
+
+00:06:44.230 --> 00:06:44.240 align:start position:0%
+what your application needs and what
+ 
+
+00:06:44.240 --> 00:06:46.950 align:start position:0%
+what your application needs and what
+objects<00:06:44.599><c> you</c><00:06:44.800><c> have</c><00:06:45.280><c> you</c><00:06:45.880><c> as</c><00:06:46.000><c> an</c><00:06:46.160><c> engineer</c>
+
+00:06:46.950 --> 00:06:46.960 align:start position:0%
+objects you have you as an engineer
+ 
+
+00:06:46.960 --> 00:06:49.749 align:start position:0%
+objects you have you as an engineer
+decide<00:06:47.680><c> how</c><00:06:47.800><c> to</c><00:06:48.039><c> group</c><00:06:48.520><c> these</c><00:06:48.800><c> events</c><00:06:49.520><c> in</c>
+
+00:06:49.749 --> 00:06:49.759 align:start position:0%
+decide how to group these events in
+ 
+
+00:06:49.759 --> 00:06:53.110 align:start position:0%
+decide how to group these events in
+Kafka<00:06:50.400><c> in</c><00:06:50.720><c> what</c><00:06:51.160><c> topics</c><00:06:52.000><c> so</c><00:06:52.280><c> now</c><00:06:52.560><c> that</c><00:06:52.960><c> the</c>
+
+00:06:53.110 --> 00:06:53.120 align:start position:0%
+Kafka in what topics so now that the
+ 
+
+00:06:53.120 --> 00:06:55.110 align:start position:0%
+Kafka in what topics so now that the
+order<00:06:53.400><c> service</c><00:06:53.800><c> added</c><00:06:54.120><c> an</c><00:06:54.240><c> event</c><00:06:54.560><c> to</c><00:06:55.000><c> the</c>
+
+00:06:55.110 --> 00:06:55.120 align:start position:0%
+order service added an event to the
+ 
+
+00:06:55.120 --> 00:06:58.990 align:start position:0%
+order service added an event to the
+order<00:06:55.639><c> topic</c><00:06:56.639><c> what</c><00:06:56.800><c> happens</c><00:06:57.240><c> next</c><00:06:58.120><c> that</c><00:06:58.360><c> event</c>
+
+00:06:58.990 --> 00:06:59.000 align:start position:0%
+order topic what happens next that event
+ 
+
+00:06:59.000 --> 00:07:02.070 align:start position:0%
+order topic what happens next that event
+May<00:06:59.199><c> trigger</c><00:06:59.879><c> other</c><00:07:00.120><c> actions</c><00:07:00.879><c> like</c><00:07:01.479><c> updating</c>
+
+00:07:02.070 --> 00:07:02.080 align:start position:0%
+May trigger other actions like updating
+ 
+
+00:07:02.080 --> 00:07:04.189 align:start position:0%
+May trigger other actions like updating
+stock<00:07:02.400><c> in</c><00:07:02.520><c> the</c><00:07:02.680><c> database</c><00:07:03.560><c> because</c><00:07:03.919><c> we</c><00:07:04.080><c> just</c>
+
+00:07:04.189 --> 00:07:04.199 align:start position:0%
+stock in the database because we just
+ 
+
+00:07:04.199 --> 00:07:06.390 align:start position:0%
+stock in the database because we just
+sold<00:07:04.599><c> something</c><00:07:05.240><c> or</c><00:07:05.440><c> sending</c><00:07:05.840><c> notification</c>
+
+00:07:06.390 --> 00:07:06.400 align:start position:0%
+sold something or sending notification
+ 
+
+00:07:06.400 --> 00:07:08.589 align:start position:0%
+sold something or sending notification
+to<00:07:06.720><c> customer</c><00:07:07.280><c> or</c><00:07:07.560><c> updating</c><00:07:08.000><c> invoice</c><00:07:08.440><c> and</c>
+
+00:07:08.589 --> 00:07:08.599 align:start position:0%
+to customer or updating invoice and
+ 
+
+00:07:08.599 --> 00:07:12.790 align:start position:0%
+to customer or updating invoice and
+sales<00:07:08.919><c> status</c><00:07:09.800><c> plus</c><00:07:10.560><c> what</c><00:07:10.879><c> other</c><00:07:11.520><c> topics</c><00:07:12.360><c> may</c>
+
+00:07:12.790 --> 00:07:12.800 align:start position:0%
+sales status plus what other topics may
+ 
+
+00:07:12.800 --> 00:07:15.629 align:start position:0%
+sales status plus what other topics may
+exist<00:07:13.759><c> that</c><00:07:13.919><c> would</c><00:07:14.120><c> need</c><00:07:14.560><c> an</c><00:07:14.800><c> event</c><00:07:15.240><c> data</c>
+
+00:07:15.629 --> 00:07:15.639 align:start position:0%
+exist that would need an event data
+ 
+
+00:07:15.639 --> 00:07:18.710 align:start position:0%
+exist that would need an event data
+entry<00:07:16.160><c> as</c><00:07:16.280><c> a</c><00:07:16.520><c> result</c><00:07:17.160><c> of</c><00:07:17.400><c> an</c><00:07:17.599><c> order</c><00:07:18.280><c> which</c><00:07:18.440><c> will</c>
+
+00:07:18.710 --> 00:07:18.720 align:start position:0%
+entry as a result of an order which will
+ 
+
+00:07:18.720 --> 00:07:22.790 align:start position:0%
+entry as a result of an order which will
+in<00:07:18.919><c> turn</c><00:07:19.599><c> trigger</c><00:07:20.240><c> other</c><00:07:20.759><c> actions</c><00:07:21.759><c> so</c><00:07:22.599><c> how</c>
+
+00:07:22.790 --> 00:07:22.800 align:start position:0%
+in turn trigger other actions so how
+ 
+
+00:07:22.800 --> 00:07:25.150 align:start position:0%
+in turn trigger other actions so how
+does<00:07:23.080><c> all</c><00:07:23.319><c> that</c><00:07:23.599><c> get</c><00:07:23.800><c> handled</c><00:07:24.599><c> well</c><00:07:24.800><c> on</c><00:07:24.960><c> the</c>
+
+00:07:25.150 --> 00:07:25.160 align:start position:0%
+does all that get handled well on the
+ 
+
+00:07:25.160 --> 00:07:29.270 align:start position:0%
+does all that get handled well on the
+other<00:07:25.520><c> side</c><00:07:26.240><c> of</c><00:07:26.479><c> events</c><00:07:27.199><c> we</c><00:07:27.400><c> have</c><00:07:28.280><c> consumers</c>
+
+00:07:29.270 --> 00:07:29.280 align:start position:0%
+other side of events we have consumers
+ 
+
+00:07:29.280 --> 00:07:31.469 align:start position:0%
+other side of events we have consumers
+basic<00:07:29.520><c> basically</c><00:07:30.039><c> microservices</c><00:07:31.039><c> who</c><00:07:31.160><c> are</c>
+
+00:07:31.469 --> 00:07:31.479 align:start position:0%
+basic basically microservices who are
+ 
+
+00:07:31.479 --> 00:07:34.230 align:start position:0%
+basic basically microservices who are
+subscribed<00:07:32.319><c> to</c><00:07:32.560><c> these</c><00:07:32.759><c> different</c><00:07:33.199><c> topics</c><00:07:34.039><c> and</c>
+
+00:07:34.230 --> 00:07:34.240 align:start position:0%
+subscribed to these different topics and
+ 
+
+00:07:34.240 --> 00:07:37.029 align:start position:0%
+subscribed to these different topics and
+whenever<00:07:34.680><c> a</c><00:07:34.879><c> new</c><00:07:35.280><c> event</c><00:07:36.080><c> happens</c><00:07:36.520><c> and</c><00:07:36.759><c> gets</c>
+
+00:07:37.029 --> 00:07:37.039 align:start position:0%
+whenever a new event happens and gets
+ 
+
+00:07:37.039 --> 00:07:40.629 align:start position:0%
+whenever a new event happens and gets
+added<00:07:37.599><c> to</c><00:07:37.879><c> this</c><00:07:38.199><c> topic</c><00:07:39.199><c> all</c><00:07:39.520><c> consumers</c><00:07:40.479><c> who</c>
+
+00:07:40.629 --> 00:07:40.639 align:start position:0%
+added to this topic all consumers who
+ 
+
+00:07:40.639 --> 00:07:44.070 align:start position:0%
+added to this topic all consumers who
+are<00:07:40.840><c> subscribed</c><00:07:41.840><c> get</c><00:07:42.080><c> notified</c><00:07:42.599><c> by</c><00:07:42.879><c> Kafka</c><00:07:43.879><c> and</c>
+
+00:07:44.070 --> 00:07:44.080 align:start position:0%
+are subscribed get notified by Kafka and
+ 
+
+00:07:44.080 --> 00:07:47.510 align:start position:0%
+are subscribed get notified by Kafka and
+they<00:07:44.280><c> then</c><00:07:44.599><c> do</c><00:07:45.199><c> their</c><00:07:45.560><c> stuff</c><00:07:46.080><c> in</c><00:07:46.280><c> this</c><00:07:46.479><c> case</c><00:07:47.319><c> we</c>
+
+00:07:47.510 --> 00:07:47.520 align:start position:0%
+they then do their stuff in this case we
+ 
+
+00:07:47.520 --> 00:07:50.589 align:start position:0%
+they then do their stuff in this case we
+have<00:07:48.080><c> three</c><00:07:48.680><c> microservices</c><00:07:49.680><c> that</c><00:07:50.039><c> subscribe</c>
+
+00:07:50.589 --> 00:07:50.599 align:start position:0%
+have three microservices that subscribe
+ 
+
+00:07:50.599 --> 00:07:53.510 align:start position:0%
+have three microservices that subscribe
+to<00:07:50.800><c> the</c><00:07:50.919><c> order</c><00:07:51.280><c> event</c><00:07:51.960><c> notification</c><00:07:52.599><c> service</c>
+
+00:07:53.510 --> 00:07:53.520 align:start position:0%
+to the order event notification service
+ 
+
+00:07:53.520 --> 00:07:55.830 align:start position:0%
+to the order event notification service
+we'll<00:07:53.960><c> see</c><00:07:54.360><c> that</c><00:07:54.599><c> a</c><00:07:54.759><c> new</c><00:07:54.960><c> order</c><00:07:55.360><c> event</c><00:07:55.680><c> was</c>
+
+00:07:55.830 --> 00:07:55.840 align:start position:0%
+we'll see that a new order event was
+ 
+
+00:07:55.840 --> 00:07:58.749 align:start position:0%
+we'll see that a new order event was
+added<00:07:56.319><c> which</c><00:07:56.440><c> means</c><00:07:56.840><c> a</c><00:07:57.159><c> order</c><00:07:57.599><c> was</c><00:07:58.280><c> placed</c><00:07:58.639><c> in</c>
+
+00:07:58.749 --> 00:07:58.759 align:start position:0%
+added which means a order was placed in
+ 
+
+00:07:58.759 --> 00:07:59.950 align:start position:0%
+added which means a order was placed in
+our<00:07:58.960><c> application</c>
+
+00:07:59.950 --> 00:07:59.960 align:start position:0%
+our application
+ 
+
+00:07:59.960 --> 00:08:02.950 align:start position:0%
+our application
+and<00:08:00.639><c> based</c><00:08:00.919><c> on</c><00:08:01.080><c> the</c><00:08:01.319><c> payload</c><00:08:01.879><c> of</c><00:08:02.120><c> that</c><00:08:02.360><c> event</c>
+
+00:08:02.950 --> 00:08:02.960 align:start position:0%
+and based on the payload of that event
+ 
+
+00:08:02.960 --> 00:08:05.629 align:start position:0%
+and based on the payload of that event
+it<00:08:03.080><c> will</c><00:08:03.680><c> send</c><00:08:04.080><c> a</c><00:08:04.280><c> confirmation</c><00:08:04.840><c> email</c><00:08:05.199><c> to</c><00:08:05.440><c> the</c>
+
+00:08:05.629 --> 00:08:05.639 align:start position:0%
+it will send a confirmation email to the
+ 
+
+00:08:05.639 --> 00:08:07.550 align:start position:0%
+it will send a confirmation email to the
+customer<00:08:06.440><c> and</c><00:08:06.639><c> maybe</c><00:08:07.000><c> a</c><00:08:07.159><c> purchase</c>
+
+00:08:07.550 --> 00:08:07.560 align:start position:0%
+customer and maybe a purchase
+ 
+
+00:08:07.560 --> 00:08:09.909 align:start position:0%
+customer and maybe a purchase
+notification<00:08:08.240><c> to</c><00:08:08.479><c> your</c><00:08:08.759><c> email</c><00:08:09.479><c> then</c><00:08:09.680><c> an</c>
+
+00:08:09.909 --> 00:08:09.919 align:start position:0%
+notification to your email then an
+ 
+
+00:08:09.919 --> 00:08:12.909 align:start position:0%
+notification to your email then an
+inventory<00:08:10.400><c> service</c><00:08:11.280><c> May</c><00:08:11.919><c> update</c><00:08:12.680><c> the</c>
+
+00:08:12.909 --> 00:08:12.919 align:start position:0%
+inventory service May update the
+ 
+
+00:08:12.919 --> 00:08:16.110 align:start position:0%
+inventory service May update the
+database<00:08:13.800><c> by</c><00:08:14.000><c> updating</c><00:08:14.400><c> the</c><00:08:14.560><c> stocks</c><00:08:14.919><c> of</c><00:08:15.240><c> every</c>
+
+00:08:16.110 --> 00:08:16.120 align:start position:0%
+database by updating the stocks of every
+ 
+
+00:08:16.120 --> 00:08:19.149 align:start position:0%
+database by updating the stocks of every
+product<00:08:16.919><c> that</c><00:08:17.080><c> was</c><00:08:17.240><c> sold</c><00:08:17.759><c> in</c><00:08:17.960><c> that</c><00:08:18.120><c> order</c><00:08:18.840><c> and</c>
+
+00:08:19.149 --> 00:08:19.159 align:start position:0%
+product that was sold in that order and
+ 
+
+00:08:19.159 --> 00:08:20.950 align:start position:0%
+product that was sold in that order and
+maybe<00:08:19.440><c> in</c><00:08:19.639><c> addition</c><00:08:20.080><c> to</c><00:08:20.280><c> that</c><00:08:20.479><c> database</c>
+
+00:08:20.950 --> 00:08:20.960 align:start position:0%
+maybe in addition to that database
+ 
+
+00:08:20.960 --> 00:08:23.950 align:start position:0%
+maybe in addition to that database
+update<00:08:21.599><c> we'll</c><00:08:22.199><c> generate</c><00:08:22.639><c> a</c><00:08:22.840><c> new</c><00:08:23.120><c> event</c><00:08:23.720><c> and</c>
+
+00:08:23.950 --> 00:08:23.960 align:start position:0%
+update we'll generate a new event and
+ 
+
+00:08:23.960 --> 00:08:27.110 align:start position:0%
+update we'll generate a new event and
+write<00:08:24.280><c> it</c><00:08:24.520><c> into</c><00:08:25.360><c> an</c><00:08:25.639><c> inventory</c><00:08:26.199><c> topic</c><00:08:26.960><c> and</c>
+
+00:08:27.110 --> 00:08:27.120 align:start position:0%
+write it into an inventory topic and
+ 
+
+00:08:27.120 --> 00:08:29.510 align:start position:0%
+write it into an inventory topic and
+then<00:08:27.599><c> finally</c><00:08:28.280><c> the</c><00:08:28.440><c> payment</c><00:08:28.759><c> service</c><00:08:29.159><c> May</c>
+
+00:08:29.510 --> 00:08:29.520 align:start position:0%
+then finally the payment service May
+ 
+
+00:08:29.520 --> 00:08:31.990 align:start position:0%
+then finally the payment service May
+generate<00:08:29.919><c> invoice</c><00:08:30.520><c> and</c><00:08:30.639><c> send</c><00:08:30.879><c> it</c><00:08:31.000><c> to</c><00:08:31.120><c> the</c><00:08:31.280><c> user</c>
+
+00:08:31.990 --> 00:08:32.000 align:start position:0%
+generate invoice and send it to the user
+ 
+
+00:08:32.000 --> 00:08:34.350 align:start position:0%
+generate invoice and send it to the user
+now<00:08:32.240><c> I</c><00:08:32.320><c> hope</c><00:08:32.479><c> you're</c><00:08:32.719><c> learning</c><00:08:33.159><c> a</c><00:08:33.360><c> lot</c><00:08:33.959><c> and</c><00:08:34.159><c> the</c>
+
+00:08:34.350 --> 00:08:34.360 align:start position:0%
+now I hope you're learning a lot and the
+ 
+
+00:08:34.360 --> 00:08:36.790 align:start position:0%
+now I hope you're learning a lot and the
+topic<00:08:34.599><c> of</c><00:08:34.800><c> Kafka</c><00:08:35.279><c> is</c><00:08:35.440><c> becoming</c><00:08:35.839><c> clear</c><00:08:36.120><c> for</c><00:08:36.320><c> you</c>
+
+00:08:36.790 --> 00:08:36.800 align:start position:0%
+topic of Kafka is becoming clear for you
+ 
+
+00:08:36.800 --> 00:08:40.310 align:start position:0%
+topic of Kafka is becoming clear for you
+it<00:08:36.959><c> takes</c><00:08:37.240><c> us</c><00:08:37.519><c> on</c><00:08:37.719><c> average</c><00:08:38.440><c> two</c><00:08:38.760><c> or</c><00:08:39.039><c> 3</c><00:08:39.360><c> weeks</c><00:08:39.959><c> to</c>
+
+00:08:40.310 --> 00:08:40.320 align:start position:0%
+it takes us on average two or 3 weeks to
+ 
+
+00:08:40.320 --> 00:08:43.670 align:start position:0%
+it takes us on average two or 3 weeks to
+produce<00:08:41.080><c> one</c><00:08:41.440><c> such</c><00:08:41.760><c> video</c><00:08:42.640><c> so</c><00:08:43.000><c> if</c><00:08:43.120><c> you</c><00:08:43.240><c> find</c><00:08:43.440><c> it</c>
+
+00:08:43.670 --> 00:08:43.680 align:start position:0%
+produce one such video so if you find it
+ 
+
+00:08:43.680 --> 00:08:46.230 align:start position:0%
+produce one such video so if you find it
+valuable<00:08:44.440><c> we</c><00:08:44.560><c> would</c><00:08:44.880><c> appreciate</c><00:08:45.720><c> if</c><00:08:45.839><c> you</c><00:08:46.000><c> left</c>
+
+00:08:46.230 --> 00:08:46.240 align:start position:0%
+valuable we would appreciate if you left
+ 
+
+00:08:46.240 --> 00:08:48.990 align:start position:0%
+valuable we would appreciate if you left
+your<00:08:46.399><c> feedback</c><00:08:47.240><c> or</c><00:08:47.560><c> liked</c><00:08:48.000><c> the</c><00:08:48.200><c> video</c><00:08:48.839><c> and</c>
+
+00:08:48.990 --> 00:08:49.000 align:start position:0%
+your feedback or liked the video and
+ 
+
+00:08:49.000 --> 00:08:51.190 align:start position:0%
+your feedback or liked the video and
+we'd<00:08:49.240><c> be</c><00:08:49.440><c> happy</c><00:08:49.800><c> to</c><00:08:50.040><c> have</c><00:08:50.240><c> you</c><00:08:50.600><c> as</c><00:08:50.839><c> our</c>
+
+00:08:51.190 --> 00:08:51.200 align:start position:0%
+we'd be happy to have you as our
+ 
+
+00:08:51.200 --> 00:08:54.910 align:start position:0%
+we'd be happy to have you as our
+subscriber<00:08:52.000><c> as</c><00:08:52.160><c> well</c><00:08:52.880><c> now</c><00:08:53.600><c> you</c><00:08:53.720><c> may</c><00:08:53.920><c> be</c><00:08:54.120><c> asking</c>
+
+00:08:54.910 --> 00:08:54.920 align:start position:0%
+subscriber as well now you may be asking
+ 
+
+00:08:54.920 --> 00:08:57.590 align:start position:0%
+subscriber as well now you may be asking
+is<00:08:55.160><c> kfka</c><00:08:55.800><c> a</c><00:08:56.040><c> replacement</c><00:08:56.720><c> of</c><00:08:56.839><c> a</c><00:08:57.080><c> database</c>
+
+00:08:57.590 --> 00:08:57.600 align:start position:0%
+is kfka a replacement of a database
+ 
+
+00:08:57.600 --> 00:09:00.150 align:start position:0%
+is kfka a replacement of a database
+somehow<00:08:58.200><c> since</c><00:08:58.480><c> we</c><00:08:58.600><c> are</c><00:08:59.079><c> SA</c><00:08:59.440><c> saving</c><00:08:59.720><c> all</c><00:08:59.880><c> these</c>
+
+00:09:00.150 --> 00:09:00.160 align:start position:0%
+somehow since we are SA saving all these
+ 
+
+00:09:00.160 --> 00:09:03.550 align:start position:0%
+somehow since we are SA saving all these
+data<00:09:01.000><c> as</c><00:09:01.440><c> events</c><00:09:02.440><c> and</c><00:09:02.680><c> basically</c><00:09:03.120><c> updating</c>
+
+00:09:03.550 --> 00:09:03.560 align:start position:0%
+data as events and basically updating
+ 
+
+00:09:03.560 --> 00:09:06.710 align:start position:0%
+data as events and basically updating
+the<00:09:03.720><c> status</c><00:09:04.279><c> of</c><00:09:04.480><c> things</c><00:09:05.120><c> so</c><00:09:05.800><c> is</c><00:09:05.920><c> it</c><00:09:06.320><c> kind</c><00:09:06.440><c> of</c><00:09:06.560><c> a</c>
+
+00:09:06.710 --> 00:09:06.720 align:start position:0%
+the status of things so is it kind of a
+ 
+
+00:09:06.720 --> 00:09:09.430 align:start position:0%
+the status of things so is it kind of a
+new<00:09:06.959><c> way</c><00:09:07.160><c> of</c><00:09:07.480><c> saving</c><00:09:07.880><c> things</c><00:09:08.480><c> a</c><00:09:08.640><c> simple</c><00:09:09.000><c> answer</c>
+
+00:09:09.430 --> 00:09:09.440 align:start position:0%
+new way of saving things a simple answer
+ 
+
+00:09:09.440 --> 00:09:11.990 align:start position:0%
+new way of saving things a simple answer
+is<00:09:09.959><c> no</c><00:09:10.360><c> it's</c><00:09:10.519><c> not</c><00:09:10.680><c> a</c><00:09:10.839><c> replacement</c><00:09:11.440><c> database</c>
+
+00:09:11.990 --> 00:09:12.000 align:start position:0%
+is no it's not a replacement database
+ 
+
+00:09:12.000 --> 00:09:14.310 align:start position:0%
+is no it's not a replacement database
+let's<00:09:12.200><c> explain</c><00:09:12.600><c> by</c><00:09:12.760><c> following</c><00:09:13.160><c> our</c><00:09:13.399><c> story</c><00:09:14.120><c> so</c>
+
+00:09:14.310 --> 00:09:14.320 align:start position:0%
+let's explain by following our story so
+ 
+
+00:09:14.320 --> 00:09:17.670 align:start position:0%
+let's explain by following our story so
+when<00:09:14.519><c> the</c><00:09:14.760><c> inventory</c><00:09:15.760><c> service</c><00:09:16.720><c> updates</c><00:09:17.440><c> the</c>
+
+00:09:17.670 --> 00:09:17.680 align:start position:0%
+when the inventory service updates the
+ 
+
+00:09:17.680 --> 00:09:20.389 align:start position:0%
+when the inventory service updates the
+stock<00:09:18.480><c> for</c><00:09:18.760><c> each</c><00:09:19.000><c> product</c><00:09:19.279><c> in</c><00:09:19.399><c> the</c><00:09:19.560><c> database</c>
+
+00:09:20.389 --> 00:09:20.399 align:start position:0%
+stock for each product in the database
+ 
+
+00:09:20.399 --> 00:09:22.750 align:start position:0%
+stock for each product in the database
+why<00:09:20.600><c> does</c><00:09:20.760><c> it</c><00:09:21.040><c> produce</c><00:09:21.680><c> an</c><00:09:21.880><c> event</c><00:09:22.360><c> and</c><00:09:22.519><c> write</c>
+
+00:09:22.750 --> 00:09:22.760 align:start position:0%
+why does it produce an event and write
+ 
+
+00:09:22.760 --> 00:09:25.190 align:start position:0%
+why does it produce an event and write
+it<00:09:22.880><c> to</c><00:09:23.079><c> the</c><00:09:23.200><c> inventory</c><00:09:23.760><c> topic</c><00:09:24.320><c> what</c><00:09:24.760><c> kind</c><00:09:24.880><c> of</c>
+
+00:09:25.190 --> 00:09:25.200 align:start position:0%
+it to the inventory topic what kind of
+ 
+
+00:09:25.200 --> 00:09:27.829 align:start position:0%
+it to the inventory topic what kind of
+event<00:09:25.920><c> that</c><00:09:26.120><c> may</c><00:09:26.320><c> be</c><00:09:26.959><c> and</c><00:09:27.160><c> why</c><00:09:27.320><c> would</c><00:09:27.519><c> we</c><00:09:27.680><c> have</c>
+
+00:09:27.829 --> 00:09:27.839 align:start position:0%
+event that may be and why would we have
+ 
+
+00:09:27.839 --> 00:09:30.030 align:start position:0%
+event that may be and why would we have
+it<00:09:28.079><c> in</c><00:09:28.279><c> addition</c><00:09:28.640><c> to</c><00:09:28.959><c> the</c><00:09:29.120><c> dat</c><00:09:29.600><c> in</c><00:09:29.680><c> the</c>
+
+00:09:30.030 --> 00:09:30.040 align:start position:0%
+it in addition to the dat in the
+ 
+
+00:09:30.040 --> 00:09:33.310 align:start position:0%
+it in addition to the dat in the
+database<00:09:31.040><c> well</c><00:09:31.480><c> that's</c><00:09:31.680><c> another</c><00:09:32.000><c> use</c><00:09:32.360><c> case</c><00:09:32.839><c> of</c>
+
+00:09:33.310 --> 00:09:33.320 align:start position:0%
+database well that's another use case of
+ 
+
+00:09:33.320 --> 00:09:36.190 align:start position:0%
+database well that's another use case of
+kfka<00:09:34.320><c> where</c><00:09:34.600><c> one</c><00:09:34.959><c> event</c><00:09:35.360><c> basically</c><00:09:35.760><c> creates</c>
+
+00:09:36.190 --> 00:09:36.200 align:start position:0%
+kfka where one event basically creates
+ 
+
+00:09:36.200 --> 00:09:39.389 align:start position:0%
+kfka where one event basically creates
+this<00:09:36.399><c> chain</c><00:09:36.959><c> reaction</c><00:09:37.959><c> of</c><00:09:38.279><c> events</c><00:09:39.120><c> when</c>
+
+00:09:39.389 --> 00:09:39.399 align:start position:0%
+this chain reaction of events when
+ 
+
+00:09:39.399 --> 00:09:40.870 align:start position:0%
+this chain reaction of events when
+multiple<00:09:39.800><c> things</c><00:09:40.000><c> need</c><00:09:40.160><c> to</c><00:09:40.360><c> happen</c><00:09:40.640><c> as</c><00:09:40.720><c> a</c>
+
+00:09:40.870 --> 00:09:40.880 align:start position:0%
+multiple things need to happen as a
+ 
+
+00:09:40.880 --> 00:09:43.030 align:start position:0%
+multiple things need to happen as a
+result<00:09:41.279><c> of</c><00:09:41.560><c> one</c><00:09:41.880><c> event</c><00:09:42.240><c> happening</c><00:09:42.760><c> which</c><00:09:42.920><c> we</c>
+
+00:09:43.030 --> 00:09:43.040 align:start position:0%
+result of one event happening which we
+ 
+
+00:09:43.040 --> 00:09:45.350 align:start position:0%
+result of one event happening which we
+saw<00:09:43.440><c> an</c><00:09:43.640><c> example</c><00:09:44.240><c> you</c><00:09:44.360><c> may</c><00:09:44.600><c> have</c><00:09:44.800><c> another</c>
+
+00:09:45.350 --> 00:09:45.360 align:start position:0%
+saw an example you may have another
+ 
+
+00:09:45.360 --> 00:09:47.350 align:start position:0%
+saw an example you may have another
+service<00:09:46.240><c> that</c><00:09:46.399><c> is</c><00:09:46.560><c> subscribed</c><00:09:47.079><c> to</c><00:09:47.200><c> the</c>
+
+00:09:47.350 --> 00:09:47.360 align:start position:0%
+service that is subscribed to the
+ 
+
+00:09:47.360 --> 00:09:50.750 align:start position:0%
+service that is subscribed to the
+inventory<00:09:47.839><c> topic</c><00:09:48.560><c> and</c><00:09:49.399><c> calculates</c><00:09:50.399><c> whether</c>
+
+00:09:50.750 --> 00:09:50.760 align:start position:0%
+inventory topic and calculates whether
+ 
+
+00:09:50.760 --> 00:09:53.190 align:start position:0%
+inventory topic and calculates whether
+any<00:09:50.959><c> of</c><00:09:51.079><c> the</c><00:09:51.279><c> products</c><00:09:51.920><c> just</c><00:09:52.160><c> gone</c><00:09:52.640><c> below</c><00:09:53.079><c> the</c>
+
+00:09:53.190 --> 00:09:53.200 align:start position:0%
+any of the products just gone below the
+ 
+
+00:09:53.200 --> 00:09:55.710 align:start position:0%
+any of the products just gone below the
+inventory<00:09:54.040><c> threshold</c><00:09:54.720><c> and</c><00:09:54.880><c> produce</c><00:09:55.279><c> a</c><00:09:55.399><c> low</c>
+
+00:09:55.710 --> 00:09:55.720 align:start position:0%
+inventory threshold and produce a low
+ 
+
+00:09:55.720 --> 00:09:58.590 align:start position:0%
+inventory threshold and produce a low
+inventory<00:09:56.200><c> alert</c><00:09:57.000><c> which</c><00:09:57.519><c> maybe</c><00:09:58.000><c> as</c><00:09:58.120><c> a</c><00:09:58.279><c> chain</c>
+
+00:09:58.590 --> 00:09:58.600 align:start position:0%
+inventory alert which maybe as a chain
+ 
+
+00:09:58.600 --> 00:10:01.150 align:start position:0%
+inventory alert which maybe as a chain
+reaction<00:09:59.399><c> will</c><00:09:59.519><c> trigger</c><00:09:59.959><c> another</c><00:10:00.360><c> service</c>
+
+00:10:01.150 --> 00:10:01.160 align:start position:0%
+reaction will trigger another service
+ 
+
+00:10:01.160 --> 00:10:03.630 align:start position:0%
+reaction will trigger another service
+that<00:10:01.320><c> may</c><00:10:01.560><c> trigger</c><00:10:02.240><c> an</c><00:10:02.480><c> inventory</c><00:10:03.040><c> restock</c>
+
+00:10:03.630 --> 00:10:03.640 align:start position:0%
+that may trigger an inventory restock
+ 
+
+00:10:03.640 --> 00:10:06.389 align:start position:0%
+that may trigger an inventory restock
+service<00:10:04.360><c> that</c><00:10:04.480><c> will</c><00:10:04.720><c> order</c><00:10:05.440><c> more</c><00:10:05.760><c> inventory</c>
+
+00:10:06.389 --> 00:10:06.399 align:start position:0%
+service that will order more inventory
+ 
+
+00:10:06.399 --> 00:10:08.870 align:start position:0%
+service that will order more inventory
+of<00:10:06.640><c> that</c><00:10:06.839><c> specific</c><00:10:07.200><c> product</c><00:10:07.959><c> another</c><00:10:08.640><c> very</c>
+
+00:10:08.870 --> 00:10:08.880 align:start position:0%
+of that specific product another very
+ 
+
+00:10:08.880 --> 00:10:12.470 align:start position:0%
+of that specific product another very
+important<00:10:09.279><c> use</c><00:10:09.640><c> case</c><00:10:09.800><c> of</c><00:10:10.040><c> Kafka</c><00:10:10.959><c> is</c><00:10:11.720><c> realtime</c>
+
+00:10:12.470 --> 00:10:12.480 align:start position:0%
+important use case of Kafka is realtime
+ 
+
+00:10:12.480 --> 00:10:15.430 align:start position:0%
+important use case of Kafka is realtime
+analytics<00:10:13.480><c> for</c><00:10:13.680><c> example</c><00:10:14.480><c> again</c><00:10:14.800><c> when</c><00:10:14.959><c> sales</c>
+
+00:10:15.430 --> 00:10:15.440 align:start position:0%
+analytics for example again when sales
+ 
+
+00:10:15.440 --> 00:10:17.550 align:start position:0%
+analytics for example again when sales
+happen<00:10:15.760><c> in</c><00:10:15.880><c> your</c><00:10:16.079><c> application</c><00:10:16.880><c> you</c><00:10:17.000><c> may</c><00:10:17.240><c> have</c>
+
+00:10:17.550 --> 00:10:17.560 align:start position:0%
+happen in your application you may have
+ 
+
+00:10:17.560 --> 00:10:20.150 align:start position:0%
+happen in your application you may have
+a<00:10:17.720><c> sales</c><00:10:18.120><c> dashboard</c><00:10:19.040><c> where</c><00:10:19.360><c> your</c><00:10:19.560><c> service</c><00:10:19.959><c> is</c>
+
+00:10:20.150 --> 00:10:20.160 align:start position:0%
+a sales dashboard where your service is
+ 
+
+00:10:20.160 --> 00:10:23.350 align:start position:0%
+a sales dashboard where your service is
+updating<00:10:21.000><c> real</c><00:10:21.399><c> time</c><00:10:22.120><c> sales</c><00:10:22.560><c> numbers</c><00:10:23.120><c> and</c>
+
+00:10:23.350 --> 00:10:23.360 align:start position:0%
+updating real time sales numbers and
+ 
+
+00:10:23.360 --> 00:10:25.389 align:start position:0%
+updating real time sales numbers and
+other<00:10:23.519><c> such</c><00:10:23.760><c> use</c><00:10:24.040><c> case</c><00:10:24.320><c> is</c><00:10:24.600><c> driver</c><00:10:24.959><c> location</c>
+
+00:10:25.389 --> 00:10:25.399 align:start position:0%
+other such use case is driver location
+ 
+
+00:10:25.399 --> 00:10:27.550 align:start position:0%
+other such use case is driver location
+updates<00:10:25.839><c> in</c><00:10:26.000><c> an</c><00:10:26.160><c> application</c><00:10:26.600><c> like</c><00:10:26.760><c> uber</c>
+
+00:10:27.550 --> 00:10:27.560 align:start position:0%
+updates in an application like uber
+ 
+
+00:10:27.560 --> 00:10:29.829 align:start position:0%
+updates in an application like uber
+where<00:10:28.120><c> the</c><00:10:28.320><c> driver</c><00:10:28.839><c> location</c>
+
+00:10:29.829 --> 00:10:29.839 align:start position:0%
+where the driver location
+ 
+
+00:10:29.839 --> 00:10:32.470 align:start position:0%
+where the driver location
+changes<00:10:30.480><c> get</c><00:10:30.680><c> sent</c><00:10:31.360><c> constantly</c><00:10:32.000><c> to</c><00:10:32.160><c> the</c>
+
+00:10:32.470 --> 00:10:32.480 align:start position:0%
+changes get sent constantly to the
+ 
+
+00:10:32.480 --> 00:10:35.470 align:start position:0%
+changes get sent constantly to the
+application<00:10:33.480><c> which</c><00:10:33.680><c> then</c><00:10:33.920><c> updates</c><00:10:34.440><c> the</c><00:10:34.560><c> UI</c><00:10:35.160><c> of</c>
+
+00:10:35.470 --> 00:10:35.480 align:start position:0%
+application which then updates the UI of
+ 
+
+00:10:35.480 --> 00:10:38.310 align:start position:0%
+application which then updates the UI of
+the<00:10:35.680><c> user</c><00:10:36.279><c> to</c><00:10:36.519><c> display</c><00:10:36.920><c> those</c><00:10:37.120><c> changes</c><00:10:37.880><c> and</c>
+
+00:10:38.310 --> 00:10:38.320 align:start position:0%
+the user to display those changes and
+ 
+
+00:10:38.320 --> 00:10:41.150 align:start position:0%
+the user to display those changes and
+for<00:10:38.920><c> all</c><00:10:39.160><c> these</c><00:10:39.320><c> use</c><00:10:39.680><c> cases</c><00:10:40.360><c> Kafka</c><00:10:40.880><c> actually</c>
+
+00:10:41.150 --> 00:10:41.160 align:start position:0%
+for all these use cases Kafka actually
+ 
+
+00:10:41.160 --> 00:10:44.670 align:start position:0%
+for all these use cases Kafka actually
+uses<00:10:41.760><c> what's</c><00:10:42.000><c> called</c><00:10:42.440><c> Stream</c><00:10:42.959><c> apis</c><00:10:43.959><c> So</c><00:10:44.200><c> on</c><00:10:44.440><c> one</c>
+
+00:10:44.670 --> 00:10:44.680 align:start position:0%
+uses what's called Stream apis So on one
+ 
+
+00:10:44.680 --> 00:10:47.430 align:start position:0%
+uses what's called Stream apis So on one
+side<00:10:44.880><c> you</c><00:10:45.079><c> have</c><00:10:45.480><c> these</c><00:10:45.839><c> regular</c><00:10:46.440><c> consumers</c>
+
+00:10:47.430 --> 00:10:47.440 align:start position:0%
+side you have these regular consumers
+ 
+
+00:10:47.440 --> 00:10:50.310 align:start position:0%
+side you have these regular consumers
+that<00:10:47.639><c> will</c><00:10:48.120><c> process</c><00:10:48.720><c> one</c><00:10:49.040><c> event</c><00:10:49.399><c> at</c><00:10:49.519><c> a</c><00:10:49.720><c> time</c>
+
+00:10:50.310 --> 00:10:50.320 align:start position:0%
+that will process one event at a time
+ 
+
+00:10:50.320 --> 00:10:52.670 align:start position:0%
+that will process one event at a time
+for<00:10:50.480><c> example</c><00:10:50.920><c> a</c><00:10:51.079><c> notification</c><00:10:51.680><c> service</c><00:10:52.560><c> that</c>
+
+00:10:52.670 --> 00:10:52.680 align:start position:0%
+for example a notification service that
+ 
+
+00:10:52.680 --> 00:10:55.509 align:start position:0%
+for example a notification service that
+will<00:10:52.839><c> read</c><00:10:53.079><c> an</c><00:10:53.320><c> order</c><00:10:53.720><c> event</c><00:10:54.600><c> and</c><00:10:55.040><c> based</c><00:10:55.320><c> on</c>
+
+00:10:55.509 --> 00:10:55.519 align:start position:0%
+will read an order event and based on
+ 
+
+00:10:55.519 --> 00:10:57.870 align:start position:0%
+will read an order event and based on
+that<00:10:55.720><c> we'll</c><00:10:55.920><c> send</c><00:10:56.279><c> an</c><00:10:56.480><c> email</c><00:10:56.800><c> or</c><00:10:57.000><c> notification</c>
+
+00:10:57.870 --> 00:10:57.880 align:start position:0%
+that we'll send an email or notification
+ 
+
+00:10:57.880 --> 00:11:00.110 align:start position:0%
+that we'll send an email or notification
+to<00:10:58.120><c> the</c><00:10:58.320><c> customer</c><00:10:59.279><c> streams</c><00:10:59.680><c> on</c><00:10:59.800><c> the</c><00:10:59.920><c> other</c>
+
+00:11:00.110 --> 00:11:00.120 align:start position:0%
+to the customer streams on the other
+ 
+
+00:11:00.120 --> 00:11:03.110 align:start position:0%
+to the customer streams on the other
+hand<00:11:00.320><c> will</c><00:11:00.639><c> process</c><00:11:01.480><c> continuous</c><00:11:02.399><c> flow</c><00:11:02.839><c> of</c>
+
+00:11:03.110 --> 00:11:03.120 align:start position:0%
+hand will process continuous flow of
+ 
+
+00:11:03.120 --> 00:11:05.990 align:start position:0%
+hand will process continuous flow of
+data<00:11:03.880><c> with</c><00:11:04.120><c> aggregations</c><00:11:04.920><c> and</c><00:11:05.120><c> joints</c><00:11:05.720><c> and</c><00:11:05.839><c> so</c>
+
+00:11:05.990 --> 00:11:06.000 align:start position:0%
+data with aggregations and joints and so
+ 
+
+00:11:06.000 --> 00:11:08.949 align:start position:0%
+data with aggregations and joints and so
+on<00:11:06.399><c> in</c><00:11:06.519><c> order</c><00:11:06.760><c> to</c><00:11:06.880><c> do</c><00:11:07.360><c> realtime</c><00:11:08.360><c> processing</c>
+
+00:11:08.949 --> 00:11:08.959 align:start position:0%
+on in order to do realtime processing
+ 
+
+00:11:08.959 --> 00:11:11.949 align:start position:0%
+on in order to do realtime processing
+and<00:11:09.279><c> analytics</c><00:11:09.800><c> on</c><00:11:10.040><c> them</c><00:11:10.680><c> so</c><00:11:11.040><c> for</c><00:11:11.200><c> example</c><00:11:11.639><c> low</c>
+
+00:11:11.949 --> 00:11:11.959 align:start position:0%
+and analytics on them so for example low
+ 
+
+00:11:11.959 --> 00:11:14.590 align:start position:0%
+and analytics on them so for example low
+inventory<00:11:12.760><c> validations</c><00:11:13.639><c> to</c><00:11:13.920><c> check</c>
+
+00:11:14.590 --> 00:11:14.600 align:start position:0%
+inventory validations to check
+ 
+
+00:11:14.600 --> 00:11:16.910 align:start position:0%
+inventory validations to check
+constantly<00:11:15.120><c> with</c><00:11:15.440><c> every</c><00:11:15.760><c> event</c><00:11:16.399><c> and</c><00:11:16.560><c> do</c><00:11:16.720><c> the</c>
+
+00:11:16.910 --> 00:11:16.920 align:start position:0%
+constantly with every event and do the
+ 
+
+00:11:16.920 --> 00:11:19.590 align:start position:0%
+constantly with every event and do the
+calculation<00:11:17.760><c> to</c><00:11:18.000><c> see</c><00:11:18.800><c> whether</c><00:11:19.120><c> inventory</c>
+
+00:11:19.590 --> 00:11:19.600 align:start position:0%
+calculation to see whether inventory
+ 
+
+00:11:19.600 --> 00:11:22.230 align:start position:0%
+calculation to see whether inventory
+just<00:11:19.839><c> dropped</c><00:11:20.279><c> below</c><00:11:20.680><c> the</c><00:11:20.839><c> threshold</c><00:11:21.800><c> or</c><00:11:22.000><c> get</c>
+
+00:11:22.230 --> 00:11:22.240 align:start position:0%
+just dropped below the threshold or get
+ 
+
+00:11:22.240 --> 00:11:25.990 align:start position:0%
+just dropped below the threshold or get
+the<00:11:22.720><c> location</c><00:11:23.600><c> changes</c><00:11:24.480><c> from</c><00:11:24.720><c> the</c><00:11:24.839><c> drivers</c><00:11:25.720><c> so</c>
+
+00:11:25.990 --> 00:11:26.000 align:start position:0%
+the location changes from the drivers so
+ 
+
+00:11:26.000 --> 00:11:28.230 align:start position:0%
+the location changes from the drivers so
+this<00:11:26.240><c> analytic</c><00:11:26.720><c> services</c><00:11:27.240><c> will</c><00:11:27.560><c> stream</c><00:11:28.079><c> the</c>
+
+00:11:28.230 --> 00:11:28.240 align:start position:0%
+this analytic services will stream the
+ 
+
+00:11:28.240 --> 00:11:31.150 align:start position:0%
+this analytic services will stream the
+events<00:11:28.760><c> Contin</c><00:11:29.519><c> ly</c><00:11:29.920><c> doing</c><00:11:30.240><c> various</c><00:11:30.639><c> analytics</c>
+
+00:11:31.150 --> 00:11:31.160 align:start position:0%
+events Contin ly doing various analytics
+ 
+
+00:11:31.160 --> 00:11:33.870 align:start position:0%
+events Contin ly doing various analytics
+and<00:11:31.320><c> calculations</c><00:11:31.959><c> on</c><00:11:32.120><c> them</c><00:11:32.639><c> and</c><00:11:32.839><c> in</c><00:11:33.079><c> code</c><00:11:33.760><c> you</c>
+
+00:11:33.870 --> 00:11:33.880 align:start position:0%
+and calculations on them and in code you
+ 
+
+00:11:33.880 --> 00:11:36.550 align:start position:0%
+and calculations on them and in code you
+would<00:11:34.120><c> have</c><00:11:34.440><c> a</c><00:11:34.600><c> streams</c><00:11:35.079><c> API</c><00:11:35.959><c> that</c><00:11:36.079><c> will</c><00:11:36.320><c> read</c>
+
+00:11:36.550 --> 00:11:36.560 align:start position:0%
+would have a streams API that will read
+ 
+
+00:11:36.560 --> 00:11:38.550 align:start position:0%
+would have a streams API that will read
+the<00:11:36.680><c> orders</c><00:11:37.120><c> and</c><00:11:37.360><c> do</c><00:11:37.639><c> all</c><00:11:37.839><c> these</c><00:11:38.120><c> kinds</c><00:11:38.320><c> of</c>
+
+00:11:38.550 --> 00:11:38.560 align:start position:0%
+the orders and do all these kinds of
+ 
+
+00:11:38.560 --> 00:11:41.670 align:start position:0%
+the orders and do all these kinds of
+calculations<00:11:39.519><c> on</c><00:11:39.720><c> them</c><00:11:40.399><c> now</c><00:11:40.680><c> as</c><00:11:40.760><c> I</c><00:11:40.920><c> mentioned</c>
+
+00:11:41.670 --> 00:11:41.680 align:start position:0%
+calculations on them now as I mentioned
+ 
+
+00:11:41.680 --> 00:11:45.790 align:start position:0%
+calculations on them now as I mentioned
+these<00:11:41.839><c> are</c><00:11:42.399><c> streams</c><00:11:43.079><c> of</c><00:11:43.480><c> constant</c><00:11:44.360><c> data</c><00:11:45.320><c> saved</c>
+
+00:11:45.790 --> 00:11:45.800 align:start position:0%
+these are streams of constant data saved
+ 
+
+00:11:45.800 --> 00:11:49.430 align:start position:0%
+these are streams of constant data saved
+as<00:11:46.200><c> events</c><00:11:47.160><c> in</c><00:11:47.399><c> kfka</c><00:11:48.120><c> because</c><00:11:48.880><c> you</c><00:11:49.120><c> have</c><00:11:49.279><c> an</c>
+
+00:11:49.430 --> 00:11:49.440 align:start position:0%
+as events in kfka because you have an
+ 
+
+00:11:49.440 --> 00:11:51.430 align:start position:0%
+as events in kfka because you have an
+application<00:11:49.839><c> like</c><00:11:50.040><c> uber</c><00:11:50.639><c> with</c><00:11:50.880><c> millions</c><00:11:51.279><c> of</c>
+
+00:11:51.430 --> 00:11:51.440 align:start position:0%
+application like uber with millions of
+ 
+
+00:11:51.440 --> 00:11:54.150 align:start position:0%
+application like uber with millions of
+users<00:11:52.079><c> and</c><00:11:52.279><c> tens</c><00:11:52.519><c> of</c><00:11:52.720><c> thousands</c><00:11:53.040><c> of</c><00:11:53.279><c> drivers</c>
+
+00:11:54.150 --> 00:11:54.160 align:start position:0%
+users and tens of thousands of drivers
+ 
+
+00:11:54.160 --> 00:11:56.590 align:start position:0%
+users and tens of thousands of drivers
+with<00:11:54.560><c> their</c><00:11:54.800><c> locations</c><00:11:55.360><c> getting</c><00:11:55.600><c> updated</c>
+
+00:11:56.590 --> 00:11:56.600 align:start position:0%
+with their locations getting updated
+ 
+
+00:11:56.600 --> 00:11:58.829 align:start position:0%
+with their locations getting updated
+constantly<00:11:57.600><c> that's</c><00:11:57.800><c> a</c><00:11:57.959><c> lot</c><00:11:58.120><c> of</c><00:11:58.320><c> data</c><00:11:58.639><c> and</c>
+
+00:11:58.829 --> 00:11:58.839 align:start position:0%
+constantly that's a lot of data and
+ 
+
+00:11:58.839 --> 00:12:01.350 align:start position:0%
+constantly that's a lot of data and
+events<00:11:59.360><c> that</c><00:11:59.440><c> are</c><00:11:59.560><c> being</c><00:11:59.839><c> produced</c><00:12:00.480><c> right</c><00:12:01.120><c> and</c>
+
+00:12:01.350 --> 00:12:01.360 align:start position:0%
+events that are being produced right and
+ 
+
+00:12:01.360 --> 00:12:04.150 align:start position:0%
+events that are being produced right and
+all<00:12:01.639><c> consumers</c><00:12:02.560><c> need</c><00:12:02.760><c> to</c><00:12:02.959><c> read</c><00:12:03.279><c> from</c><00:12:03.480><c> it</c><00:12:03.880><c> so</c>
+
+00:12:04.150 --> 00:12:04.160 align:start position:0%
+all consumers need to read from it so
+ 
+
+00:12:04.160 --> 00:12:05.910 align:start position:0%
+all consumers need to read from it so
+millions<00:12:04.519><c> of</c><00:12:04.720><c> writes</c><00:12:05.000><c> and</c><00:12:05.160><c> reads</c><00:12:05.680><c> in</c>
+
+00:12:05.910 --> 00:12:05.920 align:start position:0%
+millions of writes and reads in
+ 
+
+00:12:05.920 --> 00:12:07.910 align:start position:0%
+millions of writes and reads in
+different<00:12:06.279><c> Kafka</c><00:12:06.720><c> topics</c><00:12:07.320><c> which</c><00:12:07.480><c> can</c><00:12:07.800><c> of</c>
+
+00:12:07.910 --> 00:12:07.920 align:start position:0%
+different Kafka topics which can of
+ 
+
+00:12:07.920 --> 00:12:10.230 align:start position:0%
+different Kafka topics which can of
+course<00:12:08.279><c> affect</c><00:12:08.680><c> performance</c><00:12:09.519><c> so</c><00:12:09.720><c> we</c><00:12:09.839><c> need</c><00:12:10.000><c> to</c>
+
+00:12:10.230 --> 00:12:10.240 align:start position:0%
+course affect performance so we need to
+ 
+
+00:12:10.240 --> 00:12:13.269 align:start position:0%
+course affect performance so we need to
+scale<00:12:11.000><c> and</c><00:12:11.200><c> that's</c><00:12:11.440><c> where</c><00:12:11.959><c> kafka's</c><00:12:12.680><c> partition</c>
+
+00:12:13.269 --> 00:12:13.279 align:start position:0%
+scale and that's where kafka's partition
+ 
+
+00:12:13.279 --> 00:12:15.230 align:start position:0%
+scale and that's where kafka's partition
+concept<00:12:13.680><c> comes</c><00:12:13.880><c> in</c><00:12:14.240><c> which</c><00:12:14.360><c> is</c><00:12:14.519><c> kind</c><00:12:14.639><c> of</c><00:12:14.720><c> a</c><00:12:14.880><c> core</c>
+
+00:12:15.230 --> 00:12:15.240 align:start position:0%
+concept comes in which is kind of a core
+ 
+
+00:12:15.240 --> 00:12:17.949 align:start position:0%
+concept comes in which is kind of a core
+of<00:12:15.480><c> kafka's</c><00:12:16.120><c> ability</c><00:12:16.760><c> to</c><00:12:17.000><c> scale</c><00:12:17.440><c> and</c><00:12:17.600><c> become</c>
+
+00:12:17.949 --> 00:12:17.959 align:start position:0%
+of kafka's ability to scale and become
+ 
+
+00:12:17.959 --> 00:12:20.350 align:start position:0%
+of kafka's ability to scale and become
+really<00:12:18.320><c> performant</c><00:12:19.240><c> so</c><00:12:19.480><c> partitions</c><00:12:20.079><c> are</c>
+
+00:12:20.350 --> 00:12:20.360 align:start position:0%
+really performant so partitions are
+ 
+
+00:12:20.360 --> 00:12:22.069 align:start position:0%
+really performant so partitions are
+basically<00:12:20.680><c> what</c><00:12:20.839><c> make</c><00:12:21.160><c> processing</c><00:12:21.760><c> large</c>
+
+00:12:22.069 --> 00:12:22.079 align:start position:0%
+basically what make processing large
+ 
+
+00:12:22.079 --> 00:12:24.350 align:start position:0%
+basically what make processing large
+amounts<00:12:22.399><c> of</c><00:12:22.639><c> data</c><00:12:23.279><c> easy</c><00:12:23.560><c> to</c><00:12:23.800><c> handle</c><00:12:24.120><c> and</c>
+
+00:12:24.350 --> 00:12:24.360 align:start position:0%
+amounts of data easy to handle and
+ 
+
+00:12:24.360 --> 00:12:26.509 align:start position:0%
+amounts of data easy to handle and
+process<00:12:24.880><c> without</c><00:12:25.720><c> compromising</c><00:12:26.360><c> the</c>
+
+00:12:26.509 --> 00:12:26.519 align:start position:0%
+process without compromising the
+ 
+
+00:12:26.519 --> 00:12:29.269 align:start position:0%
+process without compromising the
+performance<00:12:27.399><c> so</c><00:12:27.639><c> how</c><00:12:27.760><c> does</c><00:12:27.920><c> it</c><00:12:28.079><c> work</c><00:12:28.360><c> exactly</c>
+
+00:12:29.269 --> 00:12:29.279 align:start position:0%
+performance so how does it work exactly
+ 
+
+00:12:29.279 --> 00:12:32.069 align:start position:0%
+performance so how does it work exactly
+with<00:12:29.480><c> our</c><00:12:29.760><c> post</c><00:12:30.079><c> office</c><00:12:30.480><c> example</c><00:12:31.040><c> remember</c><00:12:31.880><c> we</c>
+
+00:12:32.069 --> 00:12:32.079 align:start position:0%
+with our post office example remember we
+ 
+
+00:12:32.079 --> 00:12:35.230 align:start position:0%
+with our post office example remember we
+edit<00:12:32.480><c> sections</c><00:12:33.240><c> for</c><00:12:33.680><c> letters</c><00:12:34.440><c> large</c><00:12:34.800><c> packages</c>
+
+00:12:35.230 --> 00:12:35.240 align:start position:0%
+edit sections for letters large packages
+ 
+
+00:12:35.240 --> 00:12:38.509 align:start position:0%
+edit sections for letters large packages
+small<00:12:35.600><c> packages</c><00:12:36.600><c> and</c><00:12:36.720><c> so</c><00:12:36.880><c> on</c><00:12:37.440><c> partitions</c><00:12:38.279><c> are</c>
+
+00:12:38.509 --> 00:12:38.519 align:start position:0%
+small packages and so on partitions are
+ 
+
+00:12:38.519 --> 00:12:42.030 align:start position:0%
+small packages and so on partitions are
+like<00:12:38.800><c> adding</c><00:12:39.480><c> more</c><00:12:40.040><c> workers</c><00:12:40.880><c> per</c><00:12:41.160><c> section</c><00:12:41.760><c> to</c>
+
+00:12:42.030 --> 00:12:42.040 align:start position:0%
+like adding more workers per section to
+ 
+
+00:12:42.040 --> 00:12:44.629 align:start position:0%
+like adding more workers per section to
+help<00:12:42.279><c> out</c><00:12:42.720><c> so</c><00:12:43.000><c> suddenly</c><00:12:43.480><c> Before</c><00:12:43.800><c> Christmas</c>
+
+00:12:44.629 --> 00:12:44.639 align:start position:0%
+help out so suddenly Before Christmas
+ 
+
+00:12:44.639 --> 00:12:46.990 align:start position:0%
+help out so suddenly Before Christmas
+the<00:12:45.160><c> letters</c><00:12:45.680><c> section</c><00:12:46.040><c> get</c><00:12:46.279><c> overloaded</c>
+
+00:12:46.990 --> 00:12:47.000 align:start position:0%
+the letters section get overloaded
+ 
+
+00:12:47.000 --> 00:12:49.389 align:start position:0%
+the letters section get overloaded
+because<00:12:47.440><c> everyone's</c><00:12:48.040><c> sending</c><00:12:48.480><c> letters</c><00:12:48.839><c> to</c>
+
+00:12:49.389 --> 00:12:49.399 align:start position:0%
+because everyone's sending letters to
+ 
+
+00:12:49.399 --> 00:12:52.269 align:start position:0%
+because everyone's sending letters to
+centa<00:12:50.399><c> well</c><00:12:50.680><c> sadly</c><00:12:51.199><c> that</c><00:12:51.320><c> doesn't</c><00:12:51.639><c> happen</c><00:12:52.040><c> but</c>
+
+00:12:52.269 --> 00:12:52.279 align:start position:0%
+centa well sadly that doesn't happen but
+ 
+
+00:12:52.279 --> 00:12:55.069 align:start position:0%
+centa well sadly that doesn't happen but
+if<00:12:52.399><c> it</c><00:12:52.600><c> did</c><00:12:53.399><c> we</c><00:12:53.560><c> would</c><00:12:53.800><c> add</c><00:12:54.120><c> more</c><00:12:54.360><c> workers</c><00:12:54.880><c> in</c>
+
+00:12:55.069 --> 00:12:55.079 align:start position:0%
+if it did we would add more workers in
+ 
+
+00:12:55.079 --> 00:12:57.750 align:start position:0%
+if it did we would add more workers in
+that<00:12:55.279><c> section</c><00:12:56.040><c> but</c><00:12:56.480><c> not</c><00:12:56.680><c> just</c><00:12:56.880><c> randomly</c>
+
+00:12:57.750 --> 00:12:57.760 align:start position:0%
+that section but not just randomly
+ 
+
+00:12:57.760 --> 00:13:00.470 align:start position:0%
+that section but not just randomly
+instead<00:12:58.160><c> you</c><00:12:58.360><c> say</c><00:12:58.839><c> an</c><00:12:59.360><c> processes</c><00:13:00.040><c> letters</c>
+
+00:13:00.470 --> 00:13:00.480 align:start position:0%
+instead you say an processes letters
+ 
+
+00:13:00.480 --> 00:13:03.509 align:start position:0%
+instead you say an processes letters
+going<00:13:00.760><c> to</c><00:13:01.320><c> Europe</c><00:13:02.240><c> Steve</c><00:13:02.600><c> handle's</c><00:13:03.079><c> letters</c>
+
+00:13:03.509 --> 00:13:03.519 align:start position:0%
+going to Europe Steve handle's letters
+ 
+
+00:13:03.519 --> 00:13:07.389 align:start position:0%
+going to Europe Steve handle's letters
+to<00:13:03.839><c> us</c><00:13:04.720><c> Jay</c><00:13:05.000><c> handle's</c><00:13:05.480><c> ones</c><00:13:05.880><c> to</c><00:13:06.360><c> Asia</c><00:13:07.000><c> and</c><00:13:07.240><c> so</c>
+
+00:13:07.389 --> 00:13:07.399 align:start position:0%
+to us Jay handle's ones to Asia and so
+ 
+
+00:13:07.399 --> 00:13:10.550 align:start position:0%
+to us Jay handle's ones to Asia and so
+on<00:13:08.000><c> same</c><00:13:08.240><c> way</c><00:13:08.440><c> in</c><00:13:08.639><c> Kafka</c><00:13:09.240><c> in</c><00:13:09.360><c> the</c><00:13:09.480><c> orders</c><00:13:09.920><c> topic</c>
+
+00:13:10.550 --> 00:13:10.560 align:start position:0%
+on same way in Kafka in the orders topic
+ 
+
+00:13:10.560 --> 00:13:14.269 align:start position:0%
+on same way in Kafka in the orders topic
+you<00:13:10.720><c> may</c><00:13:10.959><c> create</c><00:13:11.639><c> EU</c><00:13:12.079><c> orders</c><00:13:12.880><c> partition</c><00:13:13.880><c> us</c>
+
+00:13:14.269 --> 00:13:14.279 align:start position:0%
+you may create EU orders partition us
+ 
+
+00:13:14.279 --> 00:13:17.430 align:start position:0%
+you may create EU orders partition us
+orders<00:13:14.959><c> Asia</c><00:13:15.560><c> orders</c><00:13:16.320><c> and</c><00:13:16.480><c> so</c><00:13:16.639><c> on</c><00:13:17.040><c> and</c><00:13:17.199><c> again</c>
+
+00:13:17.430 --> 00:13:17.440 align:start position:0%
+orders Asia orders and so on and again
+ 
+
+00:13:17.440 --> 00:13:19.910 align:start position:0%
+orders Asia orders and so on and again
+you<00:13:17.560><c> would</c><00:13:17.800><c> decide</c><00:13:18.320><c> how</c><00:13:18.480><c> to</c><00:13:18.720><c> partition</c><00:13:19.519><c> your</c>
+
+00:13:19.910 --> 00:13:19.920 align:start position:0%
+you would decide how to partition your
+ 
+
+00:13:19.920 --> 00:13:23.350 align:start position:0%
+you would decide how to partition your
+topic<00:13:20.800><c> as</c><00:13:21.040><c> part</c><00:13:21.320><c> of</c><00:13:21.519><c> your</c><00:13:21.920><c> schema</c><00:13:22.440><c> design</c><00:13:23.160><c> now</c>
+
+00:13:23.350 --> 00:13:23.360 align:start position:0%
+topic as part of your schema design now
+ 
+
+00:13:23.360 --> 00:13:25.389 align:start position:0%
+topic as part of your schema design now
+let's<00:13:23.560><c> think</c><00:13:23.760><c> about</c><00:13:24.000><c> the</c><00:13:24.160><c> consumer</c><00:13:24.720><c> side</c>
+
+00:13:25.389 --> 00:13:25.399 align:start position:0%
+let's think about the consumer side
+ 
+
+00:13:25.399 --> 00:13:27.189 align:start position:0%
+let's think about the consumer side
+let's<00:13:25.600><c> say</c><00:13:25.800><c> suddenly</c><00:13:26.320><c> millions</c><00:13:26.680><c> of</c><00:13:26.839><c> orders</c>
+
+00:13:27.189 --> 00:13:27.199 align:start position:0%
+let's say suddenly millions of orders
+ 
+
+00:13:27.199 --> 00:13:29.230 align:start position:0%
+let's say suddenly millions of orders
+are<00:13:27.440><c> coming</c><00:13:27.720><c> in</c><00:13:28.360><c> and</c><00:13:28.519><c> we</c><00:13:28.639><c> said</c><00:13:28.839><c> we</c><00:13:28.959><c> can</c><00:13:29.120><c> can</c>
+
+00:13:29.230 --> 00:13:29.240 align:start position:0%
+are coming in and we said we can can
+ 
+
+00:13:29.240 --> 00:13:32.030 align:start position:0%
+are coming in and we said we can can
+scale<00:13:29.519><c> this</c><00:13:29.720><c> with</c><00:13:29.959><c> partitions</c><00:13:30.920><c> so</c><00:13:31.399><c> producers</c>
+
+00:13:32.030 --> 00:13:32.040 align:start position:0%
+scale this with partitions so producers
+ 
+
+00:13:32.040 --> 00:13:34.189 align:start position:0%
+scale this with partitions so producers
+can<00:13:32.240><c> write</c><00:13:32.519><c> into</c><00:13:32.880><c> multiple</c><00:13:33.440><c> partitions</c><00:13:34.079><c> at</c>
+
+00:13:34.189 --> 00:13:34.199 align:start position:0%
+can write into multiple partitions at
+ 
+
+00:13:34.199 --> 00:13:36.110 align:start position:0%
+can write into multiple partitions at
+the<00:13:34.320><c> same</c><00:13:34.600><c> time</c><00:13:35.199><c> but</c><00:13:35.360><c> what</c><00:13:35.519><c> about</c><00:13:35.760><c> the</c>
+
+00:13:36.110 --> 00:13:36.120 align:start position:0%
+the same time but what about the
+ 
+
+00:13:36.120 --> 00:13:38.910 align:start position:0%
+the same time but what about the
+consumers<00:13:37.120><c> how</c><00:13:37.320><c> can</c><00:13:37.480><c> they</c><00:13:37.639><c> consume</c><00:13:38.320><c> so</c><00:13:38.560><c> much</c>
+
+00:13:38.910 --> 00:13:38.920 align:start position:0%
+consumers how can they consume so much
+ 
+
+00:13:38.920 --> 00:13:41.389 align:start position:0%
+consumers how can they consume so much
+data<00:13:39.279><c> at</c><00:13:39.480><c> once</c><00:13:40.279><c> because</c><00:13:40.600><c> even</c><00:13:40.760><c> if</c><00:13:40.880><c> you</c><00:13:41.040><c> have</c>
+
+00:13:41.389 --> 00:13:41.399 align:start position:0%
+data at once because even if you have
+ 
+
+00:13:41.399 --> 00:13:44.509 align:start position:0%
+data at once because even if you have
+partitions<00:13:42.399><c> you'll</c><00:13:42.720><c> have</c><00:13:43.199><c> one</c><00:13:43.839><c> consumer</c>
+
+00:13:44.509 --> 00:13:44.519 align:start position:0%
+partitions you'll have one consumer
+ 
+
+00:13:44.519 --> 00:13:47.550 align:start position:0%
+partitions you'll have one consumer
+let's<00:13:44.720><c> say</c><00:13:45.360><c> inventory</c><00:13:45.920><c> service</c><00:13:46.839><c> trying</c><00:13:47.199><c> to</c>
+
+00:13:47.550 --> 00:13:47.560 align:start position:0%
+let's say inventory service trying to
+ 
+
+00:13:47.560 --> 00:13:49.949 align:start position:0%
+let's say inventory service trying to
+process<00:13:48.399><c> all</c><00:13:48.600><c> the</c><00:13:48.760><c> events</c><00:13:49.560><c> that</c><00:13:49.720><c> it's</c>
+
+00:13:49.949 --> 00:13:49.959 align:start position:0%
+process all the events that it's
+ 
+
+00:13:49.959 --> 00:13:52.350 align:start position:0%
+process all the events that it's
+subscribed<00:13:50.560><c> to</c><00:13:51.240><c> which</c><00:13:51.360><c> is</c><00:13:51.600><c> like</c><00:13:51.959><c> all</c><00:13:52.160><c> the</c>
+
+00:13:52.350 --> 00:13:52.360 align:start position:0%
+subscribed to which is like all the
+ 
+
+00:13:52.360 --> 00:13:55.990 align:start position:0%
+subscribed to which is like all the
+parcels<00:13:53.279><c> going</c><00:13:53.519><c> to</c><00:13:53.839><c> one</c><00:13:54.160><c> person</c><00:13:55.079><c> recipient</c>
+
+00:13:55.990 --> 00:13:56.000 align:start position:0%
+parcels going to one person recipient
+ 
+
+00:13:56.000 --> 00:13:59.150 align:start position:0%
+parcels going to one person recipient
+like<00:13:56.360><c> thousands</c><00:13:56.720><c> of</c><00:13:56.880><c> letters</c><00:13:57.279><c> going</c><00:13:57.480><c> to</c><00:13:58.079><c> Santa</c>
+
+00:13:59.150 --> 00:13:59.160 align:start position:0%
+like thousands of letters going to Santa
+ 
+
+00:13:59.160 --> 00:14:01.749 align:start position:0%
+like thousands of letters going to Santa
+those<00:13:59.839><c> post</c><00:14:00.160><c> office</c><00:14:00.440><c> workers</c><00:14:00.959><c> are</c><00:14:01.399><c> being</c>
+
+00:14:01.749 --> 00:14:01.759 align:start position:0%
+those post office workers are being
+ 
+
+00:14:01.759 --> 00:14:04.350 align:start position:0%
+those post office workers are being
+super<00:14:02.079><c> quick</c><00:14:02.440><c> and</c><00:14:02.680><c> are</c><00:14:02.880><c> delivering</c><00:14:03.440><c> them</c><00:14:04.040><c> to</c>
+
+00:14:04.350 --> 00:14:04.360 align:start position:0%
+super quick and are delivering them to
+ 
+
+00:14:04.360 --> 00:14:07.310 align:start position:0%
+super quick and are delivering them to
+the<00:14:04.560><c> recipient</c><00:14:05.480><c> but</c><00:14:05.639><c> he's</c><00:14:05.959><c> getting</c><00:14:06.600><c> buried</c>
+
+00:14:07.310 --> 00:14:07.320 align:start position:0%
+the recipient but he's getting buried
+ 
+
+00:14:07.320 --> 00:14:09.949 align:start position:0%
+the recipient but he's getting buried
+under<00:14:07.639><c> the</c><00:14:07.880><c> pile</c><00:14:08.720><c> but</c><00:14:08.920><c> we</c><00:14:09.040><c> need</c><00:14:09.240><c> some</c><00:14:09.440><c> people</c>
+
+00:14:09.949 --> 00:14:09.959 align:start position:0%
+under the pile but we need some people
+ 
+
+00:14:09.959 --> 00:14:12.590 align:start position:0%
+under the pile but we need some people
+helping<00:14:10.320><c> him</c><00:14:10.759><c> sort</c><00:14:11.199><c> through</c><00:14:11.519><c> this</c><00:14:12.160><c> and</c><00:14:12.399><c> that's</c>
+
+00:14:12.590 --> 00:14:12.600 align:start position:0%
+helping him sort through this and that's
+ 
+
+00:14:12.600 --> 00:14:14.710 align:start position:0%
+helping him sort through this and that's
+where<00:14:12.920><c> consumer</c><00:14:13.440><c> groups</c><00:14:13.800><c> come</c><00:14:13.959><c> in</c><00:14:14.440><c> so</c><00:14:14.600><c> when</c>
+
+00:14:14.710 --> 00:14:14.720 align:start position:0%
+where consumer groups come in so when
+ 
+
+00:14:14.720 --> 00:14:17.269 align:start position:0%
+where consumer groups come in so when
+you<00:14:14.839><c> start</c><00:14:15.279><c> additional</c><00:14:15.920><c> instances</c><00:14:16.759><c> of</c><00:14:16.959><c> that</c>
+
+00:14:17.269 --> 00:14:17.279 align:start position:0%
+you start additional instances of that
+ 
+
+00:14:17.279 --> 00:14:20.269 align:start position:0%
+you start additional instances of that
+microservice<00:14:18.279><c> like</c><00:14:18.560><c> replicas</c><00:14:19.079><c> in</c><00:14:19.279><c> kubernetes</c>
+
+00:14:20.269 --> 00:14:20.279 align:start position:0%
+microservice like replicas in kubernetes
+ 
+
+00:14:20.279 --> 00:14:23.310 align:start position:0%
+microservice like replicas in kubernetes
+they<00:14:20.440><c> can</c><00:14:20.680><c> all</c><00:14:21.000><c> consume</c><00:14:21.480><c> from</c><00:14:21.880><c> CFA</c><00:14:22.360><c> partitions</c>
+
+00:14:23.310 --> 00:14:23.320 align:start position:0%
+they can all consume from CFA partitions
+ 
+
+00:14:23.320 --> 00:14:26.670 align:start position:0%
+they can all consume from CFA partitions
+and<00:14:23.600><c> process</c><00:14:24.120><c> events</c><00:14:25.000><c> faster</c><00:14:25.560><c> in</c><00:14:25.800><c> parallel</c>
+
+00:14:26.670 --> 00:14:26.680 align:start position:0%
+and process events faster in parallel
+ 
+
+00:14:26.680 --> 00:14:29.230 align:start position:0%
+and process events faster in parallel
+now<00:14:27.079><c> how</c><00:14:27.240><c> does</c><00:14:27.480><c> Kafka</c><00:14:27.920><c> know</c><00:14:28.160><c> which</c><00:14:28.440><c> consumers</c>
+
+00:14:29.230 --> 00:14:29.240 align:start position:0%
+now how does Kafka know which consumers
+ 
+
+00:14:29.240 --> 00:14:32.749 align:start position:0%
+now how does Kafka know which consumers
+form<00:14:29.680><c> a</c><00:14:29.880><c> group</c><00:14:30.519><c> and</c><00:14:30.759><c> how</c><00:14:30.880><c> to</c><00:14:31.160><c> divide</c><00:14:32.160><c> and</c><00:14:32.600><c> which</c>
+
+00:14:32.749 --> 00:14:32.759 align:start position:0%
+form a group and how to divide and which
+ 
+
+00:14:32.759 --> 00:14:35.069 align:start position:0%
+form a group and how to divide and which
+ones<00:14:33.000><c> Belong</c><00:14:33.440><c> Together</c><00:14:34.160><c> simple</c><00:14:34.600><c> they</c><00:14:34.720><c> are</c>
+
+00:14:35.069 --> 00:14:35.079 align:start position:0%
+ones Belong Together simple they are
+ 
+
+00:14:35.079 --> 00:14:37.590 align:start position:0%
+ones Belong Together simple they are
+grouped<00:14:35.519><c> by</c><00:14:35.759><c> the</c><00:14:35.920><c> group</c><00:14:36.199><c> ID</c><00:14:36.480><c> attribute</c><00:14:37.360><c> when</c>
+
+00:14:37.590 --> 00:14:37.600 align:start position:0%
+grouped by the group ID attribute when
+ 
+
+00:14:37.600 --> 00:14:40.829 align:start position:0%
+grouped by the group ID attribute when
+they<00:14:37.839><c> register</c><00:14:38.480><c> as</c><00:14:38.680><c> consumers</c><00:14:39.519><c> with</c><00:14:39.759><c> kfka</c><00:14:40.600><c> so</c>
+
+00:14:40.829 --> 00:14:40.839 align:start position:0%
+they register as consumers with kfka so
+ 
+
+00:14:40.839 --> 00:14:42.430 align:start position:0%
+they register as consumers with kfka so
+replicas<00:14:41.279><c> of</c><00:14:41.399><c> the</c><00:14:41.560><c> same</c><00:14:41.759><c> application</c><00:14:42.240><c> will</c>
+
+00:14:42.430 --> 00:14:42.440 align:start position:0%
+replicas of the same application will
+ 
+
+00:14:42.440 --> 00:14:44.230 align:start position:0%
+replicas of the same application will
+have<00:14:42.600><c> the</c><00:14:42.720><c> same</c><00:14:42.920><c> group</c><00:14:43.160><c> IDs</c><00:14:43.880><c> and</c><00:14:44.040><c> will</c>
+
+00:14:44.230 --> 00:14:44.240 align:start position:0%
+have the same group IDs and will
+ 
+
+00:14:44.240 --> 00:14:46.790 align:start position:0%
+have the same group IDs and will
+automatically<00:14:44.759><c> be</c><00:14:44.920><c> grouped</c><00:14:45.560><c> together</c><00:14:46.320><c> and</c>
+
+00:14:46.790 --> 00:14:46.800 align:start position:0%
+automatically be grouped together and
+ 
+
+00:14:46.800 --> 00:14:49.749 align:start position:0%
+automatically be grouped together and
+when<00:14:46.959><c> you</c><00:14:47.079><c> start</c><00:14:47.880><c> replicas</c><00:14:48.880><c> Kafka</c>
+
+00:14:49.749 --> 00:14:49.759 align:start position:0%
+when you start replicas Kafka
+ 
+
+00:14:49.759 --> 00:14:52.310 align:start position:0%
+when you start replicas Kafka
+distributes<00:14:50.440><c> the</c><00:14:50.600><c> load</c><00:14:51.079><c> automatically</c><00:14:52.079><c> by</c>
+
+00:14:52.310 --> 00:14:52.320 align:start position:0%
+distributes the load automatically by
+ 
+
+00:14:52.320 --> 00:14:55.670 align:start position:0%
+distributes the load automatically by
+assigning<00:14:52.959><c> partitions</c><00:14:53.959><c> to</c><00:14:54.560><c> Consumers</c><00:14:55.440><c> so</c>
+
+00:14:55.670 --> 00:14:55.680 align:start position:0%
+assigning partitions to Consumers so
+ 
+
+00:14:55.680 --> 00:14:59.310 align:start position:0%
+assigning partitions to Consumers so
+kfka<00:14:56.079><c> says</c><00:14:56.600><c> oh</c><00:14:56.839><c> we</c><00:14:57.000><c> have</c><00:14:57.480><c> a</c><00:14:57.639><c> new</c><00:14:57.880><c> helper</c><00:14:58.720><c> now</c>
+
+00:14:59.310 --> 00:14:59.320 align:start position:0%
+kfka says oh we have a new helper now
+ 
+
+00:14:59.320 --> 00:15:01.670 align:start position:0%
+kfka says oh we have a new helper now
+you<00:14:59.440><c> can</c><00:14:59.720><c> process</c><00:15:00.560><c> this</c><00:15:00.800><c> pile</c><00:15:01.040><c> of</c><00:15:01.199><c> letters</c>
+
+00:15:01.670 --> 00:15:01.680 align:start position:0%
+you can process this pile of letters
+ 
+
+00:15:01.680 --> 00:15:04.550 align:start position:0%
+you can process this pile of letters
+here<00:15:02.399><c> and</c><00:15:02.639><c> when</c><00:15:02.880><c> that</c><00:15:03.040><c> helper</c><00:15:03.480><c> stops</c><00:15:03.839><c> working</c>
+
+00:15:04.550 --> 00:15:04.560 align:start position:0%
+here and when that helper stops working
+ 
+
+00:15:04.560 --> 00:15:06.189 align:start position:0%
+here and when that helper stops working
+it<00:15:04.639><c> will</c><00:15:04.839><c> take</c><00:15:05.040><c> the</c><00:15:05.240><c> pile</c><00:15:05.519><c> and</c><00:15:05.680><c> give</c><00:15:05.800><c> it</c><00:15:05.920><c> to</c>
+
+00:15:06.189 --> 00:15:06.199 align:start position:0%
+it will take the pile and give it to
+ 
+
+00:15:06.199 --> 00:15:08.790 align:start position:0%
+it will take the pile and give it to
+another<00:15:06.759><c> active</c><00:15:07.160><c> one</c><00:15:07.959><c> now</c><00:15:08.240><c> the</c><00:15:08.399><c> final</c>
+
+00:15:08.790 --> 00:15:08.800 align:start position:0%
+another active one now the final
+ 
+
+00:15:08.800 --> 00:15:11.790 align:start position:0%
+another active one now the final
+question<00:15:09.279><c> is</c><00:15:10.240><c> where</c><00:15:10.440><c> is</c><00:15:10.720><c> this</c><00:15:10.959><c> data</c>
+
+00:15:11.790 --> 00:15:11.800 align:start position:0%
+question is where is this data
+ 
+
+00:15:11.800 --> 00:15:15.069 align:start position:0%
+question is where is this data
+physically<00:15:12.399><c> saved</c><00:15:13.399><c> data</c><00:15:13.759><c> in</c><00:15:14.040><c> topics</c><00:15:14.560><c> is</c><00:15:14.680><c> saved</c>
+
+00:15:15.069 --> 00:15:15.079 align:start position:0%
+physically saved data in topics is saved
+ 
+
+00:15:15.079 --> 00:15:18.230 align:start position:0%
+physically saved data in topics is saved
+on<00:15:15.320><c> CFA</c><00:15:15.839><c> servers</c><00:15:16.720><c> called</c><00:15:17.120><c> Brokers</c><00:15:18.000><c> and</c><00:15:18.120><c> you</c>
+
+00:15:18.230 --> 00:15:18.240 align:start position:0%
+on CFA servers called Brokers and you
+ 
+
+00:15:18.240 --> 00:15:20.470 align:start position:0%
+on CFA servers called Brokers and you
+can<00:15:18.440><c> think</c><00:15:18.639><c> of</c><00:15:18.800><c> each</c><00:15:18.959><c> broker</c><00:15:19.560><c> like</c><00:15:19.720><c> a</c><00:15:20.120><c> post</c>
+
+00:15:20.470 --> 00:15:20.480 align:start position:0%
+can think of each broker like a post
+ 
+
+00:15:20.480 --> 00:15:23.670 align:start position:0%
+can think of each broker like a post
+office<00:15:21.000><c> branch</c><00:15:22.000><c> that</c><00:15:22.240><c> stores</c><00:15:23.120><c> the</c><00:15:23.320><c> actual</c>
+
+00:15:23.670 --> 00:15:23.680 align:start position:0%
+office branch that stores the actual
+ 
+
+00:15:23.680 --> 00:15:27.069 align:start position:0%
+office branch that stores the actual
+messages<00:15:24.440><c> on</c><00:15:24.800><c> disk</c><00:15:25.680><c> handles</c><00:15:26.240><c> requests</c><00:15:26.800><c> from</c>
+
+00:15:27.069 --> 00:15:27.079 align:start position:0%
+messages on disk handles requests from
+ 
+
+00:15:27.079 --> 00:15:29.710 align:start position:0%
+messages on disk handles requests from
+producers<00:15:27.720><c> and</c><00:15:27.920><c> consumers</c><00:15:28.800><c> and</c><00:15:29.120><c> replicates</c>
+
+00:15:29.710 --> 00:15:29.720 align:start position:0%
+producers and consumers and replicates
+ 
+
+00:15:29.720 --> 00:15:32.509 align:start position:0%
+producers and consumers and replicates
+the<00:15:29.920><c> data</c><00:15:30.360><c> for</c><00:15:30.759><c> fault</c><00:15:31.199><c> tolerance</c><00:15:32.160><c> even</c><00:15:32.360><c> if</c>
+
+00:15:32.509 --> 00:15:32.519 align:start position:0%
+the data for fault tolerance even if
+ 
+
+00:15:32.519 --> 00:15:34.389 align:start position:0%
+the data for fault tolerance even if
+something<00:15:32.839><c> happens</c><00:15:33.160><c> with</c><00:15:33.319><c> the</c><00:15:33.440><c> dis</c><00:15:33.880><c> the</c><00:15:34.079><c> data</c>
+
+00:15:34.389 --> 00:15:34.399 align:start position:0%
+something happens with the dis the data
+ 
+
+00:15:34.399 --> 00:15:37.509 align:start position:0%
+something happens with the dis the data
+is<00:15:34.519><c> stored</c><00:15:34.920><c> somewhere</c><00:15:35.600><c> else</c><00:15:36.240><c> as</c><00:15:36.319><c> a</c><00:15:36.480><c> backup</c><00:15:37.360><c> and</c>
+
+00:15:37.509 --> 00:15:37.519 align:start position:0%
+is stored somewhere else as a backup and
+ 
+
+00:15:37.519 --> 00:15:40.110 align:start position:0%
+is stored somewhere else as a backup and
+this<00:15:37.639><c> is</c><00:15:37.800><c> actually</c><00:15:38.199><c> what</c><00:15:38.519><c> makes</c><00:15:39.120><c> Kafka</c>
+
+00:15:40.110 --> 00:15:40.120 align:start position:0%
+this is actually what makes Kafka
+ 
+
+00:15:40.120 --> 00:15:44.030 align:start position:0%
+this is actually what makes Kafka
+different<00:15:40.920><c> from</c><00:15:41.880><c> standard</c><00:15:42.639><c> message</c><00:15:43.040><c> Brokers</c>
+
+00:15:44.030 --> 00:15:44.040 align:start position:0%
+different from standard message Brokers
+ 
+
+00:15:44.040 --> 00:15:46.389 align:start position:0%
+different from standard message Brokers
+so<00:15:44.240><c> while</c><00:15:44.560><c> regular</c><00:15:45.040><c> message</c><00:15:45.399><c> cues</c><00:15:46.000><c> would</c>
+
+00:15:46.389 --> 00:15:46.399 align:start position:0%
+so while regular message cues would
+ 
+
+00:15:46.399 --> 00:15:49.590 align:start position:0%
+so while regular message cues would
+delete<00:15:46.880><c> messages</c><00:15:47.600><c> after</c><00:15:48.319><c> consumption</c><00:15:49.240><c> so</c><00:15:49.480><c> as</c>
+
+00:15:49.590 --> 00:15:49.600 align:start position:0%
+delete messages after consumption so as
+ 
+
+00:15:49.600 --> 00:15:52.670 align:start position:0%
+delete messages after consumption so as
+soon<00:15:49.800><c> as</c><00:15:50.199><c> consumers</c><00:15:50.880><c> see</c><00:15:51.240><c> that</c><00:15:51.440><c> message</c><00:15:52.160><c> and</c>
+
+00:15:52.670 --> 00:15:52.680 align:start position:0%
+soon as consumers see that message and
+ 
+
+00:15:52.680 --> 00:15:54.110 align:start position:0%
+soon as consumers see that message and
+do<00:15:52.959><c> something</c><00:15:53.240><c> with</c><00:15:53.360><c> it</c><00:15:53.560><c> that</c><00:15:53.720><c> message</c><00:15:54.000><c> is</c>
+
+00:15:54.110 --> 00:15:54.120 align:start position:0%
+do something with it that message is
+ 
+
+00:15:54.120 --> 00:15:57.550 align:start position:0%
+do something with it that message is
+gone<00:15:54.880><c> kavka</c><00:15:55.480><c> however</c><00:15:55.880><c> persists</c><00:15:56.680><c> every</c><00:15:57.000><c> event</c>
+
+00:15:57.550 --> 00:15:57.560 align:start position:0%
+gone kavka however persists every event
+ 
+
+00:15:57.560 --> 00:15:59.590 align:start position:0%
+gone kavka however persists every event
+or<00:15:57.800><c> message</c><00:15:58.440><c> as</c><00:15:58.560><c> long</c><00:15:58.720><c> as</c><00:15:59.000><c> you</c><00:15:59.120><c> need</c><00:15:59.399><c> and</c><00:15:59.519><c> you</c>
+
+00:15:59.590 --> 00:15:59.600 align:start position:0%
+or message as long as you need and you
+ 
+
+00:15:59.600 --> 00:16:01.430 align:start position:0%
+or message as long as you need and you
+can<00:15:59.839><c> configure</c><00:16:00.360><c> how</c><00:16:00.560><c> long</c><00:16:00.800><c> you</c><00:16:00.920><c> want</c><00:16:01.040><c> to</c><00:16:01.160><c> store</c>
+
+00:16:01.430 --> 00:16:01.440 align:start position:0%
+can configure how long you want to store
+ 
+
+00:16:01.440 --> 00:16:03.749 align:start position:0%
+can configure how long you want to store
+them<00:16:01.600><c> with</c><00:16:01.720><c> a</c><00:16:01.959><c> retention</c><00:16:02.440><c> policy</c><00:16:03.240><c> so</c><00:16:03.480><c> think</c><00:16:03.639><c> of</c>
+
+00:16:03.749 --> 00:16:03.759 align:start position:0%
+them with a retention policy so think of
+ 
+
+00:16:03.759 --> 00:16:07.230 align:start position:0%
+them with a retention policy so think of
+it<00:16:04.079><c> like</c><00:16:04.279><c> our</c><00:16:04.680><c> post</c><00:16:05.040><c> office</c><00:16:05.680><c> keeping</c><00:16:06.160><c> a</c><00:16:06.360><c> log</c><00:16:07.000><c> of</c>
+
+00:16:07.230 --> 00:16:07.240 align:start position:0%
+it like our post office keeping a log of
+ 
+
+00:16:07.240 --> 00:16:10.350 align:start position:0%
+it like our post office keeping a log of
+all<00:16:07.600><c> package</c><00:16:08.079><c> deliveries</c><00:16:09.000><c> but</c><00:16:09.199><c> not</c><00:16:09.480><c> just</c><00:16:09.720><c> for</c>
+
+00:16:10.350 --> 00:16:10.360 align:start position:0%
+all package deliveries but not just for
+ 
+
+00:16:10.360 --> 00:16:12.670 align:start position:0%
+all package deliveries but not just for
+record<00:16:10.959><c> keeping</c><00:16:11.480><c> but</c><00:16:11.639><c> for</c><00:16:12.040><c> analyzing</c>
+
+00:16:12.670 --> 00:16:12.680 align:start position:0%
+record keeping but for analyzing
+ 
+
+00:16:12.680 --> 00:16:15.430 align:start position:0%
+record keeping but for analyzing
+patterns<00:16:13.319><c> and</c><00:16:13.759><c> improving</c><00:16:14.199><c> service</c><00:16:15.040><c> so</c><00:16:15.240><c> that</c>
+
+00:16:15.430 --> 00:16:15.440 align:start position:0%
+patterns and improving service so that
+ 
+
+00:16:15.440 --> 00:16:17.790 align:start position:0%
+patterns and improving service so that
+unique<00:16:15.800><c> feature</c><00:16:16.160><c> of</c><00:16:16.399><c> kfka</c><00:16:16.959><c> for</c><00:16:17.279><c> real-time</c>
+
+00:16:17.790 --> 00:16:17.800 align:start position:0%
+unique feature of kfka for real-time
+ 
+
+00:16:17.800 --> 00:16:19.910 align:start position:0%
+unique feature of kfka for real-time
+data<00:16:18.120><c> processing</c><00:16:18.839><c> and</c><00:16:19.040><c> general</c><00:16:19.440><c> analytics</c>
+
+00:16:19.910 --> 00:16:19.920 align:start position:0%
+data processing and general analytics
+ 
+
+00:16:19.920 --> 00:16:22.430 align:start position:0%
+data processing and general analytics
+means<00:16:20.240><c> that</c><00:16:20.720><c> kfka</c><00:16:21.120><c> needs</c><00:16:21.319><c> to</c><00:16:21.600><c> store</c><00:16:22.240><c> those</c>
+
+00:16:22.430 --> 00:16:22.440 align:start position:0%
+means that kfka needs to store those
+ 
+
+00:16:22.440 --> 00:16:25.550 align:start position:0%
+means that kfka needs to store those
+events<00:16:22.959><c> long-term</c><00:16:23.880><c> so</c><00:16:24.319><c> the</c><00:16:24.480><c> consumers</c><00:16:25.360><c> can</c>
+
+00:16:25.550 --> 00:16:25.560 align:start position:0%
+events long-term so the consumers can
+ 
+
+00:16:25.560 --> 00:16:28.590 align:start position:0%
+events long-term so the consumers can
+read<00:16:26.160><c> those</c><00:16:26.440><c> events</c><00:16:27.000><c> anytime</c><00:16:27.600><c> they</c><00:16:27.759><c> want</c><00:16:28.360><c> even</c>
+
+00:16:28.590 --> 00:16:28.600 align:start position:0%
+read those events anytime they want even
+ 
+
+00:16:28.600 --> 00:16:30.829 align:start position:0%
+read those events anytime they want even
+multi<00:16:28.920><c> multiple</c><00:16:29.240><c> times</c><00:16:29.519><c> if</c><00:16:29.639><c> they</c><00:16:29.759><c> need</c><00:16:29.920><c> to</c><00:16:30.639><c> and</c>
+
+00:16:30.829 --> 00:16:30.839 align:start position:0%
+multi multiple times if they need to and
+ 
+
+00:16:30.839 --> 00:16:32.670 align:start position:0%
+multi multiple times if they need to and
+as<00:16:30.920><c> I</c><00:16:31.079><c> said</c><00:16:31.279><c> this</c><00:16:31.480><c> capability</c><00:16:32.040><c> to</c><00:16:32.279><c> process</c>
+
+00:16:32.670 --> 00:16:32.680 align:start position:0%
+as I said this capability to process
+ 
+
+00:16:32.680 --> 00:16:35.269 align:start position:0%
+as I said this capability to process
+streams<00:16:33.120><c> of</c><00:16:33.360><c> data</c><00:16:33.680><c> in</c><00:16:33.880><c> real</c><00:16:34.199><c> time</c><00:16:34.959><c> while</c>
+
+00:16:35.269 --> 00:16:35.279 align:start position:0%
+streams of data in real time while
+ 
+
+00:16:35.279 --> 00:16:37.389 align:start position:0%
+streams of data in real time while
+keeping<00:16:35.600><c> the</c><00:16:35.800><c> original</c><00:16:36.279><c> data</c><00:16:36.519><c> for</c><00:16:36.920><c> later</c>
+
+00:16:37.389 --> 00:16:37.399 align:start position:0%
+keeping the original data for later
+ 
+
+00:16:37.399 --> 00:16:41.110 align:start position:0%
+keeping the original data for later
+analysis<00:16:38.399><c> is</c><00:16:39.120><c> what</c><00:16:39.600><c> really</c><00:16:40.120><c> differentiates</c>
+
+00:16:41.110 --> 00:16:41.120 align:start position:0%
+analysis is what really differentiates
+ 
+
+00:16:41.120 --> 00:16:44.350 align:start position:0%
+analysis is what really differentiates
+Kafka<00:16:41.920><c> from</c><00:16:42.319><c> simple</c><00:16:42.720><c> message</c><00:16:43.040><c> Brokers</c><00:16:44.040><c> so</c>
+
+00:16:44.350 --> 00:16:44.360 align:start position:0%
+Kafka from simple message Brokers so
+ 
+
+00:16:44.360 --> 00:16:46.670 align:start position:0%
+Kafka from simple message Brokers so
+that's<00:16:44.560><c> the</c><00:16:44.680><c> main</c><00:16:45.040><c> difference</c><00:16:45.880><c> and</c><00:16:46.000><c> for</c><00:16:46.279><c> even</c>
+
+00:16:46.670 --> 00:16:46.680 align:start position:0%
+that's the main difference and for even
+ 
+
+00:16:46.680 --> 00:16:50.550 align:start position:0%
+that's the main difference and for even
+clearer<00:16:47.639><c> comparison</c><00:16:48.639><c> think</c><00:16:48.880><c> of</c><00:16:49.160><c> this</c><00:16:49.800><c> as</c>
+
+00:16:50.550 --> 00:16:50.560 align:start position:0%
+clearer comparison think of this as
+ 
+
+00:16:50.560 --> 00:16:53.189 align:start position:0%
+clearer comparison think of this as
+difference<00:16:51.079><c> between</c><00:16:51.480><c> watching</c><00:16:52.199><c> Netflix</c><00:16:53.040><c> and</c>
+
+00:16:53.189 --> 00:16:53.199 align:start position:0%
+difference between watching Netflix and
+ 
+
+00:16:53.199 --> 00:16:56.550 align:start position:0%
+difference between watching Netflix and
+watching<00:16:53.560><c> TV</c><00:16:54.440><c> Netflix</c><00:16:54.959><c> is</c><00:16:55.120><c> on</c><00:16:55.360><c> demand</c><00:16:56.199><c> so</c>
+
+00:16:56.550 --> 00:16:56.560 align:start position:0%
+watching TV Netflix is on demand so
+ 
+
+00:16:56.560 --> 00:16:59.430 align:start position:0%
+watching TV Netflix is on demand so
+consumers<00:16:57.360><c> or</c><00:16:57.680><c> people</c><00:16:57.920><c> who</c><00:16:58.079><c> are</c><00:16:58.240><c> the</c><00:16:58.360><c> viewers</c>
+
+00:16:59.430 --> 00:16:59.440 align:start position:0%
+consumers or people who are the viewers
+ 
+
+00:16:59.440 --> 00:17:02.150 align:start position:0%
+consumers or people who are the viewers
+can<00:16:59.880><c> decide</c><00:17:00.480><c> themselves</c><00:17:01.399><c> what</c><00:17:01.600><c> they</c><00:17:01.720><c> want</c><00:17:01.880><c> to</c>
+
+00:17:02.150 --> 00:17:02.160 align:start position:0%
+can decide themselves what they want to
+ 
+
+00:17:02.160 --> 00:17:04.870 align:start position:0%
+can decide themselves what they want to
+watch<00:17:02.880><c> when</c><00:17:03.120><c> they</c><00:17:03.240><c> want</c><00:17:03.399><c> to</c><00:17:03.600><c> watch</c><00:17:03.759><c> it</c><00:17:04.360><c> and</c><00:17:04.640><c> at</c>
+
+00:17:04.870 --> 00:17:04.880 align:start position:0%
+watch when they want to watch it and at
+ 
+
+00:17:04.880 --> 00:17:07.390 align:start position:0%
+watch when they want to watch it and at
+what<00:17:05.120><c> pace</c><00:17:05.880><c> so</c><00:17:06.120><c> they</c><00:17:06.240><c> can</c><00:17:06.439><c> stop</c><00:17:06.760><c> and</c><00:17:06.959><c> pause</c>
+
+00:17:07.390 --> 00:17:07.400 align:start position:0%
+what pace so they can stop and pause
+ 
+
+00:17:07.400 --> 00:17:10.230 align:start position:0%
+what pace so they can stop and pause
+anytime<00:17:08.400><c> and</c><00:17:08.679><c> continue</c><00:17:09.120><c> whenever</c><00:17:09.520><c> they</c><00:17:09.640><c> want</c>
+
+00:17:10.230 --> 00:17:10.240 align:start position:0%
+anytime and continue whenever they want
+ 
+
+00:17:10.240 --> 00:17:12.710 align:start position:0%
+anytime and continue whenever they want
+or<00:17:10.400><c> they</c><00:17:10.520><c> can</c><00:17:10.720><c> replay</c><00:17:11.679><c> or</c><00:17:12.039><c> start</c><00:17:12.319><c> from</c><00:17:12.480><c> the</c>
+
+00:17:12.710 --> 00:17:12.720 align:start position:0%
+or they can replay or start from the
+ 
+
+00:17:12.720 --> 00:17:16.069 align:start position:0%
+or they can replay or start from the
+beginning<00:17:13.720><c> with</c><00:17:14.079><c> TV</c><00:17:14.959><c> you</c><00:17:15.120><c> have</c><00:17:15.439><c> predefined</c>
+
+00:17:16.069 --> 00:17:16.079 align:start position:0%
+beginning with TV you have predefined
+ 
+
+00:17:16.079 --> 00:17:18.789 align:start position:0%
+beginning with TV you have predefined
+programs<00:17:16.959><c> and</c><00:17:17.319><c> people</c><00:17:18.079><c> who</c><00:17:18.240><c> want</c><00:17:18.360><c> to</c><00:17:18.520><c> view</c>
+
+00:17:18.789 --> 00:17:18.799 align:start position:0%
+programs and people who want to view
+ 
+
+00:17:18.799 --> 00:17:21.230 align:start position:0%
+programs and people who want to view
+those<00:17:19.039><c> programs</c><00:17:19.760><c> need</c><00:17:19.959><c> to</c><00:17:20.240><c> tune</c><00:17:20.559><c> in</c><00:17:20.880><c> at</c>
+
+00:17:21.230 --> 00:17:21.240 align:start position:0%
+those programs need to tune in at
+ 
+
+00:17:21.240 --> 00:17:24.789 align:start position:0%
+those programs need to tune in at
+specific<00:17:21.760><c> time</c><00:17:22.360><c> to</c><00:17:22.640><c> watch</c><00:17:23.240><c> specific</c><00:17:23.720><c> stuff</c><00:17:24.480><c> so</c>
+
+00:17:24.789 --> 00:17:24.799 align:start position:0%
+specific time to watch specific stuff so
+ 
+
+00:17:24.799 --> 00:17:26.870 align:start position:0%
+specific time to watch specific stuff so
+everyone<00:17:25.199><c> watches</c><00:17:25.880><c> the</c><00:17:26.039><c> same</c><00:17:26.280><c> thing</c><00:17:26.640><c> at</c><00:17:26.760><c> the</c>
+
+00:17:26.870 --> 00:17:26.880 align:start position:0%
+everyone watches the same thing at the
+ 
+
+00:17:26.880 --> 00:17:28.950 align:start position:0%
+everyone watches the same thing at the
+same<00:17:27.120><c> time</c><00:17:27.559><c> at</c><00:17:27.760><c> the</c><00:17:27.880><c> same</c><00:17:28.160><c> Pace</c><00:17:28.400><c> you</c><00:17:28.520><c> can't</c>
+
+00:17:28.950 --> 00:17:28.960 align:start position:0%
+same time at the same Pace you can't
+ 
+
+00:17:28.960 --> 00:17:31.830 align:start position:0%
+same time at the same Pace you can't
+pause<00:17:29.840><c> and</c><00:17:30.280><c> continue</c><00:17:30.720><c> later</c><00:17:31.200><c> if</c><00:17:31.320><c> you</c><00:17:31.480><c> miss</c><00:17:31.679><c> a</c>
+
+00:17:31.830 --> 00:17:31.840 align:start position:0%
+pause and continue later if you miss a
+ 
+
+00:17:31.840 --> 00:17:33.870 align:start position:0%
+pause and continue later if you miss a
+movie<00:17:32.080><c> or</c><00:17:32.240><c> show</c><00:17:32.600><c> you</c><00:17:32.720><c> just</c><00:17:32.880><c> miss</c><00:17:33.080><c> it</c><00:17:33.600><c> and</c><00:17:33.720><c> it's</c>
+
+00:17:33.870 --> 00:17:33.880 align:start position:0%
+movie or show you just miss it and it's
+ 
+
+00:17:33.880 --> 00:17:36.510 align:start position:0%
+movie or show you just miss it and it's
+not<00:17:34.120><c> automatically</c><00:17:34.720><c> saved</c><00:17:35.240><c> to</c><00:17:35.520><c> watch</c><00:17:35.799><c> later</c>
+
+00:17:36.510 --> 00:17:36.520 align:start position:0%
+not automatically saved to watch later
+ 
+
+00:17:36.520 --> 00:17:38.230 align:start position:0%
+not automatically saved to watch later
+and<00:17:36.720><c> that's</c><00:17:37.000><c> exactly</c><00:17:37.440><c> the</c><00:17:37.600><c> difference</c>
+
+00:17:38.230 --> 00:17:38.240 align:start position:0%
+and that's exactly the difference
+ 
+
+00:17:38.240 --> 00:17:41.630 align:start position:0%
+and that's exactly the difference
+between<00:17:38.799><c> Kafka</c><00:17:39.559><c> architecture</c><00:17:40.440><c> versus</c><00:17:41.120><c> other</c>
+
+00:17:41.630 --> 00:17:41.640 align:start position:0%
+between Kafka architecture versus other
+ 
+
+00:17:41.640 --> 00:17:44.070 align:start position:0%
+between Kafka architecture versus other
+traditional<00:17:42.080><c> message</c><00:17:42.400><c> Brokers</c><00:17:43.280><c> and</c><00:17:43.480><c> finally</c>
+
+00:17:44.070 --> 00:17:44.080 align:start position:0%
+traditional message Brokers and finally
+ 
+
+00:17:44.080 --> 00:17:47.390 align:start position:0%
+traditional message Brokers and finally
+Kafka<00:17:44.520><c> needs</c><00:17:44.799><c> a</c><00:17:45.000><c> way</c><00:17:45.360><c> to</c><00:17:45.960><c> keep</c><00:17:46.200><c> track</c><00:17:46.600><c> of</c><00:17:47.160><c> which</c>
+
+00:17:47.390 --> 00:17:47.400 align:start position:0%
+Kafka needs a way to keep track of which
+ 
+
+00:17:47.400 --> 00:17:49.909 align:start position:0%
+Kafka needs a way to keep track of which
+Brokers<00:17:47.840><c> are</c><00:17:48.080><c> alive</c><00:17:48.559><c> elect</c><00:17:48.919><c> leaders</c><00:17:49.559><c> to</c>
+
+00:17:49.909 --> 00:17:49.919 align:start position:0%
+Brokers are alive elect leaders to
+ 
+
+00:17:49.919 --> 00:17:52.390 align:start position:0%
+Brokers are alive elect leaders to
+coordinate<00:17:50.840><c> manage</c><00:17:51.200><c> all</c><00:17:51.360><c> the</c><00:17:51.480><c> configuration</c>
+
+00:17:52.390 --> 00:17:52.400 align:start position:0%
+coordinate manage all the configuration
+ 
+
+00:17:52.400 --> 00:17:54.870 align:start position:0%
+coordinate manage all the configuration
+and<00:17:52.520><c> traditionally</c><00:17:53.400><c> Kafka</c><00:17:53.840><c> used</c><00:17:54.320><c> an</c><00:17:54.480><c> external</c>
+
+00:17:54.870 --> 00:17:54.880 align:start position:0%
+and traditionally Kafka used an external
+ 
+
+00:17:54.880 --> 00:17:57.950 align:start position:0%
+and traditionally Kafka used an external
+tool<00:17:55.280><c> called</c><00:17:55.840><c> zookeeper</c><00:17:56.840><c> for</c><00:17:57.440><c> this</c><00:17:57.640><c> type</c><00:17:57.840><c> of</c>
+
+00:17:57.950 --> 00:17:57.960 align:start position:0%
+tool called zookeeper for this type of
+ 
+
+00:17:57.960 --> 00:18:00.470 align:start position:0%
+tool called zookeeper for this type of
+coordination<00:17:58.880><c> so</c><00:17:59.039><c> it</c><00:17:59.120><c> was</c><00:17:59.280><c> like</c><00:17:59.400><c> a</c><00:17:59.559><c> central</c>
+
+00:18:00.470 --> 00:18:00.480 align:start position:0%
+coordination so it was like a central
+ 
+
+00:18:00.480 --> 00:18:03.750 align:start position:0%
+coordination so it was like a central
+management<00:18:01.320><c> for</c><00:18:01.640><c> all</c><00:18:01.880><c> the</c><00:18:02.320><c> Kafka</c><00:18:02.760><c> Brokers</c>
+
+00:18:03.750 --> 00:18:03.760 align:start position:0%
+management for all the Kafka Brokers
+ 
+
+00:18:03.760 --> 00:18:06.110 align:start position:0%
+management for all the Kafka Brokers
+however<00:18:04.080><c> important</c><00:18:04.440><c> to</c><00:18:04.600><c> note</c><00:18:05.080><c> that</c><00:18:05.280><c> the</c><00:18:05.440><c> newer</c>
+
+00:18:06.110 --> 00:18:06.120 align:start position:0%
+however important to note that the newer
+ 
+
+00:18:06.120 --> 00:18:09.310 align:start position:0%
+however important to note that the newer
+versions<00:18:06.559><c> of</c><00:18:06.840><c> Kafka</c><00:18:07.600><c> from</c><00:18:07.840><c> version</c><00:18:08.320><c> 3.0</c>
+
+00:18:09.310 --> 00:18:09.320 align:start position:0%
+versions of Kafka from version 3.0
+ 
+
+00:18:09.320 --> 00:18:12.750 align:start position:0%
+versions of Kafka from version 3.0
+introduced<00:18:10.320><c> K</c><00:18:10.640><c> raft</c><00:18:11.080><c> or</c><00:18:11.400><c> Kafka</c><00:18:11.840><c> raft</c><00:18:12.559><c> which</c>
+
+00:18:12.750 --> 00:18:12.760 align:start position:0%
+introduced K raft or Kafka raft which
+ 
+
+00:18:12.760 --> 00:18:15.590 align:start position:0%
+introduced K raft or Kafka raft which
+removes<00:18:13.240><c> the</c><00:18:13.400><c> need</c><00:18:13.679><c> for</c><00:18:14.080><c> zookeeper</c><00:18:15.080><c> as</c><00:18:15.320><c> this</c>
+
+00:18:15.590 --> 00:18:15.600 align:start position:0%
+removes the need for zookeeper as this
+ 
+
+00:18:15.600 --> 00:18:18.110 align:start position:0%
+removes the need for zookeeper as this
+external<00:18:16.039><c> dependency</c><00:18:16.960><c> with</c><00:18:17.440><c> centralized</c>
+
+00:18:18.110 --> 00:18:18.120 align:start position:0%
+external dependency with centralized
+ 
+
+00:18:18.120 --> 00:18:20.789 align:start position:0%
+external dependency with centralized
+control<00:18:18.880><c> by</c><00:18:19.159><c> building</c><00:18:19.720><c> that</c><00:18:20.000><c> coordination</c>
+
+00:18:20.789 --> 00:18:20.799 align:start position:0%
+control by building that coordination
+ 
+
+00:18:20.799 --> 00:18:23.549 align:start position:0%
+control by building that coordination
+directly<00:18:21.360><c> into</c><00:18:21.799><c> Kafka</c><00:18:22.600><c> now</c><00:18:22.840><c> I</c><00:18:23.000><c> hope</c><00:18:23.159><c> I</c><00:18:23.280><c> made</c>
+
+00:18:23.549 --> 00:18:23.559 align:start position:0%
+directly into Kafka now I hope I made
+ 
+
+00:18:23.559 --> 00:18:26.310 align:start position:0%
+directly into Kafka now I hope I made
+Kafka<00:18:24.200><c> finally</c><00:18:24.840><c> clear</c><00:18:25.159><c> for</c><00:18:25.360><c> you</c><00:18:25.799><c> share</c><00:18:26.120><c> it</c>
+
+00:18:26.310 --> 00:18:26.320 align:start position:0%
+Kafka finally clear for you share it
+ 
+
+00:18:26.320 --> 00:18:28.149 align:start position:0%
+Kafka finally clear for you share it
+with<00:18:26.559><c> one</c><00:18:26.880><c> colleague</c><00:18:27.360><c> who</c><00:18:27.559><c> you</c><00:18:27.720><c> think</c><00:18:27.919><c> will</c>
+
+00:18:28.149 --> 00:18:28.159 align:start position:0%
+with one colleague who you think will
+ 
+
+00:18:28.159 --> 00:18:30.270 align:start position:0%
+with one colleague who you think will
+benefit<00:18:28.480><c> from</c><00:18:28.640><c> it</c><00:18:29.080><c> and</c><00:18:29.240><c> with</c><00:18:29.400><c> that</c><00:18:29.840><c> thanks</c><00:18:30.080><c> for</c>
+
+00:18:30.270 --> 00:18:30.280 align:start position:0%
+benefit from it and with that thanks for
+ 
+
+00:18:30.280 --> 00:18:34.480 align:start position:0%
+benefit from it and with that thanks for
+watching<00:18:30.760><c> and</c><00:18:30.960><c> see</c><00:18:31.159><c> you</c><00:18:31.440><c> in</c><00:18:31.520><c> the</c><00:18:31.720><c> next</c><00:18:31.960><c> video</c>
+

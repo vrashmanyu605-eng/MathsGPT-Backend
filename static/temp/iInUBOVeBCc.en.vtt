@@ -1,0 +1,2680 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:02.750 align:start position:0%
+ 
+by<00:00:00.520><c> the</c><00:00:00.680><c> end</c><00:00:00.919><c> of</c><00:00:01.120><c> this</c><00:00:01.400><c> video</c><00:00:01.959><c> you</c><00:00:02.120><c> will</c><00:00:02.320><c> know</c>
+
+00:00:02.750 --> 00:00:02.760 align:start position:0%
+by the end of this video you will know
+ 
+
+00:00:02.760 --> 00:00:06.030 align:start position:0%
+by the end of this video you will know
+not<00:00:02.960><c> only</c><00:00:03.320><c> what</c><00:00:03.520><c> enginex</c><00:00:04.240><c> is</c><00:00:04.839><c> but</c><00:00:05.120><c> also</c><00:00:05.640><c> why</c><00:00:05.879><c> it</c>
+
+00:00:06.030 --> 00:00:06.040 align:start position:0%
+not only what enginex is but also why it
+ 
+
+00:00:06.040 --> 00:00:09.230 align:start position:0%
+not only what enginex is but also why it
+was<00:00:06.279><c> created</c><00:00:07.000><c> and</c><00:00:07.600><c> what</c><00:00:07.759><c> it's</c><00:00:08.080><c> used</c><00:00:08.440><c> for</c><00:00:08.920><c> with</c>
+
+00:00:09.230 --> 00:00:09.240 align:start position:0%
+was created and what it's used for with
+ 
+
+00:00:09.240 --> 00:00:12.150 align:start position:0%
+was created and what it's used for with
+real<00:00:09.599><c> life</c><00:00:10.080><c> examples</c><00:00:11.080><c> back</c><00:00:11.280><c> in</c><00:00:11.400><c> the</c><00:00:11.599><c> day</c><00:00:11.960><c> when</c>
+
+00:00:12.150 --> 00:00:12.160 align:start position:0%
+real life examples back in the day when
+ 
+
+00:00:12.160 --> 00:00:15.430 align:start position:0%
+real life examples back in the day when
+the<00:00:12.320><c> web</c><00:00:12.639><c> was</c><00:00:13.040><c> still</c><00:00:13.440><c> simple</c><00:00:14.080><c> with</c><00:00:14.320><c> less</c><00:00:14.639><c> users</c>
+
+00:00:15.430 --> 00:00:15.440 align:start position:0%
+the web was still simple with less users
+ 
+
+00:00:15.440 --> 00:00:17.630 align:start position:0%
+the web was still simple with less users
+the<00:00:15.599><c> basic</c><00:00:16.000><c> use</c><00:00:16.359><c> case</c><00:00:16.600><c> was</c><00:00:17.039><c> a</c><00:00:17.240><c> browser</c>
+
+00:00:17.630 --> 00:00:17.640 align:start position:0%
+the basic use case was a browser
+ 
+
+00:00:17.640 --> 00:00:20.710 align:start position:0%
+the basic use case was a browser
+requested<00:00:18.240><c> a</c><00:00:18.480><c> web</c><00:00:18.680><c> page</c><00:00:19.000><c> from</c><00:00:19.480><c> one</c><00:00:19.880><c> web</c><00:00:20.160><c> server</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+requested a web page from one web server
+ 
+
+00:00:20.720 --> 00:00:23.589 align:start position:0%
+requested a web page from one web server
+the<00:00:20.920><c> web</c><00:00:21.160><c> server</c><00:00:21.560><c> was</c><00:00:22.000><c> a</c><00:00:22.439><c> server</c><00:00:22.840><c> machine</c><00:00:23.400><c> that</c>
+
+00:00:23.589 --> 00:00:23.599 align:start position:0%
+the web server was a server machine that
+ 
+
+00:00:23.599 --> 00:00:25.670 align:start position:0%
+the web server was a server machine that
+had<00:00:23.800><c> a</c><00:00:24.039><c> software</c><00:00:24.480><c> installed</c><00:00:24.880><c> on</c><00:00:25.000><c> it</c><00:00:25.359><c> that</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+had a software installed on it that
+ 
+
+00:00:25.680 --> 00:00:28.870 align:start position:0%
+had a software installed on it that
+assembled<00:00:26.560><c> the</c><00:00:26.840><c> page</c><00:00:27.359><c> and</c><00:00:27.519><c> sent</c><00:00:27.840><c> it</c><00:00:28.160><c> back</c><00:00:28.640><c> to</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+assembled the page and sent it back to
+ 
+
+00:00:28.880 --> 00:00:31.429 align:start position:0%
+assembled the page and sent it back to
+the<00:00:29.039><c> browser</c><00:00:29.800><c> which</c><00:00:30.160><c> then</c><00:00:30.359><c> displayed</c><00:00:30.880><c> it</c><00:00:31.240><c> to</c>
+
+00:00:31.429 --> 00:00:31.439 align:start position:0%
+the browser which then displayed it to
+ 
+
+00:00:31.439 --> 00:00:34.150 align:start position:0%
+the browser which then displayed it to
+the<00:00:31.599><c> user</c><00:00:32.320><c> a</c><00:00:32.559><c> piece</c><00:00:32.759><c> of</c><00:00:32.960><c> software</c><00:00:33.520><c> that</c><00:00:33.719><c> runs</c>
+
+00:00:34.150 --> 00:00:34.160 align:start position:0%
+the user a piece of software that runs
+ 
+
+00:00:34.160 --> 00:00:37.709 align:start position:0%
+the user a piece of software that runs
+on<00:00:34.520><c> a</c><00:00:34.680><c> server</c><00:00:35.040><c> machine</c><00:00:35.680><c> and</c><00:00:36.559><c> can</c><00:00:36.879><c> respond</c><00:00:37.360><c> to</c>
+
+00:00:37.709 --> 00:00:37.719 align:start position:0%
+on a server machine and can respond to
+ 
+
+00:00:37.719 --> 00:00:40.709 align:start position:0%
+on a server machine and can respond to
+requests<00:00:38.680><c> from</c><00:00:38.960><c> a</c><00:00:39.160><c> browser</c><00:00:39.920><c> and</c><00:00:40.239><c> that</c><00:00:40.480><c> web</c>
+
+00:00:40.709 --> 00:00:40.719 align:start position:0%
+requests from a browser and that web
+ 
+
+00:00:40.719 --> 00:00:43.790 align:start position:0%
+requests from a browser and that web
+server<00:00:41.160><c> software</c><00:00:41.960><c> that</c><00:00:42.120><c> was</c><00:00:42.360><c> enginex</c><00:00:43.360><c> a</c><00:00:43.600><c> piece</c>
+
+00:00:43.790 --> 00:00:43.800 align:start position:0%
+server software that was enginex a piece
+ 
+
+00:00:43.800 --> 00:00:45.630 align:start position:0%
+server software that was enginex a piece
+of<00:00:44.079><c> software</c><00:00:44.559><c> that</c><00:00:44.719><c> runs</c><00:00:45.039><c> on</c><00:00:45.200><c> a</c><00:00:45.360><c> server</c>
+
+00:00:45.630 --> 00:00:45.640 align:start position:0%
+of software that runs on a server
+ 
+
+00:00:45.640 --> 00:00:48.630 align:start position:0%
+of software that runs on a server
+machine<00:00:46.320><c> and</c><00:00:46.520><c> can</c><00:00:46.760><c> respond</c><00:00:47.239><c> to</c><00:00:47.719><c> requests</c><00:00:48.360><c> from</c>
+
+00:00:48.630 --> 00:00:48.640 align:start position:0%
+machine and can respond to requests from
+ 
+
+00:00:48.640 --> 00:00:51.910 align:start position:0%
+machine and can respond to requests from
+a<00:00:48.800><c> browser</c><00:00:49.760><c> then</c><00:00:50.079><c> web</c><00:00:50.399><c> became</c><00:00:50.920><c> popular</c><00:00:51.520><c> so</c><00:00:51.719><c> you</c>
+
+00:00:51.910 --> 00:00:51.920 align:start position:0%
+a browser then web became popular so you
+ 
+
+00:00:51.920 --> 00:00:55.150 align:start position:0%
+a browser then web became popular so you
+had<00:00:52.640><c> thousands</c><00:00:53.199><c> or</c><00:00:53.640><c> millions</c><00:00:54.199><c> of</c><00:00:54.399><c> requests</c>
+
+00:00:55.150 --> 00:00:55.160 align:start position:0%
+had thousands or millions of requests
+ 
+
+00:00:55.160 --> 00:00:58.069 align:start position:0%
+had thousands or millions of requests
+per<00:00:55.440><c> website</c><00:00:56.440><c> imagine</c><00:00:56.879><c> one</c><00:00:57.120><c> single</c><00:00:57.440><c> server</c>
+
+00:00:58.069 --> 00:00:58.079 align:start position:0%
+per website imagine one single server
+ 
+
+00:00:58.079 --> 00:01:00.549 align:start position:0%
+per website imagine one single server
+handling<00:00:58.719><c> millions</c><00:00:59.399><c> of</c><00:00:59.600><c> requests</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+handling millions of requests
+ 
+
+00:01:00.559 --> 00:01:03.349 align:start position:0%
+handling millions of requests
+that's<00:01:01.079><c> way</c><00:01:01.399><c> over</c><00:01:01.879><c> the</c><00:01:02.160><c> technical</c><00:01:02.640><c> limit</c><00:01:03.039><c> of</c><00:01:03.160><c> a</c>
+
+00:01:03.349 --> 00:01:03.359 align:start position:0%
+that's way over the technical limit of a
+ 
+
+00:01:03.359 --> 00:01:06.190 align:start position:0%
+that's way over the technical limit of a
+server<00:01:03.760><c> software</c><00:01:04.640><c> well</c><00:01:04.960><c> we</c><00:01:05.119><c> need</c><00:01:05.479><c> a</c><00:01:05.680><c> few</c><00:01:05.960><c> more</c>
+
+00:01:06.190 --> 00:01:06.200 align:start position:0%
+server software well we need a few more
+ 
+
+00:01:06.200 --> 00:01:08.990 align:start position:0%
+server software well we need a few more
+servers<00:01:06.640><c> to</c><00:01:06.880><c> handle</c><00:01:07.240><c> that</c><00:01:07.400><c> load</c><00:01:08.119><c> so</c><00:01:08.280><c> we</c><00:01:08.439><c> added</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+servers to handle that load so we added
+ 
+
+00:01:09.000 --> 00:01:12.230 align:start position:0%
+servers to handle that load so we added
+10<00:01:09.360><c> enginex</c><00:01:09.920><c> web</c><00:01:10.159><c> servers</c><00:01:11.080><c> but</c><00:01:11.360><c> now</c><00:01:11.640><c> we</c><00:01:11.759><c> need</c>
+
+00:01:12.230 --> 00:01:12.240 align:start position:0%
+10 enginex web servers but now we need
+ 
+
+00:01:12.240 --> 00:01:15.469 align:start position:0%
+10 enginex web servers but now we need
+something<00:01:12.680><c> that</c><00:01:13.159><c> determines</c><00:01:14.159><c> where</c><00:01:14.720><c> requests</c>
+
+00:01:15.469 --> 00:01:15.479 align:start position:0%
+something that determines where requests
+ 
+
+00:01:15.479 --> 00:01:18.390 align:start position:0%
+something that determines where requests
+from<00:01:16.080><c> the</c><00:01:16.200><c> browser</c><00:01:16.799><c> and</c><00:01:17.439><c> which</c><00:01:17.640><c> one</c><00:01:17.920><c> of</c><00:01:18.159><c> those</c>
+
+00:01:18.390 --> 00:01:18.400 align:start position:0%
+from the browser and which one of those
+ 
+
+00:01:18.400 --> 00:01:20.190 align:start position:0%
+from the browser and which one of those
+10<00:01:18.640><c> servers</c><00:01:19.040><c> will</c><00:01:19.240><c> handle</c><00:01:19.560><c> them</c><00:01:19.880><c> and</c><00:01:20.040><c> that's</c>
+
+00:01:20.190 --> 00:01:20.200 align:start position:0%
+10 servers will handle them and that's
+ 
+
+00:01:20.200 --> 00:01:22.270 align:start position:0%
+10 servers will handle them and that's
+where<00:01:20.439><c> load</c><00:01:20.799><c> balancing</c><00:01:21.320><c> comes</c><00:01:21.560><c> in</c><00:01:21.920><c> so</c><00:01:22.119><c> the</c>
+
+00:01:22.270 --> 00:01:22.280 align:start position:0%
+where load balancing comes in so the
+ 
+
+00:01:22.280 --> 00:01:24.749 align:start position:0%
+where load balancing comes in so the
+same<00:01:22.520><c> engine</c><00:01:22.840><c> X</c><00:01:23.040><c> web</c><00:01:23.280><c> server</c><00:01:23.680><c> becomes</c><00:01:24.159><c> a</c><00:01:24.320><c> load</c>
+
+00:01:24.749 --> 00:01:24.759 align:start position:0%
+same engine X web server becomes a load
+ 
+
+00:01:24.759 --> 00:01:28.030 align:start position:0%
+same engine X web server becomes a load
+balancer<00:01:25.759><c> that</c><00:01:26.159><c> proxies</c><00:01:26.759><c> the</c><00:01:27.000><c> requests</c><00:01:27.680><c> to</c>
+
+00:01:28.030 --> 00:01:28.040 align:start position:0%
+balancer that proxies the requests to
+ 
+
+00:01:28.040 --> 00:01:30.870 align:start position:0%
+balancer that proxies the requests to
+those<00:01:28.439><c> 10</c><00:01:29.000><c> web</c><00:01:29.280><c> servers</c><00:01:30.119><c> and</c><00:01:30.320><c> by</c><00:01:30.439><c> the</c><00:01:30.560><c> way</c><00:01:30.759><c> the</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+those 10 web servers and by the way the
+ 
+
+00:01:30.880 --> 00:01:33.510 align:start position:0%
+those 10 web servers and by the way the
+word<00:01:31.360><c> proxy</c><00:01:31.880><c> means</c><00:01:32.200><c> to</c><00:01:32.360><c> do</c><00:01:32.600><c> something</c><00:01:33.119><c> on</c>
+
+00:01:33.510 --> 00:01:33.520 align:start position:0%
+word proxy means to do something on
+ 
+
+00:01:33.520 --> 00:01:36.590 align:start position:0%
+word proxy means to do something on
+someone<00:01:33.960><c> else's</c><00:01:34.759><c> behalf</c><00:01:35.479><c> so</c><00:01:35.680><c> it</c><00:01:35.880><c> accepts</c><00:01:36.439><c> the</c>
+
+00:01:36.590 --> 00:01:36.600 align:start position:0%
+someone else's behalf so it accepts the
+ 
+
+00:01:36.600 --> 00:01:38.870 align:start position:0%
+someone else's behalf so it accepts the
+browser<00:01:37.040><c> requests</c><00:01:37.560><c> on</c><00:01:37.880><c> behalf</c><00:01:38.280><c> of</c><00:01:38.479><c> the</c><00:01:38.640><c> web</c>
+
+00:01:38.870 --> 00:01:38.880 align:start position:0%
+browser requests on behalf of the web
+ 
+
+00:01:38.880 --> 00:01:41.389 align:start position:0%
+browser requests on behalf of the web
+servers<00:01:39.560><c> so</c><00:01:39.759><c> it</c><00:01:39.920><c> sits</c><00:01:40.280><c> at</c><00:01:40.479><c> the</c><00:01:40.600><c> entry</c><00:01:41.119><c> like</c><00:01:41.240><c> a</c>
+
+00:01:41.389 --> 00:01:41.399 align:start position:0%
+servers so it sits at the entry like a
+ 
+
+00:01:41.399 --> 00:01:44.670 align:start position:0%
+servers so it sits at the entry like a
+concierge<00:01:42.280><c> and</c><00:01:42.439><c> then</c><00:01:42.799><c> distributes</c><00:01:43.720><c> the</c><00:01:43.920><c> load</c>
+
+00:01:44.670 --> 00:01:44.680 align:start position:0%
+concierge and then distributes the load
+ 
+
+00:01:44.680 --> 00:01:47.350 align:start position:0%
+concierge and then distributes the load
+among<00:01:45.280><c> the</c><00:01:45.600><c> web</c><00:01:45.880><c> servers</c><00:01:46.640><c> now</c><00:01:46.880><c> how</c><00:01:47.040><c> does</c><00:01:47.200><c> it</c>
+
+00:01:47.350 --> 00:01:47.360 align:start position:0%
+among the web servers now how does it
+ 
+
+00:01:47.360 --> 00:01:49.550 align:start position:0%
+among the web servers now how does it
+distribute<00:01:47.799><c> the</c><00:01:47.880><c> load</c><00:01:48.439><c> that</c><00:01:48.640><c> depends</c><00:01:49.240><c> on</c>
+
+00:01:49.550 --> 00:01:49.560 align:start position:0%
+distribute the load that depends on
+ 
+
+00:01:49.560 --> 00:01:51.910 align:start position:0%
+distribute the load that depends on
+whichever<00:01:50.119><c> algorithm</c><00:01:50.719><c> was</c><00:01:50.960><c> configured</c><00:01:51.439><c> on</c><00:01:51.560><c> it</c>
+
+00:01:51.910 --> 00:01:51.920 align:start position:0%
+whichever algorithm was configured on it
+ 
+
+00:01:51.920 --> 00:01:54.670 align:start position:0%
+whichever algorithm was configured on it
+it<00:01:52.040><c> could</c><00:01:52.159><c> be</c><00:01:52.280><c> a</c><00:01:52.399><c> simple</c><00:01:52.759><c> logic</c><00:01:53.479><c> such</c><00:01:53.640><c> as</c><00:01:54.159><c> just</c>
+
+00:01:54.670 --> 00:01:54.680 align:start position:0%
+it could be a simple logic such as just
+ 
+
+00:01:54.680 --> 00:01:57.270 align:start position:0%
+it could be a simple logic such as just
+whichever<00:01:55.439><c> server</c><00:01:55.880><c> is</c><00:01:56.119><c> least</c><00:01:56.520><c> busy</c><00:01:56.880><c> gets</c><00:01:57.079><c> the</c>
+
+00:01:57.270 --> 00:01:57.280 align:start position:0%
+whichever server is least busy gets the
+ 
+
+00:01:57.280 --> 00:01:59.230 align:start position:0%
+whichever server is least busy gets the
+request<00:01:57.719><c> or</c><00:01:57.840><c> it</c><00:01:57.880><c> could</c><00:01:58.000><c> be</c><00:01:58.159><c> round</c><00:01:58.439><c> robin</c><00:01:59.079><c> which</c>
+
+00:01:59.230 --> 00:01:59.240 align:start position:0%
+request or it could be round robin which
+ 
+
+00:01:59.240 --> 00:02:01.590 align:start position:0%
+request or it could be round robin which
+is<00:01:59.399><c> a</c><00:01:59.520><c> popular</c><00:02:00.119><c> algorithm</c><00:02:00.880><c> that</c><00:02:01.079><c> basically</c>
+
+00:02:01.590 --> 00:02:01.600 align:start position:0%
+is a popular algorithm that basically
+ 
+
+00:02:01.600 --> 00:02:03.830 align:start position:0%
+is a popular algorithm that basically
+distributes<00:02:02.079><c> the</c><00:02:02.240><c> requests</c><00:02:02.880><c> equally</c><00:02:03.479><c> in</c><00:02:03.600><c> a</c>
+
+00:02:03.830 --> 00:02:03.840 align:start position:0%
+distributes the requests equally in a
+ 
+
+00:02:03.840 --> 00:02:06.830 align:start position:0%
+distributes the requests equally in a
+cyclical<00:02:04.520><c> manner</c><00:02:05.280><c> so</c><00:02:05.759><c> very</c><00:02:06.000><c> simple</c><00:02:06.520><c> load</c>
+
+00:02:06.830 --> 00:02:06.840 align:start position:0%
+cyclical manner so very simple load
+ 
+
+00:02:06.840 --> 00:02:09.630 align:start position:0%
+cyclical manner so very simple load
+balancing<00:02:07.360><c> logic</c><00:02:07.960><c> so</c><00:02:08.239><c> now</c><00:02:08.560><c> we</c><00:02:08.720><c> have</c><00:02:08.959><c> engine</c><00:02:09.319><c> X</c>
+
+00:02:09.630 --> 00:02:09.640 align:start position:0%
+balancing logic so now we have engine X
+ 
+
+00:02:09.640 --> 00:02:13.790 align:start position:0%
+balancing logic so now we have engine X
+as<00:02:10.160><c> web</c><00:02:10.479><c> server</c><00:02:11.040><c> software</c><00:02:12.040><c> and</c><00:02:12.760><c> the</c><00:02:13.040><c> proxy</c><00:02:13.640><c> as</c>
+
+00:02:13.790 --> 00:02:13.800 align:start position:0%
+as web server software and the proxy as
+ 
+
+00:02:13.800 --> 00:02:17.229 align:start position:0%
+as web server software and the proxy as
+well<00:02:14.319><c> and</c><00:02:14.560><c> that</c><00:02:14.760><c> load</c><00:02:15.160><c> balancing</c><00:02:15.959><c> is</c><00:02:16.480><c> just</c><00:02:16.879><c> one</c>
+
+00:02:17.229 --> 00:02:17.239 align:start position:0%
+well and that load balancing is just one
+ 
+
+00:02:17.239 --> 00:02:20.790 align:start position:0%
+well and that load balancing is just one
+of<00:02:17.480><c> the</c><00:02:17.720><c> functionalities</c><00:02:18.720><c> of</c><00:02:19.040><c> enginex</c><00:02:20.000><c> proxy</c>
+
+00:02:20.790 --> 00:02:20.800 align:start position:0%
+of the functionalities of enginex proxy
+ 
+
+00:02:20.800 --> 00:02:22.750 align:start position:0%
+of the functionalities of enginex proxy
+so<00:02:20.959><c> it's</c><00:02:21.120><c> the</c><00:02:21.280><c> same</c><00:02:21.519><c> server</c><00:02:21.920><c> and</c><00:02:22.120><c> Technology</c>
+
+00:02:22.750 --> 00:02:22.760 align:start position:0%
+so it's the same server and Technology
+ 
+
+00:02:22.760 --> 00:02:25.190 align:start position:0%
+so it's the same server and Technology
+but<00:02:23.080><c> with</c><00:02:23.280><c> a</c><00:02:23.519><c> different</c><00:02:24.040><c> task</c><00:02:24.400><c> now</c><00:02:24.800><c> so</c><00:02:25.120><c> what</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+but with a different task now so what
+ 
+
+00:02:25.200 --> 00:02:27.150 align:start position:0%
+but with a different task now so what
+are<00:02:25.480><c> those</c><00:02:25.920><c> other</c><00:02:26.440><c> features</c><00:02:26.920><c> or</c>
+
+00:02:27.150 --> 00:02:27.160 align:start position:0%
+are those other features or
+ 
+
+00:02:27.160 --> 00:02:29.910 align:start position:0%
+are those other features or
+functionalities<00:02:27.800><c> of</c><00:02:27.959><c> a</c><00:02:28.160><c> proxy</c><00:02:28.920><c> imagine</c><00:02:29.599><c> new</c>
+
+00:02:29.910 --> 00:02:29.920 align:start position:0%
+functionalities of a proxy imagine new
+ 
+
+00:02:29.920 --> 00:02:32.589 align:start position:0%
+functionalities of a proxy imagine new
+New<00:02:30.040><c> York</c><00:02:30.319><c> Times</c><00:02:30.720><c> article</c><00:02:31.200><c> comes</c><00:02:31.440><c> out</c><00:02:32.080><c> and</c>
+
+00:02:32.589 --> 00:02:32.599 align:start position:0%
+New York Times article comes out and
+ 
+
+00:02:32.599 --> 00:02:35.190 align:start position:0%
+New York Times article comes out and
+millions<00:02:33.040><c> of</c><00:02:33.319><c> people</c><00:02:34.040><c> open</c><00:02:34.400><c> it</c><00:02:34.800><c> on</c><00:02:34.959><c> their</c>
+
+00:02:35.190 --> 00:02:35.200 align:start position:0%
+millions of people open it on their
+ 
+
+00:02:35.200 --> 00:02:37.869 align:start position:0%
+millions of people open it on their
+laptops<00:02:35.879><c> in</c><00:02:36.040><c> the</c><00:02:36.160><c> browser</c><00:02:36.720><c> now</c><00:02:36.959><c> imagine</c><00:02:37.480><c> every</c>
+
+00:02:37.869 --> 00:02:37.879 align:start position:0%
+laptops in the browser now imagine every
+ 
+
+00:02:37.879 --> 00:02:41.550 align:start position:0%
+laptops in the browser now imagine every
+time<00:02:38.480><c> the</c><00:02:38.840><c> request</c><00:02:39.680><c> lended</c><00:02:40.560><c> with</c><00:02:41.000><c> one</c><00:02:41.239><c> of</c><00:02:41.400><c> the</c>
+
+00:02:41.550 --> 00:02:41.560 align:start position:0%
+time the request lended with one of the
+ 
+
+00:02:41.560 --> 00:02:45.110 align:start position:0%
+time the request lended with one of the
+web<00:02:41.840><c> servers</c><00:02:42.800><c> that</c><00:02:43.319><c> assembled</c><00:02:44.080><c> the</c><00:02:44.319><c> response</c>
+
+00:02:45.110 --> 00:02:45.120 align:start position:0%
+web servers that assembled the response
+ 
+
+00:02:45.120 --> 00:02:47.470 align:start position:0%
+web servers that assembled the response
+like<00:02:45.319><c> put</c><00:02:45.519><c> the</c><00:02:45.640><c> images</c><00:02:46.640><c> together</c><00:02:47.159><c> get</c><00:02:47.319><c> them</c>
+
+00:02:47.470 --> 00:02:47.480 align:start position:0%
+like put the images together get them
+ 
+
+00:02:47.480 --> 00:02:49.830 align:start position:0%
+like put the images together get them
+from<00:02:47.599><c> a</c><00:02:47.800><c> database</c><00:02:48.560><c> put</c><00:02:48.800><c> text</c><00:02:49.080><c> and</c><00:02:49.360><c> paragraphs</c>
+
+00:02:49.830 --> 00:02:49.840 align:start position:0%
+from a database put text and paragraphs
+ 
+
+00:02:49.840 --> 00:02:51.430 align:start position:0%
+from a database put text and paragraphs
+and<00:02:50.040><c> everything</c><00:02:50.519><c> together</c><00:02:50.879><c> edit</c><00:02:51.200><c> all</c><00:02:51.319><c> the</c>
+
+00:02:51.430 --> 00:02:51.440 align:start position:0%
+and everything together edit all the
+ 
+
+00:02:51.440 --> 00:02:54.149 align:start position:0%
+and everything together edit all the
+links<00:02:52.040><c> sent</c><00:02:52.319><c> it</c><00:02:52.519><c> back</c><00:02:52.760><c> as</c><00:02:52.840><c> a</c><00:02:53.040><c> response</c><00:02:54.000><c> and</c>
+
+00:02:54.149 --> 00:02:54.159 align:start position:0%
+links sent it back as a response and
+ 
+
+00:02:54.159 --> 00:02:56.390 align:start position:0%
+links sent it back as a response and
+this<00:02:54.319><c> happened</c><00:02:54.959><c> million</c><00:02:55.519><c> times</c><00:02:56.120><c> pretty</c>
+
+00:02:56.390 --> 00:02:56.400 align:start position:0%
+this happened million times pretty
+ 
+
+00:02:56.400 --> 00:02:58.869 align:start position:0%
+this happened million times pretty
+inefficient<00:02:57.120><c> right</c><00:02:57.840><c> instead</c><00:02:58.239><c> it</c><00:02:58.400><c> makes</c><00:02:58.680><c> sense</c>
+
+00:02:58.869 --> 00:02:58.879 align:start position:0%
+inefficient right instead it makes sense
+ 
+
+00:02:58.879 --> 00:03:01.229 align:start position:0%
+inefficient right instead it makes sense
+to<00:02:59.200><c> assemble</c><00:02:59.920><c> this</c><00:03:00.080><c> article</c><00:03:00.720><c> get</c><00:03:00.920><c> all</c><00:03:01.080><c> the</c>
+
+00:03:01.229 --> 00:03:01.239 align:start position:0%
+to assemble this article get all the
+ 
+
+00:03:01.239 --> 00:03:03.789 align:start position:0%
+to assemble this article get all the
+data<00:03:01.440><c> from</c><00:03:01.599><c> a</c><00:03:01.800><c> database</c><00:03:02.720><c> put</c><00:03:02.879><c> the</c><00:03:03.159><c> text</c><00:03:03.640><c> and</c>
+
+00:03:03.789 --> 00:03:03.799 align:start position:0%
+data from a database put the text and
+ 
+
+00:03:03.799 --> 00:03:06.110 align:start position:0%
+data from a database put the text and
+links<00:03:04.040><c> and</c><00:03:04.200><c> everything</c><00:03:04.680><c> together</c><00:03:05.319><c> once</c><00:03:05.920><c> and</c>
+
+00:03:06.110 --> 00:03:06.120 align:start position:0%
+links and everything together once and
+ 
+
+00:03:06.120 --> 00:03:08.509 align:start position:0%
+links and everything together once and
+store<00:03:06.480><c> it</c><00:03:06.799><c> it's</c><00:03:06.920><c> a</c><00:03:07.120><c> static</c><00:03:07.480><c> article</c><00:03:08.080><c> it's</c><00:03:08.319><c> not</c>
+
+00:03:08.509 --> 00:03:08.519 align:start position:0%
+store it it's a static article it's not
+ 
+
+00:03:08.519 --> 00:03:11.229 align:start position:0%
+store it it's a static article it's not
+going<00:03:08.640><c> to</c><00:03:08.799><c> change</c><00:03:09.400><c> right</c><00:03:10.040><c> so</c><00:03:10.400><c> just</c><00:03:10.599><c> keep</c><00:03:10.920><c> one</c>
+
+00:03:11.229 --> 00:03:11.239 align:start position:0%
+going to change right so just keep one
+ 
+
+00:03:11.239 --> 00:03:13.509 align:start position:0%
+going to change right so just keep one
+final<00:03:11.640><c> copy</c><00:03:12.000><c> and</c><00:03:12.159><c> send</c><00:03:12.400><c> it</c><00:03:12.519><c> to</c><00:03:12.840><c> everyone</c><00:03:13.319><c> who</c>
+
+00:03:13.509 --> 00:03:13.519 align:start position:0%
+final copy and send it to everyone who
+ 
+
+00:03:13.519 --> 00:03:16.030 align:start position:0%
+final copy and send it to everyone who
+requests<00:03:13.959><c> it</c><00:03:14.519><c> that's</c><00:03:14.799><c> caching</c><00:03:15.239><c> functionality</c>
+
+00:03:16.030 --> 00:03:16.040 align:start position:0%
+requests it that's caching functionality
+ 
+
+00:03:16.040 --> 00:03:18.910 align:start position:0%
+requests it that's caching functionality
+and<00:03:16.360><c> it</c><00:03:16.519><c> is</c><00:03:16.840><c> another</c><00:03:17.319><c> main</c><00:03:17.599><c> feature</c><00:03:18.159><c> of</c><00:03:18.560><c> engine</c>
+
+00:03:18.910 --> 00:03:18.920 align:start position:0%
+and it is another main feature of engine
+ 
+
+00:03:18.920 --> 00:03:21.149 align:start position:0%
+and it is another main feature of engine
+X<00:03:19.159><c> proxy</c><00:03:19.519><c> server</c><00:03:20.120><c> so</c><00:03:20.360><c> you</c><00:03:20.480><c> can</c><00:03:20.680><c> configure</c>
+
+00:03:21.149 --> 00:03:21.159 align:start position:0%
+X proxy server so you can configure
+ 
+
+00:03:21.159 --> 00:03:23.070 align:start position:0%
+X proxy server so you can configure
+caching<00:03:21.519><c> on</c><00:03:21.680><c> engine</c><00:03:21.959><c> X</c><00:03:22.159><c> proxy</c><00:03:22.680><c> so</c><00:03:22.840><c> you</c><00:03:22.920><c> don't</c>
+
+00:03:23.070 --> 00:03:23.080 align:start position:0%
+caching on engine X proxy so you don't
+ 
+
+00:03:23.080 --> 00:03:25.030 align:start position:0%
+caching on engine X proxy so you don't
+have<00:03:23.200><c> to</c><00:03:23.360><c> hit</c><00:03:23.560><c> the</c><00:03:23.799><c> database</c><00:03:24.480><c> or</c><00:03:24.680><c> the</c><00:03:24.799><c> web</c>
+
+00:03:25.030 --> 00:03:25.040 align:start position:0%
+have to hit the database or the web
+ 
+
+00:03:25.040 --> 00:03:27.509 align:start position:0%
+have to hit the database or the web
+servers<00:03:25.720><c> every</c><00:03:26.000><c> time</c><00:03:26.239><c> a</c><00:03:26.400><c> request</c><00:03:26.760><c> comes</c><00:03:27.000><c> in</c><00:03:27.400><c> it</c>
+
+00:03:27.509 --> 00:03:27.519 align:start position:0%
+servers every time a request comes in it
+ 
+
+00:03:27.519 --> 00:03:30.270 align:start position:0%
+servers every time a request comes in it
+will<00:03:27.720><c> just</c><00:03:28.080><c> return</c><00:03:28.560><c> that</c><00:03:28.799><c> cached</c><00:03:29.239><c> file</c><00:03:30.000><c> now</c>
+
+00:03:30.270 --> 00:03:30.280 align:start position:0%
+will just return that cached file now
+ 
+
+00:03:30.280 --> 00:03:32.589 align:start position:0%
+will just return that cached file now
+imagine<00:03:30.879><c> we</c><00:03:31.080><c> have</c><00:03:31.599><c> hundred</c><00:03:31.640><c> 100</c><00:03:31.959><c> servers</c><00:03:32.400><c> of</c>
+
+00:03:32.589 --> 00:03:32.599 align:start position:0%
+imagine we have hundred 100 servers of
+ 
+
+00:03:32.599 --> 00:03:35.070 align:start position:0%
+imagine we have hundred 100 servers of
+an<00:03:32.760><c> online</c><00:03:33.120><c> banking</c><00:03:33.519><c> application</c><00:03:34.319><c> or</c><00:03:34.879><c> a</c>
+
+00:03:35.070 --> 00:03:35.080 align:start position:0%
+an online banking application or a
+ 
+
+00:03:35.080 --> 00:03:37.869 align:start position:0%
+an online banking application or a
+social<00:03:35.439><c> network</c><00:03:35.959><c> like</c><00:03:36.159><c> Facebook</c><00:03:37.040><c> that</c><00:03:37.239><c> makes</c>
+
+00:03:37.869 --> 00:03:37.879 align:start position:0%
+social network like Facebook that makes
+ 
+
+00:03:37.879 --> 00:03:40.270 align:start position:0%
+social network like Facebook that makes
+those<00:03:38.120><c> servers</c><00:03:38.599><c> a</c><00:03:38.799><c> pretty</c><00:03:39.159><c> juicy</c><00:03:39.599><c> Target</c><00:03:40.000><c> for</c>
+
+00:03:40.270 --> 00:03:40.280 align:start position:0%
+those servers a pretty juicy Target for
+ 
+
+00:03:40.280 --> 00:03:42.390 align:start position:0%
+those servers a pretty juicy Target for
+hackers<00:03:41.040><c> they</c><00:03:41.200><c> all</c><00:03:41.400><c> want</c><00:03:41.560><c> to</c><00:03:41.720><c> hack</c><00:03:41.959><c> into</c><00:03:42.159><c> your</c>
+
+00:03:42.390 --> 00:03:42.400 align:start position:0%
+hackers they all want to hack into your
+ 
+
+00:03:42.400 --> 00:03:44.869 align:start position:0%
+hackers they all want to hack into your
+servers<00:03:42.920><c> and</c><00:03:43.120><c> get</c><00:03:43.319><c> the</c><00:03:43.519><c> treasure</c><00:03:44.239><c> which</c><00:03:44.400><c> is</c>
+
+00:03:44.869 --> 00:03:44.879 align:start position:0%
+servers and get the treasure which is
+ 
+
+00:03:44.879 --> 00:03:47.670 align:start position:0%
+servers and get the treasure which is
+payment<00:03:45.280><c> data</c><00:03:45.799><c> personal</c><00:03:46.239><c> data</c><00:03:46.959><c> passwords</c><00:03:47.560><c> and</c>
+
+00:03:47.670 --> 00:03:47.680 align:start position:0%
+payment data personal data passwords and
+ 
+
+00:03:47.680 --> 00:03:50.390 align:start position:0%
+payment data personal data passwords and
+so<00:03:47.840><c> on</c><00:03:48.239><c> now</c><00:03:48.480><c> imagine</c><00:03:48.840><c> you</c><00:03:49.080><c> exposed</c><00:03:49.680><c> all</c><00:03:50.080><c> 100</c>
+
+00:03:50.390 --> 00:03:50.400 align:start position:0%
+so on now imagine you exposed all 100
+ 
+
+00:03:50.400 --> 00:03:53.069 align:start position:0%
+so on now imagine you exposed all 100
+servers<00:03:51.040><c> to</c><00:03:51.360><c> Public</c><00:03:51.760><c> Access</c><00:03:52.480><c> so</c><00:03:52.680><c> basically</c>
+
+00:03:53.069 --> 00:03:53.079 align:start position:0%
+servers to Public Access so basically
+ 
+
+00:03:53.079 --> 00:03:55.990 align:start position:0%
+servers to Public Access so basically
+all<00:03:53.280><c> those</c><00:03:53.480><c> requests</c><00:03:54.200><c> can</c><00:03:54.400><c> directly</c><00:03:55.200><c> hit</c><00:03:55.760><c> each</c>
+
+00:03:55.990 --> 00:03:56.000 align:start position:0%
+all those requests can directly hit each
+ 
+
+00:03:56.000 --> 00:03:58.429 align:start position:0%
+all those requests can directly hit each
+of<00:03:56.200><c> the</c><00:03:56.400><c> web</c><00:03:56.599><c> servers</c><00:03:57.280><c> if</c><00:03:57.400><c> you</c><00:03:57.519><c> do</c><00:03:57.799><c> that</c><00:03:58.239><c> you</c>
+
+00:03:58.429 --> 00:03:58.439 align:start position:0%
+of the web servers if you do that you
+ 
+
+00:03:58.439 --> 00:04:01.030 align:start position:0%
+of the web servers if you do that you
+actually<00:03:58.680><c> make</c><00:03:59.000><c> work</c><00:03:59.360><c> for</c><00:03:59.840><c> hackers</c><00:04:00.560><c> so</c><00:04:00.799><c> much</c>
+
+00:04:01.030 --> 00:04:01.040 align:start position:0%
+actually make work for hackers so much
+ 
+
+00:04:01.040 --> 00:04:03.190 align:start position:0%
+actually make work for hackers so much
+easier<00:04:01.599><c> they</c><00:04:01.760><c> would</c><00:04:01.920><c> need</c><00:04:02.079><c> to</c><00:04:02.239><c> find</c><00:04:02.640><c> just</c><00:04:02.920><c> one</c>
+
+00:04:03.190 --> 00:04:03.200 align:start position:0%
+easier they would need to find just one
+ 
+
+00:04:03.200 --> 00:04:06.470 align:start position:0%
+easier they would need to find just one
+issue<00:04:03.760><c> in</c><00:04:04.239><c> one</c><00:04:04.480><c> of</c><00:04:04.680><c> those</c><00:04:04.959><c> 100</c><00:04:05.239><c> servers</c><00:04:06.120><c> and</c>
+
+00:04:06.470 --> 00:04:06.480 align:start position:0%
+issue in one of those 100 servers and
+ 
+
+00:04:06.480 --> 00:04:08.270 align:start position:0%
+issue in one of those 100 servers and
+they<00:04:06.640><c> could</c><00:04:06.879><c> potentially</c><00:04:07.360><c> break</c><00:04:07.799><c> into</c><00:04:08.040><c> your</c>
+
+00:04:08.270 --> 00:04:08.280 align:start position:0%
+they could potentially break into your
+ 
+
+00:04:08.280 --> 00:04:10.390 align:start position:0%
+they could potentially break into your
+entire<00:04:08.760><c> system</c><00:04:09.360><c> because</c><00:04:09.680><c> all</c><00:04:09.879><c> your</c><00:04:10.040><c> servers</c>
+
+00:04:10.390 --> 00:04:10.400 align:start position:0%
+entire system because all your servers
+ 
+
+00:04:10.400 --> 00:04:12.710 align:start position:0%
+entire system because all your servers
+are<00:04:10.680><c> publicly</c><00:04:11.200><c> accessible</c><00:04:11.760><c> directly</c><00:04:12.599><c> they</c>
+
+00:04:12.710 --> 00:04:12.720 align:start position:0%
+are publicly accessible directly they
+ 
+
+00:04:12.720 --> 00:04:14.869 align:start position:0%
+are publicly accessible directly they
+can<00:04:13.000><c> just</c><00:04:13.400><c> ping</c><00:04:13.720><c> the</c><00:04:13.879><c> hell</c><00:04:14.079><c> out</c><00:04:14.200><c> of</c><00:04:14.400><c> them</c><00:04:14.640><c> and</c>
+
+00:04:14.869 --> 00:04:14.879 align:start position:0%
+can just ping the hell out of them and
+ 
+
+00:04:14.879 --> 00:04:16.990 align:start position:0%
+can just ping the hell out of them and
+probe<00:04:15.239><c> them</c><00:04:15.439><c> until</c><00:04:15.760><c> they</c><00:04:15.920><c> find</c><00:04:16.120><c> an</c><00:04:16.280><c> issue</c><00:04:16.840><c> or</c>
+
+00:04:16.990 --> 00:04:17.000 align:start position:0%
+probe them until they find an issue or
+ 
+
+00:04:17.000 --> 00:04:19.349 align:start position:0%
+probe them until they find an issue or
+an<00:04:17.199><c> entry</c><00:04:18.079><c> because</c><00:04:18.320><c> you</c><00:04:18.479><c> forgot</c><00:04:18.759><c> to</c><00:04:18.919><c> update</c><00:04:19.239><c> a</c>
+
+00:04:19.349 --> 00:04:19.359 align:start position:0%
+an entry because you forgot to update a
+ 
+
+00:04:19.359 --> 00:04:21.629 align:start position:0%
+an entry because you forgot to update a
+library<00:04:19.799><c> or</c><00:04:19.959><c> a</c><00:04:20.079><c> software</c><00:04:20.560><c> package</c><00:04:21.280><c> and</c><00:04:21.519><c> they</c>
+
+00:04:21.629 --> 00:04:21.639 align:start position:0%
+library or a software package and they
+ 
+
+00:04:21.639 --> 00:04:24.430 align:start position:0%
+library or a software package and they
+can<00:04:21.880><c> hack</c><00:04:22.240><c> your</c><00:04:22.759><c> web</c><00:04:23.040><c> server</c><00:04:23.400><c> application</c><00:04:24.199><c> so</c>
+
+00:04:24.430 --> 00:04:24.440 align:start position:0%
+can hack your web server application so
+ 
+
+00:04:24.440 --> 00:04:26.350 align:start position:0%
+can hack your web server application so
+you<00:04:24.639><c> have</c><00:04:24.759><c> to</c><00:04:24.919><c> worry</c><00:04:25.160><c> about</c><00:04:25.639><c> absolutely</c>
+
+00:04:26.350 --> 00:04:26.360 align:start position:0%
+you have to worry about absolutely
+ 
+
+00:04:26.360 --> 00:04:29.749 align:start position:0%
+you have to worry about absolutely
+perfectly<00:04:27.040><c> securing</c><00:04:27.960><c> 100</c><00:04:28.440><c> servers</c><00:04:29.320><c> now</c><00:04:29.479><c> in</c>
+
+00:04:29.749 --> 00:04:29.759 align:start position:0%
+perfectly securing 100 servers now in
+ 
+
+00:04:29.759 --> 00:04:32.270 align:start position:0%
+perfectly securing 100 servers now in
+instead<00:04:30.440><c> we</c><00:04:30.639><c> just</c><00:04:30.840><c> give</c><00:04:31.080><c> them</c><00:04:31.440><c> one</c><00:04:31.759><c> server</c>
+
+00:04:32.270 --> 00:04:32.280 align:start position:0%
+instead we just give them one server
+ 
+
+00:04:32.280 --> 00:04:34.749 align:start position:0%
+instead we just give them one server
+that<00:04:32.400><c> is</c><00:04:32.600><c> the</c><00:04:32.800><c> only</c><00:04:33.199><c> one</c><00:04:33.720><c> that's</c><00:04:34.120><c> publicly</c>
+
+00:04:34.749 --> 00:04:34.759 align:start position:0%
+that is the only one that's publicly
+ 
+
+00:04:34.759 --> 00:04:37.350 align:start position:0%
+that is the only one that's publicly
+accessible<00:04:35.560><c> you</c><00:04:35.680><c> can</c><00:04:35.880><c> put</c><00:04:36.160><c> all</c><00:04:36.440><c> your</c><00:04:36.680><c> Titus</c>
+
+00:04:37.350 --> 00:04:37.360 align:start position:0%
+accessible you can put all your Titus
+ 
+
+00:04:37.360 --> 00:04:40.629 align:start position:0%
+accessible you can put all your Titus
+security<00:04:38.000><c> efforts</c><00:04:38.759><c> on</c><00:04:39.240><c> one</c><00:04:39.560><c> server</c><00:04:40.280><c> instead</c>
+
+00:04:40.629 --> 00:04:40.639 align:start position:0%
+security efforts on one server instead
+ 
+
+00:04:40.639 --> 00:04:44.310 align:start position:0%
+security efforts on one server instead
+of<00:04:41.039><c> 100</c><00:04:41.400><c> servers</c><00:04:42.360><c> and</c><00:04:42.560><c> this</c><00:04:42.720><c> way</c><00:04:43.120><c> having</c><00:04:43.880><c> one</c>
+
+00:04:44.310 --> 00:04:44.320 align:start position:0%
+of 100 servers and this way having one
+ 
+
+00:04:44.320 --> 00:04:46.870 align:start position:0%
+of 100 servers and this way having one
+entry<00:04:44.720><c> point</c><00:04:45.039><c> which</c><00:04:45.160><c> is</c><00:04:45.320><c> the</c><00:04:45.680><c> proxy</c><00:04:46.400><c> is</c>
+
+00:04:46.870 --> 00:04:46.880 align:start position:0%
+entry point which is the proxy is
+ 
+
+00:04:46.880 --> 00:04:50.469 align:start position:0%
+entry point which is the proxy is
+publicly<00:04:47.560><c> accessible</c><00:04:48.400><c> entry</c><00:04:48.840><c> point</c><00:04:49.639><c> reduces</c>
+
+00:04:50.469 --> 00:04:50.479 align:start position:0%
+publicly accessible entry point reduces
+ 
+
+00:04:50.479 --> 00:04:53.230 align:start position:0%
+publicly accessible entry point reduces
+the<00:04:50.720><c> security</c><00:04:51.280><c> attack</c><00:04:51.840><c> surface</c><00:04:52.479><c> tremendously</c>
+
+00:04:53.230 --> 00:04:53.240 align:start position:0%
+the security attack surface tremendously
+ 
+
+00:04:53.240 --> 00:04:55.430 align:start position:0%
+the security attack surface tremendously
+and<00:04:53.400><c> basically</c><00:04:54.039><c> acts</c><00:04:54.400><c> like</c><00:04:54.560><c> a</c><00:04:54.720><c> shield</c><00:04:55.160><c> or</c>
+
+00:04:55.430 --> 00:04:55.440 align:start position:0%
+and basically acts like a shield or
+ 
+
+00:04:55.440 --> 00:04:58.230 align:start position:0%
+and basically acts like a shield or
+security<00:04:55.880><c> layer</c><00:04:56.680><c> before</c><00:04:57.320><c> all</c><00:04:57.600><c> those</c><00:04:58.000><c> web</c>
+
+00:04:58.230 --> 00:04:58.240 align:start position:0%
+security layer before all those web
+ 
+
+00:04:58.240 --> 00:05:00.510 align:start position:0%
+security layer before all those web
+servers<00:04:59.080><c> so</c><00:04:59.280><c> in</c><00:04:59.440><c> addition</c><00:04:59.720><c> addtion</c><00:05:00.000><c> to</c><00:05:00.199><c> load</c>
+
+00:05:00.510 --> 00:05:00.520 align:start position:0%
+servers so in addition addtion to load
+ 
+
+00:05:00.520 --> 00:05:03.189 align:start position:0%
+servers so in addition addtion to load
+balancing<00:05:01.080><c> and</c><00:05:01.400><c> caching</c><00:05:02.280><c> a</c><00:05:02.639><c> very</c><00:05:02.919><c> very</c>
+
+00:05:03.189 --> 00:05:03.199 align:start position:0%
+balancing and caching a very very
+ 
+
+00:05:03.199 --> 00:05:06.350 align:start position:0%
+balancing and caching a very very
+important<00:05:03.840><c> functionality</c><00:05:04.479><c> of</c><00:05:04.639><c> a</c><00:05:04.960><c> proxy</c><00:05:05.560><c> is</c><00:05:06.039><c> an</c>
+
+00:05:06.350 --> 00:05:06.360 align:start position:0%
+important functionality of a proxy is an
+ 
+
+00:05:06.360 --> 00:05:09.749 align:start position:0%
+important functionality of a proxy is an
+eded<00:05:06.960><c> security</c><00:05:07.800><c> for</c><00:05:08.039><c> your</c><00:05:08.280><c> web</c><00:05:08.560><c> servers</c><00:05:09.520><c> now</c>
+
+00:05:09.749 --> 00:05:09.759 align:start position:0%
+eded security for your web servers now
+ 
+
+00:05:09.759 --> 00:05:11.870 align:start position:0%
+eded security for your web servers now
+talking<00:05:10.080><c> about</c><00:05:10.320><c> security</c><00:05:11.080><c> I</c><00:05:11.199><c> mentioned</c><00:05:11.639><c> that</c>
+
+00:05:11.870 --> 00:05:11.880 align:start position:0%
+talking about security I mentioned that
+ 
+
+00:05:11.880 --> 00:05:14.230 align:start position:0%
+talking about security I mentioned that
+since<00:05:12.080><c> we</c><00:05:12.240><c> have</c><00:05:12.440><c> one</c><00:05:12.639><c> entry</c><00:05:13.000><c> point</c><00:05:13.600><c> we</c><00:05:13.759><c> can</c>
+
+00:05:14.230 --> 00:05:14.240 align:start position:0%
+since we have one entry point we can
+ 
+
+00:05:14.240 --> 00:05:16.749 align:start position:0%
+since we have one entry point we can
+focus<00:05:14.759><c> all</c><00:05:15.000><c> our</c><00:05:15.280><c> efforts</c><00:05:15.759><c> to</c><00:05:16.039><c> securing</c><00:05:16.560><c> that</c>
+
+00:05:16.749 --> 00:05:16.759 align:start position:0%
+focus all our efforts to securing that
+ 
+
+00:05:16.759 --> 00:05:20.070 align:start position:0%
+focus all our efforts to securing that
+one<00:05:17.080><c> proxy</c><00:05:17.479><c> server</c><00:05:18.240><c> in</c><00:05:18.520><c> all</c><00:05:18.919><c> aspects</c><00:05:19.680><c> and</c><00:05:19.880><c> one</c>
+
+00:05:20.070 --> 00:05:20.080 align:start position:0%
+one proxy server in all aspects and one
+ 
+
+00:05:20.080 --> 00:05:22.830 align:start position:0%
+one proxy server in all aspects and one
+important<00:05:20.479><c> security</c><00:05:20.840><c> measure</c><00:05:21.720><c> is</c><00:05:22.039><c> encrypted</c>
+
+00:05:22.830 --> 00:05:22.840 align:start position:0%
+important security measure is encrypted
+ 
+
+00:05:22.840 --> 00:05:24.990 align:start position:0%
+important security measure is encrypted
+communication<00:05:23.840><c> so</c><00:05:24.000><c> front</c><00:05:24.280><c> end</c><00:05:24.520><c> will</c><00:05:24.680><c> send</c>
+
+00:05:24.990 --> 00:05:25.000 align:start position:0%
+communication so front end will send
+ 
+
+00:05:25.000 --> 00:05:27.230 align:start position:0%
+communication so front end will send
+encrypted<00:05:25.560><c> message</c><00:05:26.000><c> to</c><00:05:26.240><c> the</c><00:05:26.440><c> proxy</c><00:05:27.120><c> which</c>
+
+00:05:27.230 --> 00:05:27.240 align:start position:0%
+encrypted message to the proxy which
+ 
+
+00:05:27.240 --> 00:05:29.230 align:start position:0%
+encrypted message to the proxy which
+means<00:05:27.639><c> even</c><00:05:28.000><c> if</c><00:05:28.240><c> an</c><00:05:28.440><c> attacker</c><00:05:28.800><c> sees</c><00:05:29.080><c> that</c>
+
+00:05:29.230 --> 00:05:29.240 align:start position:0%
+means even if an attacker sees that
+ 
+
+00:05:29.240 --> 00:05:31.390 align:start position:0%
+means even if an attacker sees that
+traffic<00:05:29.720><c> on</c><00:05:29.919><c> users</c><00:05:30.360><c> browser</c><00:05:30.800><c> or</c><00:05:31.000><c> during</c><00:05:31.240><c> the</c>
+
+00:05:31.390 --> 00:05:31.400 align:start position:0%
+traffic on users browser or during the
+ 
+
+00:05:31.400 --> 00:05:34.189 align:start position:0%
+traffic on users browser or during the
+transmission<00:05:32.360><c> they</c><00:05:32.520><c> can't</c><00:05:32.800><c> read</c><00:05:33.039><c> it</c><00:05:33.720><c> only</c><00:05:34.039><c> the</c>
+
+00:05:34.189 --> 00:05:34.199 align:start position:0%
+transmission they can't read it only the
+ 
+
+00:05:34.199 --> 00:05:36.670 align:start position:0%
+transmission they can't read it only the
+proxy<00:05:34.600><c> server</c><00:05:35.000><c> can</c><00:05:35.280><c> decrypt</c><00:05:35.759><c> it</c><00:05:36.240><c> but</c><00:05:36.440><c> again</c>
+
+00:05:36.670 --> 00:05:36.680 align:start position:0%
+proxy server can decrypt it but again
+ 
+
+00:05:36.680 --> 00:05:40.309 align:start position:0%
+proxy server can decrypt it but again
+for<00:05:36.960><c> edit</c><00:05:37.280><c> Security</c><00:05:38.039><c> in</c><00:05:38.160><c> many</c><00:05:38.479><c> systems</c><00:05:39.360><c> proxy</c>
+
+00:05:40.309 --> 00:05:40.319 align:start position:0%
+for edit Security in many systems proxy
+ 
+
+00:05:40.319 --> 00:05:42.830 align:start position:0%
+for edit Security in many systems proxy
+that<00:05:40.560><c> act</c><00:05:40.919><c> as</c><00:05:41.240><c> The</c><00:05:41.360><c> Shield</c><00:05:41.759><c> a</c><00:05:41.919><c> security</c><00:05:42.240><c> Shield</c>
+
+00:05:42.830 --> 00:05:42.840 align:start position:0%
+that act as The Shield a security Shield
+ 
+
+00:05:42.840 --> 00:05:45.029 align:start position:0%
+that act as The Shield a security Shield
+will<00:05:43.280><c> simply</c><00:05:43.800><c> pass</c><00:05:44.039><c> on</c><00:05:44.319><c> that</c><00:05:44.479><c> encrypted</c>
+
+00:05:45.029 --> 00:05:45.039 align:start position:0%
+will simply pass on that encrypted
+ 
+
+00:05:45.039 --> 00:05:47.710 align:start position:0%
+will simply pass on that encrypted
+message<00:05:45.800><c> to</c><00:05:46.080><c> the</c><00:05:46.360><c> web</c><00:05:46.600><c> servers</c><00:05:47.240><c> and</c><00:05:47.360><c> the</c><00:05:47.520><c> web</c>
+
+00:05:47.710 --> 00:05:47.720 align:start position:0%
+message to the web servers and the web
+ 
+
+00:05:47.720 --> 00:05:50.029 align:start position:0%
+message to the web servers and the web
+server<00:05:48.000><c> will</c><00:05:48.160><c> decrypt</c><00:05:48.639><c> it</c><00:05:49.199><c> itself</c><00:05:49.639><c> which</c><00:05:49.800><c> is</c>
+
+00:05:50.029 --> 00:05:50.039 align:start position:0%
+server will decrypt it itself which is
+ 
+
+00:05:50.039 --> 00:05:52.390 align:start position:0%
+server will decrypt it itself which is
+actually<00:05:50.319><c> a</c><00:05:50.479><c> better</c><00:05:50.880><c> security</c><00:05:51.360><c> practice</c><00:05:52.160><c> so</c>
+
+00:05:52.390 --> 00:05:52.400 align:start position:0%
+actually a better security practice so
+ 
+
+00:05:52.400 --> 00:05:54.670 align:start position:0%
+actually a better security practice so
+here<00:05:52.639><c> the</c><00:05:52.800><c> functionality</c><00:05:53.360><c> of</c><00:05:53.479><c> a</c><00:05:53.680><c> proxy</c><00:05:54.240><c> is</c><00:05:54.520><c> to</c>
+
+00:05:54.670 --> 00:05:54.680 align:start position:0%
+here the functionality of a proxy is to
+ 
+
+00:05:54.680 --> 00:05:59.309 align:start position:0%
+here the functionality of a proxy is to
+be<00:05:54.919><c> able</c><00:05:55.479><c> to</c><00:05:56.240><c> accept</c><00:05:57.160><c> encrypted</c><00:05:58.160><c> traffic</c><00:05:59.080><c> with</c>
+
+00:05:59.309 --> 00:05:59.319 align:start position:0%
+be able to accept encrypted traffic with
+ 
+
+00:05:59.319 --> 00:06:01.749 align:start position:0%
+be able to accept encrypted traffic with
+s<00:05:59.800><c> SL</c><00:05:59.960><c> encryption</c><00:06:00.720><c> so</c><00:06:00.919><c> you</c><00:06:01.039><c> can</c><00:06:01.280><c> configure</c>
+
+00:06:01.749 --> 00:06:01.759 align:start position:0%
+s SL encryption so you can configure
+ 
+
+00:06:01.759 --> 00:06:05.070 align:start position:0%
+s SL encryption so you can configure
+your<00:06:01.960><c> proxy</c><00:06:02.520><c> to</c><00:06:02.960><c> deny</c><00:06:03.720><c> any</c><00:06:04.080><c> request</c><00:06:04.759><c> that</c><00:06:04.919><c> is</c>
+
+00:06:05.070 --> 00:06:05.080 align:start position:0%
+your proxy to deny any request that is
+ 
+
+00:06:05.080 --> 00:06:07.749 align:start position:0%
+your proxy to deny any request that is
+not<00:06:05.319><c> encrypted</c><00:06:05.880><c> and</c><00:06:06.080><c> only</c><00:06:06.400><c> accept</c><00:06:07.000><c> encrypted</c>
+
+00:06:07.749 --> 00:06:07.759 align:start position:0%
+not encrypted and only accept encrypted
+ 
+
+00:06:07.759 --> 00:06:11.390 align:start position:0%
+not encrypted and only accept encrypted
+requests<00:06:08.759><c> now</c><00:06:09.039><c> imagine</c><00:06:09.880><c> Netflix</c><00:06:10.880><c> which</c><00:06:11.280><c> by</c>
+
+00:06:11.390 --> 00:06:11.400 align:start position:0%
+requests now imagine Netflix which by
+ 
+
+00:06:11.400 --> 00:06:14.670 align:start position:0%
+requests now imagine Netflix which by
+the<00:06:11.520><c> way</c><00:06:11.880><c> uses</c><00:06:12.319><c> engine</c><00:06:12.680><c> X</c><00:06:13.039><c> in</c><00:06:13.199><c> its</c><00:06:13.400><c> backend</c><00:06:14.199><c> and</c>
+
+00:06:14.670 --> 00:06:14.680 align:start position:0%
+the way uses engine X in its backend and
+ 
+
+00:06:14.680 --> 00:06:17.270 align:start position:0%
+the way uses engine X in its backend and
+as<00:06:14.800><c> we</c><00:06:14.919><c> know</c><00:06:15.319><c> Netflix</c><00:06:16.120><c> has</c><00:06:16.360><c> millions</c><00:06:16.720><c> of</c><00:06:16.880><c> users</c>
+
+00:06:17.270 --> 00:06:17.280 align:start position:0%
+as we know Netflix has millions of users
+ 
+
+00:06:17.280 --> 00:06:19.990 align:start position:0%
+as we know Netflix has millions of users
+so<00:06:17.440><c> it's</c><00:06:17.599><c> getting</c><00:06:17.840><c> millions</c><00:06:18.240><c> of</c><00:06:18.440><c> requests</c><00:06:19.080><c> for</c>
+
+00:06:19.990 --> 00:06:20.000 align:start position:0%
+so it's getting millions of requests for
+ 
+
+00:06:20.000 --> 00:06:23.390 align:start position:0%
+so it's getting millions of requests for
+videos<00:06:20.880><c> on</c><00:06:21.199><c> its</c><00:06:21.599><c> web</c><00:06:21.840><c> servers</c><00:06:22.759><c> and</c><00:06:22.960><c> let's</c><00:06:23.160><c> say</c>
+
+00:06:23.390 --> 00:06:23.400 align:start position:0%
+videos on its web servers and let's say
+ 
+
+00:06:23.400 --> 00:06:26.230 align:start position:0%
+videos on its web servers and let's say
+it's<00:06:23.720><c> an</c><00:06:23.919><c> evening</c><00:06:24.479><c> in</c><00:06:24.680><c> New</c><00:06:24.919><c> York</c><00:06:25.560><c> millions</c><00:06:26.000><c> of</c>
+
+00:06:26.230 --> 00:06:26.240 align:start position:0%
+it's an evening in New York millions of
+ 
+
+00:06:26.240 --> 00:06:29.110 align:start position:0%
+it's an evening in New York millions of
+people<00:06:27.000><c> come</c><00:06:27.280><c> home</c><00:06:27.560><c> after</c><00:06:27.880><c> work</c><00:06:28.599><c> all</c><00:06:28.840><c> at</c><00:06:29.000><c> the</c>
+
+00:06:29.110 --> 00:06:29.120 align:start position:0%
+people come home after work all at the
+ 
+
+00:06:29.120 --> 00:06:31.870 align:start position:0%
+people come home after work all at the
+same<00:06:29.319><c> time</c><00:06:29.840><c> they</c><00:06:30.120><c> switch</c><00:06:30.479><c> on</c><00:06:30.800><c> Netflix</c><00:06:31.680><c> and</c>
+
+00:06:31.870 --> 00:06:31.880 align:start position:0%
+same time they switch on Netflix and
+ 
+
+00:06:31.880 --> 00:06:34.469 align:start position:0%
+same time they switch on Netflix and
+start<00:06:32.240><c> watching</c><00:06:32.919><c> the</c><00:06:33.120><c> most</c><00:06:33.440><c> popular</c><00:06:34.000><c> series</c>
+
+00:06:34.469 --> 00:06:34.479 align:start position:0%
+start watching the most popular series
+ 
+
+00:06:34.479 --> 00:06:37.150 align:start position:0%
+start watching the most popular series
+at<00:06:34.639><c> that</c><00:06:34.840><c> time</c><00:06:35.280><c> that</c><00:06:35.440><c> means</c><00:06:36.120><c> Suddenly</c><00:06:36.720><c> at</c><00:06:36.880><c> the</c>
+
+00:06:37.150 --> 00:06:37.160 align:start position:0%
+at that time that means Suddenly at the
+ 
+
+00:06:37.160 --> 00:06:40.230 align:start position:0%
+at that time that means Suddenly at the
+very<00:06:37.400><c> same</c><00:06:37.759><c> time</c><00:06:38.240><c> millions</c><00:06:38.759><c> of</c><00:06:39.000><c> requests</c><00:06:39.759><c> for</c>
+
+00:06:40.230 --> 00:06:40.240 align:start position:0%
+very same time millions of requests for
+ 
+
+00:06:40.240 --> 00:06:44.710 align:start position:0%
+very same time millions of requests for
+a<00:06:40.599><c> highquality</c><00:06:41.599><c> video</c><00:06:42.160><c> is</c><00:06:42.440><c> sent</c><00:06:43.240><c> to</c><00:06:43.800><c> Netflix</c>
+
+00:06:44.710 --> 00:06:44.720 align:start position:0%
+a highquality video is sent to Netflix
+ 
+
+00:06:44.720 --> 00:06:47.110 align:start position:0%
+a highquality video is sent to Netflix
+so<00:06:45.120><c> in</c><00:06:45.280><c> this</c><00:06:45.440><c> case</c><00:06:45.720><c> imagine</c><00:06:46.120><c> that</c><00:06:46.440><c> engine</c><00:06:46.800><c> X</c>
+
+00:06:47.110 --> 00:06:47.120 align:start position:0%
+so in this case imagine that engine X
+ 
+
+00:06:47.120 --> 00:06:49.749 align:start position:0%
+so in this case imagine that engine X
+proxy<00:06:47.479><c> server</c><00:06:48.039><c> would</c><00:06:48.240><c> have</c><00:06:48.400><c> to</c><00:06:48.639><c> send</c><00:06:49.120><c> back</c><00:06:49.560><c> the</c>
+
+00:06:49.749 --> 00:06:49.759 align:start position:0%
+proxy server would have to send back the
+ 
+
+00:06:49.759 --> 00:06:52.749 align:start position:0%
+proxy server would have to send back the
+entire<00:06:50.440><c> highquality</c><00:06:51.160><c> video</c><00:06:51.759><c> to</c><00:06:52.039><c> millions</c><00:06:52.520><c> of</c>
+
+00:06:52.749 --> 00:06:52.759 align:start position:0%
+entire highquality video to millions of
+ 
+
+00:06:52.759 --> 00:06:55.749 align:start position:0%
+entire highquality video to millions of
+users<00:06:53.479><c> at</c><00:06:53.720><c> once</c><00:06:54.319><c> that's</c><00:06:54.479><c> a</c><00:06:54.599><c> lot</c><00:06:54.720><c> of</c><00:06:54.880><c> bandwidth</c>
+
+00:06:55.749 --> 00:06:55.759 align:start position:0%
+users at once that's a lot of bandwidth
+ 
+
+00:06:55.759 --> 00:06:57.749 align:start position:0%
+users at once that's a lot of bandwidth
+imagine<00:06:56.240><c> how</c><00:06:56.479><c> long</c><00:06:56.759><c> it</c><00:06:56.879><c> would</c><00:06:57.080><c> take</c><00:06:57.280><c> to</c><00:06:57.520><c> send</c>
+
+00:06:57.749 --> 00:06:57.759 align:start position:0%
+imagine how long it would take to send
+ 
+
+00:06:57.759 --> 00:07:00.230 align:start position:0%
+imagine how long it would take to send
+it<00:06:57.960><c> over</c><00:06:58.440><c> the</c><00:06:58.599><c> internet</c><00:06:59.039><c> cables</c><00:06:59.840><c> all</c><00:07:00.000><c> the</c><00:07:00.120><c> way</c>
+
+00:07:00.230 --> 00:07:00.240 align:start position:0%
+it over the internet cables all the way
+ 
+
+00:07:00.240 --> 00:07:03.029 align:start position:0%
+it over the internet cables all the way
+to<00:07:00.440><c> the</c><00:07:00.599><c> TVs</c><00:07:01.120><c> of</c><00:07:01.479><c> millions</c><00:07:01.919><c> of</c><00:07:02.120><c> viewers</c><00:07:02.840><c> that's</c>
+
+00:07:03.029 --> 00:07:03.039 align:start position:0%
+to the TVs of millions of viewers that's
+ 
+
+00:07:03.039 --> 00:07:05.670 align:start position:0%
+to the TVs of millions of viewers that's
+where<00:07:03.319><c> compression</c><00:07:03.919><c> helps</c><00:07:04.639><c> engine</c><00:07:04.960><c> X</c><00:07:05.160><c> proxy</c>
+
+00:07:05.670 --> 00:07:05.680 align:start position:0%
+where compression helps engine X proxy
+ 
+
+00:07:05.680 --> 00:07:08.309 align:start position:0%
+where compression helps engine X proxy
+can<00:07:05.840><c> also</c><00:07:06.000><c> be</c><00:07:06.199><c> configured</c><00:07:06.639><c> to</c><00:07:06.879><c> compress</c><00:07:07.759><c> large</c>
+
+00:07:08.309 --> 00:07:08.319 align:start position:0%
+can also be configured to compress large
+ 
+
+00:07:08.319 --> 00:07:11.550 align:start position:0%
+can also be configured to compress large
+images<00:07:08.919><c> or</c><00:07:09.160><c> video</c><00:07:09.520><c> files</c><00:07:10.000><c> to</c><00:07:10.199><c> save</c><00:07:10.639><c> bandwidth</c>
+
+00:07:11.550 --> 00:07:11.560 align:start position:0%
+images or video files to save bandwidth
+ 
+
+00:07:11.560 --> 00:07:14.909 align:start position:0%
+images or video files to save bandwidth
+both<00:07:11.879><c> on</c><00:07:12.039><c> the</c><00:07:12.319><c> side</c><00:07:12.800><c> of</c><00:07:13.319><c> the</c><00:07:13.879><c> clients</c><00:07:14.680><c> so</c>
+
+00:07:14.909 --> 00:07:14.919 align:start position:0%
+both on the side of the clients so
+ 
+
+00:07:14.919 --> 00:07:17.150 align:start position:0%
+both on the side of the clients so
+people<00:07:15.199><c> who</c><00:07:15.360><c> are</c><00:07:15.840><c> receiving</c><00:07:16.440><c> those</c><00:07:16.720><c> large</c>
+
+00:07:17.150 --> 00:07:17.160 align:start position:0%
+people who are receiving those large
+ 
+
+00:07:17.160 --> 00:07:19.869 align:start position:0%
+people who are receiving those large
+files<00:07:17.919><c> but</c><00:07:18.120><c> also</c><00:07:18.639><c> on</c><00:07:18.800><c> the</c><00:07:18.919><c> server</c><00:07:19.360><c> side</c><00:07:19.639><c> who</c><00:07:19.759><c> is</c>
+
+00:07:19.869 --> 00:07:19.879 align:start position:0%
+files but also on the server side who is
+ 
+
+00:07:19.879 --> 00:07:22.510 align:start position:0%
+files but also on the server side who is
+sending<00:07:20.520><c> all</c><00:07:20.680><c> that</c><00:07:20.919><c> content</c><00:07:21.520><c> so</c><00:07:21.800><c> it</c><00:07:21.960><c> arrives</c>
+
+00:07:22.510 --> 00:07:22.520 align:start position:0%
+sending all that content so it arrives
+ 
+
+00:07:22.520 --> 00:07:25.869 align:start position:0%
+sending all that content so it arrives
+faster<00:07:23.319><c> and</c><00:07:23.599><c> uses</c><00:07:23.960><c> up</c><00:07:24.440><c> less</c><00:07:24.720><c> of</c><00:07:24.919><c> your</c><00:07:25.319><c> internet</c>
+
+00:07:25.869 --> 00:07:25.879 align:start position:0%
+faster and uses up less of your internet
+ 
+
+00:07:25.879 --> 00:07:28.350 align:start position:0%
+faster and uses up less of your internet
+bandwidth<00:07:26.879><c> and</c><00:07:27.280><c> as</c><00:07:27.479><c> part</c><00:07:27.639><c> of</c><00:07:27.759><c> it</c><00:07:27.919><c> it</c><00:07:28.080><c> also</c>
+
+00:07:28.350 --> 00:07:28.360 align:start position:0%
+bandwidth and as part of it it also
+ 
+
+00:07:28.360 --> 00:07:30.749 align:start position:0%
+bandwidth and as part of it it also
+supports<00:07:28.960><c> sending</c><00:07:29.520><c> responses</c><00:07:30.000><c> in</c><00:07:30.240><c> chunks</c>
+
+00:07:30.749 --> 00:07:30.759 align:start position:0%
+supports sending responses in chunks
+ 
+
+00:07:30.759 --> 00:07:33.790 align:start position:0%
+supports sending responses in chunks
+instead<00:07:31.080><c> of</c><00:07:31.440><c> the</c><00:07:31.639><c> entire</c><00:07:32.240><c> file</c><00:07:32.680><c> at</c><00:07:32.879><c> once</c><00:07:33.599><c> so</c>
+
+00:07:33.790 --> 00:07:33.800 align:start position:0%
+instead of the entire file at once so
+ 
+
+00:07:33.800 --> 00:07:35.830 align:start position:0%
+instead of the entire file at once so
+basically<00:07:34.199><c> it</c><00:07:34.319><c> sends</c><00:07:34.560><c> you</c><00:07:34.840><c> part</c><00:07:35.039><c> of</c><00:07:35.199><c> the</c><00:07:35.360><c> video</c>
+
+00:07:35.830 --> 00:07:35.840 align:start position:0%
+basically it sends you part of the video
+ 
+
+00:07:35.840 --> 00:07:37.270 align:start position:0%
+basically it sends you part of the video
+and<00:07:35.960><c> then</c><00:07:36.160><c> by</c><00:07:36.280><c> the</c><00:07:36.440><c> time</c><00:07:36.599><c> you</c><00:07:36.720><c> have</c><00:07:36.919><c> watched</c>
+
+00:07:37.270 --> 00:07:37.280 align:start position:0%
+and then by the time you have watched
+ 
+
+00:07:37.280 --> 00:07:39.710 align:start position:0%
+and then by the time you have watched
+the<00:07:37.840><c> first</c><00:07:38.199><c> half</c><00:07:38.639><c> the</c><00:07:38.840><c> second</c><00:07:39.199><c> half</c><00:07:39.440><c> of</c><00:07:39.560><c> the</c>
+
+00:07:39.710 --> 00:07:39.720 align:start position:0%
+the first half the second half of the
+ 
+
+00:07:39.720 --> 00:07:42.430 align:start position:0%
+the first half the second half of the
+video<00:07:40.319><c> has</c><00:07:40.440><c> been</c><00:07:40.599><c> sent</c><00:07:40.960><c> over</c><00:07:41.319><c> to</c><00:07:41.479><c> you</c><00:07:41.680><c> as</c><00:07:41.840><c> well</c>
+
+00:07:42.430 --> 00:07:42.440 align:start position:0%
+video has been sent over to you as well
+ 
+
+00:07:42.440 --> 00:07:44.430 align:start position:0%
+video has been sent over to you as well
+so<00:07:43.080><c> these</c><00:07:43.240><c> are</c><00:07:43.560><c> all</c><00:07:43.720><c> the</c><00:07:43.879><c> functionalities</c>
+
+00:07:44.430 --> 00:07:44.440 align:start position:0%
+so these are all the functionalities
+ 
+
+00:07:44.440 --> 00:07:47.029 align:start position:0%
+so these are all the functionalities
+that<00:07:44.599><c> you</c><00:07:44.680><c> can</c><00:07:44.879><c> configure</c><00:07:45.240><c> for</c><00:07:45.599><c> enginex</c><00:07:46.400><c> as</c><00:07:46.720><c> a</c>
+
+00:07:47.029 --> 00:07:47.039 align:start position:0%
+that you can configure for enginex as a
+ 
+
+00:07:47.039 --> 00:07:50.149 align:start position:0%
+that you can configure for enginex as a
+proxy<00:07:47.720><c> server</c><00:07:48.560><c> now</c><00:07:48.840><c> you</c><00:07:48.960><c> may</c><00:07:49.120><c> be</c><00:07:49.319><c> thinking</c><00:07:50.039><c> how</c>
+
+00:07:50.149 --> 00:07:50.159 align:start position:0%
+proxy server now you may be thinking how
+ 
+
+00:07:50.159 --> 00:07:52.670 align:start position:0%
+proxy server now you may be thinking how
+do<00:07:50.319><c> you</c><00:07:50.520><c> make</c><00:07:50.879><c> enginex</c><00:07:51.479><c> do</c><00:07:51.720><c> all</c><00:07:51.919><c> these</c><00:07:52.120><c> things</c>
+
+00:07:52.670 --> 00:07:52.680 align:start position:0%
+do you make enginex do all these things
+ 
+
+00:07:52.680 --> 00:07:54.149 align:start position:0%
+do you make enginex do all these things
+how<00:07:52.800><c> do</c><00:07:52.919><c> you</c><00:07:53.039><c> configure</c><00:07:53.560><c> them</c><00:07:53.800><c> how</c><00:07:53.879><c> do</c><00:07:54.000><c> you</c>
+
+00:07:54.149 --> 00:07:54.159 align:start position:0%
+how do you configure them how do you
+ 
+
+00:07:54.159 --> 00:07:56.830 align:start position:0%
+how do you configure them how do you
+tell<00:07:54.520><c> enginex</c><00:07:55.520><c> whether</c><00:07:55.840><c> it</c><00:07:55.960><c> should</c><00:07:56.280><c> act</c><00:07:56.560><c> as</c><00:07:56.680><c> a</c>
+
+00:07:56.830 --> 00:07:56.840 align:start position:0%
+tell enginex whether it should act as a
+ 
+
+00:07:56.840 --> 00:07:59.110 align:start position:0%
+tell enginex whether it should act as a
+web<00:07:57.080><c> server</c><00:07:57.479><c> or</c><00:07:57.639><c> a</c><00:07:57.840><c> proxy</c><00:07:58.199><c> server</c><00:07:58.720><c> and</c><00:07:58.840><c> how</c><00:07:58.960><c> do</c>
+
+00:07:59.110 --> 00:07:59.120 align:start position:0%
+web server or a proxy server and how do
+ 
+
+00:07:59.120 --> 00:08:02.230 align:start position:0%
+web server or a proxy server and how do
+you<00:07:59.599><c> configure</c><00:08:00.080><c> all</c><00:08:00.280><c> these</c><00:08:00.479><c> caching</c><00:08:01.159><c> and</c><00:08:01.599><c> SSL</c>
+
+00:08:02.230 --> 00:08:02.240 align:start position:0%
+you configure all these caching and SSL
+ 
+
+00:08:02.240 --> 00:08:04.230 align:start position:0%
+you configure all these caching and SSL
+traffic<00:08:02.720><c> and</c><00:08:02.879><c> all</c><00:08:03.039><c> this</c><00:08:03.240><c> stuff</c><00:08:03.800><c> well</c><00:08:04.080><c> that's</c>
+
+00:08:04.230 --> 00:08:04.240 align:start position:0%
+traffic and all this stuff well that's
+ 
+
+00:08:04.240 --> 00:08:06.469 align:start position:0%
+traffic and all this stuff well that's
+where<00:08:04.560><c> enginex</c><00:08:05.120><c> configuration</c><00:08:05.960><c> file</c><00:08:06.280><c> comes</c>
+
+00:08:06.469 --> 00:08:06.479 align:start position:0%
+where enginex configuration file comes
+ 
+
+00:08:06.479 --> 00:08:09.350 align:start position:0%
+where enginex configuration file comes
+in<00:08:06.840><c> which</c><00:08:07.520><c> lets</c><00:08:07.800><c> you</c><00:08:08.400><c> define</c><00:08:08.919><c> all</c><00:08:09.199><c> this</c>
+
+00:08:09.350 --> 00:08:09.360 align:start position:0%
+in which lets you define all this
+ 
+
+00:08:09.360 --> 00:08:12.469 align:start position:0%
+in which lets you define all this
+configuration<00:08:10.280><c> with</c><00:08:10.599><c> so-called</c><00:08:11.479><c> directives</c>
+
+00:08:12.469 --> 00:08:12.479 align:start position:0%
+configuration with so-called directives
+ 
+
+00:08:12.479 --> 00:08:14.430 align:start position:0%
+configuration with so-called directives
+this<00:08:12.639><c> is</c><00:08:12.960><c> where</c><00:08:13.120><c> you</c><00:08:13.240><c> can</c><00:08:13.440><c> define</c><00:08:14.120><c> whether</c><00:08:14.319><c> you</c>
+
+00:08:14.430 --> 00:08:14.440 align:start position:0%
+this is where you can define whether you
+ 
+
+00:08:14.440 --> 00:08:16.869 align:start position:0%
+this is where you can define whether you
+want<00:08:14.680><c> your</c><00:08:14.879><c> engine</c><00:08:15.240><c> X</c><00:08:15.479><c> to</c><00:08:15.599><c> be</c><00:08:15.840><c> a</c><00:08:16.000><c> web</c><00:08:16.240><c> server</c><00:08:16.680><c> or</c>
+
+00:08:16.869 --> 00:08:16.879 align:start position:0%
+want your engine X to be a web server or
+ 
+
+00:08:16.879 --> 00:08:19.309 align:start position:0%
+want your engine X to be a web server or
+a<00:08:17.080><c> proxy</c><00:08:17.440><c> server</c><00:08:18.120><c> simply</c><00:08:18.520><c> by</c><00:08:18.720><c> configuring</c>
+
+00:08:19.309 --> 00:08:19.319 align:start position:0%
+a proxy server simply by configuring
+ 
+
+00:08:19.319 --> 00:08:21.390 align:start position:0%
+a proxy server simply by configuring
+whether<00:08:19.560><c> it</c><00:08:19.680><c> should</c><00:08:19.879><c> forward</c><00:08:20.280><c> the</c><00:08:20.440><c> traffic</c><00:08:20.800><c> to</c>
+
+00:08:21.390 --> 00:08:21.400 align:start position:0%
+whether it should forward the traffic to
+ 
+
+00:08:21.400 --> 00:08:23.469 align:start position:0%
+whether it should forward the traffic to
+other<00:08:21.680><c> web</c><00:08:21.919><c> servers</c><00:08:22.560><c> or</c><00:08:22.919><c> whether</c><00:08:23.120><c> it</c><00:08:23.199><c> should</c>
+
+00:08:23.469 --> 00:08:23.479 align:start position:0%
+other web servers or whether it should
+ 
+
+00:08:23.479 --> 00:08:25.830 align:start position:0%
+other web servers or whether it should
+handle<00:08:23.759><c> it</c><00:08:24.080><c> itself</c><00:08:24.759><c> you</c><00:08:24.879><c> can</c><00:08:25.080><c> configure</c><00:08:25.639><c> which</c>
+
+00:08:25.830 --> 00:08:25.840 align:start position:0%
+handle it itself you can configure which
+ 
+
+00:08:25.840 --> 00:08:28.070 align:start position:0%
+handle it itself you can configure which
+Port<00:08:26.240><c> you</c><00:08:26.360><c> want</c><00:08:26.759><c> engine</c><00:08:27.080><c> X</c><00:08:27.280><c> server</c><00:08:27.560><c> to</c><00:08:27.720><c> listen</c>
+
+00:08:28.070 --> 00:08:28.080 align:start position:0%
+Port you want engine X server to listen
+ 
+
+00:08:28.080 --> 00:08:31.110 align:start position:0%
+Port you want engine X server to listen
+on<00:08:28.759><c> this</c><00:08:28.840><c> is</c><00:08:28.960><c> an</c><00:08:29.120><c> example</c><00:08:29.919><c> of</c><00:08:30.319><c> a</c><00:08:30.520><c> simple</c><00:08:30.879><c> web</c>
+
+00:08:31.110 --> 00:08:31.120 align:start position:0%
+on this is an example of a simple web
+ 
+
+00:08:31.120 --> 00:08:32.829 align:start position:0%
+on this is an example of a simple web
+server<00:08:31.440><c> configuration</c><00:08:32.080><c> that</c><00:08:32.200><c> listens</c><00:08:32.599><c> on</c>
+
+00:08:32.829 --> 00:08:32.839 align:start position:0%
+server configuration that listens on
+ 
+
+00:08:32.839 --> 00:08:36.230 align:start position:0%
+server configuration that listens on
+Port<00:08:33.080><c> 80</c><00:08:33.919><c> and</c><00:08:34.399><c> with</c><00:08:34.640><c> location</c><00:08:35.399><c> basically</c>
+
+00:08:36.230 --> 00:08:36.240 align:start position:0%
+Port 80 and with location basically
+ 
+
+00:08:36.240 --> 00:08:39.110 align:start position:0%
+Port 80 and with location basically
+defines<00:08:37.039><c> from</c><00:08:37.320><c> where</c><00:08:37.680><c> in</c><00:08:37.800><c> the</c><00:08:38.000><c> file</c><00:08:38.360><c> system</c><00:08:39.000><c> it</c>
+
+00:08:39.110 --> 00:08:39.120 align:start position:0%
+defines from where in the file system it
+ 
+
+00:08:39.120 --> 00:08:42.029 align:start position:0%
+defines from where in the file system it
+should<00:08:39.360><c> serve</c><00:08:39.959><c> those</c><00:08:40.399><c> static</c><00:08:40.839><c> files</c><00:08:41.320><c> back</c><00:08:41.519><c> to</c>
+
+00:08:42.029 --> 00:08:42.039 align:start position:0%
+should serve those static files back to
+ 
+
+00:08:42.039 --> 00:08:43.990 align:start position:0%
+should serve those static files back to
+the<00:08:42.200><c> browser</c><00:08:42.919><c> but</c><00:08:43.159><c> as</c><00:08:43.240><c> we</c><00:08:43.399><c> learned</c>
+
+00:08:43.990 --> 00:08:44.000 align:start position:0%
+the browser but as we learned
+ 
+
+00:08:44.000 --> 00:08:47.910 align:start position:0%
+the browser but as we learned
+communicating<00:08:44.720><c> on</c><00:08:45.040><c> Port</c><00:08:45.279><c> 8</c><00:08:45.720><c> or</c><00:08:45.959><c> HTTP</c><00:08:46.839><c> Port</c><00:08:47.560><c> is</c>
+
+00:08:47.910 --> 00:08:47.920 align:start position:0%
+communicating on Port 8 or HTTP Port is
+ 
+
+00:08:47.920 --> 00:08:50.310 align:start position:0%
+communicating on Port 8 or HTTP Port is
+insecure<00:08:48.800><c> instead</c><00:08:49.200><c> we</c><00:08:49.320><c> want</c><00:08:49.440><c> to</c><00:08:49.640><c> encrypt</c><00:08:50.120><c> all</c>
+
+00:08:50.310 --> 00:08:50.320 align:start position:0%
+insecure instead we want to encrypt all
+ 
+
+00:08:50.320 --> 00:08:52.150 align:start position:0%
+insecure instead we want to encrypt all
+the<00:08:50.519><c> communication</c><00:08:51.360><c> and</c><00:08:51.440><c> you</c><00:08:51.560><c> can</c><00:08:51.720><c> configure</c>
+
+00:08:52.150 --> 00:08:52.160 align:start position:0%
+the communication and you can configure
+ 
+
+00:08:52.160 --> 00:08:55.389 align:start position:0%
+the communication and you can configure
+that<00:08:52.360><c> easily</c><00:08:52.720><c> in</c><00:08:52.880><c> engine</c><00:08:53.240><c> X</c><00:08:53.800><c> to</c><00:08:54.600><c> Route</c><00:08:55.080><c> any</c>
+
+00:08:55.389 --> 00:08:55.399 align:start position:0%
+that easily in engine X to Route any
+ 
+
+00:08:55.399 --> 00:08:58.990 align:start position:0%
+that easily in engine X to Route any
+traffic<00:08:56.000><c> coming</c><00:08:56.279><c> on</c><00:08:56.480><c> Port</c><00:08:56.720><c> 80</c><00:08:57.200><c> to</c><00:08:57.880><c> https</c><00:08:58.880><c> by</c>
+
+00:08:58.990 --> 00:08:59.000 align:start position:0%
+traffic coming on Port 80 to https by
+ 
+
+00:08:59.000 --> 00:09:02.590 align:start position:0%
+traffic coming on Port 80 to https by
+sending<00:08:59.480><c> L</c><00:08:59.839><c> those</c><00:09:00.079><c> requests</c><00:09:00.720><c> to</c><00:09:01.279><c> https</c><00:09:02.279><c> and</c>
+
+00:09:02.590 --> 00:09:02.600 align:start position:0%
+sending L those requests to https and
+ 
+
+00:09:02.600 --> 00:09:06.030 align:start position:0%
+sending L those requests to https and
+point<00:09:03.160><c> and</c><00:09:03.399><c> here</c><00:09:03.600><c> we</c><00:09:03.800><c> have</c><00:09:04.120><c> an</c><00:09:04.440><c> https</c><00:09:05.440><c> server</c>
+
+00:09:06.030 --> 00:09:06.040 align:start position:0%
+point and here we have an https server
+ 
+
+00:09:06.040 --> 00:09:08.870 align:start position:0%
+point and here we have an https server
+configured<00:09:07.040><c> that</c><00:09:07.440><c> serves</c><00:09:07.839><c> the</c><00:09:07.959><c> files</c><00:09:08.560><c> as</c><00:09:08.680><c> well</c>
+
+00:09:08.870 --> 00:09:08.880 align:start position:0%
+configured that serves the files as well
+ 
+
+00:09:08.880 --> 00:09:11.150 align:start position:0%
+configured that serves the files as well
+as<00:09:09.079><c> specifies</c><00:09:09.680><c> the</c><00:09:09.959><c> SSL</c><00:09:10.560><c> certificate</c>
+
+00:09:11.150 --> 00:09:11.160 align:start position:0%
+as specifies the SSL certificate
+ 
+
+00:09:11.160 --> 00:09:13.389 align:start position:0%
+as specifies the SSL certificate
+location<00:09:11.839><c> the</c><00:09:12.040><c> public</c><00:09:12.360><c> key</c><00:09:12.640><c> and</c><00:09:12.839><c> the</c><00:09:13.040><c> private</c>
+
+00:09:13.389 --> 00:09:13.399 align:start position:0%
+location the public key and the private
+ 
+
+00:09:13.399 --> 00:09:16.430 align:start position:0%
+location the public key and the private
+key<00:09:13.959><c> for</c><00:09:14.320><c> the</c><00:09:14.560><c> SSL</c><00:09:15.399><c> communication</c><00:09:16.200><c> and</c><00:09:16.320><c> it</c>
+
+00:09:16.430 --> 00:09:16.440 align:start position:0%
+key for the SSL communication and it
+ 
+
+00:09:16.440 --> 00:09:20.470 align:start position:0%
+key for the SSL communication and it
+listens<00:09:16.880><c> on</c><00:09:17.120><c> the</c><00:09:17.399><c> https</c><00:09:18.399><c> Port</c><00:09:19.200><c> 443</c><00:09:20.200><c> so</c><00:09:20.360><c> that's</c>
+
+00:09:20.470 --> 00:09:20.480 align:start position:0%
+listens on the https Port 443 so that's
+ 
+
+00:09:20.480 --> 00:09:22.670 align:start position:0%
+listens on the https Port 443 so that's
+a<00:09:20.640><c> simple</c><00:09:21.000><c> configuration</c><00:09:21.959><c> that</c><00:09:22.160><c> allows</c><00:09:22.519><c> you</c>
+
+00:09:22.670 --> 00:09:22.680 align:start position:0%
+a simple configuration that allows you
+ 
+
+00:09:22.680 --> 00:09:25.670 align:start position:0%
+a simple configuration that allows you
+to<00:09:22.880><c> twe</c><00:09:23.200><c> enginex</c><00:09:24.040><c> to</c><00:09:24.279><c> handle</c><00:09:24.760><c> requests</c><00:09:25.480><c> like</c>
+
+00:09:25.670 --> 00:09:25.680 align:start position:0%
+to twe enginex to handle requests like
+ 
+
+00:09:25.680 --> 00:09:27.990 align:start position:0%
+to twe enginex to handle requests like
+that<00:09:26.120><c> you</c><00:09:26.279><c> also</c><00:09:26.519><c> have</c><00:09:26.800><c> its</c><00:09:26.959><c> own</c><00:09:27.200><c> configuration</c>
+
+00:09:27.990 --> 00:09:28.000 align:start position:0%
+that you also have its own configuration
+ 
+
+00:09:28.000 --> 00:09:30.670 align:start position:0%
+that you also have its own configuration
+to<00:09:28.240><c> configure</c><00:09:28.640><c> load</c><00:09:28.959><c> balance</c><00:09:29.800><c> to</c><00:09:30.079><c> multiple</c>
+
+00:09:30.670 --> 00:09:30.680 align:start position:0%
+to configure load balance to multiple
+ 
+
+00:09:30.680 --> 00:09:32.910 align:start position:0%
+to configure load balance to multiple
+backend<00:09:31.120><c> servers</c><00:09:32.040><c> and</c><00:09:32.360><c> within</c><00:09:32.720><c> that</c>
+
+00:09:32.910 --> 00:09:32.920 align:start position:0%
+backend servers and within that
+ 
+
+00:09:32.920 --> 00:09:34.710 align:start position:0%
+backend servers and within that
+configuration<00:09:33.440><c> you</c><00:09:33.560><c> can</c><00:09:33.720><c> also</c><00:09:34.000><c> Define</c><00:09:34.560><c> which</c>
+
+00:09:34.710 --> 00:09:34.720 align:start position:0%
+configuration you can also Define which
+ 
+
+00:09:34.720 --> 00:09:37.470 align:start position:0%
+configuration you can also Define which
+load<00:09:35.000><c> balancing</c><00:09:35.640><c> algorithm</c><00:09:36.279><c> to</c><00:09:36.480><c> use</c><00:09:37.079><c> like</c>
+
+00:09:37.470 --> 00:09:37.480 align:start position:0%
+load balancing algorithm to use like
+ 
+
+00:09:37.480 --> 00:09:40.269 align:start position:0%
+load balancing algorithm to use like
+select<00:09:37.880><c> the</c><00:09:38.120><c> least</c><00:09:38.480><c> busy</c><00:09:38.959><c> server</c><00:09:39.680><c> or</c><00:09:39.880><c> use</c><00:09:40.079><c> the</c>
+
+00:09:40.269 --> 00:09:40.279 align:start position:0%
+select the least busy server or use the
+ 
+
+00:09:40.279 --> 00:09:42.790 align:start position:0%
+select the least busy server or use the
+default<00:09:40.680><c> one</c><00:09:41.079><c> which</c><00:09:41.200><c> is</c><00:09:41.360><c> R</c><00:09:41.680><c> Robin</c><00:09:42.360><c> which</c><00:09:42.560><c> as</c><00:09:42.680><c> I</c>
+
+00:09:42.790 --> 00:09:42.800 align:start position:0%
+default one which is R Robin which as I
+ 
+
+00:09:42.800 --> 00:09:45.030 align:start position:0%
+default one which is R Robin which as I
+said<00:09:43.079><c> just</c><00:09:43.480><c> equally</c><00:09:43.959><c> distributes</c><00:09:44.440><c> the</c><00:09:44.600><c> load</c>
+
+00:09:45.030 --> 00:09:45.040 align:start position:0%
+said just equally distributes the load
+ 
+
+00:09:45.040 --> 00:09:47.190 align:start position:0%
+said just equally distributes the load
+in<00:09:45.160><c> a</c><00:09:45.360><c> cyclical</c><00:09:45.839><c> order</c><00:09:46.480><c> between</c><00:09:47.040><c> those</c>
+
+00:09:47.190 --> 00:09:47.200 align:start position:0%
+in a cyclical order between those
+ 
+
+00:09:47.200 --> 00:09:49.470 align:start position:0%
+in a cyclical order between those
+servers<00:09:47.959><c> you</c><00:09:48.120><c> also</c><00:09:48.399><c> have</c><00:09:48.760><c> the</c><00:09:48.920><c> caching</c>
+
+00:09:49.470 --> 00:09:49.480 align:start position:0%
+servers you also have the caching
+ 
+
+00:09:49.480 --> 00:09:52.150 align:start position:0%
+servers you also have the caching
+configuration<00:09:50.480><c> with</c><00:09:50.920><c> multiple</c><00:09:51.600><c> different</c>
+
+00:09:52.150 --> 00:09:52.160 align:start position:0%
+configuration with multiple different
+ 
+
+00:09:52.160 --> 00:09:54.630 align:start position:0%
+configuration with multiple different
+elements<00:09:52.959><c> like</c><00:09:53.160><c> how</c><00:09:53.440><c> long</c><00:09:53.680><c> the</c><00:09:53.880><c> cache</c><00:09:54.399><c> should</c>
+
+00:09:54.630 --> 00:09:54.640 align:start position:0%
+elements like how long the cache should
+ 
+
+00:09:54.640 --> 00:09:57.269 align:start position:0%
+elements like how long the cache should
+be<00:09:55.160><c> stored</c><00:09:55.720><c> before</c><00:09:55.959><c> it's</c><00:09:56.200><c> refreshed</c><00:09:56.959><c> and</c><00:09:57.079><c> so</c>
+
+00:09:57.269 --> 00:09:57.279 align:start position:0%
+be stored before it's refreshed and so
+ 
+
+00:09:57.279 --> 00:09:59.590 align:start position:0%
+be stored before it's refreshed and so
+on<00:09:57.640><c> and</c><00:09:57.760><c> as</c><00:09:57.880><c> you</c><00:09:57.959><c> see</c><00:09:58.200><c> the</c><00:09:58.360><c> configuration</c><00:09:59.440><c> of</c>
+
+00:09:59.590 --> 00:09:59.600 align:start position:0%
+on and as you see the configuration of
+ 
+
+00:09:59.600 --> 00:10:01.269 align:start position:0%
+on and as you see the configuration of
+all<00:09:59.800><c> these</c><00:10:00.000><c> functionalities</c><00:10:00.720><c> is</c><00:10:01.040><c> pretty</c>
+
+00:10:01.269 --> 00:10:01.279 align:start position:0%
+all these functionalities is pretty
+ 
+
+00:10:01.279 --> 00:10:03.829 align:start position:0%
+all these functionalities is pretty
+straightforward<00:10:02.240><c> and</c><00:10:02.560><c> it's</c><00:10:02.800><c> also</c><00:10:03.440><c> pretty</c>
+
+00:10:03.829 --> 00:10:03.839 align:start position:0%
+straightforward and it's also pretty
+ 
+
+00:10:03.839 --> 00:10:05.949 align:start position:0%
+straightforward and it's also pretty
+granular<00:10:04.560><c> like</c><00:10:04.680><c> you</c><00:10:04.800><c> can</c><00:10:04.920><c> do</c><00:10:05.399><c> tons</c><00:10:05.760><c> of</c>
+
+00:10:05.949 --> 00:10:05.959 align:start position:0%
+granular like you can do tons of
+ 
+
+00:10:05.959 --> 00:10:07.990 align:start position:0%
+granular like you can do tons of
+different<00:10:06.279><c> configuration</c><00:10:06.839><c> with</c><00:10:07.000><c> engine</c><00:10:07.360><c> X</c>
+
+00:10:07.990 --> 00:10:08.000 align:start position:0%
+different configuration with engine X
+ 
+
+00:10:08.000 --> 00:10:10.990 align:start position:0%
+different configuration with engine X
+and<00:10:08.240><c> you</c><00:10:08.519><c> actually</c><00:10:08.920><c> have</c><00:10:09.160><c> a</c><00:10:09.399><c> full</c><00:10:09.760><c> list</c><00:10:10.279><c> of</c><00:10:10.760><c> all</c>
+
+00:10:10.990 --> 00:10:11.000 align:start position:0%
+and you actually have a full list of all
+ 
+
+00:10:11.000 --> 00:10:12.350 align:start position:0%
+and you actually have a full list of all
+those<00:10:11.200><c> configuration</c><00:10:11.800><c> blocks</c><00:10:12.120><c> and</c>
+
+00:10:12.350 --> 00:10:12.360 align:start position:0%
+those configuration blocks and
+ 
+
+00:10:12.360 --> 00:10:15.069 align:start position:0%
+those configuration blocks and
+directives<00:10:13.320><c> in</c><00:10:13.560><c> this</c><00:10:13.760><c> list</c><00:10:14.120><c> here</c><00:10:14.640><c> which</c><00:10:14.800><c> is</c><00:10:14.920><c> a</c>
+
+00:10:15.069 --> 00:10:15.079 align:start position:0%
+directives in this list here which is a
+ 
+
+00:10:15.079 --> 00:10:17.030 align:start position:0%
+directives in this list here which is a
+pretty<00:10:15.560><c> huge</c><00:10:15.839><c> list</c><00:10:16.399><c> and</c><00:10:16.519><c> as</c><00:10:16.640><c> you</c><00:10:16.720><c> see</c><00:10:16.920><c> the</c>
+
+00:10:17.030 --> 00:10:17.040 align:start position:0%
+pretty huge list and as you see the
+ 
+
+00:10:17.040 --> 00:10:19.670 align:start position:0%
+pretty huge list and as you see the
+configurations<00:10:17.839><c> for</c><00:10:18.200><c> proxy</c><00:10:18.680><c> functionalities</c>
+
+00:10:19.670 --> 00:10:19.680 align:start position:0%
+configurations for proxy functionalities
+ 
+
+00:10:19.680 --> 00:10:21.230 align:start position:0%
+configurations for proxy functionalities
+have<00:10:20.079><c> proxy</c><00:10:20.480><c> prefix</c><00:10:20.880><c> so</c><00:10:21.000><c> you</c><00:10:21.079><c> can</c>
+
+00:10:21.230 --> 00:10:21.240 align:start position:0%
+have proxy prefix so you can
+ 
+
+00:10:21.240 --> 00:10:24.670 align:start position:0%
+have proxy prefix so you can
+differentiate<00:10:21.800><c> them</c><00:10:22.000><c> as</c>
+
+00:10:24.670 --> 00:10:24.680 align:start position:0%
+ 
+ 
+
+00:10:24.680 --> 00:10:27.389 align:start position:0%
+ 
+well<00:10:25.680><c> now</c><00:10:25.839><c> engine</c><00:10:26.160><c> X</c><00:10:26.360><c> is</c><00:10:26.519><c> very</c><00:10:26.720><c> flexible</c><00:10:27.279><c> as</c>
+
+00:10:27.389 --> 00:10:27.399 align:start position:0%
+well now engine X is very flexible as
+ 
+
+00:10:27.399 --> 00:10:29.910 align:start position:0%
+well now engine X is very flexible as
+you<00:10:27.519><c> see</c><00:10:27.839><c> and</c><00:10:28.120><c> super</c><00:10:28.600><c> fast</c><00:10:28.959><c> as</c><00:10:29.079><c> well</c><00:10:29.480><c> so</c><00:10:29.720><c> it</c>
+
+00:10:29.910 --> 00:10:29.920 align:start position:0%
+you see and super fast as well so it
+ 
+
+00:10:29.920 --> 00:10:32.509 align:start position:0%
+you see and super fast as well so it
+became<00:10:30.360><c> very</c><00:10:30.680><c> popular</c><00:10:31.120><c> in</c><00:10:31.399><c> containers</c><00:10:32.360><c> as</c>
+
+00:10:32.509 --> 00:10:32.519 align:start position:0%
+became very popular in containers as
+ 
+
+00:10:32.519 --> 00:10:36.190 align:start position:0%
+became very popular in containers as
+well<00:10:33.040><c> and</c><00:10:33.360><c> made</c><00:10:33.640><c> its</c><00:10:33.880><c> way</c><00:10:34.480><c> as</c><00:10:35.120><c> one</c><00:10:35.360><c> of</c><00:10:35.639><c> the</c><00:10:35.880><c> most</c>
+
+00:10:36.190 --> 00:10:36.200 align:start position:0%
+well and made its way as one of the most
+ 
+
+00:10:36.200 --> 00:10:38.870 align:start position:0%
+well and made its way as one of the most
+popular<00:10:36.600><c> solutions</c><00:10:37.079><c> for</c><00:10:37.680><c> kubernetes</c><00:10:38.399><c> Ingress</c>
+
+00:10:38.870 --> 00:10:38.880 align:start position:0%
+popular solutions for kubernetes Ingress
+ 
+
+00:10:38.880 --> 00:10:40.629 align:start position:0%
+popular solutions for kubernetes Ingress
+controller<00:10:39.399><c> functionality</c><00:10:40.200><c> Ingress</c>
+
+00:10:40.629 --> 00:10:40.639 align:start position:0%
+controller functionality Ingress
+ 
+
+00:10:40.639 --> 00:10:44.150 align:start position:0%
+controller functionality Ingress
+controller<00:10:41.200><c> is</c><00:10:41.519><c> essentially</c><00:10:42.240><c> a</c><00:10:42.560><c> proxy</c><00:10:43.440><c> with</c>
+
+00:10:44.150 --> 00:10:44.160 align:start position:0%
+controller is essentially a proxy with
+ 
+
+00:10:44.160 --> 00:10:46.350 align:start position:0%
+controller is essentially a proxy with
+Advanced<00:10:44.639><c> load</c><00:10:44.959><c> balancing</c><00:10:45.440><c> functionality</c>
+
+00:10:46.350 --> 00:10:46.360 align:start position:0%
+Advanced load balancing functionality
+ 
+
+00:10:46.360 --> 00:10:48.710 align:start position:0%
+Advanced load balancing functionality
+but<00:10:46.519><c> for</c><00:10:46.800><c> kubernetes</c><00:10:47.639><c> so</c><00:10:47.880><c> what</c><00:10:48.040><c> engine</c><00:10:48.399><c> X</c><00:10:48.560><c> was</c>
+
+00:10:48.710 --> 00:10:48.720 align:start position:0%
+but for kubernetes so what engine X was
+ 
+
+00:10:48.720 --> 00:10:50.949 align:start position:0%
+but for kubernetes so what engine X was
+doing<00:10:48.920><c> for</c><00:10:49.200><c> simple</c><00:10:49.600><c> web</c><00:10:49.839><c> servers</c><00:10:50.560><c> it's</c><00:10:50.760><c> now</c>
+
+00:10:50.949 --> 00:10:50.959 align:start position:0%
+doing for simple web servers it's now
+ 
+
+00:10:50.959 --> 00:10:53.310 align:start position:0%
+doing for simple web servers it's now
+doing<00:10:51.279><c> for</c><00:10:51.680><c> kubernetes</c><00:10:52.200><c> cluster</c><00:10:52.839><c> in</c><00:10:52.959><c> the</c><00:10:53.040><c> form</c>
+
+00:10:53.310 --> 00:10:53.320 align:start position:0%
+doing for kubernetes cluster in the form
+ 
+
+00:10:53.320 --> 00:10:55.870 align:start position:0%
+doing for kubernetes cluster in the form
+of<00:10:53.480><c> Ingress</c><00:10:53.880><c> controller</c><00:10:54.560><c> acting</c><00:10:55.040><c> as</c><00:10:55.200><c> a</c><00:10:55.480><c> proxy</c>
+
+00:10:55.870 --> 00:10:55.880 align:start position:0%
+of Ingress controller acting as a proxy
+ 
+
+00:10:55.880 --> 00:10:58.030 align:start position:0%
+of Ingress controller acting as a proxy
+and<00:10:56.040><c> load</c><00:10:56.320><c> balancer</c><00:10:57.320><c> that</c><00:10:57.720><c> receives</c><00:10:57.920><c> the</c>
+
+00:10:58.030 --> 00:10:58.040 align:start position:0%
+and load balancer that receives the
+ 
+
+00:10:58.040 --> 00:11:00.470 align:start position:0%
+and load balancer that receives the
+incoming<00:10:58.440><c> traffic</c><00:10:58.800><c> first</c><00:10:59.480><c> and</c><00:10:59.680><c> then</c><00:10:59.959><c> based</c><00:11:00.279><c> on</c>
+
+00:11:00.470 --> 00:11:00.480 align:start position:0%
+incoming traffic first and then based on
+ 
+
+00:11:00.480 --> 00:11:02.710 align:start position:0%
+incoming traffic first and then based on
+the<00:11:00.959><c> configuration</c><00:11:01.800><c> that</c><00:11:01.920><c> we</c><00:11:02.079><c> Define</c>
+
+00:11:02.710 --> 00:11:02.720 align:start position:0%
+the configuration that we Define
+ 
+
+00:11:02.720 --> 00:11:04.829 align:start position:0%
+the configuration that we Define
+forwards<00:11:03.240><c> it</c><00:11:03.440><c> to</c><00:11:03.680><c> the</c><00:11:03.839><c> right</c><00:11:04.079><c> service</c><00:11:04.519><c> inside</c>
+
+00:11:04.829 --> 00:11:04.839 align:start position:0%
+forwards it to the right service inside
+ 
+
+00:11:04.839 --> 00:11:07.269 align:start position:0%
+forwards it to the right service inside
+the<00:11:05.000><c> cluster</c><00:11:05.760><c> now</c><00:11:06.320><c> this</c><00:11:06.519><c> load</c><00:11:06.800><c> balancing</c>
+
+00:11:07.269 --> 00:11:07.279 align:start position:0%
+the cluster now this load balancing
+ 
+
+00:11:07.279 --> 00:11:09.670 align:start position:0%
+the cluster now this load balancing
+configuration<00:11:07.920><c> as</c><00:11:08.079><c> well</c><00:11:08.320><c> as</c><00:11:08.600><c> logic</c><00:11:09.200><c> is</c><00:11:09.399><c> more</c>
+
+00:11:09.670 --> 00:11:09.680 align:start position:0%
+configuration as well as logic is more
+ 
+
+00:11:09.680 --> 00:11:12.110 align:start position:0%
+configuration as well as logic is more
+advanced<00:11:10.279><c> and</c><00:11:10.440><c> more</c><00:11:10.720><c> kubernetes</c><00:11:11.360><c> specific</c>
+
+00:11:12.110 --> 00:11:12.120 align:start position:0%
+advanced and more kubernetes specific
+ 
+
+00:11:12.120 --> 00:11:14.230 align:start position:0%
+advanced and more kubernetes specific
+but<00:11:12.279><c> the</c><00:11:12.480><c> idea</c><00:11:12.839><c> is</c><00:11:13.040><c> pretty</c><00:11:13.200><c> much</c><00:11:13.399><c> the</c><00:11:13.519><c> same</c><00:11:14.079><c> and</c>
+
+00:11:14.230 --> 00:11:14.240 align:start position:0%
+but the idea is pretty much the same and
+ 
+
+00:11:14.240 --> 00:11:16.629 align:start position:0%
+but the idea is pretty much the same and
+I<00:11:14.399><c> actually</c><00:11:14.680><c> have</c><00:11:14.880><c> full</c><00:11:15.360><c> videos</c><00:11:15.800><c> on</c><00:11:16.040><c> Ingress</c>
+
+00:11:16.629 --> 00:11:16.639 align:start position:0%
+I actually have full videos on Ingress
+ 
+
+00:11:16.639 --> 00:11:18.750 align:start position:0%
+I actually have full videos on Ingress
+and<00:11:16.839><c> Ingress</c><00:11:17.279><c> controller</c><00:11:18.040><c> and</c><00:11:18.440><c> how</c><00:11:18.560><c> to</c>
+
+00:11:18.750 --> 00:11:18.760 align:start position:0%
+and Ingress controller and how to
+ 
+
+00:11:18.760 --> 00:11:20.870 align:start position:0%
+and Ingress controller and how to
+configure<00:11:19.160><c> it</c><00:11:19.399><c> you</c><00:11:19.519><c> can</c><00:11:19.720><c> watch</c><00:11:19.920><c> on</c><00:11:20.079><c> my</c><00:11:20.240><c> channel</c>
+
+00:11:20.870 --> 00:11:20.880 align:start position:0%
+configure it you can watch on my channel
+ 
+
+00:11:20.880 --> 00:11:23.269 align:start position:0%
+configure it you can watch on my channel
+in<00:11:21.079><c> fact</c><00:11:21.360><c> I</c><00:11:21.519><c> create</c><00:11:22.079><c> these</c><00:11:22.279><c> tutorials</c>
+
+00:11:23.269 --> 00:11:23.279 align:start position:0%
+in fact I create these tutorials
+ 
+
+00:11:23.279 --> 00:11:25.230 align:start position:0%
+in fact I create these tutorials
+regularly<00:11:24.040><c> on</c><00:11:24.320><c> lot</c><00:11:24.480><c> of</c><00:11:24.680><c> interesting</c>
+
+00:11:25.230 --> 00:11:25.240 align:start position:0%
+regularly on lot of interesting
+ 
+
+00:11:25.240 --> 00:11:27.629 align:start position:0%
+regularly on lot of interesting
+Technologies<00:11:26.240><c> so</c><00:11:26.519><c> if</c><00:11:26.600><c> you</c><00:11:26.720><c> want</c><00:11:26.880><c> to</c><00:11:27.200><c> educate</c>
+
+00:11:27.629 --> 00:11:27.639 align:start position:0%
+Technologies so if you want to educate
+ 
+
+00:11:27.639 --> 00:11:30.190 align:start position:0%
+Technologies so if you want to educate
+yourself<00:11:28.079><c> in</c><00:11:28.320><c> tech</c><00:11:28.920><c> make</c><00:11:29.360><c> sure</c><00:11:29.519><c> to</c><00:11:29.680><c> subscribe</c>
+
+00:11:30.190 --> 00:11:30.200 align:start position:0%
+yourself in tech make sure to subscribe
+ 
+
+00:11:30.200 --> 00:11:33.230 align:start position:0%
+yourself in tech make sure to subscribe
+and<00:11:30.600><c> activate</c><00:11:31.399><c> notification</c><00:11:32.399><c> to</c><00:11:32.680><c> get</c><00:11:32.920><c> those</c>
+
+00:11:33.230 --> 00:11:33.240 align:start position:0%
+and activate notification to get those
+ 
+
+00:11:33.240 --> 00:11:36.550 align:start position:0%
+and activate notification to get those
+new<00:11:33.839><c> tutorial</c><00:11:34.600><c> videos</c><00:11:35.600><c> now</c><00:11:36.120><c> there</c><00:11:36.240><c> are</c>
+
+00:11:36.550 --> 00:11:36.560 align:start position:0%
+new tutorial videos now there are
+ 
+
+00:11:36.560 --> 00:11:38.470 align:start position:0%
+new tutorial videos now there are
+actually<00:11:37.360><c> many</c><00:11:37.600><c> ingis</c><00:11:38.040><c> controller</c>
+
+00:11:38.470 --> 00:11:38.480 align:start position:0%
+actually many ingis controller
+ 
+
+00:11:38.480 --> 00:11:41.470 align:start position:0%
+actually many ingis controller
+implementations<00:11:39.240><c> out</c><00:11:39.519><c> there</c><00:11:39.880><c> for</c><00:11:40.480><c> kubernetes</c>
+
+00:11:41.470 --> 00:11:41.480 align:start position:0%
+implementations out there for kubernetes
+ 
+
+00:11:41.480 --> 00:11:44.430 align:start position:0%
+implementations out there for kubernetes
+but<00:11:41.920><c> enginex</c><00:11:42.760><c> is</c><00:11:43.240><c> one</c><00:11:43.480><c> of</c><00:11:43.639><c> the</c><00:11:43.800><c> most</c><00:11:44.079><c> popular</c>
+
+00:11:44.430 --> 00:11:44.440 align:start position:0%
+but enginex is one of the most popular
+ 
+
+00:11:44.440 --> 00:11:47.590 align:start position:0%
+but enginex is one of the most popular
+ones<00:11:45.120><c> and</c><00:11:45.720><c> I</c><00:11:45.839><c> have</c><00:11:46.079><c> actually</c><00:11:46.399><c> used</c><00:11:46.959><c> engine</c><00:11:47.399><c> X</c>
+
+00:11:47.590 --> 00:11:47.600 align:start position:0%
+ones and I have actually used engine X
+ 
+
+00:11:47.600 --> 00:11:50.110 align:start position:0%
+ones and I have actually used engine X
+Engish<00:11:48.040><c> controller</c><00:11:48.880><c> in</c><00:11:49.079><c> most</c><00:11:49.279><c> of</c><00:11:49.440><c> my</c><00:11:49.680><c> projects</c>
+
+00:11:50.110 --> 00:11:50.120 align:start position:0%
+Engish controller in most of my projects
+ 
+
+00:11:50.120 --> 00:11:52.910 align:start position:0%
+Engish controller in most of my projects
+as<00:11:50.240><c> well</c><00:11:51.120><c> now</c><00:11:51.560><c> some</c><00:11:51.760><c> of</c><00:11:51.880><c> you</c><00:11:52.040><c> may</c><00:11:52.160><c> be</c><00:11:52.360><c> thinking</c>
+
+00:11:52.910 --> 00:11:52.920 align:start position:0%
+as well now some of you may be thinking
+ 
+
+00:11:52.920 --> 00:11:55.590 align:start position:0%
+as well now some of you may be thinking
+doesn't<00:11:53.399><c> each</c><00:11:53.800><c> Cloud</c><00:11:54.240><c> platform</c><00:11:54.720><c> have</c><00:11:54.920><c> its</c><00:11:55.279><c> own</c>
+
+00:11:55.590 --> 00:11:55.600 align:start position:0%
+doesn't each Cloud platform have its own
+ 
+
+00:11:55.600 --> 00:11:58.310 align:start position:0%
+doesn't each Cloud platform have its own
+load<00:11:55.920><c> balancer</c><00:11:56.680><c> why</c><00:11:56.800><c> do</c><00:11:56.920><c> I</c><00:11:57.040><c> need</c><00:11:57.320><c> engine</c><00:11:57.720><c> X</c><00:11:58.200><c> as</c>
+
+00:11:58.310 --> 00:11:58.320 align:start position:0%
+load balancer why do I need engine X as
+ 
+
+00:11:58.320 --> 00:12:01.030 align:start position:0%
+load balancer why do I need engine X as
+a<00:11:58.480><c> load</c><00:11:58.720><c> balancer</c><00:11:59.680><c> well</c><00:12:00.160><c> you</c><00:12:00.399><c> actually</c><00:12:00.639><c> need</c>
+
+00:12:01.030 --> 00:12:01.040 align:start position:0%
+a load balancer well you actually need
+ 
+
+00:12:01.040 --> 00:12:03.550 align:start position:0%
+a load balancer well you actually need
+both<00:12:01.480><c> engine</c><00:12:01.800><c> X</c><00:12:02.079><c> Ingress</c><00:12:02.519><c> controller</c><00:12:03.320><c> which</c>
+
+00:12:03.550 --> 00:12:03.560 align:start position:0%
+both engine X Ingress controller which
+ 
+
+00:12:03.560 --> 00:12:06.870 align:start position:0%
+both engine X Ingress controller which
+acts<00:12:03.800><c> as</c><00:12:03.920><c> a</c><00:12:04.040><c> load</c><00:12:04.279><c> balcer</c><00:12:05.279><c> is</c><00:12:05.560><c> used</c><00:12:06.279><c> inside</c><00:12:06.720><c> the</c>
+
+00:12:06.870 --> 00:12:06.880 align:start position:0%
+acts as a load balcer is used inside the
+ 
+
+00:12:06.880 --> 00:12:09.710 align:start position:0%
+acts as a load balcer is used inside the
+cluster<00:12:07.680><c> so</c><00:12:08.040><c> unlike</c><00:12:08.480><c> the</c><00:12:08.720><c> proxy</c><00:12:09.160><c> for</c><00:12:09.480><c> web</c>
+
+00:12:09.710 --> 00:12:09.720 align:start position:0%
+cluster so unlike the proxy for web
+ 
+
+00:12:09.720 --> 00:12:12.310 align:start position:0%
+cluster so unlike the proxy for web
+servers<00:12:10.200><c> it's</c><00:12:10.399><c> not</c><00:12:10.760><c> publicly</c><00:12:11.360><c> accessible</c><00:12:12.120><c> so</c>
+
+00:12:12.310 --> 00:12:12.320 align:start position:0%
+servers it's not publicly accessible so
+ 
+
+00:12:12.320 --> 00:12:14.910 align:start position:0%
+servers it's not publicly accessible so
+you<00:12:12.519><c> can't</c><00:12:13.079><c> access</c><00:12:13.880><c> the</c><00:12:14.040><c> engine</c><00:12:14.399><c> X</c><00:12:14.600><c> Engish</c>
+
+00:12:14.910 --> 00:12:14.920 align:start position:0%
+you can't access the engine X Engish
+ 
+
+00:12:14.920 --> 00:12:16.910 align:start position:0%
+you can't access the engine X Engish
+controller<00:12:15.399><c> directly</c><00:12:15.800><c> from</c><00:12:16.000><c> the</c><00:12:16.160><c> browser</c><00:12:16.760><c> it</c>
+
+00:12:16.910 --> 00:12:16.920 align:start position:0%
+controller directly from the browser it
+ 
+
+00:12:16.920 --> 00:12:19.150 align:start position:0%
+controller directly from the browser it
+actually<00:12:17.240><c> leaves</c><00:12:17.720><c> inside</c><00:12:18.279><c> the</c><00:12:18.480><c> cluster</c>
+
+00:12:19.150 --> 00:12:19.160 align:start position:0%
+actually leaves inside the cluster
+ 
+
+00:12:19.160 --> 00:12:21.269 align:start position:0%
+actually leaves inside the cluster
+Network<00:12:19.839><c> and</c><00:12:20.000><c> forwards</c><00:12:20.480><c> the</c><00:12:20.680><c> requests</c>
+
+00:12:21.269 --> 00:12:21.279 align:start position:0%
+Network and forwards the requests
+ 
+
+00:12:21.279 --> 00:12:23.470 align:start position:0%
+Network and forwards the requests
+internally<00:12:22.120><c> so</c><00:12:22.519><c> who</c><00:12:22.680><c> is</c><00:12:22.839><c> getting</c><00:12:23.199><c> the</c>
+
+00:12:23.470 --> 00:12:23.480 align:start position:0%
+internally so who is getting the
+ 
+
+00:12:23.480 --> 00:12:26.150 align:start position:0%
+internally so who is getting the
+requests<00:12:24.040><c> from</c><00:12:24.320><c> public</c><00:12:25.079><c> what</c><00:12:25.199><c> is</c><00:12:25.320><c> the</c><00:12:25.519><c> public</c>
+
+00:12:26.150 --> 00:12:26.160 align:start position:0%
+requests from public what is the public
+ 
+
+00:12:26.160 --> 00:12:28.350 align:start position:0%
+requests from public what is the public
+entry<00:12:26.600><c> point</c><00:12:26.880><c> for</c><00:12:27.199><c> the</c><00:12:27.320><c> browser</c><00:12:27.720><c> requests</c>
+
+00:12:28.350 --> 00:12:28.360 align:start position:0%
+entry point for the browser requests
+ 
+
+00:12:28.360 --> 00:12:32.030 align:start position:0%
+entry point for the browser requests
+that's<00:12:28.600><c> the</c><00:12:28.800><c> cloud</c><00:12:29.560><c> load</c><00:12:29.880><c> balancer</c><00:12:30.600><c> like</c><00:12:31.040><c> awsb</c>
+
+00:12:32.030 --> 00:12:32.040 align:start position:0%
+that's the cloud load balancer like awsb
+ 
+
+00:12:32.040 --> 00:12:35.030 align:start position:0%
+that's the cloud load balancer like awsb
+for<00:12:32.199><c> example</c><00:12:33.000><c> which</c><00:12:33.600><c> then</c><00:12:33.839><c> forwards</c><00:12:34.800><c> that</c>
+
+00:12:35.030 --> 00:12:35.040 align:start position:0%
+for example which then forwards that
+ 
+
+00:12:35.040 --> 00:12:37.389 align:start position:0%
+for example which then forwards that
+request<00:12:35.639><c> to</c><00:12:35.880><c> the</c><00:12:36.040><c> ingis</c><00:12:36.440><c> controller</c><00:12:36.959><c> inside</c>
+
+00:12:37.389 --> 00:12:37.399 align:start position:0%
+request to the ingis controller inside
+ 
+
+00:12:37.399 --> 00:12:39.790 align:start position:0%
+request to the ingis controller inside
+the<00:12:37.560><c> cluster</c><00:12:38.279><c> and</c><00:12:38.920><c> this</c><00:12:39.079><c> is</c><00:12:39.279><c> important</c>
+
+00:12:39.790 --> 00:12:39.800 align:start position:0%
+the cluster and this is important
+ 
+
+00:12:39.800 --> 00:12:41.949 align:start position:0%
+the cluster and this is important
+because<00:12:40.160><c> it</c><00:12:40.360><c> adds</c><00:12:40.920><c> a</c><00:12:41.160><c> very</c><00:12:41.440><c> important</c>
+
+00:12:41.949 --> 00:12:41.959 align:start position:0%
+because it adds a very important
+ 
+
+00:12:41.959 --> 00:12:44.350 align:start position:0%
+because it adds a very important
+security<00:12:42.399><c> layer</c><00:12:43.000><c> to</c><00:12:43.240><c> those</c><00:12:43.480><c> requests</c><00:12:43.959><c> so</c><00:12:44.120><c> the</c>
+
+00:12:44.350 --> 00:12:44.360 align:start position:0%
+security layer to those requests so the
+ 
+
+00:12:44.360 --> 00:12:47.350 align:start position:0%
+security layer to those requests so the
+cluster<00:12:45.279><c> component</c><00:12:45.920><c> is</c><00:12:46.199><c> never</c><00:12:46.880><c> directly</c>
+
+00:12:47.350 --> 00:12:47.360 align:start position:0%
+cluster component is never directly
+ 
+
+00:12:47.360 --> 00:12:50.389 align:start position:0%
+cluster component is never directly
+exposed<00:12:48.120><c> to</c><00:12:48.440><c> Public</c><00:12:48.839><c> Access</c><00:12:49.480><c> instead</c><00:12:50.040><c> every</c>
+
+00:12:50.389 --> 00:12:50.399 align:start position:0%
+exposed to Public Access instead every
+ 
+
+00:12:50.399 --> 00:12:52.670 align:start position:0%
+exposed to Public Access instead every
+request<00:12:50.839><c> comes</c><00:12:51.399><c> from</c><00:12:51.839><c> the</c><00:12:52.079><c> cloudload</c>
+
+00:12:52.670 --> 00:12:52.680 align:start position:0%
+request comes from the cloudload
+ 
+
+00:12:52.680 --> 00:12:56.150 align:start position:0%
+request comes from the cloudload
+balancer<00:12:53.600><c> which</c><00:12:54.160><c> then</c><00:12:54.360><c> forwards</c><00:12:54.880><c> it</c><00:12:55.199><c> to</c><00:12:55.760><c> the</c>
+
+00:12:56.150 --> 00:12:56.160 align:start position:0%
+balancer which then forwards it to the
+ 
+
+00:12:56.160 --> 00:12:58.829 align:start position:0%
+balancer which then forwards it to the
+ing<00:12:56.600><c> controller</c><00:12:57.240><c> within</c><00:12:57.519><c> the</c><00:12:57.720><c> cluster</c><00:12:58.560><c> which</c>
+
+00:12:58.829 --> 00:12:58.839 align:start position:0%
+ing controller within the cluster which
+ 
+
+00:12:58.839 --> 00:13:02.110 align:start position:0%
+ing controller within the cluster which
+then<00:12:59.399><c> routes</c><00:12:59.920><c> that</c><00:13:00.120><c> traffic</c><00:13:01.000><c> based</c><00:13:01.399><c> on</c>
+
+00:13:02.110 --> 00:13:02.120 align:start position:0%
+then routes that traffic based on
+ 
+
+00:13:02.120 --> 00:13:04.590 align:start position:0%
+then routes that traffic based on
+intelligent<00:13:03.120><c> logic</c><00:13:03.800><c> to</c><00:13:04.199><c> different</c>
+
+00:13:04.590 --> 00:13:04.600 align:start position:0%
+intelligent logic to different
+ 
+
+00:13:04.600 --> 00:13:06.829 align:start position:0%
+intelligent logic to different
+applications<00:13:05.320><c> within</c><00:13:05.600><c> the</c><00:13:05.760><c> cluster</c><00:13:06.480><c> and</c><00:13:06.680><c> with</c>
+
+00:13:06.829 --> 00:13:06.839 align:start position:0%
+applications within the cluster and with
+ 
+
+00:13:06.839 --> 00:13:09.069 align:start position:0%
+applications within the cluster and with
+intelligent<00:13:07.480><c> routing</c><00:13:08.120><c> what</c><00:13:08.199><c> I</c><00:13:08.320><c> mean</c><00:13:08.639><c> is</c><00:13:09.000><c> if</c>
+
+00:13:09.069 --> 00:13:09.079 align:start position:0%
+intelligent routing what I mean is if
+ 
+
+00:13:09.079 --> 00:13:11.189 align:start position:0%
+intelligent routing what I mean is if
+you<00:13:09.240><c> have</c><00:13:09.560><c> one</c><00:13:09.800><c> large</c><00:13:10.160><c> application</c><00:13:10.800><c> with</c><00:13:11.000><c> lots</c>
+
+00:13:11.189 --> 00:13:11.199 align:start position:0%
+you have one large application with lots
+ 
+
+00:13:11.199 --> 00:13:13.710 align:start position:0%
+you have one large application with lots
+of<00:13:11.440><c> sub</c><00:13:12.000><c> segments</c><00:13:12.480><c> or</c><00:13:12.720><c> microservices</c><00:13:13.519><c> for</c>
+
+00:13:13.710 --> 00:13:13.720 align:start position:0%
+of sub segments or microservices for
+ 
+
+00:13:13.720 --> 00:13:15.629 align:start position:0%
+of sub segments or microservices for
+example<00:13:14.360><c> you</c><00:13:14.440><c> can</c><00:13:14.639><c> configure</c><00:13:15.040><c> your</c><00:13:15.240><c> Engish</c>
+
+00:13:15.629 --> 00:13:15.639 align:start position:0%
+example you can configure your Engish
+ 
+
+00:13:15.639 --> 00:13:17.550 align:start position:0%
+example you can configure your Engish
+controller<00:13:16.120><c> so</c><00:13:16.480><c> if</c><00:13:16.600><c> the</c><00:13:16.760><c> request</c><00:13:17.120><c> URL</c>
+
+00:13:17.550 --> 00:13:17.560 align:start position:0%
+controller so if the request URL
+ 
+
+00:13:17.560 --> 00:13:20.030 align:start position:0%
+controller so if the request URL
+includes<00:13:18.320><c> online</c><00:13:18.800><c> card</c><00:13:19.360><c> it</c><00:13:19.519><c> routes</c><00:13:19.880><c> the</c>
+
+00:13:20.030 --> 00:13:20.040 align:start position:0%
+includes online card it routes the
+ 
+
+00:13:20.040 --> 00:13:22.389 align:start position:0%
+includes online card it routes the
+traffic<00:13:20.360><c> to</c><00:13:20.639><c> online</c><00:13:21.079><c> card</c><00:13:21.399><c> microservice</c><00:13:22.320><c> if</c>
+
+00:13:22.389 --> 00:13:22.399 align:start position:0%
+traffic to online card microservice if
+ 
+
+00:13:22.399 --> 00:13:25.030 align:start position:0%
+traffic to online card microservice if
+it<00:13:22.560><c> includes</c><00:13:23.360><c> payment</c><00:13:24.120><c> it</c><00:13:24.279><c> routes</c><00:13:24.760><c> the</c>
+
+00:13:25.030 --> 00:13:25.040 align:start position:0%
+it includes payment it routes the
+ 
+
+00:13:25.040 --> 00:13:27.750 align:start position:0%
+it includes payment it routes the
+traffic<00:13:25.399><c> to</c><00:13:25.680><c> payment</c><00:13:26.040><c> service</c><00:13:26.480><c> and</c><00:13:26.639><c> so</c><00:13:26.800><c> on</c><00:13:27.519><c> now</c>
+
+00:13:27.750 --> 00:13:27.760 align:start position:0%
+traffic to payment service and so on now
+ 
+
+00:13:27.760 --> 00:13:30.509 align:start position:0%
+traffic to payment service and so on now
+some<00:13:27.959><c> of</c><00:13:28.160><c> you</c><00:13:28.440><c> who've</c><00:13:28.680><c> been</c><00:13:28.880><c> in</c><00:13:29.240><c> it</c><00:13:29.639><c> for</c><00:13:30.199><c> little</c>
+
+00:13:30.509 --> 00:13:30.519 align:start position:0%
+some of you who've been in it for little
+ 
+
+00:13:30.519 --> 00:13:33.030 align:start position:0%
+some of you who've been in it for little
+longer<00:13:31.120><c> may</c><00:13:31.360><c> have</c><00:13:31.519><c> worked</c><00:13:31.920><c> with</c><00:13:32.240><c> Apache</c><00:13:32.800><c> web</c>
+
+00:13:33.030 --> 00:13:33.040 align:start position:0%
+longer may have worked with Apache web
+ 
+
+00:13:33.040 --> 00:13:34.790 align:start position:0%
+longer may have worked with Apache web
+server<00:13:33.639><c> so</c><00:13:33.800><c> what's</c><00:13:33.959><c> the</c><00:13:34.160><c> difference</c><00:13:34.480><c> between</c>
+
+00:13:34.790 --> 00:13:34.800 align:start position:0%
+server so what's the difference between
+ 
+
+00:13:34.800 --> 00:13:37.750 align:start position:0%
+server so what's the difference between
+Apache<00:13:35.320><c> web</c><00:13:35.519><c> server</c><00:13:36.079><c> and</c><00:13:36.440><c> enginex</c><00:13:37.000><c> web</c><00:13:37.240><c> server</c>
+
+00:13:37.750 --> 00:13:37.760 align:start position:0%
+Apache web server and enginex web server
+ 
+
+00:13:37.760 --> 00:13:40.110 align:start position:0%
+Apache web server and enginex web server
+well<00:13:38.320><c> not</c><00:13:38.560><c> much</c><00:13:38.959><c> actually</c><00:13:39.480><c> enginex</c><00:13:39.959><c> and</c>
+
+00:13:40.110 --> 00:13:40.120 align:start position:0%
+well not much actually enginex and
+ 
+
+00:13:40.120 --> 00:13:42.389 align:start position:0%
+well not much actually enginex and
+Apache<00:13:40.519><c> web</c><00:13:40.680><c> servers</c><00:13:41.079><c> do</c><00:13:41.480><c> pretty</c><00:13:41.760><c> much</c><00:13:42.240><c> the</c>
+
+00:13:42.389 --> 00:13:42.399 align:start position:0%
+Apache web servers do pretty much the
+ 
+
+00:13:42.399 --> 00:13:45.750 align:start position:0%
+Apache web servers do pretty much the
+same<00:13:42.680><c> thing</c><00:13:43.240><c> just</c><00:13:43.480><c> like</c><00:13:43.800><c> enginex</c><00:13:44.720><c> Apachi</c><00:13:45.519><c> also</c>
+
+00:13:45.750 --> 00:13:45.760 align:start position:0%
+same thing just like enginex Apachi also
+ 
+
+00:13:45.760 --> 00:13:48.189 align:start position:0%
+same thing just like enginex Apachi also
+used<00:13:46.000><c> to</c><00:13:46.120><c> be</c><00:13:46.360><c> a</c><00:13:46.639><c> basic</c><00:13:47.000><c> web</c><00:13:47.240><c> server</c><00:13:47.639><c> and</c><00:13:47.839><c> then</c>
+
+00:13:48.189 --> 00:13:48.199 align:start position:0%
+used to be a basic web server and then
+ 
+
+00:13:48.199 --> 00:13:50.069 align:start position:0%
+used to be a basic web server and then
+they<00:13:48.399><c> extended</c><00:13:48.959><c> its</c><00:13:49.120><c> functionality</c><00:13:49.760><c> as</c><00:13:49.880><c> a</c>
+
+00:13:50.069 --> 00:13:50.079 align:start position:0%
+they extended its functionality as a
+ 
+
+00:13:50.079 --> 00:13:53.189 align:start position:0%
+they extended its functionality as a
+proxy<00:13:51.040><c> and</c><00:13:51.240><c> it</c><00:13:51.399><c> has</c><00:13:51.600><c> all</c><00:13:51.800><c> these</c><00:13:52.199><c> benefits</c><00:13:52.759><c> and</c>
+
+00:13:53.189 --> 00:13:53.199 align:start position:0%
+proxy and it has all these benefits and
+ 
+
+00:13:53.199 --> 00:13:56.069 align:start position:0%
+proxy and it has all these benefits and
+functionalities<00:13:54.000><c> of</c><00:13:54.160><c> a</c><00:13:54.399><c> proxy</c><00:13:55.279><c> that</c><00:13:55.880><c> we</c>
+
+00:13:56.069 --> 00:13:56.079 align:start position:0%
+functionalities of a proxy that we
+ 
+
+00:13:56.079 --> 00:13:58.509 align:start position:0%
+functionalities of a proxy that we
+discussed<00:13:56.880><c> Apachi</c><00:13:57.360><c> was</c><00:13:57.560><c> actually</c><00:13:58.040><c> already</c>
+
+00:13:58.509 --> 00:13:58.519 align:start position:0%
+discussed Apachi was actually already
+ 
+
+00:13:58.519 --> 00:14:00.629 align:start position:0%
+discussed Apachi was actually already
+widely<00:13:58.839><c> used</c><00:13:59.120><c> used</c><00:13:59.639><c> when</c><00:13:59.920><c> enginex</c><00:14:00.480><c> was</c>
+
+00:14:00.629 --> 00:14:00.639 align:start position:0%
+widely used used when enginex was
+ 
+
+00:14:00.639 --> 00:14:03.509 align:start position:0%
+widely used used when enginex was
+created<00:14:01.360><c> and</c><00:14:01.600><c> the</c><00:14:01.759><c> major</c><00:14:02.120><c> benefit</c><00:14:02.560><c> of</c><00:14:02.759><c> enginex</c>
+
+00:14:03.509 --> 00:14:03.519 align:start position:0%
+created and the major benefit of enginex
+ 
+
+00:14:03.519 --> 00:14:06.670 align:start position:0%
+created and the major benefit of enginex
+was<00:14:04.240><c> that</c><00:14:04.399><c> it</c><00:14:04.519><c> was</c><00:14:04.839><c> faster</c><00:14:05.600><c> more</c><00:14:05.839><c> lightweight</c>
+
+00:14:06.670 --> 00:14:06.680 align:start position:0%
+was that it was faster more lightweight
+ 
+
+00:14:06.680 --> 00:14:08.389 align:start position:0%
+was that it was faster more lightweight
+and<00:14:06.880><c> definitely</c><00:14:07.279><c> had</c><00:14:07.399><c> an</c><00:14:07.600><c> advantage</c><00:14:08.120><c> when</c><00:14:08.240><c> it</c>
+
+00:14:08.389 --> 00:14:08.399 align:start position:0%
+and definitely had an advantage when it
+ 
+
+00:14:08.399 --> 00:14:11.189 align:start position:0%
+and definitely had an advantage when it
+came<00:14:08.560><c> to</c><00:14:09.160><c> serving</c><00:14:09.920><c> huge</c><00:14:10.279><c> amounts</c><00:14:10.639><c> of</c><00:14:10.839><c> static</c>
+
+00:14:11.189 --> 00:14:11.199 align:start position:0%
+came to serving huge amounts of static
+ 
+
+00:14:11.199 --> 00:14:13.990 align:start position:0%
+came to serving huge amounts of static
+files<00:14:12.079><c> plus</c><00:14:12.440><c> as</c><00:14:12.560><c> you</c><00:14:12.680><c> saw</c><00:14:13.040><c> it</c><00:14:13.199><c> has</c><00:14:13.440><c> a</c><00:14:13.720><c> pretty</c>
+
+00:14:13.990 --> 00:14:14.000 align:start position:0%
+files plus as you saw it has a pretty
+ 
+
+00:14:14.000 --> 00:14:16.069 align:start position:0%
+files plus as you saw it has a pretty
+easy<00:14:14.279><c> configuration</c><00:14:14.800><c> as</c><00:14:14.920><c> well</c><00:14:15.279><c> and</c><00:14:15.440><c> engine</c><00:14:15.800><c> X</c>
+
+00:14:16.069 --> 00:14:16.079 align:start position:0%
+easy configuration as well and engine X
+ 
+
+00:14:16.079 --> 00:14:17.749 align:start position:0%
+easy configuration as well and engine X
+also<00:14:16.320><c> became</c><00:14:16.680><c> more</c><00:14:17.040><c> popular</c><00:14:17.440><c> in</c><00:14:17.600><c> the</c>
+
+00:14:17.749 --> 00:14:17.759 align:start position:0%
+also became more popular in the
+ 
+
+00:14:17.759 --> 00:14:19.790 align:start position:0%
+also became more popular in the
+container<00:14:18.240><c> world</c><00:14:18.800><c> now</c><00:14:19.000><c> I</c><00:14:19.120><c> hope</c><00:14:19.279><c> you</c><00:14:19.440><c> got</c><00:14:19.560><c> a</c>
+
+00:14:19.790 --> 00:14:19.800 align:start position:0%
+container world now I hope you got a
+ 
+
+00:14:19.800 --> 00:14:22.749 align:start position:0%
+container world now I hope you got a
+clear<00:14:20.199><c> overview</c><00:14:21.160><c> of</c><00:14:21.360><c> what</c><00:14:21.519><c> enginex</c><00:14:22.079><c> is</c><00:14:22.519><c> and</c>
+
+00:14:22.749 --> 00:14:22.759 align:start position:0%
+clear overview of what enginex is and
+ 
+
+00:14:22.759 --> 00:14:25.150 align:start position:0%
+clear overview of what enginex is and
+hope<00:14:23.000><c> I've</c><00:14:23.279><c> answered</c><00:14:23.839><c> all</c><00:14:24.040><c> the</c><00:14:24.240><c> questions</c><00:14:24.920><c> you</c>
+
+00:14:25.150 --> 00:14:25.160 align:start position:0%
+hope I've answered all the questions you
+ 
+
+00:14:25.160 --> 00:14:27.069 align:start position:0%
+hope I've answered all the questions you
+may<00:14:25.360><c> have</c><00:14:25.600><c> had</c><00:14:25.920><c> while</c><00:14:26.160><c> learning</c><00:14:26.720><c> about</c>
+
+00:14:27.069 --> 00:14:27.079 align:start position:0%
+may have had while learning about
+ 
+
+00:14:27.079 --> 00:14:29.269 align:start position:0%
+may have had while learning about
+enginex<00:14:28.079><c> and</c><00:14:28.320><c> with</c><00:14:28.480><c> that</c><00:14:28.800><c> thank</c><00:14:29.079><c> thank</c><00:14:29.199><c> you</c>
+
+00:14:29.269 --> 00:14:29.279 align:start position:0%
+enginex and with that thank thank you
+ 
+
+00:14:29.279 --> 00:14:31.269 align:start position:0%
+enginex and with that thank thank you
+for<00:14:29.440><c> watching</c><00:14:29.959><c> and</c><00:14:30.160><c> see</c><00:14:30.399><c> you</c><00:14:30.720><c> in</c><00:14:30.839><c> the</c><00:14:31.040><c> next</c>
+
+00:14:31.269 --> 00:14:31.279 align:start position:0%
+for watching and see you in the next
+ 
+
+00:14:31.279 --> 00:14:33.839 align:start position:0%
+for watching and see you in the next
+video
+

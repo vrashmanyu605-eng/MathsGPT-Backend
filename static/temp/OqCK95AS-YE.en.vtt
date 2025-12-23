@@ -1,0 +1,4456 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.070 align:start position:0%
+ 
+in<00:00:00.320><c> this</c><00:00:00.480><c> video</c><00:00:00.880><c> we're</c><00:00:01.040><c> going</c><00:00:01.199><c> to</c><00:00:01.280><c> talk</c><00:00:01.520><c> about</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+in this video we're going to talk about
+ 
+
+00:00:02.080 --> 00:00:04.309 align:start position:0%
+in this video we're going to talk about
+redis<00:00:02.560><c> and</c><00:00:02.800><c> how</c><00:00:03.040><c> redis</c><00:00:03.360><c> can</c><00:00:03.520><c> be</c><00:00:03.679><c> used</c><00:00:04.000><c> as</c><00:00:04.160><c> a</c>
+
+00:00:04.309 --> 00:00:04.319 align:start position:0%
+redis and how redis can be used as a
+ 
+
+00:00:04.319 --> 00:00:06.710 align:start position:0%
+redis and how redis can be used as a
+primary<00:00:04.799><c> database</c><00:00:05.839><c> for</c><00:00:06.160><c> complex</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+primary database for complex
+ 
+
+00:00:06.720 --> 00:00:09.350 align:start position:0%
+primary database for complex
+applications<00:00:07.440><c> that</c><00:00:07.759><c> need</c><00:00:07.919><c> to</c><00:00:08.160><c> store</c><00:00:08.480><c> data</c><00:00:09.200><c> in</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+applications that need to store data in
+ 
+
+00:00:09.360 --> 00:00:12.070 align:start position:0%
+applications that need to store data in
+multiple<00:00:09.920><c> formats</c><00:00:10.960><c> first</c><00:00:11.200><c> we</c><00:00:11.360><c> will</c><00:00:11.519><c> see</c><00:00:11.759><c> what</c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+multiple formats first we will see what
+ 
+
+00:00:12.080 --> 00:00:15.270 align:start position:0%
+multiple formats first we will see what
+redis<00:00:12.559><c> is</c><00:00:12.880><c> and</c><00:00:13.040><c> its</c><00:00:13.280><c> usages</c><00:00:14.000><c> as</c><00:00:14.160><c> well</c><00:00:14.480><c> as</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+redis is and its usages as well as
+ 
+
+00:00:15.280 --> 00:00:18.470 align:start position:0%
+redis is and its usages as well as
+why<00:00:15.599><c> it</c><00:00:15.759><c> is</c><00:00:16.080><c> suitable</c><00:00:16.640><c> for</c><00:00:16.960><c> modern</c><00:00:17.520><c> complex</c>
+
+00:00:18.470 --> 00:00:18.480 align:start position:0%
+why it is suitable for modern complex
+ 
+
+00:00:18.480 --> 00:00:20.870 align:start position:0%
+why it is suitable for modern complex
+microservice<00:00:19.359><c> applications</c><00:00:20.320><c> we</c><00:00:20.480><c> will</c><00:00:20.720><c> talk</c>
+
+00:00:20.870 --> 00:00:20.880 align:start position:0%
+microservice applications we will talk
+ 
+
+00:00:20.880 --> 00:00:23.590 align:start position:0%
+microservice applications we will talk
+about<00:00:21.279><c> how</c><00:00:21.600><c> redi</c><00:00:21.920><c> supports</c><00:00:22.720><c> storing</c><00:00:23.119><c> multiple</c>
+
+00:00:23.590 --> 00:00:23.600 align:start position:0%
+about how redi supports storing multiple
+ 
+
+00:00:23.600 --> 00:00:26.310 align:start position:0%
+about how redi supports storing multiple
+data<00:00:23.920><c> formats</c><00:00:24.640><c> for</c><00:00:24.880><c> different</c><00:00:25.279><c> purposes</c>
+
+00:00:26.310 --> 00:00:26.320 align:start position:0%
+data formats for different purposes
+ 
+
+00:00:26.320 --> 00:00:29.269 align:start position:0%
+data formats for different purposes
+through<00:00:26.720><c> its</c><00:00:27.279><c> modules</c><00:00:28.080><c> next</c><00:00:28.320><c> we</c><00:00:28.480><c> will</c><00:00:28.640><c> see</c><00:00:28.960><c> how</c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+through its modules next we will see how
+ 
+
+00:00:29.279 --> 00:00:31.910 align:start position:0%
+through its modules next we will see how
+redis<00:00:29.920><c> as</c><00:00:30.080><c> an</c><00:00:30.320><c> in-memory</c><00:00:30.800><c> database</c><00:00:31.679><c> can</c>
+
+00:00:31.910 --> 00:00:31.920 align:start position:0%
+redis as an in-memory database can
+ 
+
+00:00:31.920 --> 00:00:34.790 align:start position:0%
+redis as an in-memory database can
+persist<00:00:32.480><c> data</c><00:00:32.960><c> and</c><00:00:33.120><c> recover</c><00:00:33.680><c> from</c><00:00:34.000><c> data</c><00:00:34.320><c> loss</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+persist data and recover from data loss
+ 
+
+00:00:34.800 --> 00:00:36.630 align:start position:0%
+persist data and recover from data loss
+we'll<00:00:35.040><c> also</c><00:00:35.360><c> talk</c><00:00:35.600><c> about</c><00:00:35.840><c> how</c><00:00:36.079><c> redis</c>
+
+00:00:36.630 --> 00:00:36.640 align:start position:0%
+we'll also talk about how redis
+ 
+
+00:00:36.640 --> 00:00:39.990 align:start position:0%
+we'll also talk about how redis
+optimizes<00:00:37.760><c> memory</c><00:00:38.160><c> storage</c><00:00:38.719><c> cost</c><00:00:39.360><c> using</c>
+
+00:00:39.990 --> 00:00:40.000 align:start position:0%
+optimizes memory storage cost using
+ 
+
+00:00:40.000 --> 00:00:42.069 align:start position:0%
+optimizes memory storage cost using
+redis<00:00:40.559><c> on</c><00:00:40.879><c> flash</c>
+
+00:00:42.069 --> 00:00:42.079 align:start position:0%
+redis on flash
+ 
+
+00:00:42.079 --> 00:00:43.830 align:start position:0%
+redis on flash
+then<00:00:42.239><c> we</c><00:00:42.399><c> will</c><00:00:42.559><c> see</c><00:00:42.800><c> very</c><00:00:43.120><c> interesting</c><00:00:43.600><c> use</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+then we will see very interesting use
+ 
+
+00:00:43.840 --> 00:00:46.950 align:start position:0%
+then we will see very interesting use
+cases<00:00:44.320><c> of</c><00:00:44.640><c> scaling</c><00:00:45.200><c> readies</c><00:00:46.000><c> and</c><00:00:46.239><c> replicating</c>
+
+00:00:46.950 --> 00:00:46.960 align:start position:0%
+cases of scaling readies and replicating
+ 
+
+00:00:46.960 --> 00:00:50.310 align:start position:0%
+cases of scaling readies and replicating
+it<00:00:47.200><c> across</c><00:00:47.760><c> multiple</c><00:00:48.640><c> geographic</c><00:00:49.600><c> regions</c>
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+it across multiple geographic regions
+ 
+
+00:00:50.320 --> 00:00:52.549 align:start position:0%
+it across multiple geographic regions
+and<00:00:50.559><c> finally</c><00:00:51.440><c> since</c><00:00:51.920><c> one</c><00:00:52.079><c> of</c><00:00:52.160><c> the</c><00:00:52.320><c> most</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+and finally since one of the most
+ 
+
+00:00:52.559 --> 00:00:54.310 align:start position:0%
+and finally since one of the most
+popular<00:00:53.120><c> platforms</c><00:00:53.840><c> for</c><00:00:54.000><c> running</c>
+
+00:00:54.310 --> 00:00:54.320 align:start position:0%
+popular platforms for running
+ 
+
+00:00:54.320 --> 00:00:57.430 align:start position:0%
+popular platforms for running
+microservices<00:00:55.280><c> is</c><00:00:55.440><c> kubernetes</c><00:00:56.559><c> and</c><00:00:56.800><c> since</c>
+
+00:00:57.430 --> 00:00:57.440 align:start position:0%
+microservices is kubernetes and since
+ 
+
+00:00:57.440 --> 00:00:59.270 align:start position:0%
+microservices is kubernetes and since
+running<00:00:57.840><c> stateful</c><00:00:58.399><c> applications</c><00:00:59.120><c> in</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+running stateful applications in
+ 
+
+00:00:59.280 --> 00:01:02.069 align:start position:0%
+running stateful applications in
+kubernetes<00:01:00.000><c> is</c><00:01:00.160><c> a</c><00:01:00.239><c> bit</c><00:01:00.719><c> challenging</c><00:01:01.680><c> we</c><00:01:01.840><c> will</c>
+
+00:01:02.069 --> 00:01:02.079 align:start position:0%
+kubernetes is a bit challenging we will
+ 
+
+00:01:02.079 --> 00:01:04.710 align:start position:0%
+kubernetes is a bit challenging we will
+see<00:01:02.559><c> how</c><00:01:02.800><c> you</c><00:01:02.960><c> can</c><00:01:03.199><c> easily</c><00:01:03.600><c> run</c><00:01:04.000><c> redis</c><00:01:04.479><c> on</c>
+
+00:01:04.710 --> 00:01:04.720 align:start position:0%
+see how you can easily run redis on
+ 
+
+00:01:04.720 --> 00:01:07.109 align:start position:0%
+see how you can easily run redis on
+kubernetes<00:01:05.760><c> i'm</c><00:01:06.000><c> proud</c><00:01:06.240><c> to</c><00:01:06.400><c> say</c><00:01:06.560><c> that</c><00:01:06.799><c> i</c><00:01:06.960><c> have</c>
+
+00:01:07.109 --> 00:01:07.119 align:start position:0%
+kubernetes i'm proud to say that i have
+ 
+
+00:01:07.119 --> 00:01:09.670 align:start position:0%
+kubernetes i'm proud to say that i have
+partnered<00:01:07.680><c> up</c><00:01:07.920><c> with</c><00:01:08.320><c> redis</c><00:01:08.960><c> to</c><00:01:09.119><c> make</c><00:01:09.360><c> this</c>
+
+00:01:09.670 --> 00:01:09.680 align:start position:0%
+partnered up with redis to make this
+ 
+
+00:01:09.680 --> 00:01:11.590 align:start position:0%
+partnered up with redis to make this
+video<00:01:10.000><c> so</c><00:01:10.240><c> big</c><00:01:10.479><c> thanks</c><00:01:10.799><c> to</c><00:01:10.960><c> redis</c><00:01:11.280><c> for</c>
+
+00:01:11.590 --> 00:01:11.600 align:start position:0%
+video so big thanks to redis for
+ 
+
+00:01:11.600 --> 00:01:13.350 align:start position:0%
+video so big thanks to redis for
+sponsoring<00:01:12.240><c> and</c><00:01:12.479><c> making</c><00:01:12.799><c> this</c><00:01:12.960><c> video</c>
+
+00:01:13.350 --> 00:01:13.360 align:start position:0%
+sponsoring and making this video
+ 
+
+00:01:13.360 --> 00:01:15.350 align:start position:0%
+sponsoring and making this video
+possible
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+possible
+ 
+
+00:01:15.360 --> 00:01:17.910 align:start position:0%
+possible
+now<00:01:15.600><c> first</c><00:01:15.920><c> of</c><00:01:16.080><c> all</c><00:01:16.640><c> redis</c><00:01:17.119><c> which</c><00:01:17.520><c> actually</c>
+
+00:01:17.910 --> 00:01:17.920 align:start position:0%
+now first of all redis which actually
+ 
+
+00:01:17.920 --> 00:01:21.510 align:start position:0%
+now first of all redis which actually
+stands<00:01:18.400><c> for</c><00:01:19.040><c> remote</c><00:01:19.759><c> dictionary</c><00:01:20.400><c> server</c><00:01:21.200><c> is</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+stands for remote dictionary server is
+ 
+
+00:01:21.520 --> 00:01:23.990 align:start position:0%
+stands for remote dictionary server is
+an<00:01:21.840><c> in-memory</c><00:01:22.799><c> database</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+an in-memory database
+ 
+
+00:01:24.000 --> 00:01:26.870 align:start position:0%
+an in-memory database
+so<00:01:24.240><c> many</c><00:01:24.479><c> people</c><00:01:24.799><c> have</c><00:01:25.119><c> used</c><00:01:25.439><c> it</c><00:01:25.680><c> as</c><00:01:26.000><c> a</c><00:01:26.240><c> cache</c>
+
+00:01:26.870 --> 00:01:26.880 align:start position:0%
+so many people have used it as a cache
+ 
+
+00:01:26.880 --> 00:01:29.429 align:start position:0%
+so many people have used it as a cache
+on<00:01:27.040><c> top</c><00:01:27.280><c> of</c><00:01:27.600><c> other</c><00:01:27.840><c> databases</c><00:01:28.799><c> to</c><00:01:28.960><c> improve</c><00:01:29.280><c> the</c>
+
+00:01:29.429 --> 00:01:29.439 align:start position:0%
+on top of other databases to improve the
+ 
+
+00:01:29.439 --> 00:01:31.830 align:start position:0%
+on top of other databases to improve the
+application<00:01:30.000><c> performance</c><00:01:30.880><c> however</c><00:01:31.520><c> what</c>
+
+00:01:31.830 --> 00:01:31.840 align:start position:0%
+application performance however what
+ 
+
+00:01:31.840 --> 00:01:34.069 align:start position:0%
+application performance however what
+many<00:01:32.079><c> people</c><00:01:32.320><c> don't</c><00:01:32.560><c> know</c><00:01:32.960><c> is</c><00:01:33.119><c> that</c><00:01:33.520><c> redis</c><00:01:33.920><c> is</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+many people don't know is that redis is
+ 
+
+00:01:34.079 --> 00:01:36.469 align:start position:0%
+many people don't know is that redis is
+a<00:01:34.320><c> fully</c><00:01:34.640><c> fledged</c><00:01:35.280><c> primary</c><00:01:35.680><c> database</c><00:01:36.240><c> that</c>
+
+00:01:36.469 --> 00:01:36.479 align:start position:0%
+a fully fledged primary database that
+ 
+
+00:01:36.479 --> 00:01:39.190 align:start position:0%
+a fully fledged primary database that
+can<00:01:36.720><c> be</c><00:01:36.880><c> used</c><00:01:37.520><c> to</c><00:01:37.759><c> store</c><00:01:38.159><c> and</c><00:01:38.320><c> persist</c>
+
+00:01:39.190 --> 00:01:39.200 align:start position:0%
+can be used to store and persist
+ 
+
+00:01:39.200 --> 00:01:41.670 align:start position:0%
+can be used to store and persist
+multiple<00:01:39.840><c> data</c><00:01:40.240><c> formats</c><00:01:40.960><c> for</c><00:01:41.200><c> complex</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+multiple data formats for complex
+ 
+
+00:01:41.680 --> 00:01:44.389 align:start position:0%
+multiple data formats for complex
+applications<00:01:42.880><c> let's</c><00:01:43.040><c> see</c><00:01:43.280><c> the</c><00:01:43.439><c> use</c><00:01:43.759><c> cases</c><00:01:44.240><c> and</c>
+
+00:01:44.389 --> 00:01:44.399 align:start position:0%
+applications let's see the use cases and
+ 
+
+00:01:44.399 --> 00:01:46.630 align:start position:0%
+applications let's see the use cases and
+examples<00:01:44.880><c> for</c><00:01:45.040><c> that</c><00:01:45.520><c> let's</c><00:01:45.840><c> look</c><00:01:46.000><c> at</c><00:01:46.159><c> a</c><00:01:46.320><c> common</c>
+
+00:01:46.630 --> 00:01:46.640 align:start position:0%
+examples for that let's look at a common
+ 
+
+00:01:46.640 --> 00:01:49.590 align:start position:0%
+examples for that let's look at a common
+setup<00:01:47.119><c> for</c><00:01:47.360><c> a</c><00:01:47.520><c> microservices</c><00:01:48.479><c> application</c>
+
+00:01:49.590 --> 00:01:49.600 align:start position:0%
+setup for a microservices application
+ 
+
+00:01:49.600 --> 00:01:52.310 align:start position:0%
+setup for a microservices application
+let's<00:01:49.759><c> say</c><00:01:49.920><c> we</c><00:01:50.079><c> have</c><00:01:50.479><c> a</c><00:01:50.720><c> complex</c><00:01:51.680><c> social</c><00:01:52.000><c> media</c>
+
+00:01:52.310 --> 00:01:52.320 align:start position:0%
+let's say we have a complex social media
+ 
+
+00:01:52.320 --> 00:01:55.429 align:start position:0%
+let's say we have a complex social media
+application<00:01:53.280><c> with</c><00:01:53.840><c> millions</c><00:01:54.399><c> of</c><00:01:54.560><c> users</c><00:01:55.280><c> and</c>
+
+00:01:55.429 --> 00:01:55.439 align:start position:0%
+application with millions of users and
+ 
+
+00:01:55.439 --> 00:01:57.990 align:start position:0%
+application with millions of users and
+let's<00:01:55.600><c> say</c><00:01:55.840><c> our</c><00:01:56.079><c> microservices</c><00:01:56.960><c> application</c>
+
+00:01:57.990 --> 00:01:58.000 align:start position:0%
+let's say our microservices application
+ 
+
+00:01:58.000 --> 00:02:01.270 align:start position:0%
+let's say our microservices application
+uses<00:01:58.640><c> a</c><00:01:58.719><c> relational</c><00:01:59.360><c> database</c><00:02:00.000><c> like</c><00:02:00.240><c> mysql</c><00:02:01.119><c> to</c>
+
+00:02:01.270 --> 00:02:01.280 align:start position:0%
+uses a relational database like mysql to
+ 
+
+00:02:01.280 --> 00:02:02.630 align:start position:0%
+uses a relational database like mysql to
+store<00:02:01.600><c> the</c><00:02:01.759><c> data</c>
+
+00:02:02.630 --> 00:02:02.640 align:start position:0%
+store the data
+ 
+
+00:02:02.640 --> 00:02:05.350 align:start position:0%
+store the data
+in<00:02:02.799><c> addition</c><00:02:03.280><c> because</c><00:02:04.000><c> we</c><00:02:04.159><c> are</c><00:02:04.320><c> collecting</c>
+
+00:02:05.350 --> 00:02:05.360 align:start position:0%
+in addition because we are collecting
+ 
+
+00:02:05.360 --> 00:02:07.670 align:start position:0%
+in addition because we are collecting
+tons<00:02:05.680><c> of</c><00:02:05.840><c> data</c><00:02:06.479><c> daily</c><00:02:07.200><c> we</c><00:02:07.360><c> have</c><00:02:07.520><c> an</c>
+
+00:02:07.670 --> 00:02:07.680 align:start position:0%
+tons of data daily we have an
+ 
+
+00:02:07.680 --> 00:02:10.229 align:start position:0%
+tons of data daily we have an
+elasticsearch<00:02:08.640><c> database</c><00:02:09.440><c> for</c><00:02:09.759><c> fast</c>
+
+00:02:10.229 --> 00:02:10.239 align:start position:0%
+elasticsearch database for fast
+ 
+
+00:02:10.239 --> 00:02:12.470 align:start position:0%
+elasticsearch database for fast
+filtering<00:02:10.879><c> and</c><00:02:11.039><c> searching</c><00:02:11.440><c> the</c><00:02:11.599><c> data</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+filtering and searching the data
+ 
+
+00:02:12.480 --> 00:02:15.110 align:start position:0%
+filtering and searching the data
+now<00:02:12.640><c> the</c><00:02:12.800><c> users</c><00:02:13.680><c> are</c><00:02:14.000><c> all</c><00:02:14.319><c> connected</c><00:02:14.800><c> to</c><00:02:14.959><c> each</c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+now the users are all connected to each
+ 
+
+00:02:15.120 --> 00:02:17.350 align:start position:0%
+now the users are all connected to each
+other<00:02:15.360><c> so</c><00:02:15.520><c> we</c><00:02:15.680><c> need</c><00:02:15.840><c> a</c><00:02:16.000><c> graph</c><00:02:16.319><c> database</c><00:02:17.200><c> to</c>
+
+00:02:17.350 --> 00:02:17.360 align:start position:0%
+other so we need a graph database to
+ 
+
+00:02:17.360 --> 00:02:19.190 align:start position:0%
+other so we need a graph database to
+represent<00:02:17.920><c> these</c><00:02:18.080><c> connections</c>
+
+00:02:19.190 --> 00:02:19.200 align:start position:0%
+represent these connections
+ 
+
+00:02:19.200 --> 00:02:21.350 align:start position:0%
+represent these connections
+plus<00:02:19.520><c> our</c><00:02:19.760><c> application</c><00:02:20.400><c> has</c><00:02:20.560><c> a</c><00:02:20.640><c> lot</c><00:02:20.800><c> of</c><00:02:20.959><c> media</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+plus our application has a lot of media
+ 
+
+00:02:21.360 --> 00:02:24.470 align:start position:0%
+plus our application has a lot of media
+content<00:02:22.239><c> that</c><00:02:22.640><c> users</c><00:02:23.440><c> share</c><00:02:23.760><c> with</c><00:02:24.000><c> each</c><00:02:24.160><c> other</c>
+
+00:02:24.470 --> 00:02:24.480 align:start position:0%
+content that users share with each other
+ 
+
+00:02:24.480 --> 00:02:25.430 align:start position:0%
+content that users share with each other
+daily
+
+00:02:25.430 --> 00:02:25.440 align:start position:0%
+daily
+ 
+
+00:02:25.440 --> 00:02:28.150 align:start position:0%
+daily
+and<00:02:25.680><c> for</c><00:02:25.840><c> that</c><00:02:26.160><c> we</c><00:02:26.400><c> have</c><00:02:26.640><c> a</c><00:02:26.720><c> document</c><00:02:27.200><c> database</c>
+
+00:02:28.150 --> 00:02:28.160 align:start position:0%
+and for that we have a document database
+ 
+
+00:02:28.160 --> 00:02:30.550 align:start position:0%
+and for that we have a document database
+and<00:02:28.480><c> finally</c><00:02:29.040><c> for</c><00:02:29.360><c> a</c><00:02:29.440><c> better</c><00:02:29.760><c> performance</c><00:02:30.400><c> for</c>
+
+00:02:30.550 --> 00:02:30.560 align:start position:0%
+and finally for a better performance for
+ 
+
+00:02:30.560 --> 00:02:33.830 align:start position:0%
+and finally for a better performance for
+the<00:02:30.640><c> application</c><00:02:31.599><c> we</c><00:02:31.920><c> have</c><00:02:32.400><c> a</c><00:02:32.640><c> cache</c><00:02:32.959><c> service</c>
+
+00:02:33.830 --> 00:02:33.840 align:start position:0%
+the application we have a cache service
+ 
+
+00:02:33.840 --> 00:02:35.589 align:start position:0%
+the application we have a cache service
+that<00:02:34.080><c> caches</c><00:02:34.480><c> the</c><00:02:34.640><c> data</c><00:02:35.120><c> from</c><00:02:35.360><c> other</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+that caches the data from other
+ 
+
+00:02:35.599 --> 00:02:39.509 align:start position:0%
+that caches the data from other
+databases<00:02:36.640><c> and</c><00:02:36.800><c> makes</c><00:02:37.120><c> it</c><00:02:37.360><c> accessible</c><00:02:38.239><c> faster</c>
+
+00:02:39.509 --> 00:02:39.519 align:start position:0%
+databases and makes it accessible faster
+ 
+
+00:02:39.519 --> 00:02:42.070 align:start position:0%
+databases and makes it accessible faster
+now<00:02:40.160><c> it's</c><00:02:40.480><c> obvious</c><00:02:40.879><c> that</c><00:02:41.120><c> this</c><00:02:41.360><c> is</c><00:02:41.519><c> a</c><00:02:41.680><c> pretty</c>
+
+00:02:42.070 --> 00:02:42.080 align:start position:0%
+now it's obvious that this is a pretty
+ 
+
+00:02:42.080 --> 00:02:44.949 align:start position:0%
+now it's obvious that this is a pretty
+complex<00:02:42.640><c> setup</c><00:02:43.519><c> but</c><00:02:43.760><c> let's</c><00:02:44.000><c> see</c><00:02:44.239><c> what</c><00:02:44.560><c> are</c><00:02:44.720><c> the</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+complex setup but let's see what are the
+ 
+
+00:02:44.959 --> 00:02:47.110 align:start position:0%
+complex setup but let's see what are the
+challenges<00:02:45.599><c> of</c><00:02:45.680><c> this</c><00:02:45.920><c> setup</c>
+
+00:02:47.110 --> 00:02:47.120 align:start position:0%
+challenges of this setup
+ 
+
+00:02:47.120 --> 00:02:49.430 align:start position:0%
+challenges of this setup
+first<00:02:47.360><c> of</c><00:02:47.519><c> all</c><00:02:47.840><c> all</c><00:02:48.000><c> these</c><00:02:48.239><c> data</c><00:02:48.560><c> services</c>
+
+00:02:49.430 --> 00:02:49.440 align:start position:0%
+first of all all these data services
+ 
+
+00:02:49.440 --> 00:02:51.990 align:start position:0%
+first of all all these data services
+need<00:02:49.680><c> to</c><00:02:49.760><c> be</c><00:02:50.000><c> deployed</c><00:02:50.879><c> run</c><00:02:51.200><c> and</c><00:02:51.440><c> maintained</c>
+
+00:02:51.990 --> 00:02:52.000 align:start position:0%
+need to be deployed run and maintained
+ 
+
+00:02:52.000 --> 00:02:54.630 align:start position:0%
+need to be deployed run and maintained
+right<00:02:52.640><c> this</c><00:02:52.879><c> means</c><00:02:53.200><c> your</c><00:02:53.519><c> team</c><00:02:53.920><c> needs</c><00:02:54.160><c> to</c><00:02:54.319><c> have</c>
+
+00:02:54.630 --> 00:02:54.640 align:start position:0%
+right this means your team needs to have
+ 
+
+00:02:54.640 --> 00:02:57.270 align:start position:0%
+right this means your team needs to have
+some<00:02:54.879><c> kind</c><00:02:55.120><c> of</c><00:02:55.360><c> knowledge</c><00:02:56.000><c> on</c><00:02:56.239><c> how</c><00:02:56.480><c> to</c>
+
+00:02:57.270 --> 00:02:57.280 align:start position:0%
+some kind of knowledge on how to
+ 
+
+00:02:57.280 --> 00:02:59.750 align:start position:0%
+some kind of knowledge on how to
+operate<00:02:57.840><c> all</c><00:02:58.080><c> these</c><00:02:58.319><c> data</c><00:02:58.560><c> services</c>
+
+00:02:59.750 --> 00:02:59.760 align:start position:0%
+operate all these data services
+ 
+
+00:02:59.760 --> 00:03:02.630 align:start position:0%
+operate all these data services
+plus<00:03:00.080><c> of</c><00:03:00.239><c> course</c><00:03:00.879><c> for</c><00:03:01.200><c> high</c><00:03:01.440><c> availability</c><00:03:02.480><c> and</c>
+
+00:03:02.630 --> 00:03:02.640 align:start position:0%
+plus of course for high availability and
+ 
+
+00:03:02.640 --> 00:03:04.470 align:start position:0%
+plus of course for high availability and
+better<00:03:02.959><c> performance</c><00:03:03.760><c> you</c><00:03:03.920><c> would</c><00:03:04.080><c> want</c><00:03:04.239><c> to</c>
+
+00:03:04.470 --> 00:03:04.480 align:start position:0%
+better performance you would want to
+ 
+
+00:03:04.480 --> 00:03:06.390 align:start position:0%
+better performance you would want to
+scale<00:03:04.800><c> your</c><00:03:05.040><c> services</c><00:03:05.680><c> and</c><00:03:05.840><c> each</c><00:03:06.080><c> of</c><00:03:06.159><c> these</c>
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+scale your services and each of these
+ 
+
+00:03:06.400 --> 00:03:09.350 align:start position:0%
+scale your services and each of these
+data<00:03:06.720><c> services</c><00:03:07.680><c> scales</c><00:03:08.319><c> differently</c><00:03:09.120><c> has</c>
+
+00:03:09.350 --> 00:03:09.360 align:start position:0%
+data services scales differently has
+ 
+
+00:03:09.360 --> 00:03:11.670 align:start position:0%
+data services scales differently has
+different<00:03:09.840><c> infrastructure</c><00:03:10.640><c> requirements</c>
+
+00:03:11.670 --> 00:03:11.680 align:start position:0%
+different infrastructure requirements
+ 
+
+00:03:11.680 --> 00:03:13.190 align:start position:0%
+different infrastructure requirements
+and<00:03:11.840><c> that</c><00:03:12.080><c> could</c><00:03:12.239><c> be</c><00:03:12.480><c> an</c><00:03:12.640><c> additional</c>
+
+00:03:13.190 --> 00:03:13.200 align:start position:0%
+and that could be an additional
+ 
+
+00:03:13.200 --> 00:03:15.750 align:start position:0%
+and that could be an additional
+challenge<00:03:13.920><c> so</c><00:03:14.159><c> overall</c><00:03:14.640><c> using</c><00:03:14.959><c> multiple</c><00:03:15.440><c> data</c>
+
+00:03:15.750 --> 00:03:15.760 align:start position:0%
+challenge so overall using multiple data
+ 
+
+00:03:15.760 --> 00:03:19.030 align:start position:0%
+challenge so overall using multiple data
+services<00:03:16.400><c> for</c><00:03:16.640><c> your</c><00:03:16.800><c> application</c><00:03:17.920><c> increases</c>
+
+00:03:19.030 --> 00:03:19.040 align:start position:0%
+services for your application increases
+ 
+
+00:03:19.040 --> 00:03:21.670 align:start position:0%
+services for your application increases
+the<00:03:19.280><c> effort</c><00:03:20.000><c> of</c><00:03:20.319><c> maintaining</c><00:03:20.959><c> your</c><00:03:21.200><c> whole</c>
+
+00:03:21.670 --> 00:03:21.680 align:start position:0%
+the effort of maintaining your whole
+ 
+
+00:03:21.680 --> 00:03:24.470 align:start position:0%
+the effort of maintaining your whole
+application<00:03:22.400><c> setup</c><00:03:23.040><c> of</c><00:03:23.200><c> course</c><00:03:23.519><c> as</c><00:03:23.680><c> an</c><00:03:24.000><c> easier</c>
+
+00:03:24.470 --> 00:03:24.480 align:start position:0%
+application setup of course as an easier
+ 
+
+00:03:24.480 --> 00:03:26.390 align:start position:0%
+application setup of course as an easier
+alternative<00:03:25.120><c> to</c><00:03:25.360><c> running</c><00:03:25.680><c> and</c><00:03:25.840><c> managing</c><00:03:26.239><c> the</c>
+
+00:03:26.390 --> 00:03:26.400 align:start position:0%
+alternative to running and managing the
+ 
+
+00:03:26.400 --> 00:03:28.949 align:start position:0%
+alternative to running and managing the
+services<00:03:26.959><c> yourself</c><00:03:27.760><c> you</c><00:03:27.920><c> can</c><00:03:28.159><c> use</c><00:03:28.720><c> the</c>
+
+00:03:28.949 --> 00:03:28.959 align:start position:0%
+services yourself you can use the
+ 
+
+00:03:28.959 --> 00:03:31.350 align:start position:0%
+services yourself you can use the
+managed<00:03:29.599><c> data</c><00:03:30.000><c> services</c><00:03:30.720><c> from</c><00:03:31.040><c> cloud</c>
+
+00:03:31.350 --> 00:03:31.360 align:start position:0%
+managed data services from cloud
+ 
+
+00:03:31.360 --> 00:03:33.350 align:start position:0%
+managed data services from cloud
+providers<00:03:32.319><c> but</c><00:03:32.480><c> this</c><00:03:32.720><c> could</c><00:03:32.879><c> be</c><00:03:33.120><c> very</c>
+
+00:03:33.350 --> 00:03:33.360 align:start position:0%
+providers but this could be very
+ 
+
+00:03:33.360 --> 00:03:35.990 align:start position:0%
+providers but this could be very
+expensive<00:03:34.000><c> because</c><00:03:34.319><c> on</c><00:03:34.560><c> cloud</c><00:03:34.959><c> platforms</c><00:03:35.760><c> you</c>
+
+00:03:35.990 --> 00:03:36.000 align:start position:0%
+expensive because on cloud platforms you
+ 
+
+00:03:36.000 --> 00:03:38.710 align:start position:0%
+expensive because on cloud platforms you
+pay<00:03:36.319><c> for</c><00:03:36.720><c> each</c><00:03:37.120><c> managed</c><00:03:37.760><c> data</c><00:03:38.159><c> service</c>
+
+00:03:38.710 --> 00:03:38.720 align:start position:0%
+pay for each managed data service
+ 
+
+00:03:38.720 --> 00:03:39.990 align:start position:0%
+pay for each managed data service
+separately
+
+00:03:39.990 --> 00:03:40.000 align:start position:0%
+separately
+ 
+
+00:03:40.000 --> 00:03:41.910 align:start position:0%
+separately
+now<00:03:40.239><c> on</c><00:03:40.319><c> the</c><00:03:40.480><c> development</c><00:03:41.040><c> side</c><00:03:41.680><c> your</c>
+
+00:03:41.910 --> 00:03:41.920 align:start position:0%
+now on the development side your
+ 
+
+00:03:41.920 --> 00:03:44.550 align:start position:0%
+now on the development side your
+application<00:03:42.799><c> code</c><00:03:43.280><c> also</c><00:03:43.680><c> gets</c><00:03:44.159><c> pretty</c>
+
+00:03:44.550 --> 00:03:44.560 align:start position:0%
+application code also gets pretty
+ 
+
+00:03:44.560 --> 00:03:46.789 align:start position:0%
+application code also gets pretty
+complex<00:03:45.280><c> because</c><00:03:45.680><c> you</c><00:03:45.920><c> need</c><00:03:46.080><c> to</c><00:03:46.239><c> talk</c><00:03:46.480><c> to</c>
+
+00:03:46.789 --> 00:03:46.799 align:start position:0%
+complex because you need to talk to
+ 
+
+00:03:46.799 --> 00:03:49.350 align:start position:0%
+complex because you need to talk to
+multiple<00:03:47.200><c> data</c><00:03:47.519><c> services</c><00:03:48.400><c> and</c><00:03:48.640><c> for</c><00:03:48.959><c> each</c>
+
+00:03:49.350 --> 00:03:49.360 align:start position:0%
+multiple data services and for each
+ 
+
+00:03:49.360 --> 00:03:51.830 align:start position:0%
+multiple data services and for each
+service<00:03:50.159><c> you</c><00:03:50.400><c> would</c><00:03:50.560><c> need</c><00:03:50.959><c> a</c><00:03:51.120><c> separate</c>
+
+00:03:51.830 --> 00:03:51.840 align:start position:0%
+service you would need a separate
+ 
+
+00:03:51.840 --> 00:03:54.789 align:start position:0%
+service you would need a separate
+connector<00:03:52.720><c> and</c><00:03:52.879><c> separate</c><00:03:53.439><c> logic</c><00:03:54.319><c> and</c><00:03:54.480><c> this</c><00:03:54.720><c> of</c>
+
+00:03:54.789 --> 00:03:54.799 align:start position:0%
+connector and separate logic and this of
+ 
+
+00:03:54.799 --> 00:03:57.190 align:start position:0%
+connector and separate logic and this of
+course<00:03:55.120><c> makes</c><00:03:55.760><c> testing</c><00:03:56.159><c> your</c><00:03:56.319><c> applications</c>
+
+00:03:57.190 --> 00:03:57.200 align:start position:0%
+course makes testing your applications
+ 
+
+00:03:57.200 --> 00:03:59.190 align:start position:0%
+course makes testing your applications
+also<00:03:57.680><c> quite</c><00:03:57.920><c> challenging</c>
+
+00:03:59.190 --> 00:03:59.200 align:start position:0%
+also quite challenging
+ 
+
+00:03:59.200 --> 00:04:01.670 align:start position:0%
+also quite challenging
+and<00:03:59.360><c> finally</c><00:04:00.159><c> the</c><00:04:00.319><c> more</c><00:04:00.560><c> number</c><00:04:00.879><c> of</c><00:04:00.959><c> services</c>
+
+00:04:01.670 --> 00:04:01.680 align:start position:0%
+and finally the more number of services
+ 
+
+00:04:01.680 --> 00:04:03.670 align:start position:0%
+and finally the more number of services
+that<00:04:01.920><c> talk</c><00:04:02.080><c> to</c><00:04:02.239><c> each</c><00:04:02.480><c> other</c><00:04:02.959><c> the</c><00:04:03.120><c> higher</c><00:04:03.519><c> the</c>
+
+00:04:03.670 --> 00:04:03.680 align:start position:0%
+that talk to each other the higher the
+ 
+
+00:04:03.680 --> 00:04:06.630 align:start position:0%
+that talk to each other the higher the
+latency<00:04:04.560><c> because</c><00:04:05.040><c> even</c><00:04:05.360><c> though</c><00:04:05.840><c> each</c><00:04:06.159><c> service</c>
+
+00:04:06.630 --> 00:04:06.640 align:start position:0%
+latency because even though each service
+ 
+
+00:04:06.640 --> 00:04:09.110 align:start position:0%
+latency because even though each service
+may<00:04:06.799><c> be</c><00:04:07.120><c> fast</c><00:04:07.599><c> on</c><00:04:07.760><c> its</c><00:04:08.000><c> own</c>
+
+00:04:09.110 --> 00:04:09.120 align:start position:0%
+may be fast on its own
+ 
+
+00:04:09.120 --> 00:04:11.190 align:start position:0%
+may be fast on its own
+each<00:04:09.439><c> connection</c><00:04:10.159><c> step</c><00:04:10.720><c> between</c><00:04:11.040><c> the</c>
+
+00:04:11.190 --> 00:04:11.200 align:start position:0%
+each connection step between the
+ 
+
+00:04:11.200 --> 00:04:14.630 align:start position:0%
+each connection step between the
+services<00:04:11.920><c> or</c><00:04:12.239><c> each</c><00:04:12.720><c> network</c><00:04:13.200><c> hub</c><00:04:13.680><c> will</c><00:04:14.080><c> add</c>
+
+00:04:14.630 --> 00:04:14.640 align:start position:0%
+services or each network hub will add
+ 
+
+00:04:14.640 --> 00:04:16.870 align:start position:0%
+services or each network hub will add
+some<00:04:14.879><c> latency</c><00:04:15.439><c> to</c><00:04:15.599><c> your</c><00:04:15.760><c> application</c>
+
+00:04:16.870 --> 00:04:16.880 align:start position:0%
+some latency to your application
+ 
+
+00:04:16.880 --> 00:04:19.110 align:start position:0%
+some latency to your application
+in<00:04:17.040><c> comparison</c><00:04:17.919><c> with</c><00:04:18.160><c> a</c><00:04:18.320><c> multi-modal</c>
+
+00:04:19.110 --> 00:04:19.120 align:start position:0%
+in comparison with a multi-modal
+ 
+
+00:04:19.120 --> 00:04:22.310 align:start position:0%
+in comparison with a multi-modal
+database<00:04:20.000><c> like</c><00:04:20.320><c> redis</c><00:04:21.199><c> you</c><00:04:21.440><c> resolve</c><00:04:21.919><c> most</c><00:04:22.240><c> of</c>
+
+00:04:22.310 --> 00:04:22.320 align:start position:0%
+database like redis you resolve most of
+ 
+
+00:04:22.320 --> 00:04:24.550 align:start position:0%
+database like redis you resolve most of
+these<00:04:22.639><c> challenges</c><00:04:23.600><c> first</c><00:04:23.840><c> of</c><00:04:23.919><c> all</c><00:04:24.080><c> you</c><00:04:24.320><c> run</c>
+
+00:04:24.550 --> 00:04:24.560 align:start position:0%
+these challenges first of all you run
+ 
+
+00:04:24.560 --> 00:04:27.030 align:start position:0%
+these challenges first of all you run
+and<00:04:24.720><c> maintain</c><00:04:25.199><c> just</c><00:04:25.520><c> one</c><00:04:25.759><c> data</c><00:04:26.080><c> service</c><00:04:26.880><c> so</c>
+
+00:04:27.030 --> 00:04:27.040 align:start position:0%
+and maintain just one data service so
+ 
+
+00:04:27.040 --> 00:04:29.030 align:start position:0%
+and maintain just one data service so
+your<00:04:27.280><c> application</c><00:04:27.919><c> also</c><00:04:28.160><c> needs</c><00:04:28.400><c> to</c><00:04:28.560><c> talk</c><00:04:28.800><c> to</c><00:04:28.960><c> a</c>
+
+00:04:29.030 --> 00:04:29.040 align:start position:0%
+your application also needs to talk to a
+ 
+
+00:04:29.040 --> 00:04:31.909 align:start position:0%
+your application also needs to talk to a
+single<00:04:29.440><c> data</c><00:04:29.840><c> store</c><00:04:30.639><c> and</c><00:04:30.720><c> that</c><00:04:30.960><c> requires</c><00:04:31.600><c> only</c>
+
+00:04:31.909 --> 00:04:31.919 align:start position:0%
+single data store and that requires only
+ 
+
+00:04:31.919 --> 00:04:34.870 align:start position:0%
+single data store and that requires only
+one<00:04:32.240><c> programmatic</c><00:04:32.880><c> interface</c><00:04:33.680><c> for</c><00:04:33.919><c> that</c><00:04:34.560><c> data</c>
+
+00:04:34.870 --> 00:04:34.880 align:start position:0%
+one programmatic interface for that data
+ 
+
+00:04:34.880 --> 00:04:37.430 align:start position:0%
+one programmatic interface for that data
+service<00:04:35.759><c> and</c><00:04:36.000><c> latency</c><00:04:36.479><c> will</c><00:04:36.639><c> be</c><00:04:36.800><c> reduced</c><00:04:37.199><c> by</c>
+
+00:04:37.430 --> 00:04:37.440 align:start position:0%
+service and latency will be reduced by
+ 
+
+00:04:37.440 --> 00:04:39.430 align:start position:0%
+service and latency will be reduced by
+going<00:04:37.680><c> to</c><00:04:37.919><c> a</c><00:04:38.000><c> single</c><00:04:38.320><c> data</c><00:04:38.639><c> endpoint</c><00:04:39.199><c> and</c>
+
+00:04:39.430 --> 00:04:39.440 align:start position:0%
+going to a single data endpoint and
+ 
+
+00:04:39.440 --> 00:04:40.870 align:start position:0%
+going to a single data endpoint and
+eliminating
+
+00:04:40.870 --> 00:04:40.880 align:start position:0%
+eliminating
+ 
+
+00:04:40.880 --> 00:04:44.550 align:start position:0%
+eliminating
+several<00:04:41.919><c> internal</c><00:04:42.800><c> network</c><00:04:43.199><c> hubs</c><00:04:43.919><c> so</c><00:04:44.160><c> having</c>
+
+00:04:44.550 --> 00:04:44.560 align:start position:0%
+several internal network hubs so having
+ 
+
+00:04:44.560 --> 00:04:47.110 align:start position:0%
+several internal network hubs so having
+one<00:04:44.800><c> database</c><00:04:45.600><c> like</c><00:04:45.840><c> redis</c><00:04:46.240><c> that</c><00:04:46.560><c> allows</c><00:04:46.960><c> you</c>
+
+00:04:47.110 --> 00:04:47.120 align:start position:0%
+one database like redis that allows you
+ 
+
+00:04:47.120 --> 00:04:49.749 align:start position:0%
+one database like redis that allows you
+to<00:04:47.360><c> store</c><00:04:48.000><c> different</c><00:04:48.400><c> types</c><00:04:48.720><c> of</c><00:04:48.880><c> data</c><00:04:49.520><c> or</c>
+
+00:04:49.749 --> 00:04:49.759 align:start position:0%
+to store different types of data or
+ 
+
+00:04:49.759 --> 00:04:52.150 align:start position:0%
+to store different types of data or
+basically<00:04:50.320><c> allows</c><00:04:50.639><c> you</c><00:04:50.800><c> to</c><00:04:50.960><c> have</c><00:04:51.120><c> multiple</c>
+
+00:04:52.150 --> 00:04:52.160 align:start position:0%
+basically allows you to have multiple
+ 
+
+00:04:52.160 --> 00:04:55.430 align:start position:0%
+basically allows you to have multiple
+types<00:04:52.479><c> of</c><00:04:52.639><c> databases</c><00:04:53.520><c> in</c><00:04:53.759><c> one</c><00:04:54.479><c> as</c><00:04:54.639><c> well</c><00:04:54.880><c> as</c><00:04:55.120><c> act</c>
+
+00:04:55.430 --> 00:04:55.440 align:start position:0%
+types of databases in one as well as act
+ 
+
+00:04:55.440 --> 00:04:58.790 align:start position:0%
+types of databases in one as well as act
+as<00:04:55.680><c> a</c><00:04:55.919><c> cache</c><00:04:56.720><c> solves</c><00:04:57.280><c> such</c><00:04:57.600><c> challenges</c>
+
+00:04:58.790 --> 00:04:58.800 align:start position:0%
+as a cache solves such challenges
+ 
+
+00:04:58.800 --> 00:05:01.590 align:start position:0%
+as a cache solves such challenges
+so<00:04:59.040><c> let's</c><00:04:59.199><c> see</c><00:04:59.440><c> how</c><00:04:59.680><c> redis</c><00:05:00.160><c> actually</c><00:05:00.479><c> works</c>
+
+00:05:01.590 --> 00:05:01.600 align:start position:0%
+so let's see how redis actually works
+ 
+
+00:05:01.600 --> 00:05:04.070 align:start position:0%
+so let's see how redis actually works
+first<00:05:01.840><c> of</c><00:05:02.000><c> all</c><00:05:02.560><c> how</c><00:05:02.720><c> does</c><00:05:03.039><c> ready</c><00:05:03.440><c> support</c>
+
+00:05:04.070 --> 00:05:04.080 align:start position:0%
+first of all how does ready support
+ 
+
+00:05:04.080 --> 00:05:05.990 align:start position:0%
+first of all how does ready support
+multiple<00:05:04.639><c> data</c><00:05:04.960><c> formats</c><00:05:05.440><c> in</c><00:05:05.520><c> a</c><00:05:05.600><c> single</c>
+
+00:05:05.990 --> 00:05:06.000 align:start position:0%
+multiple data formats in a single
+ 
+
+00:05:06.000 --> 00:05:07.110 align:start position:0%
+multiple data formats in a single
+database
+
+00:05:07.110 --> 00:05:07.120 align:start position:0%
+database
+ 
+
+00:05:07.120 --> 00:05:09.670 align:start position:0%
+database
+the<00:05:07.280><c> way</c><00:05:07.440><c> it</c><00:05:07.600><c> works</c><00:05:07.919><c> is</c><00:05:08.080><c> that</c><00:05:08.560><c> you</c><00:05:08.880><c> have</c><00:05:09.280><c> ready</c>
+
+00:05:09.670 --> 00:05:09.680 align:start position:0%
+the way it works is that you have ready
+ 
+
+00:05:09.680 --> 00:05:12.469 align:start position:0%
+the way it works is that you have ready
+score<00:05:10.400><c> which</c><00:05:10.639><c> is</c><00:05:10.800><c> a</c><00:05:10.960><c> key</c><00:05:11.199><c> value</c><00:05:11.600><c> store</c><00:05:12.240><c> that</c>
+
+00:05:12.469 --> 00:05:12.479 align:start position:0%
+score which is a key value store that
+ 
+
+00:05:12.479 --> 00:05:14.550 align:start position:0%
+score which is a key value store that
+already<00:05:12.880><c> supports</c><00:05:13.440><c> storing</c><00:05:13.759><c> multiple</c><00:05:14.240><c> types</c>
+
+00:05:14.550 --> 00:05:14.560 align:start position:0%
+already supports storing multiple types
+ 
+
+00:05:14.560 --> 00:05:16.629 align:start position:0%
+already supports storing multiple types
+of<00:05:14.639><c> data</c><00:05:15.280><c> and</c><00:05:15.360><c> then</c><00:05:15.600><c> you</c><00:05:15.680><c> can</c><00:05:15.840><c> extend</c><00:05:16.320><c> that</c>
+
+00:05:16.629 --> 00:05:16.639 align:start position:0%
+of data and then you can extend that
+ 
+
+00:05:16.639 --> 00:05:19.029 align:start position:0%
+of data and then you can extend that
+core<00:05:16.960><c> with</c><00:05:17.280><c> what's</c><00:05:17.520><c> called</c><00:05:18.000><c> modules</c><00:05:18.800><c> for</c>
+
+00:05:19.029 --> 00:05:19.039 align:start position:0%
+core with what's called modules for
+ 
+
+00:05:19.039 --> 00:05:21.110 align:start position:0%
+core with what's called modules for
+different<00:05:19.440><c> data</c><00:05:19.840><c> types</c><00:05:20.639><c> which</c><00:05:20.880><c> your</c>
+
+00:05:21.110 --> 00:05:21.120 align:start position:0%
+different data types which your
+ 
+
+00:05:21.120 --> 00:05:23.749 align:start position:0%
+different data types which your
+application<00:05:21.840><c> needs</c><00:05:22.160><c> for</c><00:05:22.400><c> different</c><00:05:22.880><c> purposes</c>
+
+00:05:23.749 --> 00:05:23.759 align:start position:0%
+application needs for different purposes
+ 
+
+00:05:23.759 --> 00:05:26.390 align:start position:0%
+application needs for different purposes
+so<00:05:24.000><c> for</c><00:05:24.160><c> example</c><00:05:24.880><c> ready</c><00:05:25.199><c> search</c><00:05:25.759><c> for</c><00:05:26.080><c> search</c>
+
+00:05:26.390 --> 00:05:26.400 align:start position:0%
+so for example ready search for search
+ 
+
+00:05:26.400 --> 00:05:29.029 align:start position:0%
+so for example ready search for search
+functionality<00:05:27.440><c> like</c><00:05:27.680><c> elasticsearch</c><00:05:28.800><c> or</c>
+
+00:05:29.029 --> 00:05:29.039 align:start position:0%
+functionality like elasticsearch or
+ 
+
+00:05:29.039 --> 00:05:31.830 align:start position:0%
+functionality like elasticsearch or
+redis<00:05:29.520><c> graph</c><00:05:30.080><c> for</c><00:05:30.320><c> graph</c><00:05:30.720><c> data</c><00:05:31.039><c> storage</c><00:05:31.680><c> and</c>
+
+00:05:31.830 --> 00:05:31.840 align:start position:0%
+redis graph for graph data storage and
+ 
+
+00:05:31.840 --> 00:05:34.550 align:start position:0%
+redis graph for graph data storage and
+so<00:05:32.000><c> on</c><00:05:32.560><c> and</c><00:05:32.720><c> a</c><00:05:32.800><c> great</c><00:05:33.039><c> thing</c><00:05:33.280><c> about</c><00:05:33.520><c> this</c><00:05:33.919><c> is</c>
+
+00:05:34.550 --> 00:05:34.560 align:start position:0%
+so on and a great thing about this is
+ 
+
+00:05:34.560 --> 00:05:36.710 align:start position:0%
+so on and a great thing about this is
+that<00:05:34.800><c> it's</c><00:05:35.039><c> modular</c><00:05:35.680><c> so</c><00:05:36.000><c> these</c><00:05:36.320><c> different</c>
+
+00:05:36.710 --> 00:05:36.720 align:start position:0%
+that it's modular so these different
+ 
+
+00:05:36.720 --> 00:05:39.270 align:start position:0%
+that it's modular so these different
+types<00:05:37.039><c> of</c><00:05:37.280><c> database</c><00:05:38.000><c> functionalities</c><00:05:39.120><c> are</c>
+
+00:05:39.270 --> 00:05:39.280 align:start position:0%
+types of database functionalities are
+ 
+
+00:05:39.280 --> 00:05:42.469 align:start position:0%
+types of database functionalities are
+not<00:05:39.680><c> tightly</c><00:05:40.400><c> integrated</c><00:05:41.120><c> into</c><00:05:41.440><c> one</c><00:05:41.680><c> database</c>
+
+00:05:42.469 --> 00:05:42.479 align:start position:0%
+not tightly integrated into one database
+ 
+
+00:05:42.479 --> 00:05:45.670 align:start position:0%
+not tightly integrated into one database
+as<00:05:42.800><c> in</c><00:05:43.120><c> many</c><00:05:43.440><c> other</c><00:05:44.000><c> multi-modal</c><00:05:44.800><c> databases</c>
+
+00:05:45.670 --> 00:05:45.680 align:start position:0%
+as in many other multi-modal databases
+ 
+
+00:05:45.680 --> 00:05:47.590 align:start position:0%
+as in many other multi-modal databases
+but<00:05:45.919><c> rather</c><00:05:46.320><c> you</c><00:05:46.479><c> can</c><00:05:46.720><c> pick</c><00:05:47.039><c> and</c><00:05:47.199><c> choose</c>
+
+00:05:47.590 --> 00:05:47.600 align:start position:0%
+but rather you can pick and choose
+ 
+
+00:05:47.600 --> 00:05:50.469 align:start position:0%
+but rather you can pick and choose
+exactly<00:05:48.400><c> which</c><00:05:48.720><c> data</c><00:05:49.039><c> service</c><00:05:49.520><c> functionality</c>
+
+00:05:50.469 --> 00:05:50.479 align:start position:0%
+exactly which data service functionality
+ 
+
+00:05:50.479 --> 00:05:52.390 align:start position:0%
+exactly which data service functionality
+you<00:05:50.720><c> need</c><00:05:51.120><c> for</c><00:05:51.280><c> your</c><00:05:51.520><c> application</c>
+
+00:05:52.390 --> 00:05:52.400 align:start position:0%
+you need for your application
+ 
+
+00:05:52.400 --> 00:05:54.870 align:start position:0%
+you need for your application
+and<00:05:52.479><c> then</c><00:05:52.720><c> basically</c><00:05:53.360><c> add</c><00:05:53.680><c> that</c><00:05:54.000><c> module</c><00:05:54.639><c> and</c>
+
+00:05:54.870 --> 00:05:54.880 align:start position:0%
+and then basically add that module and
+ 
+
+00:05:54.880 --> 00:05:56.950 align:start position:0%
+and then basically add that module and
+of<00:05:54.960><c> course</c><00:05:55.199><c> when</c><00:05:55.440><c> using</c><00:05:55.840><c> redis</c><00:05:56.240><c> as</c><00:05:56.400><c> a</c><00:05:56.479><c> primary</c>
+
+00:05:56.950 --> 00:05:56.960 align:start position:0%
+of course when using redis as a primary
+ 
+
+00:05:56.960 --> 00:05:58.950 align:start position:0%
+of course when using redis as a primary
+database<00:05:57.680><c> you</c><00:05:57.919><c> don't</c><00:05:58.000><c> need</c><00:05:58.240><c> an</c><00:05:58.400><c> additional</c>
+
+00:05:58.950 --> 00:05:58.960 align:start position:0%
+database you don't need an additional
+ 
+
+00:05:58.960 --> 00:06:00.309 align:start position:0%
+database you don't need an additional
+cache<00:05:59.360><c> because</c><00:05:59.680><c> you</c><00:05:59.840><c> have</c><00:06:00.080><c> that</c>
+
+00:06:00.309 --> 00:06:00.319 align:start position:0%
+cache because you have that
+ 
+
+00:06:00.319 --> 00:06:02.950 align:start position:0%
+cache because you have that
+automatically<00:06:01.199><c> out</c><00:06:01.360><c> of</c><00:06:01.440><c> the</c><00:06:01.600><c> box</c><00:06:02.080><c> with</c><00:06:02.319><c> redis</c>
+
+00:06:02.950 --> 00:06:02.960 align:start position:0%
+automatically out of the box with redis
+ 
+
+00:06:02.960 --> 00:06:05.430 align:start position:0%
+automatically out of the box with redis
+that<00:06:03.120><c> means</c><00:06:03.520><c> again</c><00:06:04.160><c> less</c><00:06:04.400><c> complexity</c><00:06:05.120><c> in</c><00:06:05.199><c> your</c>
+
+00:06:05.430 --> 00:06:05.440 align:start position:0%
+that means again less complexity in your
+ 
+
+00:06:05.440 --> 00:06:06.390 align:start position:0%
+that means again less complexity in your
+application
+
+00:06:06.390 --> 00:06:06.400 align:start position:0%
+application
+ 
+
+00:06:06.400 --> 00:06:09.029 align:start position:0%
+application
+because<00:06:06.880><c> you</c><00:06:07.039><c> don't</c><00:06:07.280><c> need</c><00:06:07.440><c> to</c><00:06:07.840><c> implement</c>
+
+00:06:09.029 --> 00:06:09.039 align:start position:0%
+because you don't need to implement
+ 
+
+00:06:09.039 --> 00:06:12.150 align:start position:0%
+because you don't need to implement
+the<00:06:09.360><c> logic</c><00:06:09.840><c> for</c><00:06:10.160><c> managing</c><00:06:10.960><c> populating</c><00:06:11.919><c> and</c>
+
+00:06:12.150 --> 00:06:12.160 align:start position:0%
+the logic for managing populating and
+ 
+
+00:06:12.160 --> 00:06:14.950 align:start position:0%
+the logic for managing populating and
+invalidating<00:06:13.120><c> cache</c><00:06:13.840><c> and</c><00:06:14.080><c> finally</c><00:06:14.639><c> as</c><00:06:14.800><c> an</c>
+
+00:06:14.950 --> 00:06:14.960 align:start position:0%
+invalidating cache and finally as an
+ 
+
+00:06:14.960 --> 00:06:17.510 align:start position:0%
+invalidating cache and finally as an
+in-memory<00:06:15.520><c> database</c><00:06:16.319><c> redis</c><00:06:16.720><c> is</c><00:06:16.960><c> of</c><00:06:17.039><c> course</c>
+
+00:06:17.510 --> 00:06:17.520 align:start position:0%
+in-memory database redis is of course
+ 
+
+00:06:17.520 --> 00:06:19.590 align:start position:0%
+in-memory database redis is of course
+super<00:06:17.919><c> fast</c><00:06:18.240><c> and</c><00:06:18.400><c> performant</c><00:06:19.199><c> which</c><00:06:19.440><c> of</c>
+
+00:06:19.590 --> 00:06:19.600 align:start position:0%
+super fast and performant which of
+ 
+
+00:06:19.600 --> 00:06:21.830 align:start position:0%
+super fast and performant which of
+course<00:06:20.240><c> makes</c><00:06:20.560><c> the</c><00:06:20.720><c> application</c><00:06:21.360><c> itself</c>
+
+00:06:21.830 --> 00:06:21.840 align:start position:0%
+course makes the application itself
+ 
+
+00:06:21.840 --> 00:06:25.270 align:start position:0%
+course makes the application itself
+faster<00:06:22.639><c> but</c><00:06:22.960><c> in</c><00:06:23.120><c> addition</c><00:06:23.759><c> it</c><00:06:24.080><c> also</c><00:06:24.479><c> makes</c>
+
+00:06:25.270 --> 00:06:25.280 align:start position:0%
+faster but in addition it also makes
+ 
+
+00:06:25.280 --> 00:06:28.390 align:start position:0%
+faster but in addition it also makes
+running<00:06:25.680><c> the</c><00:06:25.840><c> application</c><00:06:26.720><c> tests</c><00:06:27.520><c> way</c><00:06:27.919><c> faster</c>
+
+00:06:28.390 --> 00:06:28.400 align:start position:0%
+running the application tests way faster
+ 
+
+00:06:28.400 --> 00:06:30.309 align:start position:0%
+running the application tests way faster
+as<00:06:28.479><c> well</c><00:06:28.960><c> because</c><00:06:29.280><c> radius</c><00:06:29.680><c> doesn't</c><00:06:29.919><c> need</c><00:06:30.160><c> a</c>
+
+00:06:30.309 --> 00:06:30.319 align:start position:0%
+as well because radius doesn't need a
+ 
+
+00:06:30.319 --> 00:06:32.469 align:start position:0%
+as well because radius doesn't need a
+schema<00:06:31.039><c> like</c><00:06:31.280><c> other</c><00:06:31.520><c> databases</c><00:06:32.160><c> so</c><00:06:32.319><c> it</c>
+
+00:06:32.469 --> 00:06:32.479 align:start position:0%
+schema like other databases so it
+ 
+
+00:06:32.479 --> 00:06:34.790 align:start position:0%
+schema like other databases so it
+doesn't<00:06:32.800><c> need</c><00:06:33.199><c> time</c><00:06:33.600><c> to</c><00:06:33.919><c> initialize</c><00:06:34.639><c> the</c>
+
+00:06:34.790 --> 00:06:34.800 align:start position:0%
+doesn't need time to initialize the
+ 
+
+00:06:34.800 --> 00:06:37.510 align:start position:0%
+doesn't need time to initialize the
+database<00:06:35.600><c> and</c><00:06:35.759><c> build</c><00:06:36.000><c> the</c><00:06:36.160><c> schema</c><00:06:36.880><c> and</c><00:06:37.039><c> so</c><00:06:37.199><c> on</c>
+
+00:06:37.510 --> 00:06:37.520 align:start position:0%
+database and build the schema and so on
+ 
+
+00:06:37.520 --> 00:06:40.070 align:start position:0%
+database and build the schema and so on
+before<00:06:38.319><c> running</c><00:06:38.639><c> the</c><00:06:38.880><c> tests</c><00:06:39.520><c> so</c><00:06:39.759><c> you</c><00:06:39.919><c> can</c>
+
+00:06:40.070 --> 00:06:40.080 align:start position:0%
+before running the tests so you can
+ 
+
+00:06:40.080 --> 00:06:42.230 align:start position:0%
+before running the tests so you can
+start<00:06:40.319><c> with</c><00:06:40.479><c> an</c><00:06:40.639><c> empty</c><00:06:40.960><c> redis</c><00:06:41.360><c> database</c><00:06:41.919><c> every</c>
+
+00:06:42.230 --> 00:06:42.240 align:start position:0%
+start with an empty redis database every
+ 
+
+00:06:42.240 --> 00:06:45.270 align:start position:0%
+start with an empty redis database every
+time<00:06:42.560><c> and</c><00:06:42.720><c> generate</c><00:06:43.199><c> data</c><00:06:44.000><c> for</c><00:06:44.319><c> tests</c><00:06:44.960><c> as</c><00:06:45.120><c> you</c>
+
+00:06:45.270 --> 00:06:45.280 align:start position:0%
+time and generate data for tests as you
+ 
+
+00:06:45.280 --> 00:06:47.909 align:start position:0%
+time and generate data for tests as you
+need<00:06:45.759><c> and</c><00:06:46.000><c> fast</c><00:06:46.319><c> tests</c><00:06:46.960><c> can</c><00:06:47.280><c> really</c><00:06:47.600><c> increase</c>
+
+00:06:47.909 --> 00:06:47.919 align:start position:0%
+need and fast tests can really increase
+ 
+
+00:06:47.919 --> 00:06:52.550 align:start position:0%
+need and fast tests can really increase
+your<00:06:48.160><c> development</c><00:06:48.720><c> productivity</c>
+
+00:06:52.550 --> 00:06:52.560 align:start position:0%
+ 
+ 
+
+00:06:52.560 --> 00:06:54.710 align:start position:0%
+ 
+okay<00:06:52.880><c> great</c><00:06:53.199><c> so</c><00:06:53.360><c> we</c><00:06:53.599><c> understood</c><00:06:54.160><c> how</c><00:06:54.400><c> redis</c>
+
+00:06:54.710 --> 00:06:54.720 align:start position:0%
+okay great so we understood how redis
+ 
+
+00:06:54.720 --> 00:06:57.430 align:start position:0%
+okay great so we understood how redis
+works<00:06:55.199><c> and</c><00:06:55.440><c> all</c><00:06:55.680><c> its</c><00:06:55.919><c> benefits</c><00:06:56.880><c> but</c><00:06:57.120><c> at</c><00:06:57.199><c> this</c>
+
+00:06:57.430 --> 00:06:57.440 align:start position:0%
+works and all its benefits but at this
+ 
+
+00:06:57.440 --> 00:06:59.990 align:start position:0%
+works and all its benefits but at this
+point<00:06:57.840><c> you</c><00:06:58.000><c> may</c><00:06:58.160><c> be</c><00:06:58.319><c> wondering</c><00:06:59.360><c> how</c><00:06:59.520><c> can</c><00:06:59.759><c> an</c>
+
+00:06:59.990 --> 00:07:00.000 align:start position:0%
+point you may be wondering how can an
+ 
+
+00:07:00.000 --> 00:07:03.270 align:start position:0%
+point you may be wondering how can an
+in-memory<00:07:00.639><c> database</c><00:07:01.440><c> persist</c><00:07:02.240><c> data</c><00:07:02.960><c> because</c>
+
+00:07:03.270 --> 00:07:03.280 align:start position:0%
+in-memory database persist data because
+ 
+
+00:07:03.280 --> 00:07:05.510 align:start position:0%
+in-memory database persist data because
+if<00:07:03.360><c> the</c><00:07:03.599><c> redis</c><00:07:04.000><c> process</c><00:07:04.479><c> or</c><00:07:04.720><c> the</c><00:07:04.960><c> server</c><00:07:05.360><c> on</c>
+
+00:07:05.510 --> 00:07:05.520 align:start position:0%
+if the redis process or the server on
+ 
+
+00:07:05.520 --> 00:07:08.550 align:start position:0%
+if the redis process or the server on
+which<00:07:06.000><c> redis</c><00:07:06.479><c> is</c><00:07:06.639><c> running</c><00:07:07.360><c> fails</c><00:07:08.240><c> all</c><00:07:08.400><c> the</c>
+
+00:07:08.550 --> 00:07:08.560 align:start position:0%
+which redis is running fails all the
+ 
+
+00:07:08.560 --> 00:07:10.710 align:start position:0%
+which redis is running fails all the
+data<00:07:08.880><c> in</c><00:07:08.960><c> memory</c><00:07:09.440><c> is</c><00:07:09.599><c> gone</c><00:07:09.919><c> right</c><00:07:10.319><c> and</c><00:07:10.479><c> if</c><00:07:10.639><c> i</c>
+
+00:07:10.710 --> 00:07:10.720 align:start position:0%
+data in memory is gone right and if i
+ 
+
+00:07:10.720 --> 00:07:13.270 align:start position:0%
+data in memory is gone right and if i
+lose<00:07:10.960><c> the</c><00:07:11.120><c> data</c><00:07:11.680><c> how</c><00:07:11.840><c> can</c><00:07:12.080><c> i</c><00:07:12.160><c> recover</c><00:07:12.639><c> it</c><00:07:13.120><c> so</c>
+
+00:07:13.270 --> 00:07:13.280 align:start position:0%
+lose the data how can i recover it so
+ 
+
+00:07:13.280 --> 00:07:15.749 align:start position:0%
+lose the data how can i recover it so
+basically<00:07:13.919><c> how</c><00:07:14.160><c> can</c><00:07:14.319><c> i</c><00:07:14.479><c> be</c><00:07:14.720><c> confident</c><00:07:15.199><c> that</c><00:07:15.520><c> my</c>
+
+00:07:15.749 --> 00:07:15.759 align:start position:0%
+basically how can i be confident that my
+ 
+
+00:07:15.759 --> 00:07:18.790 align:start position:0%
+basically how can i be confident that my
+data<00:07:16.319><c> is</c><00:07:16.720><c> safe</c><00:07:17.520><c> well</c><00:07:17.680><c> the</c><00:07:17.919><c> simplest</c><00:07:18.400><c> way</c><00:07:18.639><c> to</c>
+
+00:07:18.790 --> 00:07:18.800 align:start position:0%
+data is safe well the simplest way to
+ 
+
+00:07:18.800 --> 00:07:21.670 align:start position:0%
+data is safe well the simplest way to
+have<00:07:19.039><c> data</c><00:07:19.360><c> backups</c><00:07:20.000><c> is</c><00:07:20.160><c> by</c><00:07:20.479><c> replicating</c>
+
+00:07:21.670 --> 00:07:21.680 align:start position:0%
+have data backups is by replicating
+ 
+
+00:07:21.680 --> 00:07:24.070 align:start position:0%
+have data backups is by replicating
+redis<00:07:22.400><c> so</c><00:07:22.560><c> if</c><00:07:22.639><c> the</c><00:07:22.800><c> redis</c><00:07:23.120><c> master</c><00:07:23.680><c> instance</c>
+
+00:07:24.070 --> 00:07:24.080 align:start position:0%
+redis so if the redis master instance
+ 
+
+00:07:24.080 --> 00:07:26.150 align:start position:0%
+redis so if the redis master instance
+goes<00:07:24.400><c> down</c><00:07:24.880><c> the</c><00:07:25.039><c> replicas</c><00:07:25.599><c> will</c><00:07:25.759><c> still</c><00:07:26.000><c> be</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+goes down the replicas will still be
+ 
+
+00:07:26.160 --> 00:07:28.309 align:start position:0%
+goes down the replicas will still be
+running<00:07:26.479><c> and</c><00:07:26.560><c> have</c><00:07:26.800><c> all</c><00:07:26.960><c> the</c><00:07:27.039><c> data</c><00:07:27.759><c> so</c><00:07:28.080><c> if</c><00:07:28.240><c> you</c>
+
+00:07:28.309 --> 00:07:28.319 align:start position:0%
+running and have all the data so if you
+ 
+
+00:07:28.319 --> 00:07:30.950 align:start position:0%
+running and have all the data so if you
+have<00:07:28.479><c> a</c><00:07:28.639><c> replicated</c><00:07:29.360><c> redis</c><00:07:30.080><c> the</c><00:07:30.240><c> replicas</c>
+
+00:07:30.950 --> 00:07:30.960 align:start position:0%
+have a replicated redis the replicas
+ 
+
+00:07:30.960 --> 00:07:33.430 align:start position:0%
+have a replicated redis the replicas
+will<00:07:31.520><c> have</c><00:07:31.840><c> the</c><00:07:32.000><c> data</c><00:07:32.560><c> but</c><00:07:32.720><c> of</c><00:07:32.800><c> course</c><00:07:33.120><c> if</c><00:07:33.280><c> all</c>
+
+00:07:33.430 --> 00:07:33.440 align:start position:0%
+will have the data but of course if all
+ 
+
+00:07:33.440 --> 00:07:35.749 align:start position:0%
+will have the data but of course if all
+the<00:07:33.520><c> radius</c><00:07:33.919><c> instances</c><00:07:34.560><c> go</c><00:07:34.720><c> down</c><00:07:35.360><c> you</c><00:07:35.599><c> will</c>
+
+00:07:35.749 --> 00:07:35.759 align:start position:0%
+the radius instances go down you will
+ 
+
+00:07:35.759 --> 00:07:37.990 align:start position:0%
+the radius instances go down you will
+lose<00:07:36.000><c> the</c><00:07:36.160><c> data</c><00:07:36.639><c> because</c><00:07:37.120><c> there</c><00:07:37.360><c> will</c><00:07:37.520><c> be</c><00:07:37.759><c> no</c>
+
+00:07:37.990 --> 00:07:38.000 align:start position:0%
+lose the data because there will be no
+ 
+
+00:07:38.000 --> 00:07:40.790 align:start position:0%
+lose the data because there will be no
+replica<00:07:38.479><c> remaining</c><00:07:39.280><c> so</c><00:07:39.680><c> we</c><00:07:39.919><c> need</c><00:07:40.479><c> real</c>
+
+00:07:40.790 --> 00:07:40.800 align:start position:0%
+replica remaining so we need real
+ 
+
+00:07:40.800 --> 00:07:42.230 align:start position:0%
+replica remaining so we need real
+persistence
+
+00:07:42.230 --> 00:07:42.240 align:start position:0%
+persistence
+ 
+
+00:07:42.240 --> 00:07:44.550 align:start position:0%
+persistence
+well<00:07:42.479><c> redis</c><00:07:42.800><c> has</c><00:07:43.120><c> multiple</c><00:07:43.599><c> mechanisms</c><00:07:44.240><c> for</c>
+
+00:07:44.550 --> 00:07:44.560 align:start position:0%
+well redis has multiple mechanisms for
+ 
+
+00:07:44.560 --> 00:07:46.950 align:start position:0%
+well redis has multiple mechanisms for
+persisting<00:07:45.199><c> the</c><00:07:45.280><c> data</c><00:07:45.759><c> and</c><00:07:46.000><c> keeping</c><00:07:46.400><c> the</c><00:07:46.639><c> data</c>
+
+00:07:46.950 --> 00:07:46.960 align:start position:0%
+persisting the data and keeping the data
+ 
+
+00:07:46.960 --> 00:07:49.990 align:start position:0%
+persisting the data and keeping the data
+safe<00:07:47.599><c> first</c><00:07:47.919><c> one</c><00:07:48.560><c> the</c><00:07:48.800><c> snapshots</c><00:07:49.680><c> which</c><00:07:49.919><c> you</c>
+
+00:07:49.990 --> 00:07:50.000 align:start position:0%
+safe first one the snapshots which you
+ 
+
+00:07:50.000 --> 00:07:52.230 align:start position:0%
+safe first one the snapshots which you
+can<00:07:50.240><c> configure</c><00:07:50.720><c> based</c><00:07:50.960><c> on</c><00:07:51.199><c> time</c><00:07:51.759><c> number</c><00:07:52.080><c> of</c>
+
+00:07:52.230 --> 00:07:52.240 align:start position:0%
+can configure based on time number of
+ 
+
+00:07:52.240 --> 00:07:55.670 align:start position:0%
+can configure based on time number of
+requests<00:07:52.960><c> etc</c><00:07:53.840><c> so</c><00:07:54.319><c> snapshots</c><00:07:55.039><c> of</c><00:07:55.120><c> your</c><00:07:55.360><c> data</c>
+
+00:07:55.670 --> 00:07:55.680 align:start position:0%
+requests etc so snapshots of your data
+ 
+
+00:07:55.680 --> 00:07:58.150 align:start position:0%
+requests etc so snapshots of your data
+will<00:07:55.840><c> be</c><00:07:56.000><c> stored</c><00:07:56.479><c> on</c><00:07:56.720><c> a</c><00:07:56.960><c> disk</c><00:07:57.599><c> which</c><00:07:57.840><c> you</c><00:07:58.000><c> can</c>
+
+00:07:58.150 --> 00:07:58.160 align:start position:0%
+will be stored on a disk which you can
+ 
+
+00:07:58.160 --> 00:08:01.110 align:start position:0%
+will be stored on a disk which you can
+use<00:07:58.800><c> to</c><00:07:59.039><c> recover</c><00:07:59.440><c> your</c><00:07:59.680><c> data</c><00:08:00.160><c> if</c><00:08:00.720><c> the</c><00:08:00.879><c> whole</c>
+
+00:08:01.110 --> 00:08:01.120 align:start position:0%
+use to recover your data if the whole
+ 
+
+00:08:01.120 --> 00:08:03.430 align:start position:0%
+use to recover your data if the whole
+radius<00:08:01.520><c> database</c><00:08:02.000><c> is</c><00:08:02.160><c> gone</c><00:08:02.639><c> but</c><00:08:02.879><c> note</c><00:08:03.120><c> that</c>
+
+00:08:03.430 --> 00:08:03.440 align:start position:0%
+radius database is gone but note that
+ 
+
+00:08:03.440 --> 00:08:05.430 align:start position:0%
+radius database is gone but note that
+you<00:08:03.599><c> will</c><00:08:03.759><c> lose</c><00:08:04.080><c> the</c><00:08:04.240><c> last</c><00:08:04.560><c> minutes</c><00:08:04.960><c> of</c><00:08:05.039><c> data</c>
+
+00:08:05.430 --> 00:08:05.440 align:start position:0%
+you will lose the last minutes of data
+ 
+
+00:08:05.440 --> 00:08:07.270 align:start position:0%
+you will lose the last minutes of data
+because<00:08:05.759><c> you</c><00:08:05.919><c> usually</c><00:08:06.319><c> do</c><00:08:06.560><c> snapshotting</c>
+
+00:08:07.270 --> 00:08:07.280 align:start position:0%
+because you usually do snapshotting
+ 
+
+00:08:07.280 --> 00:08:09.990 align:start position:0%
+because you usually do snapshotting
+every<00:08:07.520><c> five</c><00:08:07.759><c> minutes</c><00:08:08.240><c> or</c><00:08:08.560><c> an</c><00:08:08.720><c> hour</c><00:08:09.360><c> depending</c>
+
+00:08:09.990 --> 00:08:10.000 align:start position:0%
+every five minutes or an hour depending
+ 
+
+00:08:10.000 --> 00:08:13.029 align:start position:0%
+every five minutes or an hour depending
+on<00:08:10.160><c> your</c><00:08:10.400><c> needs</c><00:08:11.120><c> so</c><00:08:11.280><c> as</c><00:08:11.440><c> an</c><00:08:11.680><c> alternative</c><00:08:12.639><c> redis</c>
+
+00:08:13.029 --> 00:08:13.039 align:start position:0%
+on your needs so as an alternative redis
+ 
+
+00:08:13.039 --> 00:08:16.629 align:start position:0%
+on your needs so as an alternative redis
+uses<00:08:13.840><c> something</c><00:08:14.240><c> called</c><00:08:14.800><c> aof</c><00:08:16.080><c> which</c><00:08:16.319><c> stands</c>
+
+00:08:16.629 --> 00:08:16.639 align:start position:0%
+uses something called aof which stands
+ 
+
+00:08:16.639 --> 00:08:20.070 align:start position:0%
+uses something called aof which stands
+for<00:08:17.039><c> append</c><00:08:17.680><c> only</c><00:08:18.080><c> file</c><00:08:18.720><c> in</c><00:08:18.879><c> this</c><00:08:19.039><c> case</c><00:08:19.680><c> every</c>
+
+00:08:20.070 --> 00:08:20.080 align:start position:0%
+for append only file in this case every
+ 
+
+00:08:20.080 --> 00:08:21.990 align:start position:0%
+for append only file in this case every
+change<00:08:20.560><c> is</c><00:08:20.720><c> saved</c><00:08:21.039><c> to</c><00:08:21.199><c> the</c><00:08:21.360><c> disk</c><00:08:21.759><c> for</c>
+
+00:08:21.990 --> 00:08:22.000 align:start position:0%
+change is saved to the disk for
+ 
+
+00:08:22.000 --> 00:08:24.390 align:start position:0%
+change is saved to the disk for
+persistence<00:08:22.960><c> continuously</c><00:08:24.000><c> and</c><00:08:24.160><c> when</c>
+
+00:08:24.390 --> 00:08:24.400 align:start position:0%
+persistence continuously and when
+ 
+
+00:08:24.400 --> 00:08:27.749 align:start position:0%
+persistence continuously and when
+restarting<00:08:25.039><c> redis</c><00:08:25.599><c> or</c><00:08:25.840><c> after</c><00:08:26.400><c> an</c><00:08:26.720><c> outage</c>
+
+00:08:27.749 --> 00:08:27.759 align:start position:0%
+restarting redis or after an outage
+ 
+
+00:08:27.759 --> 00:08:30.150 align:start position:0%
+restarting redis or after an outage
+redis<00:08:28.160><c> will</c><00:08:28.319><c> replay</c><00:08:28.800><c> the</c><00:08:28.879><c> append</c><00:08:29.360><c> only</c><00:08:29.759><c> file</c>
+
+00:08:30.150 --> 00:08:30.160 align:start position:0%
+redis will replay the append only file
+ 
+
+00:08:30.160 --> 00:08:34.310 align:start position:0%
+redis will replay the append only file
+locks<00:08:30.879><c> to</c><00:08:31.120><c> rebuild</c><00:08:31.520><c> the</c><00:08:31.680><c> state</c><00:08:32.479><c> so</c><00:08:32.880><c> aof</c><00:08:34.000><c> is</c>
+
+00:08:34.310 --> 00:08:34.320 align:start position:0%
+locks to rebuild the state so aof is
+ 
+
+00:08:34.320 --> 00:08:36.709 align:start position:0%
+locks to rebuild the state so aof is
+more<00:08:34.560><c> durable</c><00:08:35.120><c> but</c><00:08:35.440><c> can</c><00:08:35.599><c> be</c><00:08:35.839><c> slower</c><00:08:36.320><c> than</c>
+
+00:08:36.709 --> 00:08:36.719 align:start position:0%
+more durable but can be slower than
+ 
+
+00:08:36.719 --> 00:08:37.990 align:start position:0%
+more durable but can be slower than
+snapshotting
+
+00:08:37.990 --> 00:08:38.000 align:start position:0%
+snapshotting
+ 
+
+00:08:38.000 --> 00:08:40.070 align:start position:0%
+snapshotting
+and<00:08:38.159><c> of</c><00:08:38.240><c> course</c><00:08:38.640><c> you</c><00:08:38.800><c> can</c><00:08:39.360><c> also</c><00:08:39.680><c> use</c><00:08:39.919><c> a</c>
+
+00:08:40.070 --> 00:08:40.080 align:start position:0%
+and of course you can also use a
+ 
+
+00:08:40.080 --> 00:08:43.029 align:start position:0%
+and of course you can also use a
+combination<00:08:40.719><c> of</c><00:08:40.880><c> both</c><00:08:41.440><c> aof</c><00:08:42.000><c> and</c><00:08:42.159><c> snapshots</c>
+
+00:08:43.029 --> 00:08:43.039 align:start position:0%
+combination of both aof and snapshots
+ 
+
+00:08:43.039 --> 00:08:45.269 align:start position:0%
+combination of both aof and snapshots
+where<00:08:43.279><c> the</c><00:08:43.440><c> append</c><00:08:43.839><c> only</c><00:08:44.159><c> file</c><00:08:44.480><c> is</c><00:08:44.640><c> persisting</c>
+
+00:08:45.269 --> 00:08:45.279 align:start position:0%
+where the append only file is persisting
+ 
+
+00:08:45.279 --> 00:08:48.389 align:start position:0%
+where the append only file is persisting
+data<00:08:45.920><c> from</c><00:08:46.160><c> memory</c><00:08:46.640><c> to</c><00:08:46.959><c> disk</c><00:08:47.519><c> continuously</c>
+
+00:08:48.389 --> 00:08:48.399 align:start position:0%
+data from memory to disk continuously
+ 
+
+00:08:48.399 --> 00:08:50.230 align:start position:0%
+data from memory to disk continuously
+plus<00:08:48.640><c> you</c><00:08:48.800><c> have</c><00:08:49.120><c> regular</c><00:08:49.600><c> snapshots</c><00:08:50.160><c> in</c>
+
+00:08:50.230 --> 00:08:50.240 align:start position:0%
+plus you have regular snapshots in
+ 
+
+00:08:50.240 --> 00:08:52.470 align:start position:0%
+plus you have regular snapshots in
+between<00:08:50.560><c> to</c><00:08:50.720><c> save</c><00:08:50.959><c> the</c><00:08:51.120><c> data</c><00:08:51.360><c> state</c><00:08:51.760><c> in</c><00:08:51.920><c> case</c>
+
+00:08:52.470 --> 00:08:52.480 align:start position:0%
+between to save the data state in case
+ 
+
+00:08:52.480 --> 00:08:54.630 align:start position:0%
+between to save the data state in case
+you<00:08:52.640><c> need</c><00:08:52.800><c> to</c><00:08:53.040><c> recover</c><00:08:53.519><c> it</c><00:08:53.839><c> this</c><00:08:54.080><c> means</c><00:08:54.399><c> that</c>
+
+00:08:54.630 --> 00:08:54.640 align:start position:0%
+you need to recover it this means that
+ 
+
+00:08:54.640 --> 00:08:57.350 align:start position:0%
+you need to recover it this means that
+even<00:08:54.959><c> if</c><00:08:55.040><c> the</c><00:08:55.279><c> redis</c><00:08:55.600><c> database</c><00:08:56.320><c> itself</c>
+
+00:08:57.350 --> 00:08:57.360 align:start position:0%
+even if the redis database itself
+ 
+
+00:08:57.360 --> 00:08:59.590 align:start position:0%
+even if the redis database itself
+or<00:08:57.760><c> the</c><00:08:58.000><c> servers</c><00:08:58.800><c> the</c><00:08:59.040><c> underlying</c>
+
+00:08:59.590 --> 00:08:59.600 align:start position:0%
+or the servers the underlying
+ 
+
+00:08:59.600 --> 00:09:01.990 align:start position:0%
+or the servers the underlying
+infrastructure<00:09:00.320><c> where</c><00:09:00.560><c> redis</c><00:09:00.880><c> is</c><00:09:01.040><c> running</c>
+
+00:09:01.990 --> 00:09:02.000 align:start position:0%
+infrastructure where redis is running
+ 
+
+00:09:02.000 --> 00:09:04.790 align:start position:0%
+infrastructure where redis is running
+all<00:09:02.320><c> fail</c><00:09:03.040><c> you</c><00:09:03.360><c> still</c><00:09:03.680><c> have</c><00:09:04.080><c> all</c><00:09:04.240><c> your</c><00:09:04.399><c> data</c>
+
+00:09:04.790 --> 00:09:04.800 align:start position:0%
+all fail you still have all your data
+ 
+
+00:09:04.800 --> 00:09:07.269 align:start position:0%
+all fail you still have all your data
+safe<00:09:05.519><c> and</c><00:09:05.760><c> you</c><00:09:05.839><c> can</c><00:09:06.080><c> easily</c><00:09:06.480><c> recreate</c><00:09:07.040><c> and</c>
+
+00:09:07.269 --> 00:09:07.279 align:start position:0%
+safe and you can easily recreate and
+ 
+
+00:09:07.279 --> 00:09:10.310 align:start position:0%
+safe and you can easily recreate and
+restart<00:09:07.920><c> a</c><00:09:08.080><c> new</c><00:09:08.399><c> redis</c><00:09:08.720><c> database</c><00:09:09.680><c> with</c><00:09:10.160><c> all</c>
+
+00:09:10.310 --> 00:09:10.320 align:start position:0%
+restart a new redis database with all
+ 
+
+00:09:10.320 --> 00:09:11.430 align:start position:0%
+restart a new redis database with all
+the<00:09:10.560><c> data</c>
+
+00:09:11.430 --> 00:09:11.440 align:start position:0%
+the data
+ 
+
+00:09:11.440 --> 00:09:14.150 align:start position:0%
+the data
+now<00:09:11.680><c> a</c><00:09:11.839><c> very</c><00:09:12.160><c> interesting</c><00:09:12.640><c> question</c><00:09:13.279><c> is</c>
+
+00:09:14.150 --> 00:09:14.160 align:start position:0%
+now a very interesting question is
+ 
+
+00:09:14.160 --> 00:09:16.790 align:start position:0%
+now a very interesting question is
+where<00:09:14.560><c> is</c><00:09:14.720><c> that</c><00:09:15.040><c> persistent</c><00:09:15.760><c> storage</c><00:09:16.560><c> so</c>
+
+00:09:16.790 --> 00:09:16.800 align:start position:0%
+where is that persistent storage so
+ 
+
+00:09:16.800 --> 00:09:19.509 align:start position:0%
+where is that persistent storage so
+where<00:09:17.200><c> is</c><00:09:17.680><c> that</c><00:09:18.080><c> disk</c><00:09:18.560><c> which</c><00:09:18.880><c> holds</c><00:09:19.200><c> your</c>
+
+00:09:19.509 --> 00:09:19.519 align:start position:0%
+where is that disk which holds your
+ 
+
+00:09:19.519 --> 00:09:22.630 align:start position:0%
+where is that disk which holds your
+snapshots<00:09:20.399><c> and</c><00:09:21.040><c> the</c><00:09:21.279><c> append</c><00:09:21.760><c> only</c><00:09:22.080><c> file</c><00:09:22.320><c> locks</c>
+
+00:09:22.630 --> 00:09:22.640 align:start position:0%
+snapshots and the append only file locks
+ 
+
+00:09:22.640 --> 00:09:24.710 align:start position:0%
+snapshots and the append only file locks
+located<00:09:23.360><c> are</c><00:09:23.519><c> they</c><00:09:23.760><c> on</c><00:09:23.839><c> the</c><00:09:23.920><c> same</c><00:09:24.240><c> servers</c>
+
+00:09:24.710 --> 00:09:24.720 align:start position:0%
+located are they on the same servers
+ 
+
+00:09:24.720 --> 00:09:27.190 align:start position:0%
+located are they on the same servers
+where<00:09:25.279><c> redis</c><00:09:25.680><c> is</c><00:09:25.839><c> running</c><00:09:26.720><c> well</c><00:09:26.959><c> this</c>
+
+00:09:27.190 --> 00:09:27.200 align:start position:0%
+where redis is running well this
+ 
+
+00:09:27.200 --> 00:09:29.430 align:start position:0%
+where redis is running well this
+question<00:09:27.519><c> actually</c><00:09:27.920><c> leads</c><00:09:28.240><c> us</c><00:09:28.399><c> to</c><00:09:28.560><c> the</c><00:09:28.880><c> trend</c>
+
+00:09:29.430 --> 00:09:29.440 align:start position:0%
+question actually leads us to the trend
+ 
+
+00:09:29.440 --> 00:09:31.829 align:start position:0%
+question actually leads us to the trend
+or<00:09:29.600><c> a</c><00:09:29.760><c> best</c><00:09:30.080><c> practice</c><00:09:30.560><c> of</c><00:09:30.720><c> data</c><00:09:31.040><c> persistence</c>
+
+00:09:31.829 --> 00:09:31.839 align:start position:0%
+or a best practice of data persistence
+ 
+
+00:09:31.839 --> 00:09:34.389 align:start position:0%
+or a best practice of data persistence
+in<00:09:32.000><c> cloud</c><00:09:32.399><c> environments</c><00:09:33.279><c> which</c><00:09:33.519><c> is</c><00:09:33.680><c> that</c><00:09:34.000><c> it's</c>
+
+00:09:34.389 --> 00:09:34.399 align:start position:0%
+in cloud environments which is that it's
+ 
+
+00:09:34.399 --> 00:09:36.790 align:start position:0%
+in cloud environments which is that it's
+always<00:09:34.800><c> better</c><00:09:35.120><c> to</c><00:09:35.440><c> separate</c><00:09:36.000><c> the</c><00:09:36.240><c> servers</c>
+
+00:09:36.790 --> 00:09:36.800 align:start position:0%
+always better to separate the servers
+ 
+
+00:09:36.800 --> 00:09:39.590 align:start position:0%
+always better to separate the servers
+that<00:09:37.120><c> run</c><00:09:37.360><c> your</c><00:09:37.600><c> application</c><00:09:38.800><c> and</c><00:09:39.200><c> data</c>
+
+00:09:39.590 --> 00:09:39.600 align:start position:0%
+that run your application and data
+ 
+
+00:09:39.600 --> 00:09:40.710 align:start position:0%
+that run your application and data
+services
+
+00:09:40.710 --> 00:09:40.720 align:start position:0%
+services
+ 
+
+00:09:40.720 --> 00:09:43.509 align:start position:0%
+services
+from<00:09:40.959><c> the</c><00:09:41.120><c> persistent</c><00:09:41.920><c> storage</c><00:09:42.800><c> that</c><00:09:43.120><c> stores</c>
+
+00:09:43.509 --> 00:09:43.519 align:start position:0%
+from the persistent storage that stores
+ 
+
+00:09:43.519 --> 00:09:46.389 align:start position:0%
+from the persistent storage that stores
+your<00:09:43.680><c> data</c><00:09:44.480><c> so</c><00:09:44.640><c> with</c><00:09:44.880><c> a</c><00:09:45.040><c> specific</c><00:09:45.519><c> example</c><00:09:46.240><c> if</c>
+
+00:09:46.389 --> 00:09:46.399 align:start position:0%
+your data so with a specific example if
+ 
+
+00:09:46.399 --> 00:09:49.110 align:start position:0%
+your data so with a specific example if
+your<00:09:46.560><c> applications</c><00:09:47.440><c> and</c><00:09:47.600><c> services</c><00:09:48.640><c> run</c><00:09:48.959><c> in</c>
+
+00:09:49.110 --> 00:09:49.120 align:start position:0%
+your applications and services run in
+ 
+
+00:09:49.120 --> 00:09:53.910 align:start position:0%
+your applications and services run in
+the<00:09:49.279><c> cloud</c><00:09:49.760><c> on</c><00:09:50.480><c> let's</c><00:09:50.720><c> say</c><00:09:51.279><c> aws</c><00:09:52.080><c> ec2</c><00:09:52.800><c> instance</c>
+
+00:09:53.910 --> 00:09:53.920 align:start position:0%
+the cloud on let's say aws ec2 instance
+ 
+
+00:09:53.920 --> 00:09:57.110 align:start position:0%
+the cloud on let's say aws ec2 instance
+you<00:09:54.160><c> should</c><00:09:54.320><c> use</c><00:09:54.880><c> ebs</c><00:09:55.680><c> or</c><00:09:56.160><c> elastic</c><00:09:56.720><c> block</c>
+
+00:09:57.110 --> 00:09:57.120 align:start position:0%
+you should use ebs or elastic block
+ 
+
+00:09:57.120 --> 00:09:59.670 align:start position:0%
+you should use ebs or elastic block
+storage<00:09:57.920><c> to</c><00:09:58.160><c> persist</c><00:09:58.720><c> your</c><00:09:58.880><c> data</c><00:09:59.279><c> instead</c><00:09:59.519><c> of</c>
+
+00:09:59.670 --> 00:09:59.680 align:start position:0%
+storage to persist your data instead of
+ 
+
+00:09:59.680 --> 00:10:02.710 align:start position:0%
+storage to persist your data instead of
+storing<00:10:00.080><c> them</c><00:10:00.560><c> on</c><00:10:00.720><c> the</c><00:10:00.880><c> ec2</c><00:10:01.440><c> instances</c><00:10:02.480><c> hard</c>
+
+00:10:02.710 --> 00:10:02.720 align:start position:0%
+storing them on the ec2 instances hard
+ 
+
+00:10:02.720 --> 00:10:05.190 align:start position:0%
+storing them on the ec2 instances hard
+drive<00:10:03.040><c> for</c><00:10:03.279><c> example</c><00:10:03.920><c> because</c><00:10:04.240><c> if</c><00:10:04.399><c> that</c><00:10:04.640><c> ec2</c>
+
+00:10:05.190 --> 00:10:05.200 align:start position:0%
+drive for example because if that ec2
+ 
+
+00:10:05.200 --> 00:10:07.829 align:start position:0%
+drive for example because if that ec2
+instance<00:10:05.760><c> died</c><00:10:06.480><c> you</c><00:10:06.640><c> won't</c><00:10:06.880><c> have</c><00:10:07.200><c> access</c><00:10:07.519><c> to</c>
+
+00:10:07.829 --> 00:10:07.839 align:start position:0%
+instance died you won't have access to
+ 
+
+00:10:07.839 --> 00:10:10.550 align:start position:0%
+instance died you won't have access to
+any<00:10:08.079><c> of</c><00:10:08.240><c> its</c><00:10:08.399><c> storage</c><00:10:09.040><c> whether</c><00:10:09.440><c> it's</c><00:10:09.839><c> ram</c><00:10:10.240><c> or</c>
+
+00:10:10.550 --> 00:10:10.560 align:start position:0%
+any of its storage whether it's ram or
+ 
+
+00:10:10.560 --> 00:10:13.350 align:start position:0%
+any of its storage whether it's ram or
+disk<00:10:10.880><c> storage</c><00:10:11.360><c> or</c><00:10:11.440><c> whatever</c><00:10:12.240><c> so</c><00:10:12.560><c> if</c><00:10:12.720><c> you</c><00:10:12.880><c> want</c>
+
+00:10:13.350 --> 00:10:13.360 align:start position:0%
+disk storage or whatever so if you want
+ 
+
+00:10:13.360 --> 00:10:16.150 align:start position:0%
+disk storage or whatever so if you want
+persistence<00:10:14.079><c> and</c><00:10:14.240><c> durability</c><00:10:14.959><c> for</c><00:10:15.120><c> your</c><00:10:15.360><c> data</c>
+
+00:10:16.150 --> 00:10:16.160 align:start position:0%
+persistence and durability for your data
+ 
+
+00:10:16.160 --> 00:10:18.230 align:start position:0%
+persistence and durability for your data
+you<00:10:16.320><c> must</c><00:10:16.720><c> put</c><00:10:16.959><c> your</c><00:10:17.200><c> data</c><00:10:17.680><c> outside</c><00:10:18.079><c> the</c>
+
+00:10:18.230 --> 00:10:18.240 align:start position:0%
+you must put your data outside the
+ 
+
+00:10:18.240 --> 00:10:21.350 align:start position:0%
+you must put your data outside the
+instances<00:10:18.959><c> on</c><00:10:19.200><c> an</c><00:10:19.360><c> external</c><00:10:19.920><c> network</c><00:10:20.320><c> storage</c>
+
+00:10:21.350 --> 00:10:21.360 align:start position:0%
+instances on an external network storage
+ 
+
+00:10:21.360 --> 00:10:25.110 align:start position:0%
+instances on an external network storage
+as<00:10:21.519><c> a</c><00:10:21.600><c> result</c><00:10:22.480><c> by</c><00:10:22.800><c> separating</c><00:10:23.519><c> these</c><00:10:23.920><c> two</c><00:10:24.640><c> if</c>
+
+00:10:25.110 --> 00:10:25.120 align:start position:0%
+as a result by separating these two if
+ 
+
+00:10:25.120 --> 00:10:27.350 align:start position:0%
+as a result by separating these two if
+the<00:10:25.279><c> server</c><00:10:25.680><c> instance</c><00:10:26.160><c> fails</c><00:10:26.560><c> or</c><00:10:26.800><c> if</c><00:10:27.120><c> all</c><00:10:27.200><c> the</c>
+
+00:10:27.350 --> 00:10:27.360 align:start position:0%
+the server instance fails or if all the
+ 
+
+00:10:27.360 --> 00:10:29.990 align:start position:0%
+the server instance fails or if all the
+instances<00:10:27.920><c> fail</c><00:10:28.560><c> you</c><00:10:28.800><c> still</c><00:10:29.040><c> have</c><00:10:29.200><c> the</c><00:10:29.360><c> disk</c>
+
+00:10:29.990 --> 00:10:30.000 align:start position:0%
+instances fail you still have the disk
+ 
+
+00:10:30.000 --> 00:10:32.630 align:start position:0%
+instances fail you still have the disk
+and<00:10:30.160><c> all</c><00:10:30.399><c> the</c><00:10:30.480><c> data</c><00:10:30.880><c> on</c><00:10:31.040><c> it</c><00:10:31.519><c> unaffected</c><00:10:32.480><c> you</c>
+
+00:10:32.630 --> 00:10:32.640 align:start position:0%
+and all the data on it unaffected you
+ 
+
+00:10:32.640 --> 00:10:34.870 align:start position:0%
+and all the data on it unaffected you
+just<00:10:32.800><c> spin</c><00:10:33.120><c> up</c><00:10:33.360><c> other</c><00:10:33.680><c> instances</c><00:10:34.399><c> and</c><00:10:34.640><c> take</c>
+
+00:10:34.870 --> 00:10:34.880 align:start position:0%
+just spin up other instances and take
+ 
+
+00:10:34.880 --> 00:10:37.670 align:start position:0%
+just spin up other instances and take
+the<00:10:35.040><c> data</c><00:10:35.440><c> from</c><00:10:35.680><c> the</c><00:10:35.760><c> ebs</c><00:10:36.560><c> and</c><00:10:36.720><c> that's</c><00:10:37.040><c> it</c><00:10:37.519><c> and</c>
+
+00:10:37.670 --> 00:10:37.680 align:start position:0%
+the data from the ebs and that's it and
+ 
+
+00:10:37.680 --> 00:10:39.670 align:start position:0%
+the data from the ebs and that's it and
+this<00:10:37.920><c> makes</c><00:10:38.160><c> your</c><00:10:38.320><c> infrastructure</c><00:10:39.360><c> way</c>
+
+00:10:39.670 --> 00:10:39.680 align:start position:0%
+this makes your infrastructure way
+ 
+
+00:10:39.680 --> 00:10:42.069 align:start position:0%
+this makes your infrastructure way
+easier<00:10:40.000><c> to</c><00:10:40.160><c> manage</c><00:10:40.560><c> because</c><00:10:40.959><c> each</c><00:10:41.279><c> server</c><00:10:41.839><c> is</c>
+
+00:10:42.069 --> 00:10:42.079 align:start position:0%
+easier to manage because each server is
+ 
+
+00:10:42.079 --> 00:10:44.630 align:start position:0%
+easier to manage because each server is
+equal<00:10:42.800><c> you</c><00:10:42.959><c> don't</c><00:10:43.120><c> have</c><00:10:43.279><c> any</c><00:10:43.600><c> special</c><00:10:44.079><c> servers</c>
+
+00:10:44.630 --> 00:10:44.640 align:start position:0%
+equal you don't have any special servers
+ 
+
+00:10:44.640 --> 00:10:47.269 align:start position:0%
+equal you don't have any special servers
+with<00:10:44.880><c> any</c><00:10:45.120><c> special</c><00:10:45.519><c> data</c><00:10:46.000><c> or</c><00:10:46.240><c> files</c><00:10:46.560><c> on</c><00:10:46.800><c> it</c><00:10:47.120><c> so</c>
+
+00:10:47.269 --> 00:10:47.279 align:start position:0%
+with any special data or files on it so
+ 
+
+00:10:47.279 --> 00:10:49.110 align:start position:0%
+with any special data or files on it so
+you<00:10:47.440><c> don't</c><00:10:47.600><c> care</c><00:10:47.920><c> if</c><00:10:48.000><c> you</c><00:10:48.240><c> lose</c><00:10:48.560><c> your</c><00:10:48.800><c> whole</c>
+
+00:10:49.110 --> 00:10:49.120 align:start position:0%
+you don't care if you lose your whole
+ 
+
+00:10:49.120 --> 00:10:51.350 align:start position:0%
+you don't care if you lose your whole
+infrastructure<00:10:50.320><c> because</c><00:10:50.640><c> you</c><00:10:50.800><c> can</c><00:10:50.959><c> just</c>
+
+00:10:51.350 --> 00:10:51.360 align:start position:0%
+infrastructure because you can just
+ 
+
+00:10:51.360 --> 00:10:53.670 align:start position:0%
+infrastructure because you can just
+recreate<00:10:52.000><c> a</c><00:10:52.079><c> new</c><00:10:52.240><c> one</c><00:10:52.560><c> and</c><00:10:52.720><c> pull</c><00:10:52.959><c> the</c><00:10:53.040><c> data</c>
+
+00:10:53.670 --> 00:10:53.680 align:start position:0%
+recreate a new one and pull the data
+ 
+
+00:10:53.680 --> 00:10:55.670 align:start position:0%
+recreate a new one and pull the data
+from<00:10:53.920><c> a</c><00:10:54.079><c> separate</c><00:10:54.560><c> storage</c><00:10:55.120><c> and</c><00:10:55.279><c> you're</c><00:10:55.519><c> good</c>
+
+00:10:55.670 --> 00:10:55.680 align:start position:0%
+from a separate storage and you're good
+ 
+
+00:10:55.680 --> 00:10:56.870 align:start position:0%
+from a separate storage and you're good
+to<00:10:55.760><c> go</c><00:10:56.000><c> again</c>
+
+00:10:56.870 --> 00:10:56.880 align:start position:0%
+to go again
+ 
+
+00:10:56.880 --> 00:10:59.430 align:start position:0%
+to go again
+so<00:10:57.279><c> going</c><00:10:57.519><c> back</c><00:10:57.760><c> to</c><00:10:58.000><c> redis</c><00:10:58.399><c> example</c>
+
+00:10:59.430 --> 00:10:59.440 align:start position:0%
+so going back to redis example
+ 
+
+00:10:59.440 --> 00:11:01.190 align:start position:0%
+so going back to redis example
+ready<00:10:59.760><c> service</c><00:11:00.160><c> will</c><00:11:00.320><c> be</c><00:11:00.480><c> running</c><00:11:00.880><c> on</c><00:11:01.040><c> the</c>
+
+00:11:01.190 --> 00:11:01.200 align:start position:0%
+ready service will be running on the
+ 
+
+00:11:01.200 --> 00:11:04.389 align:start position:0%
+ready service will be running on the
+servers<00:11:02.160><c> and</c><00:11:02.399><c> using</c><00:11:03.040><c> server</c><00:11:03.519><c> ram</c><00:11:03.920><c> to</c><00:11:04.079><c> store</c>
+
+00:11:04.389 --> 00:11:04.399 align:start position:0%
+servers and using server ram to store
+ 
+
+00:11:04.399 --> 00:11:05.430 align:start position:0%
+servers and using server ram to store
+the<00:11:04.560><c> data</c>
+
+00:11:05.430 --> 00:11:05.440 align:start position:0%
+the data
+ 
+
+00:11:05.440 --> 00:11:07.990 align:start position:0%
+the data
+while<00:11:06.000><c> the</c><00:11:06.320><c> append</c><00:11:06.800><c> only</c><00:11:07.040><c> file</c><00:11:07.360><c> logs</c><00:11:07.760><c> and</c>
+
+00:11:07.990 --> 00:11:08.000 align:start position:0%
+while the append only file logs and
+ 
+
+00:11:08.000 --> 00:11:11.269 align:start position:0%
+while the append only file logs and
+snapshots<00:11:09.040><c> will</c><00:11:09.200><c> be</c><00:11:09.360><c> persisted</c><00:11:10.079><c> on</c><00:11:10.320><c> a</c><00:11:10.560><c> disk</c>
+
+00:11:11.269 --> 00:11:11.279 align:start position:0%
+snapshots will be persisted on a disk
+ 
+
+00:11:11.279 --> 00:11:13.829 align:start position:0%
+snapshots will be persisted on a disk
+outside<00:11:11.839><c> those</c><00:11:12.079><c> servers</c><00:11:13.040><c> making</c><00:11:13.360><c> your</c><00:11:13.519><c> data</c>
+
+00:11:13.829 --> 00:11:13.839 align:start position:0%
+outside those servers making your data
+ 
+
+00:11:13.839 --> 00:11:17.910 align:start position:0%
+outside those servers making your data
+more<00:11:14.079><c> durable</c>
+
+00:11:17.910 --> 00:11:17.920 align:start position:0%
+ 
+ 
+
+00:11:17.920 --> 00:11:20.630 align:start position:0%
+ 
+great<00:11:18.320><c> now</c><00:11:18.480><c> we</c><00:11:18.640><c> know</c><00:11:19.120><c> you</c><00:11:19.279><c> can</c><00:11:19.519><c> persist</c><00:11:20.240><c> data</c>
+
+00:11:20.630 --> 00:11:20.640 align:start position:0%
+great now we know you can persist data
+ 
+
+00:11:20.640 --> 00:11:24.069 align:start position:0%
+great now we know you can persist data
+with<00:11:20.959><c> redis</c><00:11:21.600><c> for</c><00:11:21.839><c> durability</c><00:11:22.800><c> and</c><00:11:23.040><c> recovery</c>
+
+00:11:24.069 --> 00:11:24.079 align:start position:0%
+with redis for durability and recovery
+ 
+
+00:11:24.079 --> 00:11:27.110 align:start position:0%
+with redis for durability and recovery
+while<00:11:24.320><c> using</c><00:11:25.120><c> ram</c><00:11:25.600><c> or</c><00:11:25.839><c> memory</c><00:11:26.320><c> storage</c><00:11:26.800><c> for</c>
+
+00:11:27.110 --> 00:11:27.120 align:start position:0%
+while using ram or memory storage for
+ 
+
+00:11:27.120 --> 00:11:29.190 align:start position:0%
+while using ram or memory storage for
+great<00:11:27.360><c> performance</c><00:11:28.160><c> and</c><00:11:28.320><c> speed</c>
+
+00:11:29.190 --> 00:11:29.200 align:start position:0%
+great performance and speed
+ 
+
+00:11:29.200 --> 00:11:32.230 align:start position:0%
+great performance and speed
+so<00:11:29.360><c> the</c><00:11:29.519><c> question</c><00:11:30.079><c> you</c><00:11:30.160><c> may</c><00:11:30.399><c> have</c><00:11:30.640><c> here</c><00:11:31.279><c> is</c>
+
+00:11:32.230 --> 00:11:32.240 align:start position:0%
+so the question you may have here is
+ 
+
+00:11:32.240 --> 00:11:35.110 align:start position:0%
+so the question you may have here is
+isn't<00:11:32.560><c> storing</c><00:11:33.040><c> data</c><00:11:33.440><c> in</c><00:11:33.600><c> memory</c><00:11:34.000><c> expensive</c>
+
+00:11:35.110 --> 00:11:35.120 align:start position:0%
+isn't storing data in memory expensive
+ 
+
+00:11:35.120 --> 00:11:37.750 align:start position:0%
+isn't storing data in memory expensive
+so<00:11:35.360><c> you</c><00:11:35.519><c> would</c><00:11:35.760><c> need</c><00:11:36.480><c> more</c><00:11:36.800><c> servers</c><00:11:37.360><c> compared</c>
+
+00:11:37.750 --> 00:11:37.760 align:start position:0%
+so you would need more servers compared
+ 
+
+00:11:37.760 --> 00:11:40.550 align:start position:0%
+so you would need more servers compared
+to<00:11:37.920><c> a</c><00:11:38.079><c> database</c><00:11:38.560><c> that</c><00:11:38.800><c> stores</c><00:11:39.200><c> data</c><00:11:39.600><c> on</c><00:11:39.760><c> disk</c>
+
+00:11:40.550 --> 00:11:40.560 align:start position:0%
+to a database that stores data on disk
+ 
+
+00:11:40.560 --> 00:11:43.509 align:start position:0%
+to a database that stores data on disk
+simply<00:11:40.959><c> because</c><00:11:41.360><c> memory</c><00:11:41.839><c> is</c><00:11:42.240><c> limited</c><00:11:42.720><c> in</c><00:11:42.880><c> size</c>
+
+00:11:43.509 --> 00:11:43.519 align:start position:0%
+simply because memory is limited in size
+ 
+
+00:11:43.519 --> 00:11:45.829 align:start position:0%
+simply because memory is limited in size
+so<00:11:43.680><c> there's</c><00:11:44.000><c> a</c><00:11:44.079><c> trade-off</c><00:11:44.640><c> between</c><00:11:45.040><c> the</c><00:11:45.279><c> cost</c>
+
+00:11:45.829 --> 00:11:45.839 align:start position:0%
+so there's a trade-off between the cost
+ 
+
+00:11:45.839 --> 00:11:48.790 align:start position:0%
+so there's a trade-off between the cost
+and<00:11:46.160><c> performance</c><00:11:47.279><c> well</c><00:11:47.600><c> redis</c><00:11:48.079><c> actually</c><00:11:48.399><c> has</c>
+
+00:11:48.790 --> 00:11:48.800 align:start position:0%
+and performance well redis actually has
+ 
+
+00:11:48.800 --> 00:11:51.829 align:start position:0%
+and performance well redis actually has
+a<00:11:48.959><c> way</c><00:11:49.279><c> to</c><00:11:49.600><c> optimize</c><00:11:50.240><c> this</c><00:11:50.800><c> using</c><00:11:51.200><c> a</c><00:11:51.360><c> service</c>
+
+00:11:51.829 --> 00:11:51.839 align:start position:0%
+a way to optimize this using a service
+ 
+
+00:11:51.839 --> 00:11:55.190 align:start position:0%
+a way to optimize this using a service
+called<00:11:52.560><c> redis</c><00:11:53.040><c> on</c><00:11:53.360><c> flash</c><00:11:53.920><c> which</c><00:11:54.160><c> is</c><00:11:54.399><c> part</c><00:11:54.720><c> of</c>
+
+00:11:55.190 --> 00:11:55.200 align:start position:0%
+called redis on flash which is part of
+ 
+
+00:11:55.200 --> 00:11:58.230 align:start position:0%
+called redis on flash which is part of
+redis<00:11:55.600><c> enterprise</c><00:11:56.720><c> so</c><00:11:56.959><c> how</c><00:11:57.120><c> does</c><00:11:57.360><c> this</c><00:11:57.600><c> work</c>
+
+00:11:58.230 --> 00:11:58.240 align:start position:0%
+redis enterprise so how does this work
+ 
+
+00:11:58.240 --> 00:12:00.389 align:start position:0%
+redis enterprise so how does this work
+it's<00:11:58.399><c> a</c><00:11:58.480><c> pretty</c><00:11:58.800><c> simple</c><00:11:59.200><c> concept</c><00:11:59.680><c> actually</c>
+
+00:12:00.389 --> 00:12:00.399 align:start position:0%
+it's a pretty simple concept actually
+ 
+
+00:12:00.399 --> 00:12:03.509 align:start position:0%
+it's a pretty simple concept actually
+redison<00:12:00.880><c> flash</c><00:12:01.440><c> extends</c><00:12:02.079><c> the</c><00:12:02.320><c> rem</c><00:12:03.120><c> to</c><00:12:03.360><c> the</c>
+
+00:12:03.509 --> 00:12:03.519 align:start position:0%
+redison flash extends the rem to the
+ 
+
+00:12:03.519 --> 00:12:06.389 align:start position:0%
+redison flash extends the rem to the
+flash<00:12:03.920><c> drive</c><00:12:04.240><c> or</c><00:12:04.560><c> ssd</c><00:12:05.440><c> where</c><00:12:05.760><c> frequently</c><00:12:06.160><c> used</c>
+
+00:12:06.389 --> 00:12:06.399 align:start position:0%
+flash drive or ssd where frequently used
+ 
+
+00:12:06.399 --> 00:12:09.030 align:start position:0%
+flash drive or ssd where frequently used
+values<00:12:06.880><c> are</c><00:12:07.040><c> stored</c><00:12:07.519><c> in</c><00:12:07.920><c> rem</c><00:12:08.560><c> and</c><00:12:08.720><c> the</c>
+
+00:12:09.030 --> 00:12:09.040 align:start position:0%
+values are stored in rem and the
+ 
+
+00:12:09.040 --> 00:12:12.150 align:start position:0%
+values are stored in rem and the
+infrequently<00:12:09.680><c> used</c><00:12:10.079><c> ones</c><00:12:10.320><c> are</c><00:12:10.480><c> stored</c><00:12:10.880><c> on</c><00:12:11.120><c> ssd</c>
+
+00:12:12.150 --> 00:12:12.160 align:start position:0%
+infrequently used ones are stored on ssd
+ 
+
+00:12:12.160 --> 00:12:15.030 align:start position:0%
+infrequently used ones are stored on ssd
+so<00:12:12.560><c> for</c><00:12:12.800><c> redis</c><00:12:13.279><c> it's</c><00:12:13.440><c> just</c><00:12:13.920><c> more</c><00:12:14.240><c> ram</c><00:12:14.639><c> on</c><00:12:14.880><c> the</c>
+
+00:12:15.030 --> 00:12:15.040 align:start position:0%
+so for redis it's just more ram on the
+ 
+
+00:12:15.040 --> 00:12:17.030 align:start position:0%
+so for redis it's just more ram on the
+server<00:12:15.839><c> and</c><00:12:16.000><c> this</c><00:12:16.240><c> means</c>
+
+00:12:17.030 --> 00:12:17.040 align:start position:0%
+server and this means
+ 
+
+00:12:17.040 --> 00:12:19.350 align:start position:0%
+server and this means
+that<00:12:17.360><c> redis</c><00:12:17.760><c> can</c><00:12:18.000><c> use</c><00:12:18.639><c> more</c><00:12:18.959><c> of</c><00:12:19.120><c> the</c>
+
+00:12:19.350 --> 00:12:19.360 align:start position:0%
+that redis can use more of the
+ 
+
+00:12:19.360 --> 00:12:21.269 align:start position:0%
+that redis can use more of the
+underlying<00:12:19.920><c> infrastructure</c><00:12:20.880><c> or</c><00:12:21.120><c> the</c>
+
+00:12:21.269 --> 00:12:21.279 align:start position:0%
+underlying infrastructure or the
+ 
+
+00:12:21.279 --> 00:12:23.829 align:start position:0%
+underlying infrastructure or the
+underlying<00:12:21.920><c> server</c><00:12:22.320><c> resources</c><00:12:23.279><c> by</c><00:12:23.519><c> using</c>
+
+00:12:23.829 --> 00:12:23.839 align:start position:0%
+underlying server resources by using
+ 
+
+00:12:23.839 --> 00:12:27.670 align:start position:0%
+underlying server resources by using
+both<00:12:24.240><c> ram</c><00:12:24.560><c> and</c><00:12:24.800><c> ssd</c><00:12:25.519><c> drive</c><00:12:26.320><c> to</c><00:12:26.480><c> store</c><00:12:26.800><c> the</c><00:12:26.959><c> data</c>
+
+00:12:27.670 --> 00:12:27.680 align:start position:0%
+both ram and ssd drive to store the data
+ 
+
+00:12:27.680 --> 00:12:29.829 align:start position:0%
+both ram and ssd drive to store the data
+increasing<00:12:28.160><c> the</c><00:12:28.320><c> storage</c><00:12:28.720><c> capacity</c><00:12:29.360><c> on</c><00:12:29.600><c> each</c>
+
+00:12:29.829 --> 00:12:29.839 align:start position:0%
+increasing the storage capacity on each
+ 
+
+00:12:29.839 --> 00:12:32.710 align:start position:0%
+increasing the storage capacity on each
+server<00:12:30.639><c> and</c><00:12:31.360><c> this</c><00:12:31.680><c> way</c><00:12:32.079><c> saving</c><00:12:32.399><c> you</c>
+
+00:12:32.710 --> 00:12:32.720 align:start position:0%
+server and this way saving you
+ 
+
+00:12:32.720 --> 00:12:37.190 align:start position:0%
+server and this way saving you
+infrastructure<00:12:33.519><c> costs</c>
+
+00:12:37.190 --> 00:12:37.200 align:start position:0%
+ 
+ 
+
+00:12:37.200 --> 00:12:39.190 align:start position:0%
+ 
+all<00:12:37.360><c> right</c><00:12:37.600><c> so</c><00:12:37.920><c> we've</c><00:12:38.240><c> talked</c><00:12:38.480><c> about</c><00:12:38.880><c> data</c>
+
+00:12:39.190 --> 00:12:39.200 align:start position:0%
+all right so we've talked about data
+ 
+
+00:12:39.200 --> 00:12:41.590 align:start position:0%
+all right so we've talked about data
+storage<00:12:39.600><c> for</c><00:12:39.839><c> redis</c><00:12:40.160><c> database</c><00:12:41.040><c> and</c><00:12:41.200><c> how</c><00:12:41.440><c> it</c>
+
+00:12:41.590 --> 00:12:41.600 align:start position:0%
+storage for redis database and how it
+ 
+
+00:12:41.600 --> 00:12:44.550 align:start position:0%
+storage for redis database and how it
+all<00:12:41.760><c> works</c><00:12:42.399><c> including</c><00:12:42.959><c> the</c><00:12:43.120><c> best</c><00:12:43.440><c> practices</c>
+
+00:12:44.550 --> 00:12:44.560 align:start position:0%
+all works including the best practices
+ 
+
+00:12:44.560 --> 00:12:47.110 align:start position:0%
+all works including the best practices
+now<00:12:44.880><c> another</c><00:12:45.200><c> very</c><00:12:45.440><c> interesting</c><00:12:45.920><c> topic</c><00:12:46.480><c> is</c>
+
+00:12:47.110 --> 00:12:47.120 align:start position:0%
+now another very interesting topic is
+ 
+
+00:12:47.120 --> 00:12:50.069 align:start position:0%
+now another very interesting topic is
+how<00:12:47.279><c> do</c><00:12:47.440><c> we</c><00:12:47.680><c> scale</c><00:12:48.160><c> a</c><00:12:48.320><c> redis</c><00:12:48.720><c> database</c>
+
+00:12:50.069 --> 00:12:50.079 align:start position:0%
+how do we scale a redis database
+ 
+
+00:12:50.079 --> 00:12:52.790 align:start position:0%
+how do we scale a redis database
+let's<00:12:50.320><c> say</c><00:12:50.560><c> my</c><00:12:50.880><c> one</c><00:12:50.880><c> oneredice</c><00:12:51.600><c> instance</c><00:12:52.480><c> runs</c>
+
+00:12:52.790 --> 00:12:52.800 align:start position:0%
+let's say my one oneredice instance runs
+ 
+
+00:12:52.800 --> 00:12:55.670 align:start position:0%
+let's say my one oneredice instance runs
+out<00:12:52.959><c> of</c><00:12:53.040><c> memory</c><00:12:53.519><c> so</c><00:12:53.839><c> data</c><00:12:54.160><c> becomes</c><00:12:55.040><c> too</c><00:12:55.279><c> large</c>
+
+00:12:55.670 --> 00:12:55.680 align:start position:0%
+out of memory so data becomes too large
+ 
+
+00:12:55.680 --> 00:12:58.550 align:start position:0%
+out of memory so data becomes too large
+to<00:12:56.000><c> hold</c><00:12:56.320><c> in</c><00:12:56.560><c> memory</c><00:12:57.279><c> or</c><00:12:57.600><c> radius</c><00:12:58.000><c> becomes</c><00:12:58.399><c> a</c>
+
+00:12:58.550 --> 00:12:58.560 align:start position:0%
+to hold in memory or radius becomes a
+ 
+
+00:12:58.560 --> 00:13:00.790 align:start position:0%
+to hold in memory or radius becomes a
+bottleneck<00:12:59.360><c> and</c><00:12:59.680><c> can't</c><00:12:59.920><c> handle</c><00:13:00.480><c> any</c><00:13:00.639><c> more</c>
+
+00:13:00.790 --> 00:13:00.800 align:start position:0%
+bottleneck and can't handle any more
+ 
+
+00:13:00.800 --> 00:13:03.829 align:start position:0%
+bottleneck and can't handle any more
+requests<00:13:01.839><c> in</c><00:13:02.000><c> such</c><00:13:02.320><c> case</c><00:13:03.040><c> how</c><00:13:03.200><c> do</c><00:13:03.360><c> i</c><00:13:03.519><c> increase</c>
+
+00:13:03.829 --> 00:13:03.839 align:start position:0%
+requests in such case how do i increase
+ 
+
+00:13:03.839 --> 00:13:05.509 align:start position:0%
+requests in such case how do i increase
+the<00:13:04.079><c> capacity</c>
+
+00:13:05.509 --> 00:13:05.519 align:start position:0%
+the capacity
+ 
+
+00:13:05.519 --> 00:13:09.269 align:start position:0%
+the capacity
+and<00:13:05.839><c> memory</c><00:13:06.320><c> size</c><00:13:07.120><c> for</c><00:13:07.360><c> my</c><00:13:07.839><c> redis</c><00:13:08.160><c> database</c>
+
+00:13:09.269 --> 00:13:09.279 align:start position:0%
+and memory size for my redis database
+ 
+
+00:13:09.279 --> 00:13:11.670 align:start position:0%
+and memory size for my redis database
+we<00:13:09.519><c> have</c><00:13:09.680><c> several</c><00:13:10.160><c> options</c><00:13:10.560><c> for</c><00:13:10.800><c> that</c><00:13:11.440><c> first</c>
+
+00:13:11.670 --> 00:13:11.680 align:start position:0%
+we have several options for that first
+ 
+
+00:13:11.680 --> 00:13:14.629 align:start position:0%
+we have several options for that first
+of<00:13:11.839><c> all</c><00:13:12.320><c> ready</c><00:13:12.639><c> supports</c><00:13:13.360><c> clustering</c><00:13:14.320><c> which</c>
+
+00:13:14.629 --> 00:13:14.639 align:start position:0%
+of all ready supports clustering which
+ 
+
+00:13:14.639 --> 00:13:17.430 align:start position:0%
+of all ready supports clustering which
+means<00:13:14.880><c> you</c><00:13:15.040><c> can</c><00:13:15.200><c> have</c><00:13:15.440><c> a</c><00:13:15.680><c> primary</c><00:13:16.480><c> or</c><00:13:16.720><c> master</c>
+
+00:13:17.430 --> 00:13:17.440 align:start position:0%
+means you can have a primary or master
+ 
+
+00:13:17.440 --> 00:13:18.870 align:start position:0%
+means you can have a primary or master
+redis<00:13:17.920><c> instance</c>
+
+00:13:18.870 --> 00:13:18.880 align:start position:0%
+redis instance
+ 
+
+00:13:18.880 --> 00:13:22.470 align:start position:0%
+redis instance
+which<00:13:19.360><c> can</c><00:13:19.519><c> be</c><00:13:19.680><c> used</c><00:13:20.320><c> to</c><00:13:20.639><c> read</c><00:13:20.959><c> and</c><00:13:21.200><c> write</c><00:13:21.519><c> data</c>
+
+00:13:22.470 --> 00:13:22.480 align:start position:0%
+which can be used to read and write data
+ 
+
+00:13:22.480 --> 00:13:25.350 align:start position:0%
+which can be used to read and write data
+and<00:13:23.120><c> you</c><00:13:23.279><c> can</c><00:13:23.440><c> have</c><00:13:23.760><c> multiple</c><00:13:24.399><c> replicas</c><00:13:25.120><c> of</c>
+
+00:13:25.350 --> 00:13:25.360 align:start position:0%
+and you can have multiple replicas of
+ 
+
+00:13:25.360 --> 00:13:27.750 align:start position:0%
+and you can have multiple replicas of
+that<00:13:25.680><c> primary</c><00:13:26.160><c> instance</c><00:13:27.040><c> for</c><00:13:27.360><c> reading</c><00:13:27.680><c> the</c>
+
+00:13:27.750 --> 00:13:27.760 align:start position:0%
+that primary instance for reading the
+ 
+
+00:13:27.760 --> 00:13:30.310 align:start position:0%
+that primary instance for reading the
+data<00:13:28.560><c> this</c><00:13:28.800><c> way</c><00:13:28.959><c> you</c><00:13:29.120><c> can</c><00:13:29.360><c> scale</c><00:13:29.760><c> red</c><00:13:30.000><c> is</c><00:13:30.160><c> to</c>
+
+00:13:30.310 --> 00:13:30.320 align:start position:0%
+data this way you can scale red is to
+ 
+
+00:13:30.320 --> 00:13:32.949 align:start position:0%
+data this way you can scale red is to
+handle<00:13:30.639><c> more</c><00:13:30.880><c> requests</c><00:13:31.839><c> and</c><00:13:32.160><c> in</c><00:13:32.320><c> addition</c>
+
+00:13:32.949 --> 00:13:32.959 align:start position:0%
+handle more requests and in addition
+ 
+
+00:13:32.959 --> 00:13:35.670 align:start position:0%
+handle more requests and in addition
+increase<00:13:33.519><c> the</c><00:13:34.160><c> high</c><00:13:34.480><c> availability</c><00:13:35.360><c> of</c><00:13:35.519><c> your</c>
+
+00:13:35.670 --> 00:13:35.680 align:start position:0%
+increase the high availability of your
+ 
+
+00:13:35.680 --> 00:13:38.550 align:start position:0%
+increase the high availability of your
+database<00:13:36.480><c> because</c><00:13:36.800><c> if</c><00:13:37.040><c> master</c><00:13:37.519><c> fails</c><00:13:38.320><c> one</c><00:13:38.480><c> of</c>
+
+00:13:38.550 --> 00:13:38.560 align:start position:0%
+database because if master fails one of
+ 
+
+00:13:38.560 --> 00:13:41.670 align:start position:0%
+database because if master fails one of
+the<00:13:38.720><c> replicas</c><00:13:39.519><c> can</c><00:13:39.839><c> take</c><00:13:40.079><c> over</c><00:13:40.800><c> and</c><00:13:41.440><c> your</c>
+
+00:13:41.670 --> 00:13:41.680 align:start position:0%
+the replicas can take over and your
+ 
+
+00:13:41.680 --> 00:13:44.470 align:start position:0%
+the replicas can take over and your
+radius<00:13:42.000><c> database</c><00:13:42.639><c> basically</c><00:13:43.519><c> can</c><00:13:43.839><c> continue</c>
+
+00:13:44.470 --> 00:13:44.480 align:start position:0%
+radius database basically can continue
+ 
+
+00:13:44.480 --> 00:13:46.710 align:start position:0%
+radius database basically can continue
+functioning<00:13:45.040><c> without</c><00:13:45.440><c> any</c><00:13:45.680><c> issues</c>
+
+00:13:46.710 --> 00:13:46.720 align:start position:0%
+functioning without any issues
+ 
+
+00:13:46.720 --> 00:13:50.069 align:start position:0%
+functioning without any issues
+now<00:13:47.040><c> these</c><00:13:47.360><c> replicas</c><00:13:48.000><c> will</c><00:13:48.399><c> all</c><00:13:48.720><c> hold</c><00:13:49.519><c> copies</c>
+
+00:13:50.069 --> 00:13:50.079 align:start position:0%
+now these replicas will all hold copies
+ 
+
+00:13:50.079 --> 00:13:52.790 align:start position:0%
+now these replicas will all hold copies
+of<00:13:50.240><c> the</c><00:13:50.399><c> data</c><00:13:50.880><c> of</c><00:13:50.959><c> the</c><00:13:51.199><c> primary</c><00:13:51.680><c> instance</c><00:13:52.560><c> so</c>
+
+00:13:52.790 --> 00:13:52.800 align:start position:0%
+of the data of the primary instance so
+ 
+
+00:13:52.800 --> 00:13:55.430 align:start position:0%
+of the data of the primary instance so
+the<00:13:53.040><c> more</c><00:13:53.199><c> replicas</c><00:13:53.680><c> you</c><00:13:53.839><c> have</c><00:13:54.480><c> the</c><00:13:54.720><c> more</c>
+
+00:13:55.430 --> 00:13:55.440 align:start position:0%
+the more replicas you have the more
+ 
+
+00:13:55.440 --> 00:13:58.710 align:start position:0%
+the more replicas you have the more
+memory<00:13:55.920><c> space</c><00:13:56.240><c> you</c><00:13:56.399><c> need</c><00:13:57.040><c> and</c><00:13:57.760><c> one</c><00:13:58.079><c> server</c><00:13:58.480><c> may</c>
+
+00:13:58.710 --> 00:13:58.720 align:start position:0%
+memory space you need and one server may
+ 
+
+00:13:58.720 --> 00:14:01.030 align:start position:0%
+memory space you need and one server may
+not<00:13:58.959><c> have</c><00:13:59.360><c> sufficient</c><00:13:59.920><c> memory</c><00:14:00.320><c> for</c><00:14:00.639><c> all</c><00:14:00.800><c> your</c>
+
+00:14:01.030 --> 00:14:01.040 align:start position:0%
+not have sufficient memory for all your
+ 
+
+00:14:01.040 --> 00:14:03.509 align:start position:0%
+not have sufficient memory for all your
+replicas<00:14:02.240><c> plus</c><00:14:02.639><c> if</c><00:14:02.800><c> you</c><00:14:02.880><c> have</c><00:14:03.199><c> all</c><00:14:03.360><c> the</c>
+
+00:14:03.509 --> 00:14:03.519 align:start position:0%
+replicas plus if you have all the
+ 
+
+00:14:03.519 --> 00:14:06.150 align:start position:0%
+replicas plus if you have all the
+replicas<00:14:04.160><c> on</c><00:14:04.399><c> one</c><00:14:04.720><c> server</c><00:14:05.279><c> and</c><00:14:05.440><c> that</c><00:14:05.680><c> server</c>
+
+00:14:06.150 --> 00:14:06.160 align:start position:0%
+replicas on one server and that server
+ 
+
+00:14:06.160 --> 00:14:07.030 align:start position:0%
+replicas on one server and that server
+fails
+
+00:14:07.030 --> 00:14:07.040 align:start position:0%
+fails
+ 
+
+00:14:07.040 --> 00:14:09.430 align:start position:0%
+fails
+your<00:14:07.360><c> whole</c><00:14:07.600><c> radius</c><00:14:07.920><c> database</c><00:14:08.399><c> is</c><00:14:08.560><c> gone</c><00:14:09.199><c> and</c>
+
+00:14:09.430 --> 00:14:09.440 align:start position:0%
+your whole radius database is gone and
+ 
+
+00:14:09.440 --> 00:14:11.750 align:start position:0%
+your whole radius database is gone and
+you<00:14:09.600><c> will</c><00:14:09.680><c> have</c><00:14:09.839><c> a</c><00:14:09.920><c> downtime</c><00:14:10.800><c> instead</c><00:14:11.600><c> you</c>
+
+00:14:11.750 --> 00:14:11.760 align:start position:0%
+you will have a downtime instead you
+ 
+
+00:14:11.760 --> 00:14:13.910 align:start position:0%
+you will have a downtime instead you
+want<00:14:11.920><c> to</c><00:14:12.160><c> distribute</c><00:14:12.800><c> these</c><00:14:13.040><c> replicas</c><00:14:13.600><c> among</c>
+
+00:14:13.910 --> 00:14:13.920 align:start position:0%
+want to distribute these replicas among
+ 
+
+00:14:13.920 --> 00:14:17.189 align:start position:0%
+want to distribute these replicas among
+multiple<00:14:14.399><c> nodes</c><00:14:15.040><c> or</c><00:14:15.519><c> servers</c><00:14:16.320><c> so</c><00:14:16.560><c> for</c><00:14:16.720><c> example</c>
+
+00:14:17.189 --> 00:14:17.199 align:start position:0%
+multiple nodes or servers so for example
+ 
+
+00:14:17.199 --> 00:14:19.750 align:start position:0%
+multiple nodes or servers so for example
+your<00:14:17.440><c> master</c><00:14:17.920><c> instance</c><00:14:18.399><c> will</c><00:14:18.560><c> be</c><00:14:18.720><c> on</c><00:14:18.959><c> one</c><00:14:19.199><c> node</c>
+
+00:14:19.750 --> 00:14:19.760 align:start position:0%
+your master instance will be on one node
+ 
+
+00:14:19.760 --> 00:14:23.030 align:start position:0%
+your master instance will be on one node
+and<00:14:20.000><c> two</c><00:14:20.240><c> replicas</c><00:14:20.959><c> on</c><00:14:21.279><c> other</c><00:14:21.920><c> two</c><00:14:22.160><c> nodes</c>
+
+00:14:23.030 --> 00:14:23.040 align:start position:0%
+and two replicas on other two nodes
+ 
+
+00:14:23.040 --> 00:14:25.189 align:start position:0%
+and two replicas on other two nodes
+well<00:14:23.199><c> that</c><00:14:23.440><c> seems</c><00:14:24.000><c> good</c><00:14:24.240><c> enough</c>
+
+00:14:25.189 --> 00:14:25.199 align:start position:0%
+well that seems good enough
+ 
+
+00:14:25.199 --> 00:14:27.590 align:start position:0%
+well that seems good enough
+but<00:14:25.440><c> what</c><00:14:25.680><c> if</c><00:14:25.760><c> your</c><00:14:26.000><c> data</c><00:14:26.320><c> set</c><00:14:26.800><c> grows</c><00:14:27.360><c> too</c>
+
+00:14:27.590 --> 00:14:27.600 align:start position:0%
+but what if your data set grows too
+ 
+
+00:14:27.600 --> 00:14:30.230 align:start position:0%
+but what if your data set grows too
+large<00:14:28.079><c> to</c><00:14:28.320><c> fit</c><00:14:28.639><c> in</c><00:14:28.800><c> a</c><00:14:29.040><c> memory</c><00:14:29.600><c> on</c><00:14:29.760><c> a</c><00:14:29.839><c> single</c>
+
+00:14:30.230 --> 00:14:30.240 align:start position:0%
+large to fit in a memory on a single
+ 
+
+00:14:30.240 --> 00:14:34.150 align:start position:0%
+large to fit in a memory on a single
+server<00:14:30.880><c> plus</c><00:14:31.279><c> we</c><00:14:31.440><c> have</c><00:14:32.160><c> scaled</c><00:14:33.120><c> the</c><00:14:33.360><c> reads</c><00:14:34.000><c> in</c>
+
+00:14:34.150 --> 00:14:34.160 align:start position:0%
+server plus we have scaled the reads in
+ 
+
+00:14:34.160 --> 00:14:36.790 align:start position:0%
+server plus we have scaled the reads in
+the<00:14:34.240><c> database</c><00:14:35.120><c> so</c><00:14:35.360><c> all</c><00:14:35.440><c> the</c><00:14:35.600><c> requests</c><00:14:36.480><c> that</c>
+
+00:14:36.790 --> 00:14:36.800 align:start position:0%
+the database so all the requests that
+ 
+
+00:14:36.800 --> 00:14:39.350 align:start position:0%
+the database so all the requests that
+basically<00:14:37.199><c> just</c><00:14:37.519><c> query</c><00:14:37.839><c> the</c><00:14:38.000><c> data</c><00:14:38.720><c> but</c><00:14:38.959><c> our</c>
+
+00:14:39.350 --> 00:14:39.360 align:start position:0%
+basically just query the data but our
+ 
+
+00:14:39.360 --> 00:14:42.389 align:start position:0%
+basically just query the data but our
+master<00:14:40.000><c> instance</c><00:14:40.639><c> is</c><00:14:40.800><c> still</c><00:14:41.040><c> alone</c><00:14:41.920><c> and</c><00:14:42.079><c> still</c>
+
+00:14:42.389 --> 00:14:42.399 align:start position:0%
+master instance is still alone and still
+ 
+
+00:14:42.399 --> 00:14:45.670 align:start position:0%
+master instance is still alone and still
+has<00:14:42.639><c> to</c><00:14:43.279><c> handle</c><00:14:43.920><c> all</c><00:14:44.079><c> the</c><00:14:44.240><c> rights</c><00:14:45.120><c> so</c><00:14:45.279><c> what</c><00:14:45.519><c> is</c>
+
+00:14:45.670 --> 00:14:45.680 align:start position:0%
+has to handle all the rights so what is
+ 
+
+00:14:45.680 --> 00:14:47.990 align:start position:0%
+has to handle all the rights so what is
+the<00:14:45.760><c> solution</c><00:14:46.320><c> here</c><00:14:47.040><c> for</c><00:14:47.279><c> that</c><00:14:47.519><c> we</c><00:14:47.680><c> use</c><00:14:47.920><c> the</c>
+
+00:14:47.990 --> 00:14:48.000 align:start position:0%
+the solution here for that we use the
+ 
+
+00:14:48.000 --> 00:14:50.629 align:start position:0%
+the solution here for that we use the
+concept<00:14:48.639><c> of</c><00:14:49.120><c> sharding</c><00:14:49.600><c> which</c><00:14:49.839><c> is</c><00:14:50.000><c> a</c><00:14:50.240><c> general</c>
+
+00:14:50.629 --> 00:14:50.639 align:start position:0%
+concept of sharding which is a general
+ 
+
+00:14:50.639 --> 00:14:54.310 align:start position:0%
+concept of sharding which is a general
+concept<00:14:51.279><c> in</c><00:14:51.760><c> databases</c><00:14:52.959><c> and</c><00:14:53.279><c> which</c><00:14:53.839><c> redis</c>
+
+00:14:54.310 --> 00:14:54.320 align:start position:0%
+concept in databases and which redis
+ 
+
+00:14:54.320 --> 00:14:55.750 align:start position:0%
+concept in databases and which redis
+also<00:14:54.720><c> supports</c>
+
+00:14:55.750 --> 00:14:55.760 align:start position:0%
+also supports
+ 
+
+00:14:55.760 --> 00:14:58.069 align:start position:0%
+also supports
+so<00:14:56.000><c> sharding</c><00:14:56.399><c> basically</c><00:14:56.880><c> means</c><00:14:57.120><c> that</c><00:14:57.760><c> you</c>
+
+00:14:58.069 --> 00:14:58.079 align:start position:0%
+so sharding basically means that you
+ 
+
+00:14:58.079 --> 00:15:01.110 align:start position:0%
+so sharding basically means that you
+take<00:14:58.399><c> your</c><00:14:58.959><c> complete</c><00:14:59.440><c> data</c><00:14:59.839><c> set</c><00:15:00.480><c> and</c><00:15:00.639><c> divide</c>
+
+00:15:01.110 --> 00:15:01.120 align:start position:0%
+take your complete data set and divide
+ 
+
+00:15:01.120 --> 00:15:04.069 align:start position:0%
+take your complete data set and divide
+it<00:15:01.279><c> into</c><00:15:01.760><c> smaller</c><00:15:02.240><c> chunks</c><00:15:02.880><c> or</c><00:15:03.199><c> subsets</c><00:15:03.839><c> of</c>
+
+00:15:04.069 --> 00:15:04.079 align:start position:0%
+it into smaller chunks or subsets of
+ 
+
+00:15:04.079 --> 00:15:07.189 align:start position:0%
+it into smaller chunks or subsets of
+data<00:15:04.959><c> where</c><00:15:05.279><c> each</c><00:15:05.600><c> shard</c><00:15:06.000><c> is</c><00:15:06.240><c> responsible</c><00:15:06.959><c> for</c>
+
+00:15:07.189 --> 00:15:07.199 align:start position:0%
+data where each shard is responsible for
+ 
+
+00:15:07.199 --> 00:15:09.829 align:start position:0%
+data where each shard is responsible for
+its<00:15:07.519><c> own</c><00:15:07.920><c> subset</c><00:15:08.399><c> of</c><00:15:08.639><c> data</c>
+
+00:15:09.829 --> 00:15:09.839 align:start position:0%
+its own subset of data
+ 
+
+00:15:09.839 --> 00:15:11.670 align:start position:0%
+its own subset of data
+so<00:15:10.079><c> that</c><00:15:10.240><c> means</c><00:15:10.560><c> instead</c><00:15:10.880><c> of</c><00:15:10.959><c> having</c><00:15:11.440><c> one</c>
+
+00:15:11.670 --> 00:15:11.680 align:start position:0%
+so that means instead of having one
+ 
+
+00:15:11.680 --> 00:15:14.069 align:start position:0%
+so that means instead of having one
+master<00:15:12.240><c> instance</c><00:15:13.040><c> that</c><00:15:13.279><c> handles</c><00:15:13.760><c> all</c><00:15:13.920><c> the</c>
+
+00:15:14.069 --> 00:15:14.079 align:start position:0%
+master instance that handles all the
+ 
+
+00:15:14.079 --> 00:15:16.470 align:start position:0%
+master instance that handles all the
+writes<00:15:14.560><c> to</c><00:15:14.720><c> the</c><00:15:14.880><c> complete</c><00:15:15.360><c> data</c><00:15:15.680><c> set</c>
+
+00:15:16.470 --> 00:15:16.480 align:start position:0%
+writes to the complete data set
+ 
+
+00:15:16.480 --> 00:15:18.870 align:start position:0%
+writes to the complete data set
+you<00:15:16.639><c> can</c><00:15:16.880><c> split</c><00:15:17.279><c> it</c><00:15:17.519><c> into</c><00:15:17.920><c> let's</c><00:15:18.160><c> say</c><00:15:18.560><c> four</c>
+
+00:15:18.870 --> 00:15:18.880 align:start position:0%
+you can split it into let's say four
+ 
+
+00:15:18.880 --> 00:15:19.910 align:start position:0%
+you can split it into let's say four
+shards
+
+00:15:19.910 --> 00:15:19.920 align:start position:0%
+shards
+ 
+
+00:15:19.920 --> 00:15:22.470 align:start position:0%
+shards
+each<00:15:20.160><c> of</c><00:15:20.320><c> them</c><00:15:20.560><c> responsible</c><00:15:21.600><c> for</c><00:15:21.920><c> reads</c><00:15:22.320><c> and</c>
+
+00:15:22.470 --> 00:15:22.480 align:start position:0%
+each of them responsible for reads and
+ 
+
+00:15:22.480 --> 00:15:26.389 align:start position:0%
+each of them responsible for reads and
+writes<00:15:23.120><c> to</c><00:15:23.600><c> a</c><00:15:23.839><c> subset</c><00:15:24.560><c> of</c><00:15:24.720><c> the</c><00:15:24.880><c> data</c><00:15:25.839><c> and</c><00:15:26.079><c> each</c>
+
+00:15:26.389 --> 00:15:26.399 align:start position:0%
+writes to a subset of the data and each
+ 
+
+00:15:26.399 --> 00:15:29.350 align:start position:0%
+writes to a subset of the data and each
+shard<00:15:26.880><c> also</c><00:15:27.120><c> needs</c><00:15:27.760><c> less</c><00:15:28.079><c> memory</c><00:15:28.480><c> capacity</c>
+
+00:15:29.350 --> 00:15:29.360 align:start position:0%
+shard also needs less memory capacity
+ 
+
+00:15:29.360 --> 00:15:31.670 align:start position:0%
+shard also needs less memory capacity
+because<00:15:29.680><c> they</c><00:15:30.000><c> just</c><00:15:30.160><c> have</c><00:15:30.800><c> a</c><00:15:30.959><c> fourth</c><00:15:31.440><c> of</c><00:15:31.600><c> the</c>
+
+00:15:31.670 --> 00:15:31.680 align:start position:0%
+because they just have a fourth of the
+ 
+
+00:15:31.680 --> 00:15:32.550 align:start position:0%
+because they just have a fourth of the
+data
+
+00:15:32.550 --> 00:15:32.560 align:start position:0%
+data
+ 
+
+00:15:32.560 --> 00:15:34.949 align:start position:0%
+data
+this<00:15:32.800><c> means</c><00:15:33.040><c> you</c><00:15:33.199><c> can</c><00:15:33.360><c> distribute</c><00:15:34.320><c> and</c><00:15:34.639><c> run</c>
+
+00:15:34.949 --> 00:15:34.959 align:start position:0%
+this means you can distribute and run
+ 
+
+00:15:34.959 --> 00:15:37.269 align:start position:0%
+this means you can distribute and run
+charts<00:15:35.440><c> on</c><00:15:35.680><c> smaller</c><00:15:36.160><c> nodes</c><00:15:36.480><c> and</c><00:15:36.639><c> basically</c>
+
+00:15:37.269 --> 00:15:37.279 align:start position:0%
+charts on smaller nodes and basically
+ 
+
+00:15:37.279 --> 00:15:39.910 align:start position:0%
+charts on smaller nodes and basically
+scale<00:15:37.600><c> your</c><00:15:37.920><c> cluster</c><00:15:38.800><c> horizontally</c><00:15:39.600><c> and</c><00:15:39.759><c> of</c>
+
+00:15:39.910 --> 00:15:39.920 align:start position:0%
+scale your cluster horizontally and of
+ 
+
+00:15:39.920 --> 00:15:43.269 align:start position:0%
+scale your cluster horizontally and of
+course<00:15:40.480><c> as</c><00:15:40.720><c> your</c><00:15:41.440><c> data</c><00:15:41.839><c> set</c><00:15:42.079><c> grows</c><00:15:42.639><c> and</c><00:15:43.040><c> as</c><00:15:43.199><c> you</c>
+
+00:15:43.269 --> 00:15:43.279 align:start position:0%
+course as your data set grows and as you
+ 
+
+00:15:43.279 --> 00:15:45.990 align:start position:0%
+course as your data set grows and as you
+need<00:15:43.600><c> even</c><00:15:43.839><c> more</c><00:15:44.240><c> resources</c><00:15:44.959><c> you</c><00:15:45.120><c> can</c><00:15:45.440><c> reshart</c>
+
+00:15:45.990 --> 00:15:46.000 align:start position:0%
+need even more resources you can reshart
+ 
+
+00:15:46.000 --> 00:15:47.990 align:start position:0%
+need even more resources you can reshart
+your<00:15:46.320><c> radius</c><00:15:46.720><c> database</c><00:15:47.199><c> which</c><00:15:47.440><c> basically</c>
+
+00:15:47.990 --> 00:15:48.000 align:start position:0%
+your radius database which basically
+ 
+
+00:15:48.000 --> 00:15:49.509 align:start position:0%
+your radius database which basically
+means<00:15:48.560><c> you</c><00:15:48.720><c> just</c>
+
+00:15:49.509 --> 00:15:49.519 align:start position:0%
+means you just
+ 
+
+00:15:49.519 --> 00:15:52.550 align:start position:0%
+means you just
+split<00:15:49.839><c> your</c><00:15:50.000><c> data</c><00:15:50.880><c> in</c><00:15:51.120><c> even</c><00:15:51.440><c> smaller</c><00:15:51.839><c> chunks</c>
+
+00:15:52.550 --> 00:15:52.560 align:start position:0%
+split your data in even smaller chunks
+ 
+
+00:15:52.560 --> 00:15:54.710 align:start position:0%
+split your data in even smaller chunks
+and<00:15:52.720><c> create</c><00:15:53.360><c> more</c><00:15:53.680><c> shards</c>
+
+00:15:54.710 --> 00:15:54.720 align:start position:0%
+and create more shards
+ 
+
+00:15:54.720 --> 00:15:57.590 align:start position:0%
+and create more shards
+so<00:15:55.040><c> having</c><00:15:55.360><c> multiple</c><00:15:55.920><c> nodes</c><00:15:56.560><c> which</c><00:15:57.279><c> run</c>
+
+00:15:57.590 --> 00:15:57.600 align:start position:0%
+so having multiple nodes which run
+ 
+
+00:15:57.600 --> 00:16:00.150 align:start position:0%
+so having multiple nodes which run
+multiple<00:15:58.000><c> replicas</c><00:15:58.560><c> of</c><00:15:58.720><c> redis</c><00:15:59.440><c> which</c><00:15:59.680><c> are</c><00:15:59.920><c> all</c>
+
+00:16:00.150 --> 00:16:00.160 align:start position:0%
+multiple replicas of redis which are all
+ 
+
+00:16:00.160 --> 00:16:02.710 align:start position:0%
+multiple replicas of redis which are all
+sharded<00:16:00.959><c> gives</c><00:16:01.199><c> you</c><00:16:01.440><c> a</c><00:16:01.600><c> very</c><00:16:01.920><c> performant</c>
+
+00:16:02.710 --> 00:16:02.720 align:start position:0%
+sharded gives you a very performant
+ 
+
+00:16:02.720 --> 00:16:05.670 align:start position:0%
+sharded gives you a very performant
+highly<00:16:03.120><c> available</c><00:16:03.839><c> redis</c><00:16:04.240><c> database</c><00:16:05.199><c> that</c><00:16:05.440><c> can</c>
+
+00:16:05.670 --> 00:16:05.680 align:start position:0%
+highly available redis database that can
+ 
+
+00:16:05.680 --> 00:16:07.509 align:start position:0%
+highly available redis database that can
+handle<00:16:06.079><c> much</c><00:16:06.399><c> more</c><00:16:06.560><c> requests</c><00:16:07.040><c> without</c>
+
+00:16:07.509 --> 00:16:07.519 align:start position:0%
+handle much more requests without
+ 
+
+00:16:07.519 --> 00:16:09.990 align:start position:0%
+handle much more requests without
+creating<00:16:08.079><c> any</c><00:16:08.399><c> bottlenecks</c><00:16:09.279><c> now</c><00:16:09.519><c> i</c><00:16:09.600><c> have</c><00:16:09.759><c> to</c>
+
+00:16:09.990 --> 00:16:10.000 align:start position:0%
+creating any bottlenecks now i have to
+ 
+
+00:16:10.000 --> 00:16:12.949 align:start position:0%
+creating any bottlenecks now i have to
+note<00:16:10.240><c> here</c><00:16:10.560><c> that</c><00:16:10.880><c> this</c><00:16:11.199><c> setup</c><00:16:11.759><c> is</c><00:16:12.240><c> great</c><00:16:12.720><c> but</c>
+
+00:16:12.949 --> 00:16:12.959 align:start position:0%
+note here that this setup is great but
+ 
+
+00:16:12.959 --> 00:16:15.030 align:start position:0%
+note here that this setup is great but
+of<00:16:13.120><c> course</c><00:16:13.759><c> you</c><00:16:13.920><c> would</c><00:16:14.079><c> need</c><00:16:14.240><c> to</c><00:16:14.480><c> manage</c><00:16:14.880><c> it</c>
+
+00:16:15.030 --> 00:16:15.040 align:start position:0%
+of course you would need to manage it
+ 
+
+00:16:15.040 --> 00:16:18.150 align:start position:0%
+of course you would need to manage it
+yourself<00:16:15.680><c> do</c><00:16:15.920><c> the</c><00:16:16.079><c> scaling</c><00:16:16.959><c> add</c><00:16:17.279><c> notes</c><00:16:17.759><c> do</c><00:16:17.920><c> the</c>
+
+00:16:18.150 --> 00:16:18.160 align:start position:0%
+yourself do the scaling add notes do the
+ 
+
+00:16:18.160 --> 00:16:20.790 align:start position:0%
+yourself do the scaling add notes do the
+sharding<00:16:18.720><c> and</c><00:16:18.800><c> then</c><00:16:18.959><c> resharting</c><00:16:19.600><c> etc</c><00:16:20.399><c> so</c><00:16:20.560><c> for</c>
+
+00:16:20.790 --> 00:16:20.800 align:start position:0%
+sharding and then resharting etc so for
+ 
+
+00:16:20.800 --> 00:16:23.350 align:start position:0%
+sharding and then resharting etc so for
+some<00:16:21.120><c> teams</c><00:16:21.440><c> that</c><00:16:21.600><c> are</c><00:16:21.759><c> more</c><00:16:22.000><c> focused</c><00:16:22.560><c> on</c><00:16:23.040><c> the</c>
+
+00:16:23.350 --> 00:16:23.360 align:start position:0%
+some teams that are more focused on the
+ 
+
+00:16:23.360 --> 00:16:25.430 align:start position:0%
+some teams that are more focused on the
+application<00:16:23.920><c> development</c><00:16:24.959><c> and</c><00:16:25.199><c> more</c>
+
+00:16:25.430 --> 00:16:25.440 align:start position:0%
+application development and more
+ 
+
+00:16:25.440 --> 00:16:27.749 align:start position:0%
+application development and more
+business<00:16:25.920><c> logic</c><00:16:26.720><c> rather</c><00:16:26.959><c> than</c><00:16:27.279><c> running</c><00:16:27.600><c> and</c>
+
+00:16:27.749 --> 00:16:27.759 align:start position:0%
+business logic rather than running and
+ 
+
+00:16:27.759 --> 00:16:30.310 align:start position:0%
+business logic rather than running and
+maintaining<00:16:28.480><c> data</c><00:16:28.800><c> services</c><00:16:29.759><c> this</c><00:16:29.920><c> could</c><00:16:30.160><c> be</c>
+
+00:16:30.310 --> 00:16:30.320 align:start position:0%
+maintaining data services this could be
+ 
+
+00:16:30.320 --> 00:16:33.269 align:start position:0%
+maintaining data services this could be
+a<00:16:30.480><c> lot</c><00:16:30.639><c> of</c><00:16:31.040><c> unwanted</c><00:16:31.680><c> effort</c><00:16:32.320><c> so</c><00:16:32.560><c> as</c><00:16:32.720><c> an</c><00:16:32.880><c> easier</c>
+
+00:16:33.269 --> 00:16:33.279 align:start position:0%
+a lot of unwanted effort so as an easier
+ 
+
+00:16:33.279 --> 00:16:35.910 align:start position:0%
+a lot of unwanted effort so as an easier
+alternative<00:16:34.240><c> in</c><00:16:34.399><c> redis</c><00:16:34.800><c> enterprise</c><00:16:35.519><c> you</c><00:16:35.680><c> get</c>
+
+00:16:35.910 --> 00:16:35.920 align:start position:0%
+alternative in redis enterprise you get
+ 
+
+00:16:35.920 --> 00:16:37.990 align:start position:0%
+alternative in redis enterprise you get
+this<00:16:36.079><c> kind</c><00:16:36.240><c> of</c><00:16:36.399><c> setup</c><00:16:37.040><c> automatically</c><00:16:37.680><c> because</c>
+
+00:16:37.990 --> 00:16:38.000 align:start position:0%
+this kind of setup automatically because
+ 
+
+00:16:38.000 --> 00:16:40.710 align:start position:0%
+this kind of setup automatically because
+the<00:16:38.240><c> scaling</c><00:16:38.880><c> sharding</c><00:16:39.360><c> and</c><00:16:39.519><c> so</c><00:16:39.680><c> on</c><00:16:40.240><c> is</c><00:16:40.480><c> all</c>
+
+00:16:40.710 --> 00:16:40.720 align:start position:0%
+the scaling sharding and so on is all
+ 
+
+00:16:40.720 --> 00:16:42.150 align:start position:0%
+the scaling sharding and so on is all
+managed<00:16:41.120><c> for</c><00:16:41.279><c> you</c>
+
+00:16:42.150 --> 00:16:42.160 align:start position:0%
+managed for you
+ 
+
+00:16:42.160 --> 00:16:44.389 align:start position:0%
+managed for you
+now<00:16:42.320><c> let's</c><00:16:42.560><c> consider</c><00:16:43.279><c> another</c><00:16:43.839><c> interesting</c>
+
+00:16:44.389 --> 00:16:44.399 align:start position:0%
+now let's consider another interesting
+ 
+
+00:16:44.399 --> 00:16:47.509 align:start position:0%
+now let's consider another interesting
+scenario<00:16:45.199><c> for</c><00:16:45.519><c> applications</c><00:16:46.560><c> that</c><00:16:46.800><c> need</c><00:16:47.120><c> even</c>
+
+00:16:47.509 --> 00:16:47.519 align:start position:0%
+scenario for applications that need even
+ 
+
+00:16:47.519 --> 00:16:50.150 align:start position:0%
+scenario for applications that need even
+higher<00:16:48.000><c> availability</c><00:16:48.880><c> and</c><00:16:49.120><c> performance</c>
+
+00:16:50.150 --> 00:16:50.160 align:start position:0%
+higher availability and performance
+ 
+
+00:16:50.160 --> 00:16:53.509 align:start position:0%
+higher availability and performance
+across<00:16:50.800><c> multiple</c><00:16:51.600><c> geographic</c><00:16:52.240><c> locations</c><00:16:53.360><c> so</c>
+
+00:16:53.509 --> 00:16:53.519 align:start position:0%
+across multiple geographic locations so
+ 
+
+00:16:53.519 --> 00:16:55.509 align:start position:0%
+across multiple geographic locations so
+let's<00:16:53.759><c> say</c><00:16:53.920><c> we</c><00:16:54.079><c> have</c><00:16:54.320><c> this</c><00:16:54.639><c> replicated</c>
+
+00:16:55.509 --> 00:16:55.519 align:start position:0%
+let's say we have this replicated
+ 
+
+00:16:55.519 --> 00:16:58.710 align:start position:0%
+let's say we have this replicated
+sharded<00:16:56.480><c> redis</c><00:16:56.800><c> database</c><00:16:57.360><c> cluster</c><00:16:58.079><c> in</c><00:16:58.399><c> one</c>
+
+00:16:58.710 --> 00:16:58.720 align:start position:0%
+sharded redis database cluster in one
+ 
+
+00:16:58.720 --> 00:17:01.509 align:start position:0%
+sharded redis database cluster in one
+region<00:16:59.600><c> in</c><00:16:59.680><c> the</c><00:16:59.839><c> data</c><00:17:00.160><c> center</c><00:17:00.720><c> of</c><00:17:00.959><c> london</c>
+
+00:17:01.509 --> 00:17:01.519 align:start position:0%
+region in the data center of london
+ 
+
+00:17:01.519 --> 00:17:04.549 align:start position:0%
+region in the data center of london
+europe<00:17:02.320><c> but</c><00:17:02.560><c> we</c><00:17:02.800><c> have</c><00:17:03.360><c> the</c><00:17:03.600><c> two</c><00:17:03.920><c> following</c><00:17:04.319><c> use</c>
+
+00:17:04.549 --> 00:17:04.559 align:start position:0%
+europe but we have the two following use
+ 
+
+00:17:04.559 --> 00:17:05.750 align:start position:0%
+europe but we have the two following use
+cases
+
+00:17:05.750 --> 00:17:05.760 align:start position:0%
+cases
+ 
+
+00:17:05.760 --> 00:17:08.549 align:start position:0%
+cases
+first<00:17:06.240><c> our</c><00:17:06.559><c> users</c><00:17:07.199><c> are</c><00:17:07.679><c> geographically</c>
+
+00:17:08.549 --> 00:17:08.559 align:start position:0%
+first our users are geographically
+ 
+
+00:17:08.559 --> 00:17:11.189 align:start position:0%
+first our users are geographically
+distributed<00:17:09.839><c> so</c><00:17:10.240><c> they</c><00:17:10.400><c> are</c><00:17:10.640><c> accessing</c><00:17:11.120><c> the</c>
+
+00:17:11.189 --> 00:17:11.199 align:start position:0%
+distributed so they are accessing the
+ 
+
+00:17:11.199 --> 00:17:13.350 align:start position:0%
+distributed so they are accessing the
+application<00:17:11.839><c> from</c><00:17:12.160><c> all</c><00:17:12.240><c> over</c><00:17:12.480><c> the</c><00:17:12.559><c> world</c><00:17:13.199><c> so</c>
+
+00:17:13.350 --> 00:17:13.360 align:start position:0%
+application from all over the world so
+ 
+
+00:17:13.360 --> 00:17:15.829 align:start position:0%
+application from all over the world so
+we<00:17:13.520><c> want</c><00:17:13.760><c> to</c><00:17:14.240><c> distribute</c><00:17:14.880><c> our</c><00:17:15.039><c> application</c>
+
+00:17:15.829 --> 00:17:15.839 align:start position:0%
+we want to distribute our application
+ 
+
+00:17:15.839 --> 00:17:18.390 align:start position:0%
+we want to distribute our application
+and<00:17:16.000><c> data</c><00:17:16.400><c> services</c><00:17:17.360><c> globally</c>
+
+00:17:18.390 --> 00:17:18.400 align:start position:0%
+and data services globally
+ 
+
+00:17:18.400 --> 00:17:21.829 align:start position:0%
+and data services globally
+close<00:17:18.799><c> to</c><00:17:19.039><c> the</c><00:17:19.199><c> users</c><00:17:20.079><c> to</c><00:17:20.319><c> give</c><00:17:20.720><c> our</c><00:17:20.959><c> users</c>
+
+00:17:21.829 --> 00:17:21.839 align:start position:0%
+close to the users to give our users
+ 
+
+00:17:21.839 --> 00:17:24.390 align:start position:0%
+close to the users to give our users
+better<00:17:22.160><c> performance</c><00:17:23.039><c> and</c><00:17:23.280><c> second</c><00:17:24.000><c> if</c><00:17:24.160><c> the</c>
+
+00:17:24.390 --> 00:17:24.400 align:start position:0%
+better performance and second if the
+ 
+
+00:17:24.400 --> 00:17:27.110 align:start position:0%
+better performance and second if the
+complete<00:17:25.199><c> data</c><00:17:25.600><c> center</c><00:17:26.160><c> in</c><00:17:26.400><c> london</c><00:17:26.720><c> europe</c>
+
+00:17:27.110 --> 00:17:27.120 align:start position:0%
+complete data center in london europe
+ 
+
+00:17:27.120 --> 00:17:28.309 align:start position:0%
+complete data center in london europe
+for<00:17:27.280><c> example</c>
+
+00:17:28.309 --> 00:17:28.319 align:start position:0%
+for example
+ 
+
+00:17:28.319 --> 00:17:31.430 align:start position:0%
+for example
+goes<00:17:28.640><c> down</c><00:17:29.440><c> we</c><00:17:29.679><c> want</c><00:17:30.080><c> an</c><00:17:30.400><c> immediate</c><00:17:30.960><c> switch</c>
+
+00:17:31.430 --> 00:17:31.440 align:start position:0%
+goes down we want an immediate switch
+ 
+
+00:17:31.440 --> 00:17:34.470 align:start position:0%
+goes down we want an immediate switch
+over<00:17:31.760><c> to</c><00:17:32.160><c> another</c><00:17:32.559><c> data</c><00:17:32.880><c> center</c><00:17:33.760><c> so</c><00:17:34.000><c> that</c><00:17:34.320><c> the</c>
+
+00:17:34.470 --> 00:17:34.480 align:start position:0%
+over to another data center so that the
+ 
+
+00:17:34.480 --> 00:17:37.029 align:start position:0%
+over to another data center so that the
+ready<00:17:34.880><c> service</c><00:17:35.360><c> stays</c><00:17:35.760><c> available</c><00:17:36.720><c> in</c><00:17:36.880><c> other</c>
+
+00:17:37.029 --> 00:17:37.039 align:start position:0%
+ready service stays available in other
+ 
+
+00:17:37.039 --> 00:17:39.909 align:start position:0%
+ready service stays available in other
+words<00:17:37.760><c> we</c><00:17:38.000><c> want</c><00:17:38.480><c> replicas</c><00:17:39.200><c> of</c><00:17:39.440><c> the</c><00:17:39.600><c> whole</c>
+
+00:17:39.909 --> 00:17:39.919 align:start position:0%
+words we want replicas of the whole
+ 
+
+00:17:39.919 --> 00:17:42.549 align:start position:0%
+words we want replicas of the whole
+redis<00:17:40.240><c> cluster</c><00:17:40.960><c> in</c><00:17:41.120><c> data</c><00:17:41.440><c> centers</c><00:17:42.400><c> in</c>
+
+00:17:42.549 --> 00:17:42.559 align:start position:0%
+redis cluster in data centers in
+ 
+
+00:17:42.559 --> 00:17:46.150 align:start position:0%
+redis cluster in data centers in
+multiple<00:17:43.360><c> geographic</c><00:17:44.080><c> locations</c><00:17:44.880><c> or</c><00:17:45.039><c> regions</c>
+
+00:17:46.150 --> 00:17:46.160 align:start position:0%
+multiple geographic locations or regions
+ 
+
+00:17:46.160 --> 00:17:48.630 align:start position:0%
+multiple geographic locations or regions
+this<00:17:46.400><c> means</c><00:17:47.039><c> a</c><00:17:47.360><c> single</c><00:17:47.679><c> data</c><00:17:48.320><c> should</c><00:17:48.480><c> be</c>
+
+00:17:48.630 --> 00:17:48.640 align:start position:0%
+this means a single data should be
+ 
+
+00:17:48.640 --> 00:17:51.270 align:start position:0%
+this means a single data should be
+replicated<00:17:49.520><c> to</c><00:17:49.679><c> many</c><00:17:50.000><c> clusters</c><00:17:50.880><c> spread</c>
+
+00:17:51.270 --> 00:17:51.280 align:start position:0%
+replicated to many clusters spread
+ 
+
+00:17:51.280 --> 00:17:53.669 align:start position:0%
+replicated to many clusters spread
+across<00:17:52.160><c> multiple</c><00:17:52.720><c> regions</c>
+
+00:17:53.669 --> 00:17:53.679 align:start position:0%
+across multiple regions
+ 
+
+00:17:53.679 --> 00:17:56.070 align:start position:0%
+across multiple regions
+with<00:17:54.000><c> each</c><00:17:54.320><c> cluster</c><00:17:54.960><c> being</c><00:17:55.280><c> fully</c><00:17:55.679><c> able</c><00:17:55.919><c> to</c>
+
+00:17:56.070 --> 00:17:56.080 align:start position:0%
+with each cluster being fully able to
+ 
+
+00:17:56.080 --> 00:17:58.549 align:start position:0%
+with each cluster being fully able to
+accept<00:17:56.880><c> reads</c><00:17:57.280><c> and</c><00:17:57.520><c> writes</c>
+
+00:17:58.549 --> 00:17:58.559 align:start position:0%
+accept reads and writes
+ 
+
+00:17:58.559 --> 00:18:01.430 align:start position:0%
+accept reads and writes
+so<00:17:58.720><c> in</c><00:17:58.880><c> that</c><00:17:59.120><c> case</c><00:17:59.760><c> you</c><00:17:59.919><c> would</c><00:18:00.080><c> have</c><00:18:00.480><c> multiple</c>
+
+00:18:01.430 --> 00:18:01.440 align:start position:0%
+so in that case you would have multiple
+ 
+
+00:18:01.440 --> 00:18:02.950 align:start position:0%
+so in that case you would have multiple
+redis<00:18:01.840><c> clusters</c>
+
+00:18:02.950 --> 00:18:02.960 align:start position:0%
+redis clusters
+ 
+
+00:18:02.960 --> 00:18:06.870 align:start position:0%
+redis clusters
+that<00:18:03.120><c> will</c><00:18:03.440><c> act</c><00:18:03.760><c> as</c><00:18:04.480><c> local</c><00:18:05.360><c> redis</c><00:18:05.840><c> instances</c>
+
+00:18:06.870 --> 00:18:06.880 align:start position:0%
+that will act as local redis instances
+ 
+
+00:18:06.880 --> 00:18:09.270 align:start position:0%
+that will act as local redis instances
+in<00:18:07.039><c> each</c><00:18:07.360><c> region</c><00:18:08.240><c> and</c><00:18:08.320><c> the</c><00:18:08.480><c> data</c><00:18:08.799><c> will</c><00:18:09.039><c> be</c>
+
+00:18:09.270 --> 00:18:09.280 align:start position:0%
+in each region and the data will be
+ 
+
+00:18:09.280 --> 00:18:11.510 align:start position:0%
+in each region and the data will be
+synced<00:18:09.679><c> across</c><00:18:10.160><c> these</c><00:18:10.640><c> geographically</c>
+
+00:18:11.510 --> 00:18:11.520 align:start position:0%
+synced across these geographically
+ 
+
+00:18:11.520 --> 00:18:13.430 align:start position:0%
+synced across these geographically
+distributed<00:18:12.240><c> clusters</c>
+
+00:18:13.430 --> 00:18:13.440 align:start position:0%
+distributed clusters
+ 
+
+00:18:13.440 --> 00:18:15.430 align:start position:0%
+distributed clusters
+this<00:18:13.679><c> is</c><00:18:13.760><c> a</c><00:18:13.919><c> feature</c><00:18:14.400><c> available</c><00:18:14.880><c> in</c><00:18:15.039><c> redis</c>
+
+00:18:15.430 --> 00:18:15.440 align:start position:0%
+this is a feature available in redis
+ 
+
+00:18:15.440 --> 00:18:17.990 align:start position:0%
+this is a feature available in redis
+enterprise<00:18:16.320><c> and</c><00:18:16.480><c> is</c><00:18:16.640><c> called</c><00:18:17.120><c> active</c><00:18:17.600><c> active</c>
+
+00:18:17.990 --> 00:18:18.000 align:start position:0%
+enterprise and is called active active
+ 
+
+00:18:18.000 --> 00:18:19.990 align:start position:0%
+enterprise and is called active active
+deployment<00:18:18.720><c> because</c><00:18:19.039><c> you</c><00:18:19.120><c> have</c><00:18:19.360><c> multiple</c>
+
+00:18:19.990 --> 00:18:20.000 align:start position:0%
+deployment because you have multiple
+ 
+
+00:18:20.000 --> 00:18:22.710 align:start position:0%
+deployment because you have multiple
+active<00:18:20.400><c> databases</c><00:18:21.280><c> in</c><00:18:21.440><c> different</c><00:18:21.760><c> locations</c>
+
+00:18:22.710 --> 00:18:22.720 align:start position:0%
+active databases in different locations
+ 
+
+00:18:22.720 --> 00:18:25.350 align:start position:0%
+active databases in different locations
+so<00:18:22.880><c> with</c><00:18:23.120><c> this</c><00:18:23.360><c> setup</c><00:18:24.000><c> we'll</c><00:18:24.240><c> have</c><00:18:24.960><c> lower</c>
+
+00:18:25.350 --> 00:18:25.360 align:start position:0%
+so with this setup we'll have lower
+ 
+
+00:18:25.360 --> 00:18:27.590 align:start position:0%
+so with this setup we'll have lower
+latency<00:18:25.919><c> for</c><00:18:26.160><c> the</c><00:18:26.320><c> users</c>
+
+00:18:27.590 --> 00:18:27.600 align:start position:0%
+latency for the users
+ 
+
+00:18:27.600 --> 00:18:30.230 align:start position:0%
+latency for the users
+and<00:18:27.919><c> even</c><00:18:28.160><c> if</c><00:18:28.559><c> the</c><00:18:28.720><c> redis</c><00:18:29.120><c> database</c><00:18:29.760><c> in</c><00:18:30.000><c> one</c>
+
+00:18:30.230 --> 00:18:30.240 align:start position:0%
+and even if the redis database in one
+ 
+
+00:18:30.240 --> 00:18:32.630 align:start position:0%
+and even if the redis database in one
+region<00:18:30.640><c> completely</c><00:18:31.200><c> goes</c><00:18:31.520><c> down</c><00:18:32.080><c> the</c><00:18:32.400><c> other</c>
+
+00:18:32.630 --> 00:18:32.640 align:start position:0%
+region completely goes down the other
+ 
+
+00:18:32.640 --> 00:18:35.350 align:start position:0%
+region completely goes down the other
+regions<00:18:33.280><c> will</c><00:18:33.520><c> be</c><00:18:33.679><c> unaffected</c><00:18:34.720><c> and</c><00:18:35.039><c> if</c><00:18:35.200><c> the</c>
+
+00:18:35.350 --> 00:18:35.360 align:start position:0%
+regions will be unaffected and if the
+ 
+
+00:18:35.360 --> 00:18:37.510 align:start position:0%
+regions will be unaffected and if the
+connection<00:18:36.080><c> or</c><00:18:36.559><c> syncing</c><00:18:37.039><c> between</c><00:18:37.360><c> the</c>
+
+00:18:37.510 --> 00:18:37.520 align:start position:0%
+connection or syncing between the
+ 
+
+00:18:37.520 --> 00:18:40.390 align:start position:0%
+connection or syncing between the
+regions<00:18:38.240><c> breaks</c><00:18:38.720><c> for</c><00:18:38.960><c> a</c><00:18:39.120><c> short</c><00:18:39.440><c> time</c><00:18:40.080><c> because</c>
+
+00:18:40.390 --> 00:18:40.400 align:start position:0%
+regions breaks for a short time because
+ 
+
+00:18:40.400 --> 00:18:42.630 align:start position:0%
+regions breaks for a short time because
+of<00:18:40.559><c> some</c><00:18:40.799><c> network</c><00:18:41.200><c> problem</c><00:18:41.520><c> for</c><00:18:41.679><c> example</c>
+
+00:18:42.630 --> 00:18:42.640 align:start position:0%
+of some network problem for example
+ 
+
+00:18:42.640 --> 00:18:45.190 align:start position:0%
+of some network problem for example
+the<00:18:42.880><c> reddish</c><00:18:43.600><c> clusters</c><00:18:44.320><c> in</c><00:18:44.480><c> these</c><00:18:44.720><c> regions</c>
+
+00:18:45.190 --> 00:18:45.200 align:start position:0%
+the reddish clusters in these regions
+ 
+
+00:18:45.200 --> 00:18:47.990 align:start position:0%
+the reddish clusters in these regions
+can<00:18:45.520><c> update</c><00:18:46.000><c> the</c><00:18:46.160><c> data</c><00:18:46.640><c> independently</c><00:18:47.679><c> and</c>
+
+00:18:47.990 --> 00:18:48.000 align:start position:0%
+can update the data independently and
+ 
+
+00:18:48.000 --> 00:18:50.710 align:start position:0%
+can update the data independently and
+once<00:18:48.400><c> connection</c><00:18:48.960><c> is</c><00:18:49.200><c> re-established</c><00:18:50.480><c> they</c>
+
+00:18:50.710 --> 00:18:50.720 align:start position:0%
+once connection is re-established they
+ 
+
+00:18:50.720 --> 00:18:53.190 align:start position:0%
+once connection is re-established they
+can<00:18:50.960><c> sync</c><00:18:51.280><c> up</c><00:18:51.440><c> those</c><00:18:51.760><c> changes</c><00:18:52.160><c> again</c><00:18:52.799><c> now</c><00:18:53.039><c> of</c>
+
+00:18:53.190 --> 00:18:53.200 align:start position:0%
+can sync up those changes again now of
+ 
+
+00:18:53.200 --> 00:18:55.270 align:start position:0%
+can sync up those changes again now of
+course<00:18:53.919><c> when</c><00:18:54.080><c> you</c><00:18:54.240><c> hear</c><00:18:54.480><c> that</c><00:18:54.720><c> the</c><00:18:54.880><c> first</c>
+
+00:18:55.270 --> 00:18:55.280 align:start position:0%
+course when you hear that the first
+ 
+
+00:18:55.280 --> 00:18:58.390 align:start position:0%
+course when you hear that the first
+question<00:18:55.919><c> that</c><00:18:56.160><c> may</c><00:18:56.480><c> pop</c><00:18:56.720><c> up</c><00:18:56.960><c> in</c><00:18:57.120><c> your</c><00:18:57.280><c> mind</c><00:18:57.760><c> is</c>
+
+00:18:58.390 --> 00:18:58.400 align:start position:0%
+question that may pop up in your mind is
+ 
+
+00:18:58.400 --> 00:19:01.029 align:start position:0%
+question that may pop up in your mind is
+how<00:18:58.559><c> does</c><00:18:58.960><c> redis</c><00:18:59.679><c> resolve</c><00:19:00.080><c> the</c><00:19:00.240><c> changes</c><00:19:00.880><c> in</c>
+
+00:19:01.029 --> 00:19:01.039 align:start position:0%
+how does redis resolve the changes in
+ 
+
+00:19:01.039 --> 00:19:04.150 align:start position:0%
+how does redis resolve the changes in
+multiple<00:19:01.600><c> regions</c><00:19:02.000><c> to</c><00:19:02.160><c> the</c><00:19:02.400><c> same</c><00:19:02.880><c> data</c><00:19:03.280><c> set</c><00:19:03.919><c> so</c>
+
+00:19:04.150 --> 00:19:04.160 align:start position:0%
+multiple regions to the same data set so
+ 
+
+00:19:04.160 --> 00:19:06.150 align:start position:0%
+multiple regions to the same data set so
+if<00:19:04.320><c> the</c><00:19:04.480><c> same</c><00:19:04.799><c> data</c><00:19:05.120><c> changed</c><00:19:05.520><c> in</c><00:19:05.679><c> multiple</c>
+
+00:19:06.150 --> 00:19:06.160 align:start position:0%
+if the same data changed in multiple
+ 
+
+00:19:06.160 --> 00:19:08.789 align:start position:0%
+if the same data changed in multiple
+regions<00:19:06.799><c> how</c><00:19:06.960><c> does</c><00:19:07.200><c> radies</c><00:19:07.600><c> make</c><00:19:07.840><c> sure</c><00:19:08.160><c> that</c>
+
+00:19:08.789 --> 00:19:08.799 align:start position:0%
+regions how does radies make sure that
+ 
+
+00:19:08.799 --> 00:19:12.150 align:start position:0%
+regions how does radies make sure that
+data<00:19:09.200><c> changes</c><00:19:09.919><c> of</c><00:19:10.240><c> any</c><00:19:10.480><c> region</c><00:19:10.960><c> isn't</c><00:19:11.440><c> lost</c>
+
+00:19:12.150 --> 00:19:12.160 align:start position:0%
+data changes of any region isn't lost
+ 
+
+00:19:12.160 --> 00:19:14.630 align:start position:0%
+data changes of any region isn't lost
+and<00:19:12.320><c> data</c><00:19:12.720><c> is</c><00:19:12.880><c> correctly</c><00:19:13.440><c> synced</c><00:19:14.320><c> and</c><00:19:14.480><c> how</c>
+
+00:19:14.630 --> 00:19:14.640 align:start position:0%
+and data is correctly synced and how
+ 
+
+00:19:14.640 --> 00:19:16.950 align:start position:0%
+and data is correctly synced and how
+does<00:19:14.880><c> it</c><00:19:15.039><c> ensure</c><00:19:15.520><c> data</c><00:19:15.919><c> consistency</c>
+
+00:19:16.950 --> 00:19:16.960 align:start position:0%
+does it ensure data consistency
+ 
+
+00:19:16.960 --> 00:19:19.590 align:start position:0%
+does it ensure data consistency
+specifically<00:19:17.679><c> for</c><00:19:17.919><c> that</c><00:19:18.640><c> redis</c><00:19:19.039><c> enterprise</c>
+
+00:19:19.590 --> 00:19:19.600 align:start position:0%
+specifically for that redis enterprise
+ 
+
+00:19:19.600 --> 00:19:23.669 align:start position:0%
+specifically for that redis enterprise
+uses<00:19:20.080><c> a</c><00:19:20.240><c> concept</c><00:19:20.960><c> called</c><00:19:21.600><c> crdts</c><00:19:23.039><c> which</c><00:19:23.280><c> stands</c>
+
+00:19:23.669 --> 00:19:23.679 align:start position:0%
+uses a concept called crdts which stands
+ 
+
+00:19:23.679 --> 00:19:24.350 align:start position:0%
+uses a concept called crdts which stands
+for
+
+00:19:24.350 --> 00:19:24.360 align:start position:0%
+for
+ 
+
+00:19:24.360 --> 00:19:25.990 align:start position:0%
+for
+conflict-free
+
+00:19:25.990 --> 00:19:26.000 align:start position:0%
+conflict-free
+ 
+
+00:19:26.000 --> 00:19:28.950 align:start position:0%
+conflict-free
+replicated<00:19:26.799><c> data</c><00:19:27.200><c> types</c><00:19:28.000><c> and</c><00:19:28.160><c> this</c><00:19:28.400><c> concept</c>
+
+00:19:28.950 --> 00:19:28.960 align:start position:0%
+replicated data types and this concept
+ 
+
+00:19:28.960 --> 00:19:31.430 align:start position:0%
+replicated data types and this concept
+is<00:19:29.120><c> used</c><00:19:29.760><c> to</c><00:19:29.919><c> resolve</c><00:19:30.400><c> any</c><00:19:30.640><c> conflicts</c>
+
+00:19:31.430 --> 00:19:31.440 align:start position:0%
+is used to resolve any conflicts
+ 
+
+00:19:31.440 --> 00:19:34.150 align:start position:0%
+is used to resolve any conflicts
+automatically<00:19:32.320><c> at</c><00:19:32.400><c> the</c><00:19:32.640><c> database</c><00:19:33.280><c> level</c><00:19:33.919><c> and</c>
+
+00:19:34.150 --> 00:19:34.160 align:start position:0%
+automatically at the database level and
+ 
+
+00:19:34.160 --> 00:19:37.110 align:start position:0%
+automatically at the database level and
+without<00:19:34.559><c> any</c><00:19:34.799><c> data</c><00:19:35.120><c> loss</c><00:19:35.840><c> so</c><00:19:36.000><c> basically</c><00:19:36.640><c> redis</c>
+
+00:19:37.110 --> 00:19:37.120 align:start position:0%
+without any data loss so basically redis
+ 
+
+00:19:37.120 --> 00:19:40.150 align:start position:0%
+without any data loss so basically redis
+itself<00:19:37.600><c> has</c><00:19:38.000><c> a</c><00:19:38.160><c> mechanism</c><00:19:39.280><c> for</c><00:19:39.600><c> merging</c><00:19:39.919><c> the</c>
+
+00:19:40.150 --> 00:19:40.160 align:start position:0%
+itself has a mechanism for merging the
+ 
+
+00:19:40.160 --> 00:19:42.710 align:start position:0%
+itself has a mechanism for merging the
+changes<00:19:40.799><c> which</c><00:19:41.039><c> were</c><00:19:41.360><c> made</c><00:19:41.679><c> to</c><00:19:41.919><c> the</c><00:19:42.080><c> same</c><00:19:42.320><c> data</c>
+
+00:19:42.710 --> 00:19:42.720 align:start position:0%
+changes which were made to the same data
+ 
+
+00:19:42.720 --> 00:19:46.310 align:start position:0%
+changes which were made to the same data
+set<00:19:43.280><c> from</c><00:19:43.520><c> multiple</c><00:19:44.000><c> sources</c><00:19:45.039><c> in</c><00:19:45.200><c> a</c><00:19:45.360><c> way</c><00:19:45.679><c> that</c>
+
+00:19:46.310 --> 00:19:46.320 align:start position:0%
+set from multiple sources in a way that
+ 
+
+00:19:46.320 --> 00:19:48.870 align:start position:0%
+set from multiple sources in a way that
+none<00:19:46.480><c> of</c><00:19:46.640><c> the</c><00:19:46.720><c> data</c><00:19:47.039><c> changes</c><00:19:47.520><c> are</c><00:19:47.679><c> lost</c><00:19:48.480><c> and</c>
+
+00:19:48.870 --> 00:19:48.880 align:start position:0%
+none of the data changes are lost and
+ 
+
+00:19:48.880 --> 00:19:51.990 align:start position:0%
+none of the data changes are lost and
+any<00:19:49.120><c> conflicts</c><00:19:50.000><c> are</c><00:19:50.320><c> properly</c><00:19:50.960><c> resolved</c><00:19:51.760><c> and</c>
+
+00:19:51.990 --> 00:19:52.000 align:start position:0%
+any conflicts are properly resolved and
+ 
+
+00:19:52.000 --> 00:19:54.470 align:start position:0%
+any conflicts are properly resolved and
+since<00:19:52.480><c> as</c><00:19:52.720><c> you</c><00:19:52.880><c> learned</c><00:19:53.600><c> ready</c><00:19:53.919><c> supports</c>
+
+00:19:54.470 --> 00:19:54.480 align:start position:0%
+since as you learned ready supports
+ 
+
+00:19:54.480 --> 00:19:57.350 align:start position:0%
+since as you learned ready supports
+multiple<00:19:54.880><c> data</c><00:19:55.200><c> types</c><00:19:56.000><c> for</c><00:19:56.320><c> each</c><00:19:56.640><c> data</c><00:19:57.039><c> type</c>
+
+00:19:57.350 --> 00:19:57.360 align:start position:0%
+multiple data types for each data type
+ 
+
+00:19:57.360 --> 00:19:59.590 align:start position:0%
+multiple data types for each data type
+they<00:19:57.520><c> use</c><00:19:57.840><c> its</c><00:19:58.160><c> own</c><00:19:58.640><c> data</c><00:19:59.039><c> conflict</c>
+
+00:19:59.590 --> 00:19:59.600 align:start position:0%
+they use its own data conflict
+ 
+
+00:19:59.600 --> 00:20:01.830 align:start position:0%
+they use its own data conflict
+resolution<00:20:00.320><c> rules</c><00:20:00.880><c> which</c><00:20:01.120><c> are</c><00:20:01.280><c> the</c><00:20:01.440><c> most</c>
+
+00:20:01.830 --> 00:20:01.840 align:start position:0%
+resolution rules which are the most
+ 
+
+00:20:01.840 --> 00:20:04.549 align:start position:0%
+resolution rules which are the most
+optimal<00:20:02.400><c> for</c><00:20:02.640><c> that</c><00:20:02.880><c> specific</c><00:20:03.360><c> data</c><00:20:03.679><c> type</c>
+
+00:20:04.549 --> 00:20:04.559 align:start position:0%
+optimal for that specific data type
+ 
+
+00:20:04.559 --> 00:20:06.549 align:start position:0%
+optimal for that specific data type
+so<00:20:04.799><c> simply</c><00:20:05.120><c> put</c><00:20:05.360><c> instead</c><00:20:05.600><c> of</c><00:20:05.760><c> just</c><00:20:06.000><c> overriding</c>
+
+00:20:06.549 --> 00:20:06.559 align:start position:0%
+so simply put instead of just overriding
+ 
+
+00:20:06.559 --> 00:20:09.350 align:start position:0%
+so simply put instead of just overriding
+the<00:20:06.720><c> changes</c><00:20:07.600><c> of</c><00:20:08.080><c> one</c><00:20:08.320><c> source</c>
+
+00:20:09.350 --> 00:20:09.360 align:start position:0%
+the changes of one source
+ 
+
+00:20:09.360 --> 00:20:12.070 align:start position:0%
+the changes of one source
+and<00:20:09.760><c> just</c><00:20:10.080><c> discarding</c><00:20:10.880><c> all</c><00:20:10.960><c> the</c><00:20:11.200><c> others</c><00:20:11.919><c> all</c>
+
+00:20:12.070 --> 00:20:12.080 align:start position:0%
+and just discarding all the others all
+ 
+
+00:20:12.080 --> 00:20:14.549 align:start position:0%
+and just discarding all the others all
+the<00:20:12.240><c> parallel</c><00:20:12.799><c> changes</c><00:20:13.280><c> are</c><00:20:13.600><c> kept</c><00:20:14.240><c> and</c>
+
+00:20:14.549 --> 00:20:14.559 align:start position:0%
+the parallel changes are kept and
+ 
+
+00:20:14.559 --> 00:20:17.110 align:start position:0%
+the parallel changes are kept and
+intelligently<00:20:16.000><c> resolved</c>
+
+00:20:17.110 --> 00:20:17.120 align:start position:0%
+intelligently resolved
+ 
+
+00:20:17.120 --> 00:20:19.110 align:start position:0%
+intelligently resolved
+and<00:20:17.280><c> again</c><00:20:17.679><c> this</c><00:20:17.840><c> is</c><00:20:18.080><c> automatically</c><00:20:18.640><c> done</c><00:20:18.960><c> for</c>
+
+00:20:19.110 --> 00:20:19.120 align:start position:0%
+and again this is automatically done for
+ 
+
+00:20:19.120 --> 00:20:21.669 align:start position:0%
+and again this is automatically done for
+you<00:20:19.280><c> with</c><00:20:19.440><c> this</c><00:20:20.159><c> active</c><00:20:20.640><c> active</c>
+
+00:20:21.669 --> 00:20:21.679 align:start position:0%
+you with this active active
+ 
+
+00:20:21.679 --> 00:20:23.590 align:start position:0%
+you with this active active
+geo-replication<00:20:22.720><c> feature</c><00:20:23.120><c> so</c><00:20:23.280><c> you</c><00:20:23.440><c> don't</c>
+
+00:20:23.590 --> 00:20:23.600 align:start position:0%
+geo-replication feature so you don't
+ 
+
+00:20:23.600 --> 00:20:25.590 align:start position:0%
+geo-replication feature so you don't
+need<00:20:23.679><c> to</c><00:20:23.840><c> worry</c><00:20:24.080><c> about</c><00:20:24.320><c> that</c><00:20:24.960><c> and</c><00:20:25.120><c> the</c><00:20:25.280><c> last</c>
+
+00:20:25.590 --> 00:20:25.600 align:start position:0%
+need to worry about that and the last
+ 
+
+00:20:25.600 --> 00:20:28.310 align:start position:0%
+need to worry about that and the last
+topic<00:20:26.000><c> i</c><00:20:26.080><c> want</c><00:20:26.240><c> to</c><00:20:26.320><c> address</c><00:20:26.799><c> with</c><00:20:27.039><c> redis</c><00:20:27.600><c> is</c>
+
+00:20:28.310 --> 00:20:28.320 align:start position:0%
+topic i want to address with redis is
+ 
+
+00:20:28.320 --> 00:20:31.190 align:start position:0%
+topic i want to address with redis is
+running<00:20:28.640><c> redis</c><00:20:29.120><c> in</c><00:20:29.280><c> kubernetes</c><00:20:30.480><c> as</c><00:20:30.720><c> i</c><00:20:30.880><c> said</c>
+
+00:20:31.190 --> 00:20:31.200 align:start position:0%
+running redis in kubernetes as i said
+ 
+
+00:20:31.200 --> 00:20:33.830 align:start position:0%
+running redis in kubernetes as i said
+redis<00:20:31.679><c> is</c><00:20:32.000><c> a</c><00:20:32.159><c> great</c><00:20:32.480><c> fit</c><00:20:33.039><c> for</c><00:20:33.360><c> complex</c>
+
+00:20:33.830 --> 00:20:33.840 align:start position:0%
+redis is a great fit for complex
+ 
+
+00:20:33.840 --> 00:20:36.549 align:start position:0%
+redis is a great fit for complex
+microservices<00:20:35.280><c> that</c><00:20:35.600><c> need</c><00:20:35.760><c> to</c><00:20:35.919><c> support</c>
+
+00:20:36.549 --> 00:20:36.559 align:start position:0%
+microservices that need to support
+ 
+
+00:20:36.559 --> 00:20:39.510 align:start position:0%
+microservices that need to support
+multiple<00:20:37.440><c> data</c><00:20:37.840><c> types</c><00:20:38.480><c> and</c><00:20:38.640><c> that</c><00:20:38.880><c> need</c><00:20:39.280><c> an</c>
+
+00:20:39.510 --> 00:20:39.520 align:start position:0%
+multiple data types and that need an
+ 
+
+00:20:39.520 --> 00:20:41.830 align:start position:0%
+multiple data types and that need an
+easy<00:20:40.080><c> scaling</c><00:20:40.720><c> of</c><00:20:40.880><c> a</c><00:20:40.960><c> database</c><00:20:41.440><c> without</c>
+
+00:20:41.830 --> 00:20:41.840 align:start position:0%
+easy scaling of a database without
+ 
+
+00:20:41.840 --> 00:20:44.390 align:start position:0%
+easy scaling of a database without
+worrying<00:20:42.159><c> about</c><00:20:42.400><c> data</c><00:20:42.799><c> consistency</c>
+
+00:20:44.390 --> 00:20:44.400 align:start position:0%
+worrying about data consistency
+ 
+
+00:20:44.400 --> 00:20:46.789 align:start position:0%
+worrying about data consistency
+and<00:20:44.640><c> we</c><00:20:44.799><c> also</c><00:20:45.120><c> know</c><00:20:45.360><c> that</c><00:20:45.760><c> the</c><00:20:46.000><c> new</c><00:20:46.240><c> standard</c>
+
+00:20:46.789 --> 00:20:46.799 align:start position:0%
+and we also know that the new standard
+ 
+
+00:20:46.799 --> 00:20:48.950 align:start position:0%
+and we also know that the new standard
+for<00:20:47.039><c> running</c><00:20:47.440><c> microservices</c><00:20:48.559><c> is</c><00:20:48.799><c> the</c>
+
+00:20:48.950 --> 00:20:48.960 align:start position:0%
+for running microservices is the
+ 
+
+00:20:48.960 --> 00:20:51.669 align:start position:0%
+for running microservices is the
+kubernetes<00:20:49.600><c> platform</c><00:20:50.559><c> so</c><00:20:50.880><c> running</c><00:20:51.200><c> redis</c><00:20:51.600><c> in</c>
+
+00:20:51.669 --> 00:20:51.679 align:start position:0%
+kubernetes platform so running redis in
+ 
+
+00:20:51.679 --> 00:20:53.590 align:start position:0%
+kubernetes platform so running redis in
+kubernetes<00:20:52.400><c> is</c><00:20:52.480><c> a</c><00:20:52.640><c> very</c><00:20:52.960><c> interesting</c><00:20:53.440><c> and</c>
+
+00:20:53.590 --> 00:20:53.600 align:start position:0%
+kubernetes is a very interesting and
+ 
+
+00:20:53.600 --> 00:20:56.549 align:start position:0%
+kubernetes is a very interesting and
+common<00:20:54.000><c> use</c><00:20:54.240><c> case</c><00:20:55.039><c> so</c><00:20:55.280><c> how</c><00:20:55.440><c> does</c><00:20:55.679><c> that</c><00:20:55.840><c> work</c>
+
+00:20:56.549 --> 00:20:56.559 align:start position:0%
+common use case so how does that work
+ 
+
+00:20:56.559 --> 00:20:58.710 align:start position:0%
+common use case so how does that work
+with<00:20:56.880><c> open</c><00:20:57.200><c> source</c><00:20:57.520><c> redis</c><00:20:58.000><c> you</c><00:20:58.159><c> can</c><00:20:58.240><c> deploy</c>
+
+00:20:58.710 --> 00:20:58.720 align:start position:0%
+with open source redis you can deploy
+ 
+
+00:20:58.720 --> 00:21:01.110 align:start position:0%
+with open source redis you can deploy
+replicated<00:20:59.360><c> redis</c><00:20:59.840><c> as</c><00:20:59.919><c> a</c><00:21:00.000><c> help</c><00:21:00.320><c> chart</c><00:21:00.880><c> or</c>
+
+00:21:01.110 --> 00:21:01.120 align:start position:0%
+replicated redis as a help chart or
+ 
+
+00:21:01.120 --> 00:21:03.669 align:start position:0%
+replicated redis as a help chart or
+kubernetes<00:21:01.679><c> manifest</c><00:21:02.240><c> files</c><00:21:02.799><c> and</c><00:21:02.960><c> basically</c>
+
+00:21:03.669 --> 00:21:03.679 align:start position:0%
+kubernetes manifest files and basically
+ 
+
+00:21:03.679 --> 00:21:06.390 align:start position:0%
+kubernetes manifest files and basically
+using<00:21:04.080><c> the</c><00:21:04.240><c> replication</c><00:21:05.120><c> and</c><00:21:05.360><c> scaling</c><00:21:05.760><c> rules</c>
+
+00:21:06.390 --> 00:21:06.400 align:start position:0%
+using the replication and scaling rules
+ 
+
+00:21:06.400 --> 00:21:08.710 align:start position:0%
+using the replication and scaling rules
+that<00:21:06.640><c> we</c><00:21:07.200><c> already</c><00:21:07.600><c> talked</c><00:21:07.840><c> about</c>
+
+00:21:08.710 --> 00:21:08.720 align:start position:0%
+that we already talked about
+ 
+
+00:21:08.720 --> 00:21:11.669 align:start position:0%
+that we already talked about
+set<00:21:08.960><c> up</c><00:21:09.200><c> and</c><00:21:09.760><c> run</c><00:21:10.080><c> a</c><00:21:10.320><c> highly</c><00:21:10.799><c> available</c><00:21:11.360><c> redis</c>
+
+00:21:11.669 --> 00:21:11.679 align:start position:0%
+set up and run a highly available redis
+ 
+
+00:21:11.679 --> 00:21:12.870 align:start position:0%
+set up and run a highly available redis
+database
+
+00:21:12.870 --> 00:21:12.880 align:start position:0%
+database
+ 
+
+00:21:12.880 --> 00:21:14.549 align:start position:0%
+database
+the<00:21:13.120><c> only</c><00:21:13.360><c> difference</c><00:21:13.760><c> would</c><00:21:13.919><c> be</c><00:21:14.080><c> that</c><00:21:14.320><c> the</c>
+
+00:21:14.549 --> 00:21:14.559 align:start position:0%
+the only difference would be that the
+ 
+
+00:21:14.559 --> 00:21:17.190 align:start position:0%
+the only difference would be that the
+hosts<00:21:15.280><c> where</c><00:21:15.520><c> redis</c><00:21:15.840><c> will</c><00:21:16.080><c> run</c><00:21:16.559><c> will</c><00:21:16.720><c> be</c>
+
+00:21:17.190 --> 00:21:17.200 align:start position:0%
+hosts where redis will run will be
+ 
+
+00:21:17.200 --> 00:21:19.909 align:start position:0%
+hosts where redis will run will be
+kubernetes<00:21:17.919><c> pods</c><00:21:18.400><c> instead</c><00:21:18.720><c> of</c><00:21:19.280><c> for</c><00:21:19.520><c> example</c>
+
+00:21:19.909 --> 00:21:19.919 align:start position:0%
+kubernetes pods instead of for example
+ 
+
+00:21:19.919 --> 00:21:22.630 align:start position:0%
+kubernetes pods instead of for example
+ec2<00:21:20.480><c> instances</c><00:21:21.120><c> or</c><00:21:21.600><c> any</c><00:21:21.840><c> other</c>
+
+00:21:22.630 --> 00:21:22.640 align:start position:0%
+ec2 instances or any other
+ 
+
+00:21:22.640 --> 00:21:25.750 align:start position:0%
+ec2 instances or any other
+physical<00:21:23.280><c> or</c><00:21:23.520><c> virtual</c><00:21:24.000><c> servers</c><00:21:24.720><c> but</c><00:21:24.960><c> the</c><00:21:25.120><c> same</c>
+
+00:21:25.750 --> 00:21:25.760 align:start position:0%
+physical or virtual servers but the same
+ 
+
+00:21:25.760 --> 00:21:28.070 align:start position:0%
+physical or virtual servers but the same
+sharding<00:21:26.320><c> replicating</c><00:21:27.280><c> and</c><00:21:27.600><c> scaling</c>
+
+00:21:28.070 --> 00:21:28.080 align:start position:0%
+sharding replicating and scaling
+ 
+
+00:21:28.080 --> 00:21:30.470 align:start position:0%
+sharding replicating and scaling
+concepts<00:21:28.640><c> apply</c><00:21:29.120><c> here</c><00:21:29.440><c> as</c><00:21:29.520><c> well</c><00:21:30.159><c> when</c><00:21:30.400><c> you</c>
+
+00:21:30.470 --> 00:21:30.480 align:start position:0%
+concepts apply here as well when you
+ 
+
+00:21:30.480 --> 00:21:33.510 align:start position:0%
+concepts apply here as well when you
+want<00:21:30.640><c> to</c><00:21:30.880><c> run</c><00:21:31.280><c> redis</c><00:21:31.600><c> cluster</c><00:21:32.159><c> in</c><00:21:32.320><c> kubernetes</c>
+
+00:21:33.510 --> 00:21:33.520 align:start position:0%
+want to run redis cluster in kubernetes
+ 
+
+00:21:33.520 --> 00:21:35.590 align:start position:0%
+want to run redis cluster in kubernetes
+and<00:21:33.760><c> you</c><00:21:33.840><c> would</c><00:21:34.000><c> basically</c><00:21:34.480><c> have</c><00:21:34.720><c> to</c><00:21:35.200><c> manage</c>
+
+00:21:35.590 --> 00:21:35.600 align:start position:0%
+and you would basically have to manage
+ 
+
+00:21:35.600 --> 00:21:37.430 align:start position:0%
+and you would basically have to manage
+that<00:21:35.840><c> setup</c><00:21:36.240><c> yourself</c>
+
+00:21:37.430 --> 00:21:37.440 align:start position:0%
+that setup yourself
+ 
+
+00:21:37.440 --> 00:21:40.630 align:start position:0%
+that setup yourself
+however<00:21:38.000><c> as</c><00:21:38.240><c> i</c><00:21:38.320><c> mentioned</c><00:21:39.200><c> many</c><00:21:39.520><c> teams</c><00:21:40.400><c> don't</c>
+
+00:21:40.630 --> 00:21:40.640 align:start position:0%
+however as i mentioned many teams don't
+ 
+
+00:21:40.640 --> 00:21:43.029 align:start position:0%
+however as i mentioned many teams don't
+want<00:21:40.799><c> to</c><00:21:40.960><c> have</c><00:21:41.120><c> the</c><00:21:41.440><c> effort</c><00:21:42.000><c> of</c><00:21:42.240><c> maintaining</c>
+
+00:21:43.029 --> 00:21:43.039 align:start position:0%
+want to have the effort of maintaining
+ 
+
+00:21:43.039 --> 00:21:45.669 align:start position:0%
+want to have the effort of maintaining
+these<00:21:43.600><c> third-party</c><00:21:44.240><c> services</c><00:21:45.120><c> because</c><00:21:45.440><c> they</c>
+
+00:21:45.669 --> 00:21:45.679 align:start position:0%
+these third-party services because they
+ 
+
+00:21:45.679 --> 00:21:48.310 align:start position:0%
+these third-party services because they
+rather<00:21:46.080><c> invest</c><00:21:46.480><c> their</c><00:21:46.720><c> time</c><00:21:47.039><c> and</c><00:21:47.280><c> resources</c>
+
+00:21:48.310 --> 00:21:48.320 align:start position:0%
+rather invest their time and resources
+ 
+
+00:21:48.320 --> 00:21:50.630 align:start position:0%
+rather invest their time and resources
+in<00:21:48.559><c> application</c><00:21:49.120><c> development</c><00:21:49.840><c> or</c><00:21:50.320><c> other</c>
+
+00:21:50.630 --> 00:21:50.640 align:start position:0%
+in application development or other
+ 
+
+00:21:50.640 --> 00:21:53.669 align:start position:0%
+in application development or other
+tasks<00:21:51.440><c> so</c><00:21:51.679><c> having</c><00:21:51.919><c> an</c><00:21:52.080><c> easier</c><00:21:52.559><c> alternative</c><00:21:53.360><c> is</c>
+
+00:21:53.669 --> 00:21:53.679 align:start position:0%
+tasks so having an easier alternative is
+ 
+
+00:21:53.679 --> 00:21:56.230 align:start position:0%
+tasks so having an easier alternative is
+important<00:21:54.559><c> here</c><00:21:54.880><c> as</c><00:21:55.039><c> well</c><00:21:55.600><c> so</c><00:21:55.840><c> redis</c>
+
+00:21:56.230 --> 00:21:56.240 align:start position:0%
+important here as well so redis
+ 
+
+00:21:56.240 --> 00:21:59.110 align:start position:0%
+important here as well so redis
+enterprise<00:21:56.799><c> has</c><00:21:56.960><c> a</c><00:21:57.200><c> managed</c><00:21:57.840><c> redis</c><00:21:58.240><c> cluster</c>
+
+00:21:59.110 --> 00:21:59.120 align:start position:0%
+enterprise has a managed redis cluster
+ 
+
+00:21:59.120 --> 00:22:00.950 align:start position:0%
+enterprise has a managed redis cluster
+which<00:21:59.360><c> you</c><00:21:59.440><c> can</c><00:21:59.600><c> deploy</c><00:22:00.080><c> as</c><00:22:00.240><c> a</c><00:22:00.320><c> kubernetes</c>
+
+00:22:00.950 --> 00:22:00.960 align:start position:0%
+which you can deploy as a kubernetes
+ 
+
+00:22:00.960 --> 00:22:03.430 align:start position:0%
+which you can deploy as a kubernetes
+operator<00:22:01.919><c> if</c><00:22:02.080><c> you</c><00:22:02.159><c> don't</c><00:22:02.320><c> know</c><00:22:02.480><c> operators</c>
+
+00:22:03.430 --> 00:22:03.440 align:start position:0%
+operator if you don't know operators
+ 
+
+00:22:03.440 --> 00:22:05.830 align:start position:0%
+operator if you don't know operators
+operator<00:22:04.000><c> in</c><00:22:04.159><c> kubernetes</c><00:22:04.799><c> is</c><00:22:05.039><c> basically</c><00:22:05.679><c> a</c>
+
+00:22:05.830 --> 00:22:05.840 align:start position:0%
+operator in kubernetes is basically a
+ 
+
+00:22:05.840 --> 00:22:08.789 align:start position:0%
+operator in kubernetes is basically a
+concept<00:22:06.880><c> where</c><00:22:07.120><c> you</c><00:22:07.280><c> can</c><00:22:07.600><c> bundle</c><00:22:08.480><c> all</c><00:22:08.640><c> the</c>
+
+00:22:08.789 --> 00:22:08.799 align:start position:0%
+concept where you can bundle all the
+ 
+
+00:22:08.799 --> 00:22:10.149 align:start position:0%
+concept where you can bundle all the
+resources
+
+00:22:10.149 --> 00:22:10.159 align:start position:0%
+resources
+ 
+
+00:22:10.159 --> 00:22:12.789 align:start position:0%
+resources
+needed<00:22:10.640><c> to</c><00:22:10.880><c> operate</c><00:22:11.360><c> a</c><00:22:11.520><c> certain</c><00:22:12.000><c> application</c>
+
+00:22:12.789 --> 00:22:12.799 align:start position:0%
+needed to operate a certain application
+ 
+
+00:22:12.799 --> 00:22:15.909 align:start position:0%
+needed to operate a certain application
+or<00:22:13.120><c> service</c><00:22:14.000><c> so</c><00:22:14.159><c> that</c><00:22:14.480><c> you</c><00:22:14.640><c> don't</c><00:22:14.880><c> have</c><00:22:15.120><c> to</c>
+
+00:22:15.909 --> 00:22:15.919 align:start position:0%
+or service so that you don't have to
+ 
+
+00:22:15.919 --> 00:22:17.909 align:start position:0%
+or service so that you don't have to
+manage<00:22:16.320><c> it</c><00:22:16.480><c> yourself</c><00:22:17.039><c> or</c><00:22:17.200><c> you</c><00:22:17.360><c> don't</c><00:22:17.600><c> have</c><00:22:17.679><c> to</c>
+
+00:22:17.909 --> 00:22:17.919 align:start position:0%
+manage it yourself or you don't have to
+ 
+
+00:22:17.919 --> 00:22:19.510 align:start position:0%
+manage it yourself or you don't have to
+operate<00:22:18.400><c> it</c><00:22:18.559><c> yourself</c>
+
+00:22:19.510 --> 00:22:19.520 align:start position:0%
+operate it yourself
+ 
+
+00:22:19.520 --> 00:22:21.750 align:start position:0%
+operate it yourself
+so<00:22:19.679><c> instead</c><00:22:20.000><c> of</c><00:22:20.320><c> a</c><00:22:20.480><c> human</c><00:22:21.120><c> operating</c><00:22:21.679><c> a</c>
+
+00:22:21.750 --> 00:22:21.760 align:start position:0%
+so instead of a human operating a
+ 
+
+00:22:21.760 --> 00:22:23.590 align:start position:0%
+so instead of a human operating a
+database<00:22:22.240><c> you</c><00:22:22.400><c> basically</c><00:22:22.880><c> have</c><00:22:23.120><c> all</c><00:22:23.280><c> this</c>
+
+00:22:23.590 --> 00:22:23.600 align:start position:0%
+database you basically have all this
+ 
+
+00:22:23.600 --> 00:22:26.950 align:start position:0%
+database you basically have all this
+logic<00:22:24.480><c> in</c><00:22:24.640><c> an</c><00:22:24.880><c> automated</c><00:22:25.520><c> form</c><00:22:26.240><c> to</c><00:22:26.400><c> operate</c><00:22:26.799><c> a</c>
+
+00:22:26.950 --> 00:22:26.960 align:start position:0%
+logic in an automated form to operate a
+ 
+
+00:22:26.960 --> 00:22:29.669 align:start position:0%
+logic in an automated form to operate a
+database<00:22:27.440><c> for</c><00:22:27.679><c> you</c><00:22:28.159><c> and</c><00:22:28.400><c> many</c><00:22:28.640><c> databases</c><00:22:29.360><c> have</c>
+
+00:22:29.669 --> 00:22:29.679 align:start position:0%
+database for you and many databases have
+ 
+
+00:22:29.679 --> 00:22:32.310 align:start position:0%
+database for you and many databases have
+operators<00:22:30.240><c> for</c><00:22:30.480><c> kubernetes</c><00:22:31.360><c> and</c><00:22:31.520><c> each</c><00:22:31.919><c> such</c>
+
+00:22:32.310 --> 00:22:32.320 align:start position:0%
+operators for kubernetes and each such
+ 
+
+00:22:32.320 --> 00:22:34.870 align:start position:0%
+operators for kubernetes and each such
+operator<00:22:32.880><c> has</c><00:22:33.280><c> of</c><00:22:33.360><c> course</c><00:22:33.679><c> its</c><00:22:33.919><c> own</c><00:22:34.080><c> logic</c>
+
+00:22:34.870 --> 00:22:34.880 align:start position:0%
+operator has of course its own logic
+ 
+
+00:22:34.880 --> 00:22:37.190 align:start position:0%
+operator has of course its own logic
+based<00:22:35.200><c> on</c><00:22:35.600><c> who</c><00:22:35.840><c> wrote</c><00:22:36.080><c> them</c><00:22:36.559><c> and</c><00:22:36.799><c> how</c><00:22:36.960><c> they</c>
+
+00:22:37.190 --> 00:22:37.200 align:start position:0%
+based on who wrote them and how they
+ 
+
+00:22:37.200 --> 00:22:38.310 align:start position:0%
+based on who wrote them and how they
+wrote<00:22:37.440><c> them</c>
+
+00:22:38.310 --> 00:22:38.320 align:start position:0%
+wrote them
+ 
+
+00:22:38.320 --> 00:22:40.870 align:start position:0%
+wrote them
+the<00:22:38.559><c> redis</c><00:22:38.960><c> enterprise</c><00:22:40.000><c> on</c><00:22:40.240><c> kubernetes</c>
+
+00:22:40.870 --> 00:22:40.880 align:start position:0%
+the redis enterprise on kubernetes
+ 
+
+00:22:40.880 --> 00:22:42.710 align:start position:0%
+the redis enterprise on kubernetes
+operator<00:22:41.440><c> specifically</c>
+
+00:22:42.710 --> 00:22:42.720 align:start position:0%
+operator specifically
+ 
+
+00:22:42.720 --> 00:22:45.669 align:start position:0%
+operator specifically
+automates<00:22:43.679><c> deployment</c><00:22:44.559><c> and</c><00:22:44.799><c> configuration</c>
+
+00:22:45.669 --> 00:22:45.679 align:start position:0%
+automates deployment and configuration
+ 
+
+00:22:45.679 --> 00:22:47.909 align:start position:0%
+automates deployment and configuration
+of<00:22:45.760><c> the</c><00:22:45.919><c> whole</c><00:22:46.240><c> radius</c><00:22:46.640><c> database</c><00:22:47.600><c> in</c><00:22:47.760><c> your</c>
+
+00:22:47.909 --> 00:22:47.919 align:start position:0%
+of the whole radius database in your
+ 
+
+00:22:47.919 --> 00:22:50.390 align:start position:0%
+of the whole radius database in your
+kubernetes<00:22:48.400><c> cluster</c><00:22:49.200><c> it</c><00:22:49.360><c> also</c><00:22:49.600><c> takes</c><00:22:49.919><c> care</c><00:22:50.159><c> of</c>
+
+00:22:50.390 --> 00:22:50.400 align:start position:0%
+kubernetes cluster it also takes care of
+ 
+
+00:22:50.400 --> 00:22:52.710 align:start position:0%
+kubernetes cluster it also takes care of
+scaling<00:22:51.039><c> doing</c><00:22:51.280><c> the</c><00:22:51.440><c> backups</c><00:22:52.000><c> and</c><00:22:52.240><c> recovering</c>
+
+00:22:52.710 --> 00:22:52.720 align:start position:0%
+scaling doing the backups and recovering
+ 
+
+00:22:52.720 --> 00:22:55.590 align:start position:0%
+scaling doing the backups and recovering
+the<00:22:52.880><c> redis</c><00:22:53.280><c> cluster</c><00:22:53.760><c> if</c><00:22:53.919><c> needed</c><00:22:54.320><c> etc</c><00:22:55.280><c> so</c><00:22:55.440><c> it</c>
+
+00:22:55.590 --> 00:22:55.600 align:start position:0%
+the redis cluster if needed etc so it
+ 
+
+00:22:55.600 --> 00:22:58.070 align:start position:0%
+the redis cluster if needed etc so it
+takes<00:22:55.919><c> over</c><00:22:56.240><c> the</c><00:22:56.400><c> complete</c><00:22:56.960><c> operation</c><00:22:57.679><c> of</c>
+
+00:22:58.070 --> 00:22:58.080 align:start position:0%
+takes over the complete operation of
+ 
+
+00:22:58.080 --> 00:23:00.390 align:start position:0%
+takes over the complete operation of
+radius<00:22:58.480><c> cluster</c><00:22:59.280><c> inside</c><00:22:59.679><c> the</c><00:22:59.840><c> kubernetes</c>
+
+00:23:00.390 --> 00:23:00.400 align:start position:0%
+radius cluster inside the kubernetes
+ 
+
+00:23:00.400 --> 00:23:02.630 align:start position:0%
+radius cluster inside the kubernetes
+cluster<00:23:01.120><c> well</c><00:23:01.360><c> i</c><00:23:01.520><c> hope</c><00:23:01.679><c> you</c><00:23:01.919><c> learned</c><00:23:02.159><c> a</c><00:23:02.240><c> lot</c><00:23:02.480><c> in</c>
+
+00:23:02.630 --> 00:23:02.640 align:start position:0%
+cluster well i hope you learned a lot in
+ 
+
+00:23:02.640 --> 00:23:05.029 align:start position:0%
+cluster well i hope you learned a lot in
+this<00:23:02.799><c> video</c><00:23:03.280><c> and</c><00:23:03.679><c> that</c><00:23:03.919><c> i</c><00:23:04.000><c> was</c><00:23:04.240><c> able</c><00:23:04.480><c> to</c><00:23:04.640><c> answer</c>
+
+00:23:05.029 --> 00:23:05.039 align:start position:0%
+this video and that i was able to answer
+ 
+
+00:23:05.039 --> 00:23:07.270 align:start position:0%
+this video and that i was able to answer
+many<00:23:05.280><c> of</c><00:23:05.440><c> your</c><00:23:05.679><c> questions</c><00:23:06.640><c> if</c><00:23:06.799><c> you</c><00:23:06.960><c> want</c><00:23:07.120><c> to</c>
+
+00:23:07.270 --> 00:23:07.280 align:start position:0%
+many of your questions if you want to
+ 
+
+00:23:07.280 --> 00:23:10.230 align:start position:0%
+many of your questions if you want to
+try<00:23:07.679><c> redis</c><00:23:08.080><c> enterprise</c><00:23:08.880><c> cloud</c><00:23:09.600><c> be</c><00:23:09.760><c> sure</c><00:23:10.080><c> to</c>
+
+00:23:10.230 --> 00:23:10.240 align:start position:0%
+try redis enterprise cloud be sure to
+ 
+
+00:23:10.240 --> 00:23:12.070 align:start position:0%
+try redis enterprise cloud be sure to
+check<00:23:10.480><c> out</c><00:23:10.640><c> my</c><00:23:10.799><c> special</c><00:23:11.200><c> link</c><00:23:11.520><c> in</c><00:23:11.600><c> the</c><00:23:11.760><c> video</c>
+
+00:23:12.070 --> 00:23:12.080 align:start position:0%
+check out my special link in the video
+ 
+
+00:23:12.080 --> 00:23:15.510 align:start position:0%
+check out my special link in the video
+description<00:23:13.039><c> for</c><00:23:13.360><c> a</c><00:23:13.600><c> 200</c><00:23:14.480><c> credit</c><00:23:15.120><c> and</c><00:23:15.280><c> if</c><00:23:15.440><c> you</c>
+
+00:23:15.510 --> 00:23:15.520 align:start position:0%
+description for a 200 credit and if you
+ 
+
+00:23:15.520 --> 00:23:17.430 align:start position:0%
+description for a 200 credit and if you
+want<00:23:15.679><c> to</c><00:23:15.840><c> learn</c><00:23:16.159><c> more</c><00:23:16.400><c> similar</c><00:23:16.799><c> technologies</c>
+
+00:23:17.430 --> 00:23:17.440 align:start position:0%
+want to learn more similar technologies
+ 
+
+00:23:17.440 --> 00:23:19.830 align:start position:0%
+want to learn more similar technologies
+and<00:23:17.679><c> concepts</c><00:23:18.480><c> then</c><00:23:18.720><c> make</c><00:23:18.880><c> sure</c><00:23:19.120><c> to</c><00:23:19.360><c> subscribe</c>
+
+00:23:19.830 --> 00:23:19.840 align:start position:0%
+and concepts then make sure to subscribe
+ 
+
+00:23:19.840 --> 00:23:22.149 align:start position:0%
+and concepts then make sure to subscribe
+to<00:23:20.000><c> my</c><00:23:20.159><c> channel</c><00:23:20.559><c> because</c><00:23:21.200><c> i</c><00:23:21.360><c> make</c><00:23:21.600><c> videos</c>
+
+00:23:22.149 --> 00:23:22.159 align:start position:0%
+to my channel because i make videos
+ 
+
+00:23:22.159 --> 00:23:24.710 align:start position:0%
+to my channel because i make videos
+regularly<00:23:22.799><c> about</c><00:23:23.200><c> different</c><00:23:24.000><c> devops</c><00:23:24.559><c> and</c>
+
+00:23:24.710 --> 00:23:24.720 align:start position:0%
+regularly about different devops and
+ 
+
+00:23:24.720 --> 00:23:27.510 align:start position:0%
+regularly about different devops and
+cloud<00:23:25.120><c> technologies</c><00:23:26.159><c> also</c><00:23:26.640><c> comment</c><00:23:26.960><c> below</c><00:23:27.360><c> if</c>
+
+00:23:27.510 --> 00:23:27.520 align:start position:0%
+cloud technologies also comment below if
+ 
+
+00:23:27.520 --> 00:23:30.070 align:start position:0%
+cloud technologies also comment below if
+you<00:23:27.600><c> have</c><00:23:27.919><c> any</c><00:23:28.400><c> questions</c><00:23:28.880><c> regarding</c><00:23:29.360><c> reddis</c>
+
+00:23:30.070 --> 00:23:30.080 align:start position:0%
+you have any questions regarding reddis
+ 
+
+00:23:30.080 --> 00:23:32.789 align:start position:0%
+you have any questions regarding reddis
+or<00:23:30.400><c> any</c><00:23:30.720><c> new</c><00:23:30.960><c> topic</c><00:23:31.280><c> suggestions</c><00:23:32.400><c> and</c><00:23:32.559><c> with</c>
+
+00:23:32.789 --> 00:23:32.799 align:start position:0%
+or any new topic suggestions and with
+ 
+
+00:23:32.799 --> 00:23:35.110 align:start position:0%
+or any new topic suggestions and with
+that<00:23:33.360><c> thank</c><00:23:33.600><c> you</c><00:23:33.760><c> for</c><00:23:33.919><c> watching</c><00:23:34.559><c> and</c><00:23:34.720><c> see</c><00:23:34.960><c> you</c>
+
+00:23:35.110 --> 00:23:35.120 align:start position:0%
+that thank you for watching and see you
+ 
+
+00:23:35.120 --> 00:23:37.840 align:start position:0%
+that thank you for watching and see you
+in<00:23:35.280><c> the</c><00:23:35.360><c> next</c><00:23:35.600><c> video</c>
+

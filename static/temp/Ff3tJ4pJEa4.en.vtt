@@ -1,0 +1,2848 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.510 align:start position:0%
+ 
+here<00:00:00.199><c> you</c><00:00:00.320><c> can</c><00:00:00.440><c> see</c><00:00:00.680><c> that</c><00:00:00.799><c> if</c><00:00:00.919><c> we</c><00:00:01.040><c> use</c><00:00:01.319><c> this</c>
+
+00:00:01.510 --> 00:00:01.520 align:start position:0%
+here you can see that if we use this
+ 
+
+00:00:01.520 --> 00:00:04.110 align:start position:0%
+here you can see that if we use this
+setup<00:00:02.080><c> it's</c><00:00:02.280><c> literally</c><00:00:02.879><c> twice</c><00:00:03.280><c> as</c><00:00:03.560><c> fast</c><00:00:04.000><c> and</c>
+
+00:00:04.110 --> 00:00:04.120 align:start position:0%
+setup it's literally twice as fast and
+ 
+
+00:00:04.120 --> 00:00:05.749 align:start position:0%
+setup it's literally twice as fast and
+we<00:00:04.200><c> can</c><00:00:04.359><c> also</c><00:00:04.600><c> use</c><00:00:04.799><c> a</c><00:00:04.960><c> database</c><00:00:05.400><c> that</c><00:00:05.520><c> we're</c>
+
+00:00:05.749 --> 00:00:05.759 align:start position:0%
+we can also use a database that we're
+ 
+
+00:00:05.759 --> 00:00:07.670 align:start position:0%
+we can also use a database that we're
+already<00:00:06.160><c> familiar</c><00:00:06.640><c> with</c><00:00:06.919><c> to</c><00:00:07.080><c> manage</c><00:00:07.439><c> our</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+already familiar with to manage our
+ 
+
+00:00:07.680 --> 00:00:10.470 align:start position:0%
+already familiar with to manage our
+vectors<00:00:08.440><c> as</c><00:00:08.639><c> well</c><00:00:08.920><c> as</c><00:00:09.040><c> our</c><00:00:09.280><c> documents</c><00:00:10.160><c> I</c><00:00:10.280><c> think</c>
+
+00:00:10.470 --> 00:00:10.480 align:start position:0%
+vectors as well as our documents I think
+ 
+
+00:00:10.480 --> 00:00:11.990 align:start position:0%
+vectors as well as our documents I think
+for<00:00:10.719><c> most</c><00:00:10.920><c> of</c><00:00:11.080><c> you</c><00:00:11.240><c> out</c><00:00:11.440><c> there</c><00:00:11.639><c> building</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+for most of you out there building
+ 
+
+00:00:12.000 --> 00:00:14.150 align:start position:0%
+for most of you out there building
+applications<00:00:12.639><c> with</c><00:00:12.799><c> large</c><00:00:13.160><c> language</c><00:00:13.559><c> models</c>
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+applications with large language models
+ 
+
+00:00:14.160 --> 00:00:16.870 align:start position:0%
+applications with large language models
+using<00:00:14.639><c> PG</c><00:00:15.160><c> factor</c><00:00:15.639><c> is</c><00:00:15.920><c> actually</c><00:00:16.359><c> better</c><00:00:16.720><c> than</c>
+
+00:00:16.870 --> 00:00:16.880 align:start position:0%
+using PG factor is actually better than
+ 
+
+00:00:16.880 --> 00:00:19.429 align:start position:0%
+using PG factor is actually better than
+using<00:00:17.119><c> a</c><00:00:17.400><c> dedicated</c><00:00:18.240><c> Vector</c><00:00:18.680><c> database</c><00:00:19.240><c> like</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+using a dedicated Vector database like
+ 
+
+00:00:19.439 --> 00:00:21.429 align:start position:0%
+using a dedicated Vector database like
+pine<00:00:19.720><c> cone</c><00:00:20.000><c> or</c><00:00:20.160><c> wv8</c><00:00:20.840><c> and</c><00:00:20.960><c> now</c><00:00:21.119><c> I've</c><00:00:21.279><c> been</c>
+
+00:00:21.429 --> 00:00:21.439 align:start position:0%
+pine cone or wv8 and now I've been
+ 
+
+00:00:21.439 --> 00:00:23.150 align:start position:0%
+pine cone or wv8 and now I've been
+working<00:00:21.720><c> with</c><00:00:21.880><c> large</c><00:00:22.160><c> language</c><00:00:22.519><c> models</c><00:00:22.840><c> for</c>
+
+00:00:23.150 --> 00:00:23.160 align:start position:0%
+working with large language models for
+ 
+
+00:00:23.160 --> 00:00:24.950 align:start position:0%
+working with large language models for
+about<00:00:23.400><c> a</c><00:00:23.560><c> year</c><00:00:23.800><c> now</c><00:00:24.039><c> and</c><00:00:24.119><c> I</c><00:00:24.240><c> think</c><00:00:24.439><c> this</c><00:00:24.680><c> image</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+about a year now and I think this image
+ 
+
+00:00:24.960 --> 00:00:26.870 align:start position:0%
+about a year now and I think this image
+is<00:00:25.080><c> a</c><00:00:25.199><c> good</c><00:00:25.439><c> overview</c><00:00:26.039><c> of</c><00:00:26.199><c> what</c><00:00:26.320><c> a</c><00:00:26.439><c> typical</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+is a good overview of what a typical
+ 
+
+00:00:26.880 --> 00:00:28.990 align:start position:0%
+is a good overview of what a typical
+architecture<00:00:27.880><c> looks</c><00:00:28.240><c> like</c><00:00:28.439><c> from</c><00:00:28.640><c> a</c><00:00:28.760><c> high</c>
+
+00:00:28.990 --> 00:00:29.000 align:start position:0%
+architecture looks like from a high
+ 
+
+00:00:29.000 --> 00:00:30.710 align:start position:0%
+architecture looks like from a high
+level<00:00:29.359><c> If</c><00:00:29.480><c> You're</c><00:00:29.640><c> Building</c><00:00:30.080><c> an</c><00:00:30.199><c> app</c><00:00:30.480><c> like</c>
+
+00:00:30.710 --> 00:00:30.720 align:start position:0%
+level If You're Building an app like
+ 
+
+00:00:30.720 --> 00:00:32.950 align:start position:0%
+level If You're Building an app like
+this<00:00:31.039><c> and</c><00:00:31.400><c> if</c><00:00:31.519><c> you've</c><00:00:31.759><c> dabbled</c><00:00:32.320><c> with</c><00:00:32.800><c> these</c>
+
+00:00:32.950 --> 00:00:32.960 align:start position:0%
+this and if you've dabbled with these
+ 
+
+00:00:32.960 --> 00:00:34.630 align:start position:0%
+this and if you've dabbled with these
+models<00:00:33.440><c> with</c><00:00:33.600><c> retrieval</c><00:00:34.040><c> augmented</c>
+
+00:00:34.630 --> 00:00:34.640 align:start position:0%
+models with retrieval augmented
+ 
+
+00:00:34.640 --> 00:00:36.790 align:start position:0%
+models with retrieval augmented
+generation<00:00:35.320><c> then</c><00:00:35.600><c> this</c><00:00:35.680><c> should</c><00:00:35.879><c> be</c><00:00:36.079><c> familiar</c>
+
+00:00:36.790 --> 00:00:36.800 align:start position:0%
+generation then this should be familiar
+ 
+
+00:00:36.800 --> 00:00:39.150 align:start position:0%
+generation then this should be familiar
+and<00:00:36.960><c> now</c><00:00:37.399><c> from</c><00:00:37.719><c> the</c><00:00:37.960><c> start</c><00:00:38.480><c> about</c><00:00:38.719><c> one</c><00:00:38.920><c> year</c>
+
+00:00:39.150 --> 00:00:39.160 align:start position:0%
+and now from the start about one year
+ 
+
+00:00:39.160 --> 00:00:42.430 align:start position:0%
+and now from the start about one year
+ago<00:00:39.800><c> I</c><00:00:39.920><c> started</c><00:00:40.320><c> to</c><00:00:40.920><c> use</c><00:00:41.360><c> pine</c><00:00:41.680><c> cone</c><00:00:42.039><c> as</c><00:00:42.200><c> my</c>
+
+00:00:42.430 --> 00:00:42.440 align:start position:0%
+ago I started to use pine cone as my
+ 
+
+00:00:42.440 --> 00:00:45.229 align:start position:0%
+ago I started to use pine cone as my
+primary<00:00:42.879><c> factor</c><00:00:43.320><c> database</c><00:00:44.039><c> because</c><00:00:44.840><c> this</c><00:00:45.039><c> was</c>
+
+00:00:45.229 --> 00:00:45.239 align:start position:0%
+primary factor database because this was
+ 
+
+00:00:45.239 --> 00:00:48.590 align:start position:0%
+primary factor database because this was
+also<00:00:45.680><c> A</c><00:00:46.000><c> New</c><00:00:46.440><c> Concept</c><00:00:46.879><c> for</c><00:00:47.079><c> me</c><00:00:47.440><c> so</c><00:00:48.079><c> I've</c><00:00:48.280><c> never</c>
+
+00:00:48.590 --> 00:00:48.600 align:start position:0%
+also A New Concept for me so I've never
+ 
+
+00:00:48.600 --> 00:00:51.189 align:start position:0%
+also A New Concept for me so I've never
+heard<00:00:48.920><c> of</c><00:00:49.520><c> factor</c><00:00:49.960><c> databases</c><00:00:50.640><c> never</c><00:00:50.879><c> worked</c>
+
+00:00:51.189 --> 00:00:51.199 align:start position:0%
+heard of factor databases never worked
+ 
+
+00:00:51.199 --> 00:00:53.069 align:start position:0%
+heard of factor databases never worked
+with<00:00:51.360><c> them</c><00:00:51.559><c> and</c><00:00:51.719><c> pinec</c><00:00:52.039><c> con</c><00:00:52.199><c> was</c><00:00:52.359><c> put</c><00:00:52.600><c> forward</c>
+
+00:00:53.069 --> 00:00:53.079 align:start position:0%
+with them and pinec con was put forward
+ 
+
+00:00:53.079 --> 00:00:55.510 align:start position:0%
+with them and pinec con was put forward
+as<00:00:53.440><c> the</c><00:00:53.960><c> factor</c><00:00:54.320><c> database</c><00:00:54.800><c> for</c><00:00:55.079><c> AI</c>
+
+00:00:55.510 --> 00:00:55.520 align:start position:0%
+as the factor database for AI
+ 
+
+00:00:55.520 --> 00:00:57.069 align:start position:0%
+as the factor database for AI
+applications<00:00:56.079><c> so</c><00:00:56.199><c> I</c><00:00:56.280><c> started</c><00:00:56.559><c> to</c><00:00:56.680><c> work</c><00:00:56.879><c> with</c>
+
+00:00:57.069 --> 00:00:57.079 align:start position:0%
+applications so I started to work with
+ 
+
+00:00:57.079 --> 00:00:59.110 align:start position:0%
+applications so I started to work with
+that<00:00:57.600><c> buil</c><00:00:57.920><c> all</c><00:00:58.039><c> my</c><00:00:58.199><c> applications</c><00:00:58.719><c> for</c><00:00:58.960><c> my</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+that buil all my applications for my
+ 
+
+00:00:59.120 --> 00:01:01.830 align:start position:0%
+that buil all my applications for my
+clients<00:00:59.559><c> around</c><00:01:00.000><c> pine</c><00:01:00.280><c> cone</c><00:01:00.760><c> and</c><00:01:01.280><c> now</c><00:01:01.559><c> really</c>
+
+00:01:01.830 --> 00:01:01.840 align:start position:0%
+clients around pine cone and now really
+ 
+
+00:01:01.840 --> 00:01:03.270 align:start position:0%
+clients around pine cone and now really
+what<00:01:01.960><c> I've</c><00:01:02.120><c> noticed</c><00:01:02.519><c> over</c><00:01:02.719><c> the</c><00:01:02.840><c> past</c><00:01:03.039><c> couple</c>
+
+00:01:03.270 --> 00:01:03.280 align:start position:0%
+what I've noticed over the past couple
+ 
+
+00:01:03.280 --> 00:01:05.550 align:start position:0%
+what I've noticed over the past couple
+of<00:01:03.440><c> weeks</c><00:01:04.040><c> as</c><00:01:04.320><c> some</c><00:01:04.559><c> of</c><00:01:04.760><c> the</c><00:01:04.960><c> applications</c>
+
+00:01:05.550 --> 00:01:05.560 align:start position:0%
+of weeks as some of the applications
+ 
+
+00:01:05.560 --> 00:01:07.350 align:start position:0%
+of weeks as some of the applications
+that<00:01:05.680><c> we're</c><00:01:05.880><c> building</c><00:01:06.320><c> are</c><00:01:06.760><c> transitioning</c>
+
+00:01:07.350 --> 00:01:07.360 align:start position:0%
+that we're building are transitioning
+ 
+
+00:01:07.360 --> 00:01:09.710 align:start position:0%
+that we're building are transitioning
+from<00:01:07.560><c> proof</c><00:01:07.920><c> of</c><00:01:08.119><c> concept</c><00:01:08.560><c> to</c><00:01:08.880><c> production</c>
+
+00:01:09.710 --> 00:01:09.720 align:start position:0%
+from proof of concept to production
+ 
+
+00:01:09.720 --> 00:01:12.630 align:start position:0%
+from proof of concept to production
+where<00:01:10.040><c> managing</c><00:01:10.600><c> the</c><00:01:10.880><c> data</c><00:01:11.560><c> that</c><00:01:11.720><c> is</c><00:01:12.240><c> active</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+where managing the data that is active
+ 
+
+00:01:12.640 --> 00:01:14.590 align:start position:0%
+where managing the data that is active
+in<00:01:12.799><c> the</c><00:01:12.960><c> factor</c><00:01:13.360><c> database</c><00:01:13.840><c> becomes</c><00:01:14.200><c> more</c><00:01:14.439><c> and</c>
+
+00:01:14.590 --> 00:01:14.600 align:start position:0%
+in the factor database becomes more and
+ 
+
+00:01:14.600 --> 00:01:17.510 align:start position:0%
+in the factor database becomes more and
+more<00:01:15.119><c> important</c><00:01:16.119><c> I've</c><00:01:16.439><c> really</c><00:01:16.759><c> ran</c><00:01:17.040><c> into</c><00:01:17.280><c> some</c>
+
+00:01:17.510 --> 00:01:17.520 align:start position:0%
+more important I've really ran into some
+ 
+
+00:01:17.520 --> 00:01:20.390 align:start position:0%
+more important I've really ran into some
+issues<00:01:17.960><c> where</c><00:01:18.240><c> I</c><00:01:18.360><c> had</c><00:01:18.479><c> to</c><00:01:18.720><c> reconsider</c><00:01:19.720><c> my</c><00:01:20.040><c> data</c>
+
+00:01:20.390 --> 00:01:20.400 align:start position:0%
+issues where I had to reconsider my data
+ 
+
+00:01:20.400 --> 00:01:23.429 align:start position:0%
+issues where I had to reconsider my data
+pipelines<00:01:20.920><c> and</c><00:01:21.119><c> also</c><00:01:21.640><c> my</c><00:01:21.840><c> Factor</c><00:01:22.439><c> databases</c>
+
+00:01:23.429 --> 00:01:23.439 align:start position:0%
+pipelines and also my Factor databases
+ 
+
+00:01:23.439 --> 00:01:25.789 align:start position:0%
+pipelines and also my Factor databases
+and<00:01:23.640><c> that</c><00:01:23.880><c> pointed</c><00:01:24.280><c> me</c><00:01:24.560><c> to</c><00:01:24.880><c> this</c><00:01:25.079><c> article</c><00:01:25.520><c> as</c><00:01:25.640><c> I</c>
+
+00:01:25.789 --> 00:01:25.799 align:start position:0%
+and that pointed me to this article as I
+ 
+
+00:01:25.799 --> 00:01:27.590 align:start position:0%
+and that pointed me to this article as I
+was<00:01:25.960><c> doing</c><00:01:26.200><c> some</c><00:01:26.479><c> research</c><00:01:27.000><c> on</c><00:01:27.240><c> finding</c>
+
+00:01:27.590 --> 00:01:27.600 align:start position:0%
+was doing some research on finding
+ 
+
+00:01:27.600 --> 00:01:29.910 align:start position:0%
+was doing some research on finding
+alternative<00:01:28.320><c> ways</c><00:01:28.840><c> of</c><00:01:29.040><c> working</c><00:01:29.360><c> with</c><00:01:29.520><c> these</c>
+
+00:01:29.910 --> 00:01:29.920 align:start position:0%
+alternative ways of working with these
+ 
+
+00:01:29.920 --> 00:01:32.510 align:start position:0%
+alternative ways of working with these
+factors<00:01:30.560><c> and</c><00:01:31.280><c> here</c><00:01:31.720><c> uh</c><00:01:31.840><c> I</c><00:01:31.920><c> saw</c><00:01:32.159><c> other</c><00:01:32.320><c> people</c>
+
+00:01:32.510 --> 00:01:32.520 align:start position:0%
+factors and here uh I saw other people
+ 
+
+00:01:32.520 --> 00:01:34.590 align:start position:0%
+factors and here uh I saw other people
+running<00:01:32.799><c> into</c><00:01:33.000><c> some</c><00:01:33.200><c> issues</c><00:01:33.720><c> as</c><00:01:33.880><c> well</c><00:01:34.360><c> and</c>
+
+00:01:34.590 --> 00:01:34.600 align:start position:0%
+running into some issues as well and
+ 
+
+00:01:34.600 --> 00:01:37.190 align:start position:0%
+running into some issues as well and
+switching<00:01:35.000><c> to</c><00:01:35.240><c> PG</c><00:01:35.680><c> factor</c><00:01:36.520><c> which</c><00:01:36.759><c> got</c><00:01:36.960><c> me</c>
+
+00:01:37.190 --> 00:01:37.200 align:start position:0%
+switching to PG factor which got me
+ 
+
+00:01:37.200 --> 00:01:39.030 align:start position:0%
+switching to PG factor which got me
+interested<00:01:37.759><c> because</c><00:01:38.200><c> PG</c><00:01:38.560><c> factor</c><00:01:38.880><c> is</c>
+
+00:01:39.030 --> 00:01:39.040 align:start position:0%
+interested because PG factor is
+ 
+
+00:01:39.040 --> 00:01:41.670 align:start position:0%
+interested because PG factor is
+essentially<00:01:39.759><c> a</c><00:01:39.960><c> an</c><00:01:40.159><c> extension</c><00:01:40.759><c> for</c><00:01:41.000><c> a</c><00:01:41.159><c> post</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+essentially a an extension for a post
+ 
+
+00:01:41.680 --> 00:01:44.990 align:start position:0%
+essentially a an extension for a post
+SQL<00:01:42.240><c> database</c><00:01:43.079><c> to</c><00:01:43.680><c> use</c><00:01:44.000><c> factors</c><00:01:44.479><c> in</c><00:01:44.640><c> it</c><00:01:44.840><c> and</c>
+
+00:01:44.990 --> 00:01:45.000 align:start position:0%
+SQL database to use factors in it and
+ 
+
+00:01:45.000 --> 00:01:47.550 align:start position:0%
+SQL database to use factors in it and
+also<00:01:45.280><c> perform</c><00:01:45.880><c> similarity</c><00:01:46.399><c> search</c><00:01:47.159><c> and</c><00:01:47.320><c> now</c>
+
+00:01:47.550 --> 00:01:47.560 align:start position:0%
+also perform similarity search and now
+ 
+
+00:01:47.560 --> 00:01:50.350 align:start position:0%
+also perform similarity search and now
+I'm<00:01:47.719><c> already</c><00:01:48.079><c> familiar</c><00:01:48.880><c> with</c><00:01:49.600><c> postur</c><00:01:50.040><c> SQL</c>
+
+00:01:50.350 --> 00:01:50.360 align:start position:0%
+I'm already familiar with postur SQL
+ 
+
+00:01:50.360 --> 00:01:52.630 align:start position:0%
+I'm already familiar with postur SQL
+databases<00:01:51.119><c> actually</c><00:01:51.399><c> I</c><00:01:51.520><c> use</c><00:01:51.799><c> data</c><00:01:52.119><c> grip</c><00:01:52.479><c> and</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+databases actually I use data grip and
+ 
+
+00:01:52.640 --> 00:01:55.310 align:start position:0%
+databases actually I use data grip and
+have<00:01:52.920><c> most</c><00:01:53.240><c> of</c><00:01:53.520><c> my</c><00:01:54.040><c> projects</c><00:01:54.439><c> for</c><00:01:54.600><c> my</c><00:01:54.799><c> clients</c>
+
+00:01:55.310 --> 00:01:55.320 align:start position:0%
+have most of my projects for my clients
+ 
+
+00:01:55.320 --> 00:01:57.429 align:start position:0%
+have most of my projects for my clients
+where<00:01:55.479><c> we</c><00:01:55.600><c> need</c><00:01:55.759><c> a</c><00:01:55.920><c> database</c><00:01:56.799><c> I</c><00:01:56.960><c> have</c><00:01:57.200><c> them</c>
+
+00:01:57.429 --> 00:01:57.439 align:start position:0%
+where we need a database I have them
+ 
+
+00:01:57.439 --> 00:01:59.550 align:start position:0%
+where we need a database I have them
+available<00:01:57.960><c> in</c><00:01:58.200><c> here</c><00:01:58.520><c> in</c><00:01:58.759><c> either</c><00:01:59.000><c> a</c><00:01:59.119><c> postgress</c>
+
+00:01:59.550 --> 00:01:59.560 align:start position:0%
+available in here in either a postgress
+ 
+
+00:01:59.560 --> 00:02:02.069 align:start position:0%
+available in here in either a postgress
+datab<00:01:59.920><c> base</c><00:02:00.200><c> or</c><00:02:00.399><c> or</c><00:02:00.600><c> something</c><00:02:00.960><c> similar</c><00:02:01.719><c> so</c>
+
+00:02:02.069 --> 00:02:02.079 align:start position:0%
+datab base or or something similar so
+ 
+
+00:02:02.079 --> 00:02:04.109 align:start position:0%
+datab base or or something similar so
+that<00:02:02.280><c> immediately</c><00:02:02.840><c> caught</c><00:02:03.159><c> my</c><00:02:03.399><c> attention</c><00:02:03.960><c> and</c>
+
+00:02:04.109 --> 00:02:04.119 align:start position:0%
+that immediately caught my attention and
+ 
+
+00:02:04.119 --> 00:02:06.029 align:start position:0%
+that immediately caught my attention and
+then<00:02:04.240><c> I</c><00:02:04.360><c> thought</c><00:02:04.759><c> okay</c><00:02:05.159><c> well</c><00:02:05.439><c> then</c><00:02:05.680><c> but</c><00:02:05.840><c> what's</c>
+
+00:02:06.029 --> 00:02:06.039 align:start position:0%
+then I thought okay well then but what's
+ 
+
+00:02:06.039 --> 00:02:07.870 align:start position:0%
+then I thought okay well then but what's
+the<00:02:06.200><c> tradeoff</c><00:02:06.759><c> if</c><00:02:06.960><c> pine</c><00:02:07.200><c> cone</c><00:02:07.399><c> is</c><00:02:07.560><c> really</c><00:02:07.759><c> a</c>
+
+00:02:07.870 --> 00:02:07.880 align:start position:0%
+the tradeoff if pine cone is really a
+ 
+
+00:02:07.880 --> 00:02:10.029 align:start position:0%
+the tradeoff if pine cone is really a
+dedicated<00:02:08.319><c> Factor</c><00:02:08.720><c> database</c><00:02:09.280><c> then</c><00:02:09.720><c> it</c><00:02:09.840><c> will</c>
+
+00:02:10.029 --> 00:02:10.039 align:start position:0%
+dedicated Factor database then it will
+ 
+
+00:02:10.039 --> 00:02:12.670 align:start position:0%
+dedicated Factor database then it will
+probably<00:02:10.360><c> be</c><00:02:10.720><c> a</c><00:02:10.840><c> lot</c><00:02:11.239><c> faster</c><00:02:12.000><c> right</c><00:02:12.480><c> and</c>
+
+00:02:12.670 --> 00:02:12.680 align:start position:0%
+probably be a lot faster right and
+ 
+
+00:02:12.680 --> 00:02:14.190 align:start position:0%
+probably be a lot faster right and
+that's<00:02:12.879><c> when</c><00:02:13.040><c> I</c><00:02:13.200><c> found</c><00:02:13.599><c> this</c><00:02:13.879><c> really</c>
+
+00:02:14.190 --> 00:02:14.200 align:start position:0%
+that's when I found this really
+ 
+
+00:02:14.200 --> 00:02:17.270 align:start position:0%
+that's when I found this really
+interesting<00:02:14.920><c> comparison</c><00:02:15.920><c> done</c><00:02:16.160><c> by</c><00:02:16.360><c> superbase</c>
+
+00:02:17.270 --> 00:02:17.280 align:start position:0%
+interesting comparison done by superbase
+ 
+
+00:02:17.280 --> 00:02:19.949 align:start position:0%
+interesting comparison done by superbase
+here<00:02:17.440><c> it</c><00:02:17.640><c> outlined</c><00:02:18.239><c> that</c><00:02:18.440><c> PG</c><00:02:18.920><c> factor</c><00:02:19.480><c> is</c>
+
+00:02:19.949 --> 00:02:19.959 align:start position:0%
+here it outlined that PG factor is
+ 
+
+00:02:19.959 --> 00:02:22.470 align:start position:0%
+here it outlined that PG factor is
+faster<00:02:20.599><c> than</c><00:02:21.000><c> pine</c><00:02:21.360><c> cone</c><00:02:21.800><c> so</c><00:02:22.000><c> then</c><00:02:22.120><c> I</c><00:02:22.239><c> thought</c>
+
+00:02:22.470 --> 00:02:22.480 align:start position:0%
+faster than pine cone so then I thought
+ 
+
+00:02:22.480 --> 00:02:24.309 align:start position:0%
+faster than pine cone so then I thought
+hey<00:02:22.599><c> really</c><00:02:22.840><c> what's</c><00:02:23.040><c> the</c><00:02:23.360><c> point</c><00:02:23.599><c> of</c><00:02:23.840><c> using</c><00:02:24.160><c> a</c>
+
+00:02:24.309 --> 00:02:24.319 align:start position:0%
+hey really what's the point of using a
+ 
+
+00:02:24.319 --> 00:02:26.390 align:start position:0%
+hey really what's the point of using a
+dedicated<00:02:24.720><c> Factor</c><00:02:25.120><c> database</c><00:02:25.560><c> in</c><00:02:25.680><c> a</c><00:02:25.920><c> separate</c>
+
+00:02:26.390 --> 00:02:26.400 align:start position:0%
+dedicated Factor database in a separate
+ 
+
+00:02:26.400 --> 00:02:28.229 align:start position:0%
+dedicated Factor database in a separate
+environment<00:02:27.239><c> separate</c><00:02:27.599><c> from</c><00:02:27.800><c> all</c><00:02:27.920><c> of</c><00:02:28.080><c> my</c>
+
+00:02:28.229 --> 00:02:28.239 align:start position:0%
+environment separate from all of my
+ 
+
+00:02:28.239 --> 00:02:30.990 align:start position:0%
+environment separate from all of my
+other<00:02:28.560><c> projects</c><00:02:29.519><c> um</c><00:02:29.840><c> versus</c><00:02:30.280><c> just</c><00:02:30.560><c> using</c><00:02:30.840><c> a</c>
+
+00:02:30.990 --> 00:02:31.000 align:start position:0%
+other projects um versus just using a
+ 
+
+00:02:31.000 --> 00:02:33.229 align:start position:0%
+other projects um versus just using a
+database<00:02:31.480><c> that</c><00:02:31.599><c> I'm</c><00:02:31.760><c> already</c><00:02:32.160><c> familiar</c><00:02:32.640><c> with</c>
+
+00:02:33.229 --> 00:02:33.239 align:start position:0%
+database that I'm already familiar with
+ 
+
+00:02:33.239 --> 00:02:35.350 align:start position:0%
+database that I'm already familiar with
+and<00:02:33.440><c> since</c><00:02:33.680><c> Lang</c><00:02:33.959><c> chain</c><00:02:34.280><c> also</c><00:02:34.560><c> has</c><00:02:34.680><c> a</c><00:02:34.959><c> PG</c>
+
+00:02:35.350 --> 00:02:35.360 align:start position:0%
+and since Lang chain also has a PG
+ 
+
+00:02:35.360 --> 00:02:37.430 align:start position:0%
+and since Lang chain also has a PG
+Factor<00:02:35.840><c> class</c><00:02:36.280><c> which</c><00:02:36.400><c> works</c><00:02:36.760><c> very</c><00:02:37.080><c> well</c><00:02:37.319><c> I</c>
+
+00:02:37.430 --> 00:02:37.440 align:start position:0%
+Factor class which works very well I
+ 
+
+00:02:37.440 --> 00:02:39.830 align:start position:0%
+Factor class which works very well I
+decided<00:02:37.800><c> to</c><00:02:37.959><c> start</c><00:02:38.319><c> experimenting</c><00:02:39.200><c> with</c><00:02:39.440><c> this</c>
+
+00:02:39.830 --> 00:02:39.840 align:start position:0%
+decided to start experimenting with this
+ 
+
+00:02:39.840 --> 00:02:42.630 align:start position:0%
+decided to start experimenting with this
+and<00:02:40.319><c> see</c><00:02:40.640><c> what</c><00:02:40.760><c> the</c><00:02:40.879><c> pros</c><00:02:41.200><c> and</c><00:02:41.400><c> cons</c><00:02:41.720><c> are</c><00:02:42.080><c> so</c><00:02:42.519><c> I</c>
+
+00:02:42.630 --> 00:02:42.640 align:start position:0%
+and see what the pros and cons are so I
+ 
+
+00:02:42.640 --> 00:02:44.430 align:start position:0%
+and see what the pros and cons are so I
+have<00:02:42.760><c> a</c><00:02:42.959><c> document</c><00:02:43.360><c> over</c><00:02:43.599><c> here</c><00:02:43.760><c> or</c><00:02:43.920><c> a</c><00:02:44.040><c> script</c><00:02:44.360><c> I</c>
+
+00:02:44.430 --> 00:02:44.440 align:start position:0%
+have a document over here or a script I
+ 
+
+00:02:44.440 --> 00:02:46.110 align:start position:0%
+have a document over here or a script I
+should<00:02:44.640><c> say</c><00:02:44.920><c> which</c><00:02:45.040><c> I</c><00:02:45.120><c> will</c><00:02:45.239><c> share</c><00:02:45.680><c> with</c><00:02:45.879><c> you</c>
+
+00:02:46.110 --> 00:02:46.120 align:start position:0%
+should say which I will share with you
+ 
+
+00:02:46.120 --> 00:02:48.630 align:start position:0%
+should say which I will share with you
+as<00:02:46.239><c> well</c><00:02:46.760><c> where</c><00:02:47.000><c> I</c><00:02:47.120><c> run</c><00:02:47.480><c> various</c><00:02:47.879><c> experiments</c>
+
+00:02:48.630 --> 00:02:48.640 align:start position:0%
+as well where I run various experiments
+ 
+
+00:02:48.640 --> 00:02:50.990 align:start position:0%
+as well where I run various experiments
+and<00:02:48.840><c> I</c><00:02:48.920><c> will</c><00:02:49.080><c> share</c><00:02:49.400><c> with</c><00:02:49.599><c> you</c><00:02:50.120><c> my</c><00:02:50.360><c> insights</c>
+
+00:02:50.990 --> 00:02:51.000 align:start position:0%
+and I will share with you my insights
+ 
+
+00:02:51.000 --> 00:02:52.910 align:start position:0%
+and I will share with you my insights
+show<00:02:51.280><c> you</c><00:02:51.599><c> first</c><00:02:51.959><c> how</c><00:02:52.080><c> to</c><00:02:52.239><c> work</c><00:02:52.480><c> with</c><00:02:52.599><c> the</c><00:02:52.720><c> pine</c>
+
+00:02:52.910 --> 00:02:52.920 align:start position:0%
+show you first how to work with the pine
+ 
+
+00:02:52.920 --> 00:02:55.030 align:start position:0%
+show you first how to work with the pine
+cone<00:02:53.200><c> index</c><00:02:53.720><c> and</c><00:02:53.920><c> then</c><00:02:54.239><c> what</c><00:02:54.440><c> that</c><00:02:54.599><c> looks</c><00:02:54.840><c> like</c>
+
+00:02:55.030 --> 00:02:55.040 align:start position:0%
+cone index and then what that looks like
+ 
+
+00:02:55.040 --> 00:02:57.309 align:start position:0%
+cone index and then what that looks like
+if<00:02:55.159><c> we</c><00:02:55.239><c> do</c><00:02:55.440><c> the</c><00:02:55.560><c> same</c><00:02:55.800><c> thing</c><00:02:56.000><c> with</c><00:02:56.159><c> PG</c><00:02:56.560><c> factor</c>
+
+00:02:57.309 --> 00:02:57.319 align:start position:0%
+if we do the same thing with PG factor
+ 
+
+00:02:57.319 --> 00:02:59.350 align:start position:0%
+if we do the same thing with PG factor
+and<00:02:57.440><c> then</c><00:02:57.680><c> I'll</c><00:02:57.840><c> show</c><00:02:58.080><c> you</c><00:02:58.440><c> why</c><00:02:58.640><c> I</c><00:02:58.879><c> completely</c>
+
+00:02:59.350 --> 00:02:59.360 align:start position:0%
+and then I'll show you why I completely
+ 
+
+00:02:59.360 --> 00:03:01.869 align:start position:0%
+and then I'll show you why I completely
+switch<00:02:59.920><c> to</c><00:03:00.080><c> PG</c><00:03:00.440><c> Factor</c><00:03:00.879><c> right</c><00:03:01.040><c> now</c><00:03:01.319><c> for</c><00:03:01.560><c> all</c><00:03:01.720><c> of</c>
+
+00:03:01.869 --> 00:03:01.879 align:start position:0%
+switch to PG Factor right now for all of
+ 
+
+00:03:01.879 --> 00:03:04.350 align:start position:0%
+switch to PG Factor right now for all of
+my<00:03:02.040><c> generative</c><00:03:02.560><c> AI</c><00:03:02.959><c> projects</c><00:03:03.720><c> and</c><00:03:03.879><c> now</c><00:03:04.040><c> to</c><00:03:04.200><c> be</c>
+
+00:03:04.350 --> 00:03:04.360 align:start position:0%
+my generative AI projects and now to be
+ 
+
+00:03:04.360 --> 00:03:06.070 align:start position:0%
+my generative AI projects and now to be
+clear<00:03:04.640><c> I'm</c><00:03:04.840><c> definitely</c><00:03:05.200><c> not</c><00:03:05.319><c> an</c><00:03:05.519><c> expert</c><00:03:05.879><c> on</c>
+
+00:03:06.070 --> 00:03:06.080 align:start position:0%
+clear I'm definitely not an expert on
+ 
+
+00:03:06.080 --> 00:03:08.190 align:start position:0%
+clear I'm definitely not an expert on
+this<00:03:06.239><c> so</c><00:03:06.400><c> it</c><00:03:06.560><c> could</c><00:03:06.879><c> very</c><00:03:07.159><c> well</c><00:03:07.440><c> be</c><00:03:07.799><c> that</c><00:03:08.040><c> I</c>
+
+00:03:08.190 --> 00:03:08.200 align:start position:0%
+this so it could very well be that I
+ 
+
+00:03:08.200 --> 00:03:09.670 align:start position:0%
+this so it could very well be that I
+just<00:03:08.360><c> don't</c><00:03:08.560><c> have</c><00:03:08.760><c> enough</c><00:03:09.040><c> information</c><00:03:09.519><c> or</c>
+
+00:03:09.670 --> 00:03:09.680 align:start position:0%
+just don't have enough information or
+ 
+
+00:03:09.680 --> 00:03:11.910 align:start position:0%
+just don't have enough information or
+knowledge<00:03:10.159><c> about</c><00:03:10.519><c> how</c><00:03:10.640><c> to</c><00:03:10.879><c> effectively</c><00:03:11.640><c> work</c>
+
+00:03:11.910 --> 00:03:11.920 align:start position:0%
+knowledge about how to effectively work
+ 
+
+00:03:11.920 --> 00:03:13.630 align:start position:0%
+knowledge about how to effectively work
+with<00:03:12.120><c> pine</c><00:03:12.400><c> cone</c><00:03:12.840><c> but</c><00:03:12.959><c> I'm</c><00:03:13.120><c> just</c><00:03:13.280><c> going</c><00:03:13.480><c> to</c>
+
+00:03:13.630 --> 00:03:13.640 align:start position:0%
+with pine cone but I'm just going to
+ 
+
+00:03:13.640 --> 00:03:15.789 align:start position:0%
+with pine cone but I'm just going to
+show<00:03:13.840><c> you</c><00:03:14.040><c> some</c><00:03:14.360><c> basic</c><00:03:14.760><c> examples</c><00:03:15.360><c> that</c><00:03:15.640><c> I</c>
+
+00:03:15.789 --> 00:03:15.799 align:start position:0%
+show you some basic examples that I
+ 
+
+00:03:15.799 --> 00:03:17.869 align:start position:0%
+show you some basic examples that I
+think<00:03:16.000><c> will</c><00:03:16.159><c> be</c><00:03:16.400><c> very</c><00:03:16.680><c> relatable</c><00:03:17.239><c> to</c><00:03:17.400><c> you</c><00:03:17.720><c> and</c>
+
+00:03:17.869 --> 00:03:17.879 align:start position:0%
+think will be very relatable to you and
+ 
+
+00:03:17.879 --> 00:03:19.910 align:start position:0%
+think will be very relatable to you and
+just<00:03:18.040><c> from</c><00:03:18.319><c> a</c><00:03:18.519><c> speed</c><00:03:18.920><c> and</c><00:03:19.159><c> simplicity</c>
+
+00:03:19.910 --> 00:03:19.920 align:start position:0%
+just from a speed and simplicity
+ 
+
+00:03:19.920 --> 00:03:21.750 align:start position:0%
+just from a speed and simplicity
+perspective<00:03:20.599><c> PG</c><00:03:21.000><c> factor</c><00:03:21.280><c> is</c><00:03:21.360><c> the</c><00:03:21.519><c> clear</c>
+
+00:03:21.750 --> 00:03:21.760 align:start position:0%
+perspective PG factor is the clear
+ 
+
+00:03:21.760 --> 00:03:23.789 align:start position:0%
+perspective PG factor is the clear
+winner<00:03:22.000><c> for</c><00:03:22.159><c> me</c><00:03:22.519><c> all</c><00:03:22.640><c> right</c><00:03:22.959><c> so</c><00:03:23.239><c> let's</c><00:03:23.480><c> walk</c>
+
+00:03:23.789 --> 00:03:23.799 align:start position:0%
+winner for me all right so let's walk
+ 
+
+00:03:23.799 --> 00:03:25.589 align:start position:0%
+winner for me all right so let's walk
+you<00:03:24.080><c> through</c><00:03:24.400><c> some</c><00:03:24.720><c> examples</c><00:03:25.200><c> I'm</c><00:03:25.319><c> going</c><00:03:25.480><c> to</c>
+
+00:03:25.589 --> 00:03:25.599 align:start position:0%
+you through some examples I'm going to
+ 
+
+00:03:25.599 --> 00:03:27.589 align:start position:0%
+you through some examples I'm going to
+load<00:03:25.799><c> up</c><00:03:25.959><c> an</c><00:03:26.080><c> interactive</c><00:03:26.680><c> python</c><00:03:27.120><c> session</c>
+
+00:03:27.589 --> 00:03:27.599 align:start position:0%
+load up an interactive python session
+ 
+
+00:03:27.599 --> 00:03:29.470 align:start position:0%
+load up an interactive python session
+over<00:03:27.840><c> here</c><00:03:28.239><c> and</c><00:03:28.439><c> then</c><00:03:28.680><c> we're</c><00:03:28.879><c> going</c><00:03:29.040><c> to</c><00:03:29.200><c> load</c>
+
+00:03:29.470 --> 00:03:29.480 align:start position:0%
+over here and then we're going to load
+ 
+
+00:03:29.480 --> 00:03:31.550 align:start position:0%
+over here and then we're going to load
+some<00:03:29.879><c> data</c><00:03:30.120><c> so</c><00:03:30.519><c> I</c><00:03:30.599><c> have</c><00:03:30.720><c> an</c><00:03:30.840><c> ebook</c><00:03:31.200><c> over</c><00:03:31.400><c> here</c>
+
+00:03:31.550 --> 00:03:31.560 align:start position:0%
+some data so I have an ebook over here
+ 
+
+00:03:31.560 --> 00:03:34.429 align:start position:0%
+some data so I have an ebook over here
+the<00:03:31.680><c> Christmas</c><00:03:32.080><c> Carol</c><00:03:33.080><c> and</c><00:03:33.519><c> let's</c><00:03:33.959><c> load</c><00:03:34.280><c> that</c>
+
+00:03:34.429 --> 00:03:34.439 align:start position:0%
+the Christmas Carol and let's load that
+ 
+
+00:03:34.439 --> 00:03:35.789 align:start position:0%
+the Christmas Carol and let's load that
+up<00:03:34.599><c> so</c><00:03:34.760><c> we're</c><00:03:34.920><c> going</c><00:03:35.040><c> to</c><00:03:35.200><c> split</c><00:03:35.480><c> all</c><00:03:35.640><c> the</c>
+
+00:03:35.789 --> 00:03:35.799 align:start position:0%
+up so we're going to split all the
+ 
+
+00:03:35.799 --> 00:03:37.949 align:start position:0%
+up so we're going to split all the
+documents<00:03:36.439><c> and</c><00:03:36.680><c> here</c><00:03:36.959><c> you</c><00:03:37.080><c> can</c><00:03:37.239><c> see</c><00:03:37.560><c> we</c><00:03:37.760><c> have</c>
+
+00:03:37.949 --> 00:03:37.959 align:start position:0%
+documents and here you can see we have
+ 
+
+00:03:37.959 --> 00:03:41.789 align:start position:0%
+documents and here you can see we have
+now<00:03:38.439><c> taken</c><00:03:39.000><c> this</c><00:03:39.720><c> C</c><00:03:40.239><c> or</c><00:03:40.439><c> txt</c><00:03:40.959><c> file</c><00:03:41.319><c> which</c><00:03:41.439><c> is</c><00:03:41.560><c> in</c>
+
+00:03:41.789 --> 00:03:41.799 align:start position:0%
+now taken this C or txt file which is in
+ 
+
+00:03:41.799 --> 00:03:44.509 align:start position:0%
+now taken this C or txt file which is in
+here<00:03:42.080><c> it's</c><00:03:42.200><c> a</c><00:03:42.319><c> huge</c><00:03:42.599><c> ebook</c><00:03:43.599><c> and</c><00:03:43.840><c> we</c><00:03:43.959><c> have</c><00:03:44.159><c> split</c>
+
+00:03:44.509 --> 00:03:44.519 align:start position:0%
+here it's a huge ebook and we have split
+ 
+
+00:03:44.519 --> 00:03:47.229 align:start position:0%
+here it's a huge ebook and we have split
+it<00:03:44.680><c> up</c><00:03:45.000><c> into</c><00:03:45.439><c> the</c><00:03:45.640><c> documents</c><00:03:46.599><c> now</c><00:03:46.879><c> we're</c><00:03:47.080><c> going</c>
+
+00:03:47.229 --> 00:03:47.239 align:start position:0%
+it up into the documents now we're going
+ 
+
+00:03:47.239 --> 00:03:50.630 align:start position:0%
+it up into the documents now we're going
+to<00:03:47.680><c> connect</c><00:03:48.239><c> with</c><00:03:48.879><c> my</c><00:03:49.200><c> pine</c><00:03:49.560><c> cone</c><00:03:50.000><c> account</c>
+
+00:03:50.630 --> 00:03:50.640 align:start position:0%
+to connect with my pine cone account
+ 
+
+00:03:50.640 --> 00:03:53.069 align:start position:0%
+to connect with my pine cone account
+through<00:03:51.000><c> the</c><00:03:51.159><c> API</c><00:03:51.560><c> key</c><00:03:51.760><c> in</c><00:03:51.920><c> the</c><00:03:52.079><c> environment</c>
+
+00:03:53.069 --> 00:03:53.079 align:start position:0%
+through the API key in the environment
+ 
+
+00:03:53.079 --> 00:03:54.869 align:start position:0%
+through the API key in the environment
+and<00:03:53.239><c> then</c><00:03:53.400><c> I'm</c><00:03:53.519><c> going</c><00:03:53.720><c> to</c><00:03:54.120><c> run</c><00:03:54.480><c> this</c><00:03:54.720><c> which</c>
+
+00:03:54.869 --> 00:03:54.879 align:start position:0%
+and then I'm going to run this which
+ 
+
+00:03:54.879 --> 00:03:56.550 align:start position:0%
+and then I'm going to run this which
+essentially<00:03:55.280><c> says</c><00:03:55.599><c> hey</c><00:03:55.760><c> if</c><00:03:55.879><c> there's</c><00:03:56.040><c> a</c><00:03:56.200><c> demo</c>
+
+00:03:56.550 --> 00:03:56.560 align:start position:0%
+essentially says hey if there's a demo
+ 
+
+00:03:56.560 --> 00:03:59.229 align:start position:0%
+essentially says hey if there's a demo
+index<00:03:57.360><c> uh</c><00:03:57.599><c> you</c><00:03:57.680><c> can</c><00:03:57.879><c> load</c><00:03:58.159><c> it</c><00:03:58.480><c> if</c><00:03:58.680><c> not</c><00:03:59.000><c> we'll</c>
+
+00:03:59.229 --> 00:03:59.239 align:start position:0%
+index uh you can load it if not we'll
+ 
+
+00:03:59.239 --> 00:04:00.990 align:start position:0%
+index uh you can load it if not we'll
+create<00:03:59.519><c> one</c><00:03:59.720><c> one</c><00:04:00.040><c> I</c><00:04:00.159><c> already</c><00:04:00.439><c> have</c><00:04:00.560><c> the</c><00:04:00.720><c> demo</c>
+
+00:04:00.990 --> 00:04:01.000 align:start position:0%
+create one one I already have the demo
+ 
+
+00:04:01.000 --> 00:04:02.670 align:start position:0%
+create one one I already have the demo
+index<00:04:01.439><c> over</c><00:04:01.720><c> here</c><00:04:01.920><c> and</c><00:04:02.000><c> we</c><00:04:02.120><c> can</c><00:04:02.239><c> now</c><00:04:02.439><c> have</c><00:04:02.519><c> a</c>
+
+00:04:02.670 --> 00:04:02.680 align:start position:0%
+index over here and we can now have a
+ 
+
+00:04:02.680 --> 00:04:04.990 align:start position:0%
+index over here and we can now have a
+look<00:04:02.840><c> at</c><00:04:03.040><c> that</c><00:04:03.280><c> see</c><00:04:03.519><c> what's</c><00:04:03.760><c> going</c><00:04:03.959><c> on</c><00:04:04.599><c> so</c><00:04:04.879><c> if</c>
+
+00:04:04.990 --> 00:04:05.000 align:start position:0%
+look at that see what's going on so if
+ 
+
+00:04:05.000 --> 00:04:07.149 align:start position:0%
+look at that see what's going on so if
+we<00:04:05.159><c> now</c><00:04:05.319><c> come</c><00:04:05.480><c> to</c><00:04:05.680><c> the</c><00:04:05.840><c> pine</c><00:04:06.120><c> cone</c><00:04:06.840><c> data</c>
+
+00:04:07.149 --> 00:04:07.159 align:start position:0%
+we now come to the pine cone data
+ 
+
+00:04:07.159 --> 00:04:09.910 align:start position:0%
+we now come to the pine cone data
+Explorer<00:04:08.000><c> we</c><00:04:08.120><c> can</c><00:04:08.239><c> see</c><00:04:08.599><c> all</c><00:04:08.760><c> of</c><00:04:08.920><c> the</c><00:04:09.079><c> factors</c>
+
+00:04:09.910 --> 00:04:09.920 align:start position:0%
+Explorer we can see all of the factors
+ 
+
+00:04:09.920 --> 00:04:12.429 align:start position:0%
+Explorer we can see all of the factors
+here<00:04:10.519><c> and</c><00:04:10.920><c> the</c><00:04:11.040><c> source</c><00:04:11.599><c> and</c><00:04:11.720><c> then</c><00:04:11.959><c> also</c><00:04:12.239><c> the</c>
+
+00:04:12.429 --> 00:04:12.439 align:start position:0%
+here and the source and then also the
+ 
+
+00:04:12.439 --> 00:04:14.750 align:start position:0%
+here and the source and then also the
+text<00:04:13.120><c> of</c><00:04:13.319><c> the</c><00:04:13.560><c> various</c><00:04:13.959><c> chunks</c><00:04:14.439><c> that</c><00:04:14.599><c> have</c>
+
+00:04:14.750 --> 00:04:14.760 align:start position:0%
+text of the various chunks that have
+ 
+
+00:04:14.760 --> 00:04:17.229 align:start position:0%
+text of the various chunks that have
+been<00:04:15.040><c> put</c><00:04:15.239><c> into</c><00:04:15.519><c> it</c><00:04:16.000><c> okay</c><00:04:16.160><c> so</c><00:04:16.359><c> this</c><00:04:16.479><c> is</c><00:04:16.639><c> all</c>
+
+00:04:17.229 --> 00:04:17.239 align:start position:0%
+been put into it okay so this is all
+ 
+
+00:04:17.239 --> 00:04:20.069 align:start position:0%
+been put into it okay so this is all
+basic<00:04:17.759><c> pine</c><00:04:18.079><c> cone</c><00:04:18.400><c> stuff</c><00:04:19.040><c> now</c><00:04:19.400><c> let's</c><00:04:19.639><c> create</c><00:04:19.919><c> a</c>
+
+00:04:20.069 --> 00:04:20.079 align:start position:0%
+basic pine cone stuff now let's create a
+ 
+
+00:04:20.079 --> 00:04:22.950 align:start position:0%
+basic pine cone stuff now let's create a
+function<00:04:20.560><c> that</c><00:04:20.720><c> we</c><00:04:20.880><c> can</c><00:04:21.079><c> call</c><00:04:21.359><c> to</c><00:04:21.919><c> run</c><00:04:22.320><c> a</c><00:04:22.560><c> query</c>
+
+00:04:22.950 --> 00:04:22.960 align:start position:0%
+function that we can call to run a query
+ 
+
+00:04:22.960 --> 00:04:25.590 align:start position:0%
+function that we can call to run a query
+to<00:04:23.199><c> do</c><00:04:23.320><c> to</c><00:04:23.479><c> perform</c><00:04:23.880><c> a</c><00:04:24.040><c> similarity</c><00:04:24.600><c> search</c><00:04:25.440><c> and</c>
+
+00:04:25.590 --> 00:04:25.600 align:start position:0%
+to do to perform a similarity search and
+ 
+
+00:04:25.600 --> 00:04:28.270 align:start position:0%
+to do to perform a similarity search and
+I'll<00:04:25.880><c> also</c><00:04:26.560><c> create</c><00:04:26.960><c> a</c><00:04:27.160><c> function</c><00:04:27.960><c> that</c>
+
+00:04:28.270 --> 00:04:28.280 align:start position:0%
+I'll also create a function that
+ 
+
+00:04:28.280 --> 00:04:31.710 align:start position:0%
+I'll also create a function that
+calculates<00:04:29.039><c> the</c><00:04:29.199><c> time</c><00:04:29.440><c> it</c><00:04:29.720><c> takes</c><00:04:30.479><c> to</c><00:04:31.280><c> run</c><00:04:31.560><c> the</c>
+
+00:04:31.710 --> 00:04:31.720 align:start position:0%
+calculates the time it takes to run the
+ 
+
+00:04:31.720 --> 00:04:34.629 align:start position:0%
+calculates the time it takes to run the
+function<00:04:32.720><c> and</c><00:04:33.039><c> we</c><00:04:33.160><c> can</c><00:04:33.360><c> also</c><00:04:33.680><c> specify</c><00:04:34.360><c> a</c>
+
+00:04:34.629 --> 00:04:34.639 align:start position:0%
+function and we can also specify a
+ 
+
+00:04:34.639 --> 00:04:36.590 align:start position:0%
+function and we can also specify a
+number<00:04:34.960><c> of</c><00:04:35.160><c> times</c><00:04:35.479><c> that</c><00:04:35.639><c> we</c><00:04:35.800><c> want</c><00:04:35.960><c> to</c><00:04:36.160><c> run</c><00:04:36.400><c> this</c>
+
+00:04:36.590 --> 00:04:36.600 align:start position:0%
+number of times that we want to run this
+ 
+
+00:04:36.600 --> 00:04:38.390 align:start position:0%
+number of times that we want to run this
+function<00:04:36.960><c> and</c><00:04:37.080><c> take</c><00:04:37.280><c> the</c><00:04:37.440><c> average</c><00:04:37.919><c> of</c><00:04:38.160><c> the</c>
+
+00:04:38.390 --> 00:04:38.400 align:start position:0%
+function and take the average of the
+ 
+
+00:04:38.400 --> 00:04:40.950 align:start position:0%
+function and take the average of the
+time<00:04:38.680><c> so</c><00:04:38.840><c> let's</c><00:04:39.039><c> see</c><00:04:39.600><c> how</c><00:04:39.800><c> long</c><00:04:40.000><c> it</c><00:04:40.160><c> takes</c><00:04:40.759><c> if</c>
+
+00:04:40.950 --> 00:04:40.960 align:start position:0%
+time so let's see how long it takes if
+ 
+
+00:04:40.960 --> 00:04:44.870 align:start position:0%
+time so let's see how long it takes if
+we<00:04:41.560><c> search</c><00:04:42.120><c> this</c><00:04:42.360><c> pine</c><00:04:42.680><c> cone</c><00:04:43.160><c> index</c><00:04:43.960><c> with</c><00:04:44.800><c> uh</c>
+
+00:04:44.870 --> 00:04:44.880 align:start position:0%
+we search this pine cone index with uh
+ 
+
+00:04:44.880 --> 00:04:46.590 align:start position:0%
+we search this pine cone index with uh
+we<00:04:45.000><c> have</c><00:04:45.160><c> the</c><00:04:45.280><c> query</c><00:04:45.680><c> over</c><00:04:45.960><c> here</c><00:04:46.240><c> and</c><00:04:46.360><c> it's</c>
+
+00:04:46.590 --> 00:04:46.600 align:start position:0%
+we have the query over here and it's
+ 
+
+00:04:46.600 --> 00:04:49.029 align:start position:0%
+we have the query over here and it's
+just<00:04:46.919><c> the</c><00:04:47.400><c> um</c><00:04:47.720><c> it's</c><00:04:47.919><c> the</c><00:04:48.120><c> first</c><00:04:48.479><c> line</c><00:04:48.759><c> of</c><00:04:48.919><c> the</c>
+
+00:04:49.029 --> 00:04:49.039 align:start position:0%
+just the um it's the first line of the
+ 
+
+00:04:49.039 --> 00:04:52.189 align:start position:0%
+just the um it's the first line of the
+ebook<00:04:50.039><c> and</c><00:04:50.199><c> now</c><00:04:50.400><c> we</c><00:04:50.520><c> can</c><00:04:50.639><c> see</c><00:04:51.160><c> okay</c><00:04:51.759><c> we</c><00:04:51.880><c> can</c><00:04:52.039><c> run</c>
+
+00:04:52.189 --> 00:04:52.199 align:start position:0%
+ebook and now we can see okay we can run
+ 
+
+00:04:52.199 --> 00:04:54.790 align:start position:0%
+ebook and now we can see okay we can run
+a<00:04:52.360><c> similarity</c><00:04:52.880><c> search</c><00:04:53.440><c> and</c><00:04:53.759><c> we</c><00:04:53.919><c> correctly</c><00:04:54.440><c> get</c>
+
+00:04:54.790 --> 00:04:54.800 align:start position:0%
+a similarity search and we correctly get
+ 
+
+00:04:54.800 --> 00:04:57.310 align:start position:0%
+a similarity search and we correctly get
+the<00:04:55.000><c> first</c><00:04:55.400><c> chunk</c><00:04:55.800><c> of</c><00:04:55.960><c> the</c><00:04:56.080><c> book</c><00:04:56.440><c> back</c><00:04:56.880><c> based</c>
+
+00:04:57.310 --> 00:04:57.320 align:start position:0%
+the first chunk of the book back based
+ 
+
+00:04:57.320 --> 00:05:00.749 align:start position:0%
+the first chunk of the book back based
+on<00:04:57.680><c> the</c><00:04:58.240><c> uh</c><00:04:58.680><c> first</c><00:04:59.320><c> line</c><00:04:59.560><c> line</c><00:04:59.800><c> over</c><00:04:59.960><c> here</c><00:05:00.160><c> from</c>
+
+00:05:00.749 --> 00:05:00.759 align:start position:0%
+on the uh first line line over here from
+ 
+
+00:05:00.759 --> 00:05:02.749 align:start position:0%
+on the uh first line line over here from
+from<00:05:00.919><c> the</c><00:05:01.039><c> book</c><00:05:01.320><c> that</c><00:05:01.440><c> we</c><00:05:01.639><c> put</c><00:05:01.800><c> in</c><00:05:02.400><c> and</c><00:05:02.520><c> then</c><00:05:02.680><c> we</c>
+
+00:05:02.749 --> 00:05:02.759 align:start position:0%
+from the book that we put in and then we
+ 
+
+00:05:02.759 --> 00:05:04.950 align:start position:0%
+from the book that we put in and then we
+can<00:05:02.919><c> see</c><00:05:03.199><c> that</c><00:05:03.360><c> it</c><00:05:03.520><c> took</c>
+
+00:05:04.950 --> 00:05:04.960 align:start position:0%
+can see that it took
+ 
+
+00:05:04.960 --> 00:05:07.749 align:start position:0%
+can see that it took
+0.53<00:05:05.960><c> seconds</c><00:05:06.720><c> all</c><00:05:06.880><c> right</c><00:05:07.199><c> so</c><00:05:07.360><c> that</c><00:05:07.520><c> was</c><00:05:07.639><c> the</c>
+
+00:05:07.749 --> 00:05:07.759 align:start position:0%
+0.53 seconds all right so that was the
+ 
+
+00:05:07.759 --> 00:05:09.390 align:start position:0%
+0.53 seconds all right so that was the
+pine<00:05:07.960><c> cone</c><00:05:08.199><c> setup</c><00:05:08.520><c> I'm</c><00:05:08.600><c> going</c><00:05:08.800><c> a</c><00:05:08.880><c> little</c><00:05:09.120><c> fast</c>
+
+00:05:09.390 --> 00:05:09.400 align:start position:0%
+pine cone setup I'm going a little fast
+ 
+
+00:05:09.400 --> 00:05:11.310 align:start position:0%
+pine cone setup I'm going a little fast
+but<00:05:09.520><c> this</c><00:05:09.639><c> is</c><00:05:10.080><c> just</c><00:05:10.199><c> to</c><00:05:10.360><c> show</c><00:05:10.560><c> you</c><00:05:10.800><c> how</c><00:05:10.960><c> we</c><00:05:11.120><c> set</c>
+
+00:05:11.310 --> 00:05:11.320 align:start position:0%
+but this is just to show you how we set
+ 
+
+00:05:11.320 --> 00:05:13.870 align:start position:0%
+but this is just to show you how we set
+up<00:05:11.639><c> this</c><00:05:11.960><c> experiment</c><00:05:12.680><c> now</c><00:05:13.000><c> let's</c><00:05:13.240><c> come</c><00:05:13.520><c> over</c>
+
+00:05:13.870 --> 00:05:13.880 align:start position:0%
+up this experiment now let's come over
+ 
+
+00:05:13.880 --> 00:05:16.590 align:start position:0%
+up this experiment now let's come over
+to<00:05:14.160><c> the</c><00:05:14.440><c> pg</c><00:05:14.840><c> Vector</c><00:05:15.320><c> part</c><00:05:15.919><c> and</c><00:05:16.160><c> if</c><00:05:16.240><c> you</c><00:05:16.360><c> want</c><00:05:16.479><c> to</c>
+
+00:05:16.590 --> 00:05:16.600 align:start position:0%
+to the pg Vector part and if you want to
+ 
+
+00:05:16.600 --> 00:05:18.870 align:start position:0%
+to the pg Vector part and if you want to
+follow<00:05:17.000><c> this</c><00:05:17.479><c> yourself</c><00:05:18.120><c> you</c><00:05:18.240><c> can</c><00:05:18.520><c> check</c><00:05:18.680><c> out</c>
+
+00:05:18.870 --> 00:05:18.880 align:start position:0%
+follow this yourself you can check out
+ 
+
+00:05:18.880 --> 00:05:20.590 align:start position:0%
+follow this yourself you can check out
+the<00:05:19.080><c> repository</c><00:05:19.840><c> that</c><00:05:19.960><c> I</c><00:05:20.039><c> will</c><00:05:20.160><c> link</c><00:05:20.360><c> in</c><00:05:20.479><c> the</c>
+
+00:05:20.590 --> 00:05:20.600 align:start position:0%
+the repository that I will link in the
+ 
+
+00:05:20.600 --> 00:05:23.070 align:start position:0%
+the repository that I will link in the
+description<00:05:21.360><c> now</c><00:05:21.800><c> let's</c><00:05:22.160><c> take</c><00:05:22.319><c> a</c><00:05:22.520><c> collection</c>
+
+00:05:23.070 --> 00:05:23.080 align:start position:0%
+description now let's take a collection
+ 
+
+00:05:23.080 --> 00:05:25.430 align:start position:0%
+description now let's take a collection
+name<00:05:23.520><c> over</c><00:05:23.840><c> here</c><00:05:24.479><c> and</c><00:05:24.680><c> also</c><00:05:24.919><c> a</c><00:05:25.080><c> connection</c>
+
+00:05:25.430 --> 00:05:25.440 align:start position:0%
+name over here and also a connection
+ 
+
+00:05:25.440 --> 00:05:28.550 align:start position:0%
+name over here and also a connection
+string<00:05:25.880><c> to</c><00:05:26.160><c> connect</c><00:05:26.600><c> to</c><00:05:26.919><c> our</c><00:05:27.400><c> database</c><00:05:28.400><c> and</c>
+
+00:05:28.550 --> 00:05:28.560 align:start position:0%
+string to connect to our database and
+ 
+
+00:05:28.560 --> 00:05:30.749 align:start position:0%
+string to connect to our database and
+now<00:05:28.880><c> we're</c><00:05:29.080><c> going</c><00:05:29.280><c> to</c><00:05:29.560><c> to</c><00:05:29.759><c> create</c><00:05:30.479><c> uh</c><00:05:30.600><c> the</c>
+
+00:05:30.749 --> 00:05:30.759 align:start position:0%
+now we're going to to create uh the
+ 
+
+00:05:30.759 --> 00:05:33.469 align:start position:0%
+now we're going to to create uh the
+store<00:05:31.440><c> similar</c><00:05:31.880><c> to</c><00:05:32.199><c> how</c><00:05:32.360><c> we</c><00:05:32.680><c> just</c><00:05:32.960><c> creating</c>
+
+00:05:33.469 --> 00:05:33.479 align:start position:0%
+store similar to how we just creating
+ 
+
+00:05:33.479 --> 00:05:35.510 align:start position:0%
+store similar to how we just creating
+the<00:05:33.639><c> pine</c><00:05:33.919><c> cone</c><00:05:34.160><c> Factor</c><00:05:34.520><c> store</c><00:05:35.199><c> now</c><00:05:35.319><c> we're</c>
+
+00:05:35.510 --> 00:05:35.520 align:start position:0%
+the pine cone Factor store now we're
+ 
+
+00:05:35.520 --> 00:05:37.710 align:start position:0%
+the pine cone Factor store now we're
+going<00:05:35.680><c> to</c><00:05:35.800><c> use</c><00:05:36.000><c> the</c><00:05:36.160><c> Lang</c><00:05:36.479><c> chain</c><00:05:36.800><c> PG</c><00:05:37.160><c> Factor</c>
+
+00:05:37.710 --> 00:05:37.720 align:start position:0%
+going to use the Lang chain PG Factor
+ 
+
+00:05:37.720 --> 00:05:41.309 align:start position:0%
+going to use the Lang chain PG Factor
+one<00:05:38.720><c> and</c><00:05:39.160><c> just</c><00:05:39.759><c> by</c><00:05:39.960><c> loading</c><00:05:40.479><c> this</c><00:05:40.759><c> and</c><00:05:41.000><c> putting</c>
+
+00:05:41.309 --> 00:05:41.319 align:start position:0%
+one and just by loading this and putting
+ 
+
+00:05:41.319 --> 00:05:44.629 align:start position:0%
+one and just by loading this and putting
+in<00:05:41.720><c> the</c><00:05:42.520><c> uh</c><00:05:42.720><c> connection</c><00:05:43.199><c> to</c><00:05:43.400><c> our</c><00:05:43.639><c> database</c><00:05:44.520><c> I</c>
+
+00:05:44.629 --> 00:05:44.639 align:start position:0%
+in the uh connection to our database I
+ 
+
+00:05:44.639 --> 00:05:47.390 align:start position:0%
+in the uh connection to our database I
+can<00:05:44.800><c> now</c><00:05:45.039><c> come</c><00:05:45.199><c> over</c><00:05:45.520><c> here</c><00:05:46.479><c> and</c><00:05:46.880><c> let's</c><00:05:47.120><c> have</c><00:05:47.240><c> a</c>
+
+00:05:47.390 --> 00:05:47.400 align:start position:0%
+can now come over here and let's have a
+ 
+
+00:05:47.400 --> 00:05:50.309 align:start position:0%
+can now come over here and let's have a
+look<00:05:47.600><c> at</c><00:05:47.800><c> what</c><00:05:47.960><c> we</c><00:05:48.240><c> actually</c><00:05:49.039><c> created</c><00:05:50.039><c> and</c>
+
+00:05:50.309 --> 00:05:50.319 align:start position:0%
+look at what we actually created and
+ 
+
+00:05:50.319 --> 00:05:52.749 align:start position:0%
+look at what we actually created and
+this<00:05:50.440><c> is</c><00:05:50.800><c> one</c><00:05:51.039><c> thing</c><00:05:51.240><c> that</c><00:05:51.400><c> I</c><00:05:51.600><c> really</c><00:05:51.880><c> like</c>
+
+00:05:52.749 --> 00:05:52.759 align:start position:0%
+this is one thing that I really like
+ 
+
+00:05:52.759 --> 00:05:54.990 align:start position:0%
+this is one thing that I really like
+first<00:05:53.000><c> and</c><00:05:53.160><c> foremost</c><00:05:53.800><c> about</c><00:05:54.039><c> working</c><00:05:54.360><c> with</c><00:05:54.520><c> PG</c>
+
+00:05:54.990 --> 00:05:55.000 align:start position:0%
+first and foremost about working with PG
+ 
+
+00:05:55.000 --> 00:05:58.189 align:start position:0%
+first and foremost about working with PG
+Factor<00:05:56.000><c> we</c><00:05:56.240><c> now</c><00:05:56.919><c> um</c><00:05:57.120><c> have</c><00:05:57.319><c> two</c><00:05:57.600><c> tables</c><00:05:58.080><c> and</c>
+
+00:05:58.189 --> 00:05:58.199 align:start position:0%
+Factor we now um have two tables and
+ 
+
+00:05:58.199 --> 00:06:00.189 align:start position:0%
+Factor we now um have two tables and
+Lang<00:05:58.520><c> chain</c><00:05:58.800><c> creates</c><00:05:59.160><c> these</c><00:05:59.520><c> automatically</c>
+
+00:06:00.189 --> 00:06:00.199 align:start position:0%
+Lang chain creates these automatically
+ 
+
+00:06:00.199 --> 00:06:01.990 align:start position:0%
+Lang chain creates these automatically
+for<00:06:00.520><c> you</c><00:06:00.840><c> if</c><00:06:01.000><c> you</c><00:06:01.240><c> just</c><00:06:01.479><c> put</c><00:06:01.680><c> in</c><00:06:01.840><c> the</c>
+
+00:06:01.990 --> 00:06:02.000 align:start position:0%
+for you if you just put in the
+ 
+
+00:06:02.000 --> 00:06:05.270 align:start position:0%
+for you if you just put in the
+connection<00:06:02.560><c> to</c><00:06:03.039><c> your</c><00:06:03.479><c> post</c><00:06:03.919><c> SQL</c><00:06:04.240><c> database</c><00:06:05.080><c> so</c>
+
+00:06:05.270 --> 00:06:05.280 align:start position:0%
+connection to your post SQL database so
+ 
+
+00:06:05.280 --> 00:06:07.670 align:start position:0%
+connection to your post SQL database so
+we<00:06:05.400><c> have</c><00:06:05.479><c> a</c><00:06:05.600><c> collection</c><00:06:06.039><c> name</c><00:06:06.639><c> which</c><00:06:06.840><c> is</c><00:06:07.479><c> the</c>
+
+00:06:07.670 --> 00:06:07.680 align:start position:0%
+we have a collection name which is the
+ 
+
+00:06:07.680 --> 00:06:10.990 align:start position:0%
+we have a collection name which is the
+name<00:06:08.240><c> that</c><00:06:08.400><c> we</c><00:06:08.639><c> just</c><00:06:09.080><c> put</c><00:06:09.319><c> in</c><00:06:09.560><c> here</c><00:06:10.560><c> and</c><00:06:10.720><c> then</c>
+
+00:06:10.990 --> 00:06:11.000 align:start position:0%
+name that we just put in here and then
+ 
+
+00:06:11.000 --> 00:06:15.070 align:start position:0%
+name that we just put in here and then
+we<00:06:11.280><c> also</c><00:06:11.840><c> have</c><00:06:12.560><c> a</c><00:06:12.960><c> embedding</c><00:06:13.720><c> table</c><00:06:14.680><c> where</c><00:06:14.919><c> you</c>
+
+00:06:15.070 --> 00:06:15.080 align:start position:0%
+we also have a embedding table where you
+ 
+
+00:06:15.080 --> 00:06:17.189 align:start position:0%
+we also have a embedding table where you
+first<00:06:15.319><c> of</c><00:06:15.520><c> all</c><00:06:15.680><c> have</c><00:06:15.800><c> the</c><00:06:15.960><c> collection</c><00:06:16.400><c> ID</c>
+
+00:06:17.189 --> 00:06:17.199 align:start position:0%
+first of all have the collection ID
+ 
+
+00:06:17.199 --> 00:06:20.270 align:start position:0%
+first of all have the collection ID
+which<00:06:17.479><c> maps</c><00:06:17.840><c> to</c><00:06:18.520><c> The</c><00:06:19.000><c> UU</c><00:06:19.400><c> ID</c><00:06:19.720><c> that</c><00:06:19.840><c> you</c><00:06:19.960><c> see</c>
+
+00:06:20.270 --> 00:06:20.280 align:start position:0%
+which maps to The UU ID that you see
+ 
+
+00:06:20.280 --> 00:06:22.670 align:start position:0%
+which maps to The UU ID that you see
+over<00:06:20.560><c> here</c><00:06:21.120><c> then</c><00:06:21.280><c> we</c><00:06:21.360><c> have</c><00:06:21.520><c> the</c><00:06:21.639><c> embedding</c><00:06:22.520><c> and</c>
+
+00:06:22.670 --> 00:06:22.680 align:start position:0%
+over here then we have the embedding and
+ 
+
+00:06:22.680 --> 00:06:25.189 align:start position:0%
+over here then we have the embedding and
+we<00:06:22.840><c> also</c><00:06:23.160><c> have</c><00:06:23.440><c> the</c><00:06:23.639><c> original</c><00:06:24.240><c> document</c><00:06:24.960><c> in</c>
+
+00:06:25.189 --> 00:06:25.199 align:start position:0%
+we also have the original document in
+ 
+
+00:06:25.199 --> 00:06:28.629 align:start position:0%
+we also have the original document in
+here<00:06:26.080><c> so</c><00:06:26.360><c> we</c><00:06:26.520><c> have</c><00:06:26.639><c> a</c><00:06:27.000><c> traditional</c><00:06:28.000><c> structured</c>
+
+00:06:28.629 --> 00:06:28.639 align:start position:0%
+here so we have a traditional structured
+ 
+
+00:06:28.639 --> 00:06:31.870 align:start position:0%
+here so we have a traditional structured
+SQL<00:06:29.160><c> data</c><00:06:29.479><c> datase</c><00:06:30.479><c> but</c><00:06:30.960><c> it</c><00:06:31.199><c> also</c><00:06:31.479><c> has</c><00:06:31.720><c> the</c>
+
+00:06:31.870 --> 00:06:31.880 align:start position:0%
+SQL data datase but it also has the
+ 
+
+00:06:31.880 --> 00:06:34.189 align:start position:0%
+SQL data datase but it also has the
+factors<00:06:32.280><c> in</c><00:06:32.479><c> here</c><00:06:33.160><c> and</c><00:06:33.360><c> I</c><00:06:33.440><c> will</c><00:06:33.599><c> show</c><00:06:33.759><c> you</c><00:06:33.880><c> in</c><00:06:34.000><c> a</c>
+
+00:06:34.189 --> 00:06:34.199 align:start position:0%
+factors in here and I will show you in a
+ 
+
+00:06:34.199 --> 00:06:37.029 align:start position:0%
+factors in here and I will show you in a
+bit<00:06:34.560><c> how</c><00:06:35.120><c> this</c><00:06:35.319><c> is</c><00:06:35.479><c> just</c><00:06:35.680><c> from</c><00:06:36.120><c> a</c><00:06:36.680><c> an</c><00:06:36.880><c> an</c>
+
+00:06:37.029 --> 00:06:37.039 align:start position:0%
+bit how this is just from a an an
+ 
+
+00:06:37.039 --> 00:06:38.550 align:start position:0%
+bit how this is just from a an an
+overview<00:06:37.560><c> of</c><00:06:37.759><c> what</c><00:06:37.880><c> kind</c><00:06:38.000><c> of</c><00:06:38.160><c> data</c><00:06:38.400><c> you're</c>
+
+00:06:38.550 --> 00:06:38.560 align:start position:0%
+overview of what kind of data you're
+ 
+
+00:06:38.560 --> 00:06:39.950 align:start position:0%
+overview of what kind of data you're
+dealing<00:06:38.919><c> with</c><00:06:39.080><c> and</c><00:06:39.199><c> what</c><00:06:39.319><c> kind</c><00:06:39.440><c> of</c><00:06:39.560><c> data</c><00:06:39.759><c> you</c>
+
+00:06:39.950 --> 00:06:39.960 align:start position:0%
+dealing with and what kind of data you
+ 
+
+00:06:39.960 --> 00:06:41.950 align:start position:0%
+dealing with and what kind of data you
+have<00:06:40.240><c> in</c><00:06:40.400><c> your</c><00:06:40.680><c> application</c><00:06:41.280><c> is</c><00:06:41.599><c> very</c>
+
+00:06:41.950 --> 00:06:41.960 align:start position:0%
+have in your application is very
+ 
+
+00:06:41.960 --> 00:06:44.749 align:start position:0%
+have in your application is very
+effective<00:06:42.479><c> but</c><00:06:43.039><c> let's</c><00:06:43.360><c> continue</c><00:06:43.880><c> now</c><00:06:44.280><c> with</c>
+
+00:06:44.749 --> 00:06:44.759 align:start position:0%
+effective but let's continue now with
+ 
+
+00:06:44.759 --> 00:06:46.550 align:start position:0%
+effective but let's continue now with
+the<00:06:45.000><c> search</c><00:06:45.479><c> to</c><00:06:45.639><c> perform</c><00:06:45.919><c> the</c><00:06:46.080><c> similarity</c>
+
+00:06:46.550 --> 00:06:46.560 align:start position:0%
+the search to perform the similarity
+ 
+
+00:06:46.560 --> 00:06:49.110 align:start position:0%
+the search to perform the similarity
+search<00:06:46.840><c> and</c><00:06:47.080><c> actually</c><00:06:47.360><c> see</c><00:06:48.199><c> what</c><00:06:48.599><c> this</c>
+
+00:06:49.110 --> 00:06:49.120 align:start position:0%
+search and actually see what this
+ 
+
+00:06:49.120 --> 00:06:51.830 align:start position:0%
+search and actually see what this
+difference<00:06:49.479><c> in</c><00:06:49.680><c> speed</c><00:06:50.080><c> is</c><00:06:50.520><c> so</c><00:06:51.000><c> now</c><00:06:51.360><c> let's</c><00:06:51.639><c> run</c>
+
+00:06:51.830 --> 00:06:51.840 align:start position:0%
+difference in speed is so now let's run
+ 
+
+00:06:51.840 --> 00:06:54.710 align:start position:0%
+difference in speed is so now let's run
+this<00:06:52.039><c> query</c><00:06:52.440><c> again</c><00:06:53.280><c> and</c><00:06:53.840><c> so</c><00:06:54.039><c> this</c><00:06:54.120><c> is</c><00:06:54.280><c> another</c>
+
+00:06:54.710 --> 00:06:54.720 align:start position:0%
+this query again and so this is another
+ 
+
+00:06:54.720 --> 00:06:56.990 align:start position:0%
+this query again and so this is another
+custom<00:06:55.160><c> function</c><00:06:55.720><c> to</c><00:06:56.039><c> run</c><00:06:56.280><c> the</c><00:06:56.440><c> similarity</c>
+
+00:06:56.990 --> 00:06:57.000 align:start position:0%
+custom function to run the similarity
+ 
+
+00:06:57.000 --> 00:06:59.670 align:start position:0%
+custom function to run the similarity
+search<00:06:57.479><c> on</c><00:06:57.639><c> the</c><00:06:57.759><c> new</c><00:06:57.960><c> PG</c><00:06:58.319><c> Vector</c><00:06:59.039><c> object</c><00:06:59.560><c> we</c>
+
+00:06:59.670 --> 00:06:59.680 align:start position:0%
+search on the new PG Vector object we
+ 
+
+00:06:59.680 --> 00:07:02.270 align:start position:0%
+search on the new PG Vector object we
+created<00:07:00.479><c> and</c><00:07:00.639><c> now</c><00:07:00.960><c> let's</c><00:07:01.199><c> run</c><00:07:01.520><c> this</c><00:07:01.840><c> and</c><00:07:02.000><c> see</c>
+
+00:07:02.270 --> 00:07:02.280 align:start position:0%
+created and now let's run this and see
+ 
+
+00:07:02.280 --> 00:07:05.510 align:start position:0%
+created and now let's run this and see
+how<00:07:02.479><c> long</c><00:07:02.680><c> it</c><00:07:02.840><c> takes</c><00:07:03.599><c> this</c><00:07:03.879><c> time</c><00:07:04.879><c> all</c><00:07:05.039><c> right</c><00:07:05.319><c> so</c>
+
+00:07:05.510 --> 00:07:05.520 align:start position:0%
+how long it takes this time all right so
+ 
+
+00:07:05.520 --> 00:07:07.909 align:start position:0%
+how long it takes this time all right so
+we<00:07:05.599><c> can</c><00:07:05.759><c> see</c><00:07:06.280><c> same</c><00:07:06.599><c> result</c><00:07:07.120><c> it</c><00:07:07.360><c> retriev</c><00:07:07.759><c> the</c>
+
+00:07:07.909 --> 00:07:07.919 align:start position:0%
+we can see same result it retriev the
+ 
+
+00:07:07.919 --> 00:07:11.070 align:start position:0%
+we can see same result it retriev the
+first<00:07:08.160><c> chunk</c><00:07:08.759><c> of</c><00:07:09.520><c> the</c><00:07:09.879><c> uh</c><00:07:10.000><c> the</c><00:07:10.160><c> book</c><00:07:10.879><c> and</c><00:07:10.960><c> you</c>
+
+00:07:11.070 --> 00:07:11.080 align:start position:0%
+first chunk of the uh the book and you
+ 
+
+00:07:11.080 --> 00:07:14.189 align:start position:0%
+first chunk of the uh the book and you
+can<00:07:11.199><c> see</c><00:07:11.440><c> that</c><00:07:11.560><c> we're</c><00:07:11.759><c> now</c><00:07:12.039><c> at</c><00:07:12.520><c> 0.29</c><00:07:13.520><c> seconds</c>
+
+00:07:14.189 --> 00:07:14.199 align:start position:0%
+can see that we're now at 0.29 seconds
+ 
+
+00:07:14.199 --> 00:07:18.029 align:start position:0%
+can see that we're now at 0.29 seconds
+so<00:07:14.599><c> it's</c><00:07:14.919><c> almost</c><00:07:15.599><c> twice</c><00:07:16.039><c> as</c><00:07:16.280><c> fast</c><00:07:17.080><c> and</c><00:07:17.639><c> really</c>
+
+00:07:18.029 --> 00:07:18.039 align:start position:0%
+so it's almost twice as fast and really
+ 
+
+00:07:18.039 --> 00:07:19.550 align:start position:0%
+so it's almost twice as fast and really
+what<00:07:18.160><c> I</c><00:07:18.360><c> found</c><00:07:18.720><c> is</c><00:07:18.840><c> so</c><00:07:19.039><c> there</c><00:07:19.160><c> is</c><00:07:19.280><c> some</c>
+
+00:07:19.550 --> 00:07:19.560 align:start position:0%
+what I found is so there is some
+ 
+
+00:07:19.560 --> 00:07:21.710 align:start position:0%
+what I found is so there is some
+variation<00:07:20.319><c> every</c><00:07:20.560><c> time</c><00:07:20.800><c> you</c><00:07:21.039><c> you</c><00:07:21.199><c> run</c><00:07:21.479><c> these</c>
+
+00:07:21.710 --> 00:07:21.720 align:start position:0%
+variation every time you you run these
+ 
+
+00:07:21.720 --> 00:07:24.309 align:start position:0%
+variation every time you you run these
+so<00:07:22.039><c> let's</c><00:07:22.199><c> see</c><00:07:22.440><c> I</c><00:07:22.520><c> can</c><00:07:22.919><c> run</c><00:07:23.360><c> run</c><00:07:23.599><c> this</c><00:07:23.720><c> one</c><00:07:23.960><c> one</c>
+
+00:07:24.309 --> 00:07:24.319 align:start position:0%
+so let's see I can run run this one one
+ 
+
+00:07:24.319 --> 00:07:26.790 align:start position:0%
+so let's see I can run run this one one
+one<00:07:24.479><c> more</c><00:07:24.680><c> once</c><00:07:24.879><c> more</c><00:07:25.440><c> and</c><00:07:25.560><c> see</c><00:07:25.840><c> oh</c><00:07:25.960><c> we're</c>
+
+00:07:26.790 --> 00:07:26.800 align:start position:0%
+one more once more and see oh we're
+ 
+
+00:07:26.800 --> 00:07:30.430 align:start position:0%
+one more once more and see oh we're
+0.23<00:07:27.800><c> now</c><00:07:28.000><c> let's</c><00:07:28.199><c> come</c><00:07:28.440><c> back</c><00:07:28.639><c> to</c><00:07:28.840><c> the</c><00:07:29.000><c> Pine</c><00:07:29.400><c> con</c>
+
+00:07:30.430 --> 00:07:30.440 align:start position:0%
+0.23 now let's come back to the Pine con
+ 
+
+00:07:30.440 --> 00:07:33.869 align:start position:0%
+0.23 now let's come back to the Pine con
+one<00:07:31.440><c> run</c><00:07:32.240><c> this</c><00:07:32.400><c> one</c><00:07:32.680><c> one</c><00:07:32.879><c> more</c><00:07:33.120><c> time</c><00:07:33.520><c> let's</c><00:07:33.720><c> see</c>
+
+00:07:33.869 --> 00:07:33.879 align:start position:0%
+one run this one one more time let's see
+ 
+
+00:07:33.879 --> 00:07:36.309 align:start position:0%
+one run this one one more time let's see
+how<00:07:34.039><c> long</c><00:07:34.280><c> that</c><00:07:34.440><c> takes</c><00:07:35.000><c> and</c><00:07:35.160><c> now</c><00:07:35.360><c> we're</c><00:07:35.479><c> at</c><00:07:35.560><c> 0.5</c>
+
+00:07:36.309 --> 00:07:36.319 align:start position:0%
+how long that takes and now we're at 0.5
+ 
+
+00:07:36.319 --> 00:07:40.029 align:start position:0%
+how long that takes and now we're at 0.5
+seconds<00:07:37.080><c> so</c><00:07:37.840><c> really</c><00:07:38.319><c> from</c><00:07:38.919><c> these</c><00:07:39.360><c> examples</c>
+
+00:07:40.029 --> 00:07:40.039 align:start position:0%
+seconds so really from these examples
+ 
+
+00:07:40.039 --> 00:07:42.469 align:start position:0%
+seconds so really from these examples
+that<00:07:40.160><c> we</c><00:07:40.360><c> have</c><00:07:40.639><c> over</c><00:07:40.960><c> here</c><00:07:41.639><c> PG</c><00:07:42.039><c> factor</c><00:07:42.360><c> is</c>
+
+00:07:42.469 --> 00:07:42.479 align:start position:0%
+that we have over here PG factor is
+ 
+
+00:07:42.479 --> 00:07:44.830 align:start position:0%
+that we have over here PG factor is
+literally<00:07:42.960><c> twice</c><00:07:43.280><c> as</c><00:07:43.520><c> fast</c><00:07:44.159><c> and</c><00:07:44.520><c> that's</c>
+
+00:07:44.830 --> 00:07:44.840 align:start position:0%
+literally twice as fast and that's
+ 
+
+00:07:44.840 --> 00:07:47.469 align:start position:0%
+literally twice as fast and that's
+really<00:07:45.599><c> what</c><00:07:45.800><c> I've</c><00:07:45.960><c> seen</c><00:07:46.639><c> uh</c><00:07:46.840><c> consistently</c>
+
+00:07:47.469 --> 00:07:47.479 align:start position:0%
+really what I've seen uh consistently
+ 
+
+00:07:47.479 --> 00:07:49.790 align:start position:0%
+really what I've seen uh consistently
+been<00:07:47.800><c> the</c><00:07:48.000><c> case</c><00:07:48.360><c> with</c><00:07:48.599><c> the</c><00:07:48.800><c> applications</c><00:07:49.560><c> that</c>
+
+00:07:49.790 --> 00:07:49.800 align:start position:0%
+been the case with the applications that
+ 
+
+00:07:49.800 --> 00:07:52.510 align:start position:0%
+been the case with the applications that
+that<00:07:49.919><c> I'm</c><00:07:50.039><c> building</c><00:07:50.479><c> right</c><00:07:50.639><c> now</c><00:07:51.000><c> and</c><00:07:51.879><c> um</c><00:07:52.280><c> that</c>
+
+00:07:52.510 --> 00:07:52.520 align:start position:0%
+that I'm building right now and um that
+ 
+
+00:07:52.520 --> 00:07:55.350 align:start position:0%
+that I'm building right now and um that
+really<00:07:52.960><c> for</c><00:07:53.159><c> me</c><00:07:53.520><c> defeated</c><00:07:53.960><c> the</c><00:07:54.159><c> purpose</c><00:07:54.840><c> of</c>
+
+00:07:55.350 --> 00:07:55.360 align:start position:0%
+really for me defeated the purpose of
+ 
+
+00:07:55.360 --> 00:07:58.550 align:start position:0%
+really for me defeated the purpose of
+using<00:07:56.199><c> something</c><00:07:56.680><c> dedicated</c><00:07:57.440><c> like</c><00:07:57.680><c> pine</c><00:07:58.000><c> cone</c>
+
+00:07:58.550 --> 00:07:58.560 align:start position:0%
+using something dedicated like pine cone
+ 
+
+00:07:58.560 --> 00:08:01.830 align:start position:0%
+using something dedicated like pine cone
+and<00:07:58.919><c> why</c><00:07:59.120><c> this</c><00:07:59.440><c> is</c><00:07:59.599><c> the</c><00:07:59.800><c> case</c><00:08:00.360><c> is</c><00:08:00.720><c> explained</c><00:08:01.599><c> to</c>
+
+00:08:01.830 --> 00:08:01.840 align:start position:0%
+and why this is the case is explained to
+ 
+
+00:08:01.840 --> 00:08:04.350 align:start position:0%
+and why this is the case is explained to
+some<00:08:02.120><c> degree</c><00:08:02.520><c> in</c><00:08:02.720><c> this</c><00:08:02.960><c> document</c><00:08:03.599><c> but</c><00:08:04.199><c> it</c>
+
+00:08:04.350 --> 00:08:04.360 align:start position:0%
+some degree in this document but it
+ 
+
+00:08:04.360 --> 00:08:06.830 align:start position:0%
+some degree in this document but it
+basically<00:08:04.879><c> highlights</c><00:08:05.479><c> that</c><00:08:05.919><c> since</c><00:08:06.560><c> you</c>
+
+00:08:06.830 --> 00:08:06.840 align:start position:0%
+basically highlights that since you
+ 
+
+00:08:06.840 --> 00:08:08.990 align:start position:0%
+basically highlights that since you
+interact<00:08:07.520><c> with</c><00:08:07.720><c> all</c><00:08:07.840><c> of</c><00:08:08.080><c> these</c><00:08:08.440><c> services</c>
+
+00:08:08.990 --> 00:08:09.000 align:start position:0%
+interact with all of these services
+ 
+
+00:08:09.000 --> 00:08:11.830 align:start position:0%
+interact with all of these services
+using<00:08:09.400><c> apis</c><00:08:10.280><c> not</c><00:08:10.560><c> necessarily</c><00:08:11.280><c> the</c>
+
+00:08:11.830 --> 00:08:11.840 align:start position:0%
+using apis not necessarily the
+ 
+
+00:08:11.840 --> 00:08:13.270 align:start position:0%
+using apis not necessarily the
+implementation<00:08:12.520><c> and</c><00:08:12.720><c> speed</c><00:08:13.000><c> of</c><00:08:13.120><c> the</c>
+
+00:08:13.270 --> 00:08:13.280 align:start position:0%
+implementation and speed of the
+ 
+
+00:08:13.280 --> 00:08:14.830 align:start position:0%
+implementation and speed of the
+algorithm<00:08:13.759><c> and</c><00:08:13.919><c> the</c><00:08:14.039><c> search</c><00:08:14.400><c> becomes</c><00:08:14.680><c> the</c>
+
+00:08:14.830 --> 00:08:14.840 align:start position:0%
+algorithm and the search becomes the
+ 
+
+00:08:14.840 --> 00:08:17.589 align:start position:0%
+algorithm and the search becomes the
+bottleneck<00:08:15.680><c> but</c><00:08:15.960><c> the</c><00:08:16.159><c> network</c><00:08:16.960><c> connection</c>
+
+00:08:17.589 --> 00:08:17.599 align:start position:0%
+bottleneck but the network connection
+ 
+
+00:08:17.599 --> 00:08:21.589 align:start position:0%
+bottleneck but the network connection
+over<00:08:17.960><c> which</c><00:08:18.199><c> the</c><00:08:18.440><c> data</c><00:08:19.039><c> is</c><00:08:19.560><c> sent</c><00:08:20.560><c> so</c><00:08:21.039><c> by</c><00:08:21.240><c> using</c>
+
+00:08:21.589 --> 00:08:21.599 align:start position:0%
+over which the data is sent so by using
+ 
+
+00:08:21.599 --> 00:08:24.430 align:start position:0%
+over which the data is sent so by using
+an<00:08:21.800><c> open-</c><00:08:22.159><c> Source</c><00:08:22.599><c> database</c><00:08:23.599><c> like</c><00:08:23.919><c> postrest</c>
+
+00:08:24.430 --> 00:08:24.440 align:start position:0%
+an open- Source database like postrest
+ 
+
+00:08:24.440 --> 00:08:27.390 align:start position:0%
+an open- Source database like postrest
+SQL<00:08:25.240><c> you</c><00:08:25.440><c> can</c><00:08:26.159><c> put</c><00:08:26.440><c> your</c><00:08:26.720><c> database</c>
+
+00:08:27.390 --> 00:08:27.400 align:start position:0%
+SQL you can put your database
+ 
+
+00:08:27.400 --> 00:08:29.830 align:start position:0%
+SQL you can put your database
+essentially<00:08:28.159><c> close</c><00:08:28.720><c> to</c><00:08:29.440><c> where</c><00:08:29.599><c> your</c>
+
+00:08:29.830 --> 00:08:29.840 align:start position:0%
+essentially close to where your
+ 
+
+00:08:29.840 --> 00:08:31.589 align:start position:0%
+essentially close to where your
+application<00:08:30.360><c> is</c><00:08:30.520><c> running</c><00:08:31.120><c> and</c><00:08:31.240><c> this</c><00:08:31.400><c> can</c>
+
+00:08:31.589 --> 00:08:31.599 align:start position:0%
+application is running and this can
+ 
+
+00:08:31.599 --> 00:08:34.350 align:start position:0%
+application is running and this can
+reduce<00:08:32.000><c> latencies</c><00:08:33.000><c> and</c><00:08:33.120><c> now</c><00:08:33.519><c> next</c><00:08:33.880><c> where</c><00:08:34.200><c> I</c>
+
+00:08:34.350 --> 00:08:34.360 align:start position:0%
+reduce latencies and now next where I
+ 
+
+00:08:34.360 --> 00:08:37.430 align:start position:0%
+reduce latencies and now next where I
+think<00:08:34.640><c> PG</c><00:08:35.039><c> Factor</c><00:08:35.560><c> really</c><00:08:35.839><c> shines</c><00:08:36.519><c> is</c><00:08:37.039><c> if</c><00:08:37.320><c> we</c>
+
+00:08:37.430 --> 00:08:37.440 align:start position:0%
+think PG Factor really shines is if we
+ 
+
+00:08:37.440 --> 00:08:39.829 align:start position:0%
+think PG Factor really shines is if we
+start<00:08:37.680><c> to</c><00:08:37.959><c> add</c><00:08:38.360><c> more</c><00:08:38.719><c> data</c><00:08:39.039><c> to</c><00:08:39.240><c> it</c><00:08:39.440><c> so</c><00:08:39.640><c> let's</c>
+
+00:08:39.829 --> 00:08:39.839 align:start position:0%
+start to add more data to it so let's
+ 
+
+00:08:39.839 --> 00:08:42.750 align:start position:0%
+start to add more data to it so let's
+say<00:08:40.080><c> we</c><00:08:40.200><c> have</c><00:08:40.360><c> another</c><00:08:40.640><c> txt</c><00:08:41.159><c> file</c><00:08:41.959><c> let's</c><00:08:42.360><c> load</c>
+
+00:08:42.750 --> 00:08:42.760 align:start position:0%
+say we have another txt file let's load
+ 
+
+00:08:42.760 --> 00:08:44.910 align:start position:0%
+say we have another txt file let's load
+that<00:08:42.919><c> up</c><00:08:43.240><c> split</c><00:08:43.519><c> it</c><00:08:43.680><c> up</c><00:08:43.800><c> into</c><00:08:44.080><c> chunks</c><00:08:44.680><c> give</c><00:08:44.800><c> it</c>
+
+00:08:44.910 --> 00:08:44.920 align:start position:0%
+that up split it up into chunks give it
+ 
+
+00:08:44.920 --> 00:08:47.710 align:start position:0%
+that up split it up into chunks give it
+a<00:08:45.040><c> collection</c><00:08:45.480><c> name</c><00:08:45.720><c> two</c><00:08:46.440><c> and</c><00:08:46.880><c> let's</c><00:08:47.120><c> run</c><00:08:47.440><c> that</c>
+
+00:08:47.710 --> 00:08:47.720 align:start position:0%
+a collection name two and let's run that
+ 
+
+00:08:47.720 --> 00:08:49.990 align:start position:0%
+a collection name two and let's run that
+one<00:08:47.880><c> more</c><00:08:48.120><c> time</c><00:08:48.600><c> let's</c><00:08:48.839><c> see</c><00:08:49.200><c> what</c><00:08:49.399><c> happens</c>
+
+00:08:49.990 --> 00:08:50.000 align:start position:0%
+one more time let's see what happens
+ 
+
+00:08:50.000 --> 00:08:52.269 align:start position:0%
+one more time let's see what happens
+over<00:08:50.279><c> here</c><00:08:50.880><c> we</c><00:08:51.000><c> can</c><00:08:51.160><c> now</c><00:08:51.399><c> come</c><00:08:51.600><c> back</c><00:08:51.760><c> to</c><00:08:52.080><c> our</c>
+
+00:08:52.269 --> 00:08:52.279 align:start position:0%
+over here we can now come back to our
+ 
+
+00:08:52.279 --> 00:08:55.269 align:start position:0%
+over here we can now come back to our
+database<00:08:52.959><c> we</c><00:08:53.080><c> can</c><00:08:53.360><c> refresh</c><00:08:53.839><c> this</c><00:08:54.320><c> and</c><00:08:54.839><c> here</c><00:08:55.120><c> we</c>
+
+00:08:55.269 --> 00:08:55.279 align:start position:0%
+database we can refresh this and here we
+ 
+
+00:08:55.279 --> 00:08:57.710 align:start position:0%
+database we can refresh this and here we
+have<00:08:55.480><c> another</c><00:08:56.240><c> collection</c><00:08:56.839><c> that's</c><00:08:57.040><c> in</c><00:08:57.240><c> here</c>
+
+00:08:57.710 --> 00:08:57.720 align:start position:0%
+have another collection that's in here
+ 
+
+00:08:57.720 --> 00:08:59.150 align:start position:0%
+have another collection that's in here
+and<00:08:57.800><c> now</c><00:08:57.959><c> we</c><00:08:58.079><c> can</c><00:08:58.200><c> come</c><00:08:58.399><c> over</c><00:08:58.600><c> here</c><00:08:58.839><c> refresh</c>
+
+00:08:59.150 --> 00:08:59.160 align:start position:0%
+and now we can come over here refresh
+ 
+
+00:08:59.160 --> 00:09:02.269 align:start position:0%
+and now we can come over here refresh
+refesh<00:08:59.480><c> this</c><00:08:59.680><c> notice</c><00:09:00.120><c> we're</c><00:09:00.440><c> now</c><00:09:00.640><c> at</c><00:09:00.800><c> 102</c><00:09:01.399><c> rows</c>
+
+00:09:02.269 --> 00:09:02.279 align:start position:0%
+refesh this notice we're now at 102 rows
+ 
+
+00:09:02.279 --> 00:09:05.230 align:start position:0%
+refesh this notice we're now at 102 rows
+and<00:09:02.920><c> now</c><00:09:03.200><c> we're</c><00:09:03.519><c> at</c><00:09:03.800><c> a</c><00:09:03.959><c> lot</c><00:09:04.160><c> more</c><00:09:04.399><c> rows</c><00:09:04.880><c> adding</c>
+
+00:09:05.230 --> 00:09:05.240 align:start position:0%
+and now we're at a lot more rows adding
+ 
+
+00:09:05.240 --> 00:09:08.269 align:start position:0%
+and now we're at a lot more rows adding
+more<00:09:05.560><c> data</c><00:09:05.880><c> to</c><00:09:06.079><c> it</c><00:09:06.560><c> this</c><00:09:06.720><c> just</c><00:09:06.920><c> to</c><00:09:07.200><c> me</c><00:09:07.920><c> gives</c><00:09:08.120><c> me</c>
+
+00:09:08.269 --> 00:09:08.279 align:start position:0%
+more data to it this just to me gives me
+ 
+
+00:09:08.279 --> 00:09:10.870 align:start position:0%
+more data to it this just to me gives me
+a<00:09:08.519><c> much</c><00:09:08.800><c> better</c><00:09:09.200><c> overview</c><00:09:09.880><c> of</c><00:09:10.320><c> what's</c>
+
+00:09:10.870 --> 00:09:10.880 align:start position:0%
+a much better overview of what's
+ 
+
+00:09:10.880 --> 00:09:13.470 align:start position:0%
+a much better overview of what's
+actually<00:09:11.480><c> in</c><00:09:11.680><c> my</c><00:09:11.959><c> application</c><00:09:12.600><c> and</c><00:09:12.839><c> does</c><00:09:13.200><c> also</c>
+
+00:09:13.470 --> 00:09:13.480 align:start position:0%
+actually in my application and does also
+ 
+
+00:09:13.480 --> 00:09:15.509 align:start position:0%
+actually in my application and does also
+my<00:09:13.720><c> client's</c><00:09:14.240><c> applications</c><00:09:15.040><c> and</c><00:09:15.200><c> if</c><00:09:15.320><c> I</c>
+
+00:09:15.509 --> 00:09:15.519 align:start position:0%
+my client's applications and if I
+ 
+
+00:09:15.519 --> 00:09:17.630 align:start position:0%
+my client's applications and if I
+compare<00:09:15.959><c> that</c><00:09:16.160><c> to</c><00:09:16.440><c> the</c><00:09:16.560><c> few</c><00:09:16.920><c> that</c><00:09:17.079><c> I</c><00:09:17.240><c> have</c><00:09:17.399><c> over</c>
+
+00:09:17.630 --> 00:09:17.640 align:start position:0%
+compare that to the few that I have over
+ 
+
+00:09:17.640 --> 00:09:20.110 align:start position:0%
+compare that to the few that I have over
+here<00:09:17.800><c> in</c><00:09:17.920><c> the</c><00:09:18.040><c> pine</c><00:09:18.320><c> cone</c><00:09:18.600><c> console</c><00:09:19.560><c> I</c><00:09:19.760><c> just</c>
+
+00:09:20.110 --> 00:09:20.120 align:start position:0%
+here in the pine cone console I just
+ 
+
+00:09:20.120 --> 00:09:22.870 align:start position:0%
+here in the pine cone console I just
+really<00:09:20.560><c> prefer</c><00:09:21.519><c> having</c><00:09:22.000><c> an</c><00:09:22.320><c> dedicated</c>
+
+00:09:22.870 --> 00:09:22.880 align:start position:0%
+really prefer having an dedicated
+ 
+
+00:09:22.880 --> 00:09:25.550 align:start position:0%
+really prefer having an dedicated
+application<00:09:23.600><c> that</c><00:09:23.720><c> I</c><00:09:23.839><c> can</c><00:09:24.000><c> use</c><00:09:24.320><c> to</c><00:09:24.800><c> go</c><00:09:25.040><c> through</c>
+
+00:09:25.550 --> 00:09:25.560 align:start position:0%
+application that I can use to go through
+ 
+
+00:09:25.560 --> 00:09:27.790 align:start position:0%
+application that I can use to go through
+my<00:09:25.800><c> data</c><00:09:26.279><c> and</c><00:09:26.440><c> also</c><00:09:26.720><c> not</c><00:09:26.880><c> only</c><00:09:27.120><c> query</c><00:09:27.480><c> on</c><00:09:27.640><c> the</c>
+
+00:09:27.790 --> 00:09:27.800 align:start position:0%
+my data and also not only query on the
+ 
+
+00:09:27.800 --> 00:09:29.870 align:start position:0%
+my data and also not only query on the
+embeddings<00:09:28.480><c> but</c><00:09:28.600><c> also</c><00:09:28.800><c> on</c><00:09:28.920><c> the</c><00:09:29.279><c> documents</c>
+
+00:09:29.870 --> 00:09:29.880 align:start position:0%
+embeddings but also on the documents
+ 
+
+00:09:29.880 --> 00:09:32.550 align:start position:0%
+embeddings but also on the documents
+query<00:09:30.200><c> on</c><00:09:30.320><c> the</c><00:09:30.480><c> collection</c><00:09:30.880><c> ideas</c><00:09:31.880><c> and</c><00:09:32.240><c> I</c><00:09:32.360><c> just</c>
+
+00:09:32.550 --> 00:09:32.560 align:start position:0%
+query on the collection ideas and I just
+ 
+
+00:09:32.560 --> 00:09:35.430 align:start position:0%
+query on the collection ideas and I just
+feel<00:09:33.000><c> more</c><00:09:33.279><c> in</c><00:09:33.480><c> control</c><00:09:34.360><c> this</c><00:09:34.560><c> way</c><00:09:34.880><c> versus</c><00:09:35.320><c> if</c>
+
+00:09:35.430 --> 00:09:35.440 align:start position:0%
+feel more in control this way versus if
+ 
+
+00:09:35.440 --> 00:09:38.550 align:start position:0%
+feel more in control this way versus if
+I<00:09:35.600><c> come</c><00:09:35.839><c> over</c><00:09:36.120><c> here</c><00:09:36.680><c> it</c><00:09:36.839><c> starts</c><00:09:37.360><c> with</c><00:09:37.680><c> a</c><00:09:37.920><c> random</c>
+
+00:09:38.550 --> 00:09:38.560 align:start position:0%
+I come over here it starts with a random
+ 
+
+00:09:38.560 --> 00:09:41.030 align:start position:0%
+I come over here it starts with a random
+factor<00:09:39.240><c> that</c><00:09:39.519><c> you</c><00:09:39.720><c> get</c><00:09:39.959><c> by</c><00:09:40.200><c> default</c><00:09:40.760><c> then</c><00:09:40.920><c> it</c>
+
+00:09:41.030 --> 00:09:41.040 align:start position:0%
+factor that you get by default then it
+ 
+
+00:09:41.040 --> 00:09:43.910 align:start position:0%
+factor that you get by default then it
+shows<00:09:41.320><c> you</c><00:09:41.519><c> some</c><00:09:41.800><c> results</c><00:09:42.440><c> you</c><00:09:42.600><c> can</c><00:09:43.240><c> query</c><00:09:43.640><c> by</c>
+
+00:09:43.910 --> 00:09:43.920 align:start position:0%
+shows you some results you can query by
+ 
+
+00:09:43.920 --> 00:09:47.110 align:start position:0%
+shows you some results you can query by
+ID<00:09:44.600><c> but</c><00:09:45.000><c> I</c><00:09:45.240><c> don't</c><00:09:45.399><c> store</c><00:09:46.160><c> IDs</c><00:09:46.680><c> otherwise</c><00:09:47.000><c> you</c>
+
+00:09:47.110 --> 00:09:47.120 align:start position:0%
+ID but I don't store IDs otherwise you
+ 
+
+00:09:47.120 --> 00:09:49.389 align:start position:0%
+ID but I don't store IDs otherwise you
+would<00:09:47.279><c> need</c><00:09:47.399><c> a</c><00:09:47.640><c> sep</c><00:09:48.079><c> separate</c><00:09:48.399><c> database</c><00:09:49.240><c> which</c>
+
+00:09:49.389 --> 00:09:49.399 align:start position:0%
+would need a sep separate database which
+ 
+
+00:09:49.399 --> 00:09:51.350 align:start position:0%
+would need a sep separate database which
+kind<00:09:49.519><c> of</c><00:09:49.640><c> like</c><00:09:49.760><c> defeats</c><00:09:50.160><c> the</c><00:09:50.320><c> purpose</c><00:09:50.839><c> right</c>
+
+00:09:51.350 --> 00:09:51.360 align:start position:0%
+kind of like defeats the purpose right
+ 
+
+00:09:51.360 --> 00:09:54.990 align:start position:0%
+kind of like defeats the purpose right
+so<00:09:52.079><c> that</c><00:09:52.600><c> I</c><00:09:52.680><c> think</c><00:09:53.320><c> summarizes</c><00:09:54.320><c> my</c><00:09:54.600><c> issues</c>
+
+00:09:54.990 --> 00:09:55.000 align:start position:0%
+so that I think summarizes my issues
+ 
+
+00:09:55.000 --> 00:09:56.710 align:start position:0%
+so that I think summarizes my issues
+that<00:09:55.160><c> I</c><00:09:55.360><c> had</c><00:09:55.519><c> with</c><00:09:55.680><c> pine</c><00:09:55.959><c> cone</c><00:09:56.200><c> and</c><00:09:56.320><c> now</c><00:09:56.480><c> I</c><00:09:56.560><c> am</c>
+
+00:09:56.710 --> 00:09:56.720 align:start position:0%
+that I had with pine cone and now I am
+ 
+
+00:09:56.720 --> 00:09:58.550 align:start position:0%
+that I had with pine cone and now I am
+aware<00:09:57.279><c> it</c><00:09:57.480><c> probably</c><00:09:57.800><c> has</c><00:09:57.920><c> to</c><00:09:58.079><c> do</c><00:09:58.279><c> something</c>
+
+00:09:58.550 --> 00:09:58.560 align:start position:0%
+aware it probably has to do something
+ 
+
+00:09:58.560 --> 00:10:00.710 align:start position:0%
+aware it probably has to do something
+with<00:09:58.720><c> name</c><00:09:59.200><c> spaces</c><00:09:59.680><c> and</c><00:09:59.920><c> configuring</c>
+
+00:10:00.710 --> 00:10:00.720 align:start position:0%
+with name spaces and configuring
+ 
+
+00:10:00.720 --> 00:10:02.990 align:start position:0%
+with name spaces and configuring
+everything<00:10:01.279><c> using</c><00:10:01.640><c> namespaces</c><00:10:02.360><c> accordingly</c>
+
+00:10:02.990 --> 00:10:03.000 align:start position:0%
+everything using namespaces accordingly
+ 
+
+00:10:03.000 --> 00:10:05.790 align:start position:0%
+everything using namespaces accordingly
+to<00:10:03.399><c> for</c><00:10:03.560><c> example</c><00:10:03.959><c> how</c><00:10:04.200><c> I</c><00:10:04.360><c> do</c><00:10:04.640><c> this</c><00:10:05.000><c> with</c><00:10:05.640><c> uh</c>
+
+00:10:05.790 --> 00:10:05.800 align:start position:0%
+to for example how I do this with uh
+ 
+
+00:10:05.800 --> 00:10:08.670 align:start position:0%
+to for example how I do this with uh
+collections<00:10:06.360><c> in</c><00:10:06.560><c> here</c><00:10:07.200><c> but</c><00:10:07.440><c> again</c><00:10:08.120><c> as</c><00:10:08.279><c> I</c><00:10:08.399><c> said</c>
+
+00:10:08.670 --> 00:10:08.680 align:start position:0%
+collections in here but again as I said
+ 
+
+00:10:08.680 --> 00:10:10.430 align:start position:0%
+collections in here but again as I said
+I<00:10:08.800><c> just</c><00:10:08.959><c> look</c><00:10:09.160><c> at</c><00:10:09.320><c> it</c><00:10:09.480><c> from</c><00:10:09.680><c> a</c><00:10:09.880><c> speed</c>
+
+00:10:10.430 --> 00:10:10.440 align:start position:0%
+I just look at it from a speed
+ 
+
+00:10:10.440 --> 00:10:13.949 align:start position:0%
+I just look at it from a speed
+perspective<00:10:11.079><c> and</c><00:10:11.320><c> a</c><00:10:11.640><c> Simplicity</c><00:10:12.959><c> perspective</c>
+
+00:10:13.949 --> 00:10:13.959 align:start position:0%
+perspective and a Simplicity perspective
+ 
+
+00:10:13.959 --> 00:10:16.310 align:start position:0%
+perspective and a Simplicity perspective
+if<00:10:14.079><c> I</c><00:10:14.240><c> look</c><00:10:14.360><c> at</c><00:10:14.519><c> the</c><00:10:14.640><c> examples</c><00:10:15.200><c> over</c><00:10:15.440><c> here</c><00:10:15.839><c> PG</c>
+
+00:10:16.310 --> 00:10:16.320 align:start position:0%
+if I look at the examples over here PG
+ 
+
+00:10:16.320 --> 00:10:19.190 align:start position:0%
+if I look at the examples over here PG
+Factor<00:10:16.880><c> wins</c><00:10:17.160><c> in</c><00:10:17.279><c> terms</c><00:10:17.519><c> of</c><00:10:17.720><c> speed</c><00:10:18.560><c> it's</c><00:10:18.839><c> open</c>
+
+00:10:19.190 --> 00:10:19.200 align:start position:0%
+Factor wins in terms of speed it's open
+ 
+
+00:10:19.200 --> 00:10:21.670 align:start position:0%
+Factor wins in terms of speed it's open
+source<00:10:19.959><c> and</c><00:10:20.120><c> I</c><00:10:20.279><c> also</c><00:10:20.640><c> just</c><00:10:20.920><c> like</c><00:10:21.240><c> being</c><00:10:21.480><c> able</c>
+
+00:10:21.670 --> 00:10:21.680 align:start position:0%
+source and I also just like being able
+ 
+
+00:10:21.680 --> 00:10:23.470 align:start position:0%
+source and I also just like being able
+to<00:10:21.880><c> open</c><00:10:22.079><c> the</c><00:10:22.279><c> database</c><00:10:22.800><c> and</c><00:10:22.920><c> see</c><00:10:23.240><c> what's</c>
+
+00:10:23.470 --> 00:10:23.480 align:start position:0%
+to open the database and see what's
+ 
+
+00:10:23.480 --> 00:10:25.509 align:start position:0%
+to open the database and see what's
+going<00:10:23.680><c> on</c><00:10:24.079><c> and</c><00:10:24.200><c> now</c><00:10:24.519><c> one</c><00:10:24.800><c> final</c><00:10:25.120><c> thing</c><00:10:25.320><c> that</c><00:10:25.440><c> I</c>
+
+00:10:25.509 --> 00:10:25.519 align:start position:0%
+going on and now one final thing that I
+ 
+
+00:10:25.519 --> 00:10:27.110 align:start position:0%
+going on and now one final thing that I
+want<00:10:25.680><c> to</c><00:10:25.800><c> show</c><00:10:26.000><c> you</c><00:10:26.240><c> and</c><00:10:26.519><c> this</c><00:10:26.640><c> is</c><00:10:26.839><c> really</c>
+
+00:10:27.110 --> 00:10:27.120 align:start position:0%
+want to show you and this is really
+ 
+
+00:10:27.120 --> 00:10:29.590 align:start position:0%
+want to show you and this is really
+powerful<00:10:27.560><c> you</c><00:10:27.680><c> can</c><00:10:27.800><c> steal</c><00:10:28.160><c> this</c><00:10:28.320><c> from</c><00:10:28.560><c> me</c><00:10:29.360><c> I</c>
+
+00:10:29.590 --> 00:10:29.600 align:start position:0%
+powerful you can steal this from me I
+ 
+
+00:10:29.600 --> 00:10:33.550 align:start position:0%
+powerful you can steal this from me I
+built<00:10:30.000><c> a</c><00:10:30.160><c> custom</c><00:10:30.600><c> PG</c><00:10:31.160><c> Factor</c><00:10:31.760><c> surface</c><00:10:32.760><c> uh</c><00:10:33.160><c> with</c>
+
+00:10:33.550 --> 00:10:33.560 align:start position:0%
+built a custom PG Factor surface uh with
+ 
+
+00:10:33.560 --> 00:10:35.750 align:start position:0%
+built a custom PG Factor surface uh with
+a<00:10:33.760><c> custom</c><00:10:34.160><c> similarity</c><00:10:34.680><c> search</c><00:10:35.000><c> with</c><00:10:35.279><c> scores</c>
+
+00:10:35.750 --> 00:10:35.760 align:start position:0%
+a custom similarity search with scores
+ 
+
+00:10:35.760 --> 00:10:39.230 align:start position:0%
+a custom similarity search with scores
+that<00:10:35.959><c> allows</c><00:10:36.399><c> you</c><00:10:37.200><c> to</c><00:10:37.800><c> use</c><00:10:38.120><c> Lang</c><00:10:38.480><c> chain</c><00:10:39.040><c> and</c>
+
+00:10:39.230 --> 00:10:39.240 align:start position:0%
+that allows you to use Lang chain and
+ 
+
+00:10:39.240 --> 00:10:41.190 align:start position:0%
+that allows you to use Lang chain and
+perform<00:10:39.639><c> a</c><00:10:39.839><c> similarity</c><00:10:40.399><c> search</c><00:10:40.880><c> over</c>
+
+00:10:41.190 --> 00:10:41.200 align:start position:0%
+perform a similarity search over
+ 
+
+00:10:41.200 --> 00:10:43.269 align:start position:0%
+perform a similarity search over
+multiple<00:10:41.760><c> collections</c><00:10:42.360><c> so</c><00:10:42.560><c> out</c><00:10:42.720><c> of</c><00:10:42.839><c> the</c><00:10:43.000><c> books</c>
+
+00:10:43.269 --> 00:10:43.279 align:start position:0%
+multiple collections so out of the books
+ 
+
+00:10:43.279 --> 00:10:45.910 align:start position:0%
+multiple collections so out of the books
+you<00:10:43.399><c> can</c><00:10:43.839><c> only</c><00:10:44.839><c> uh</c><00:10:44.959><c> perform</c><00:10:45.279><c> a</c><00:10:45.399><c> similarity</c>
+
+00:10:45.910 --> 00:10:45.920 align:start position:0%
+you can only uh perform a similarity
+ 
+
+00:10:45.920 --> 00:10:49.829 align:start position:0%
+you can only uh perform a similarity
+search<00:10:46.240><c> on</c><00:10:46.480><c> one</c><00:10:46.959><c> collection</c><00:10:47.959><c> but</c><00:10:48.880><c> this</c><00:10:49.639><c> uh</c>
+
+00:10:49.829 --> 00:10:49.839 align:start position:0%
+search on one collection but this uh
+ 
+
+00:10:49.839 --> 00:10:52.949 align:start position:0%
+search on one collection but this uh
+surfice<00:10:50.600><c> will</c><00:10:50.920><c> allow</c><00:10:51.279><c> you</c><00:10:51.519><c> to</c><00:10:52.000><c> do</c><00:10:52.200><c> so</c><00:10:52.440><c> over</c><00:10:52.760><c> all</c>
+
+00:10:52.949 --> 00:10:52.959 align:start position:0%
+surfice will allow you to do so over all
+ 
+
+00:10:52.959 --> 00:10:56.350 align:start position:0%
+surfice will allow you to do so over all
+of<00:10:53.120><c> your</c><00:10:53.360><c> data</c><00:10:53.959><c> so</c><00:10:54.279><c> we</c><00:10:54.360><c> can</c><00:10:54.560><c> look</c><00:10:55.279><c> at</c><00:10:55.600><c> this</c><00:10:56.160><c> uh</c>
+
+00:10:56.350 --> 00:10:56.360 align:start position:0%
+of your data so we can look at this uh
+ 
+
+00:10:56.360 --> 00:10:58.670 align:start position:0%
+of your data so we can look at this uh
+service<00:10:56.880><c> over</c><00:10:57.120><c> here</c><00:10:57.399><c> initialize</c><00:10:58.040><c> it</c><00:10:58.360><c> and</c><00:10:58.519><c> then</c>
+
+00:10:58.670 --> 00:10:58.680 align:start position:0%
+service over here initialize it and then
+ 
+
+00:10:58.680 --> 00:11:01.670 align:start position:0%
+service over here initialize it and then
+we<00:10:58.800><c> can</c><00:10:59.120><c> run</c><00:10:59.320><c> it</c><00:10:59.639><c> and</c><00:10:59.800><c> then</c><00:11:00.040><c> run</c><00:11:00.240><c> the</c><00:11:00.519><c> query</c><00:11:01.519><c> and</c>
+
+00:11:01.670 --> 00:11:01.680 align:start position:0%
+we can run it and then run the query and
+ 
+
+00:11:01.680 --> 00:11:04.069 align:start position:0%
+we can run it and then run the query and
+then<00:11:01.880><c> it</c><00:11:02.000><c> will</c><00:11:02.200><c> use</c><00:11:02.839><c> all</c><00:11:03.079><c> of</c><00:11:03.240><c> the</c><00:11:03.440><c> data</c><00:11:03.839><c> that's</c>
+
+00:11:04.069 --> 00:11:04.079 align:start position:0%
+then it will use all of the data that's
+ 
+
+00:11:04.079 --> 00:11:06.750 align:start position:0%
+then it will use all of the data that's
+in<00:11:04.279><c> here</c><00:11:04.880><c> now</c><00:11:05.200><c> why</c><00:11:05.360><c> is</c><00:11:05.480><c> this</c><00:11:05.680><c> useful</c><00:11:06.519><c> that</c><00:11:06.600><c> is</c>
+
+00:11:06.750 --> 00:11:06.760 align:start position:0%
+in here now why is this useful that is
+ 
+
+00:11:06.760 --> 00:11:08.550 align:start position:0%
+in here now why is this useful that is
+because<00:11:07.240><c> right</c><00:11:07.360><c> now</c><00:11:07.600><c> what</c><00:11:07.680><c> you</c><00:11:07.800><c> can</c><00:11:07.959><c> do</c><00:11:08.320><c> is</c><00:11:08.440><c> you</c>
+
+00:11:08.550 --> 00:11:08.560 align:start position:0%
+because right now what you can do is you
+ 
+
+00:11:08.560 --> 00:11:09.990 align:start position:0%
+because right now what you can do is you
+can<00:11:08.920><c> very</c>
+
+00:11:09.990 --> 00:11:10.000 align:start position:0%
+can very
+ 
+
+00:11:10.000 --> 00:11:12.949 align:start position:0%
+can very
+easily<00:11:11.000><c> add</c><00:11:11.320><c> more</c><00:11:11.720><c> data</c><00:11:12.160><c> to</c><00:11:12.399><c> Defector</c>
+
+00:11:12.949 --> 00:11:12.959 align:start position:0%
+easily add more data to Defector
+ 
+
+00:11:12.959 --> 00:11:15.269 align:start position:0%
+easily add more data to Defector
+database<00:11:13.480><c> and</c><00:11:13.600><c> be</c><00:11:13.800><c> in</c><00:11:13.959><c> full</c><00:11:14.279><c> control</c><00:11:14.800><c> so</c><00:11:15.120><c> for</c>
+
+00:11:15.269 --> 00:11:15.279 align:start position:0%
+database and be in full control so for
+ 
+
+00:11:15.279 --> 00:11:17.750 align:start position:0%
+database and be in full control so for
+example<00:11:15.680><c> let's</c><00:11:15.880><c> see</c><00:11:16.360><c> I</c><00:11:16.519><c> can</c><00:11:16.760><c> use</c><00:11:17.040><c> that</c><00:11:17.360><c> same</c>
+
+00:11:17.750 --> 00:11:17.760 align:start position:0%
+example let's see I can use that same
+ 
+
+00:11:17.760 --> 00:11:20.670 align:start position:0%
+example let's see I can use that same
+surface<00:11:18.279><c> to</c><00:11:18.639><c> delete</c><00:11:19.120><c> collection</c><00:11:20.000><c> one</c><00:11:20.480><c> so</c>
+
+00:11:20.670 --> 00:11:20.680 align:start position:0%
+surface to delete collection one so
+ 
+
+00:11:20.680 --> 00:11:23.470 align:start position:0%
+surface to delete collection one so
+let's<00:11:20.920><c> do</c><00:11:21.160><c> that</c><00:11:22.040><c> let's</c><00:11:22.279><c> update</c><00:11:22.680><c> this</c><00:11:23.040><c> and</c><00:11:23.240><c> here</c>
+
+00:11:23.470 --> 00:11:23.480 align:start position:0%
+let's do that let's update this and here
+ 
+
+00:11:23.480 --> 00:11:25.949 align:start position:0%
+let's do that let's update this and here
+it's<00:11:23.760><c> instantly</c><00:11:24.480><c> so</c><00:11:24.839><c> here</c><00:11:24.959><c> you</c><00:11:25.079><c> can</c><00:11:25.240><c> see</c><00:11:25.680><c> I</c><00:11:25.760><c> can</c>
+
+00:11:25.949 --> 00:11:25.959 align:start position:0%
+it's instantly so here you can see I can
+ 
+
+00:11:25.959 --> 00:11:28.590 align:start position:0%
+it's instantly so here you can see I can
+remove<00:11:26.959><c> uh</c><00:11:27.160><c> those</c><00:11:27.440><c> I</c><00:11:27.519><c> can</c><00:11:27.639><c> remove</c><00:11:28.040><c> those</c><00:11:28.440><c> and</c>
+
+00:11:28.590 --> 00:11:28.600 align:start position:0%
+remove uh those I can remove those and
+ 
+
+00:11:28.600 --> 00:11:30.750 align:start position:0%
+remove uh those I can remove those and
+now<00:11:29.040><c> that's</c><00:11:29.240><c> gone</c><00:11:29.880><c> and</c><00:11:29.959><c> now</c><00:11:30.160><c> I</c><00:11:30.240><c> can</c><00:11:30.399><c> come</c><00:11:30.560><c> in</c>
+
+00:11:30.750 --> 00:11:30.760 align:start position:0%
+now that's gone and now I can come in
+ 
+
+00:11:30.760 --> 00:11:33.670 align:start position:0%
+now that's gone and now I can come in
+here<00:11:31.120><c> delete</c><00:11:31.680><c> collection</c><00:11:32.079><c> 2</c><00:11:32.720><c> and</c><00:11:32.920><c> again</c><00:11:33.519><c> it</c>
+
+00:11:33.670 --> 00:11:33.680 align:start position:0%
+here delete collection 2 and again it
+ 
+
+00:11:33.680 --> 00:11:36.110 align:start position:0%
+here delete collection 2 and again it
+will<00:11:33.880><c> be</c><00:11:34.360><c> instant</c><00:11:35.040><c> and</c><00:11:35.160><c> it's</c><00:11:35.399><c> gone</c><00:11:35.839><c> in</c><00:11:35.959><c> a</c>
+
+00:11:36.110 --> 00:11:36.120 align:start position:0%
+will be instant and it's gone in a
+ 
+
+00:11:36.120 --> 00:11:38.150 align:start position:0%
+will be instant and it's gone in a
+similar<00:11:36.560><c> fashion</c><00:11:37.000><c> I</c><00:11:37.120><c> can</c><00:11:37.279><c> just</c>
+
+00:11:38.150 --> 00:11:38.160 align:start position:0%
+similar fashion I can just
+ 
+
+00:11:38.160 --> 00:11:41.829 align:start position:0%
+similar fashion I can just
+reupload<00:11:39.160><c> that</c><00:11:39.440><c> data</c><00:11:40.040><c> to</c><00:11:40.560><c> the</c><00:11:40.760><c> database</c><00:11:41.680><c> let's</c>
+
+00:11:41.829 --> 00:11:41.839 align:start position:0%
+reupload that data to the database let's
+ 
+
+00:11:41.839 --> 00:11:43.430 align:start position:0%
+reupload that data to the database let's
+see<00:11:42.000><c> so</c><00:11:42.200><c> we</c><00:11:42.279><c> have</c><00:11:42.440><c> all</c><00:11:42.560><c> of</c><00:11:42.680><c> our</c><00:11:42.839><c> documents</c><00:11:43.279><c> in</c>
+
+00:11:43.430 --> 00:11:43.440 align:start position:0%
+see so we have all of our documents in
+ 
+
+00:11:43.440 --> 00:11:45.470 align:start position:0%
+see so we have all of our documents in
+here<00:11:44.000><c> let's</c><00:11:44.240><c> do</c><00:11:44.399><c> it</c><00:11:44.560><c> one</c><00:11:44.680><c> more</c><00:11:44.880><c> time</c><00:11:45.200><c> and</c><00:11:45.320><c> we</c>
+
+00:11:45.470 --> 00:11:45.480 align:start position:0%
+here let's do it one more time and we
+ 
+
+00:11:45.480 --> 00:11:47.430 align:start position:0%
+here let's do it one more time and we
+create<00:11:45.839><c> the</c><00:11:46.000><c> first</c><00:11:46.320><c> collection</c><00:11:46.800><c> again</c><00:11:47.240><c> all</c>
+
+00:11:47.430 --> 00:11:47.440 align:start position:0%
+create the first collection again all
+ 
+
+00:11:47.440 --> 00:11:50.190 align:start position:0%
+create the first collection again all
+right<00:11:48.240><c> so</c><00:11:48.639><c> now</c><00:11:48.800><c> we're</c><00:11:49.079><c> back</c><00:11:49.440><c> I</c><00:11:49.519><c> can</c><00:11:49.720><c> reload</c>
+
+00:11:50.190 --> 00:11:50.200 align:start position:0%
+right so now we're back I can reload
+ 
+
+00:11:50.200 --> 00:11:52.430 align:start position:0%
+right so now we're back I can reload
+this<00:11:50.600><c> and</c><00:11:50.800><c> here</c><00:11:50.920><c> you</c><00:11:51.040><c> can</c><00:11:51.200><c> see</c><00:11:51.639><c> now</c><00:11:52.040><c> we</c><00:11:52.200><c> have</c>
+
+00:11:52.430 --> 00:11:52.440 align:start position:0%
+this and here you can see now we have
+ 
+
+00:11:52.440 --> 00:11:55.509 align:start position:0%
+this and here you can see now we have
+all<00:11:52.600><c> of</c><00:11:52.760><c> that</c><00:11:53.000><c> data</c><00:11:53.360><c> again</c><00:11:54.240><c> so</c><00:11:54.600><c> it's</c><00:11:54.760><c> a</c><00:11:55.079><c> very</c>
+
+00:11:55.509 --> 00:11:55.519 align:start position:0%
+all of that data again so it's a very
+ 
+
+00:11:55.519 --> 00:11:58.629 align:start position:0%
+all of that data again so it's a very
+effective<00:11:56.079><c> way</c><00:11:56.519><c> to</c><00:11:57.120><c> manage</c><00:11:57.480><c> your</c><00:11:57.720><c> data</c><00:11:58.360><c> and</c>
+
+00:11:58.629 --> 00:11:58.639 align:start position:0%
+effective way to manage your data and
+ 
+
+00:11:58.639 --> 00:12:01.310 align:start position:0%
+effective way to manage your data and
+really<00:11:59.079><c> what</c><00:11:59.200><c> I</c><00:11:59.399><c> found</c><00:12:00.000><c> once</c><00:12:00.320><c> you</c><00:12:00.880><c> you</c><00:12:01.120><c> get</c>
+
+00:12:01.310 --> 00:12:01.320 align:start position:0%
+really what I found once you you get
+ 
+
+00:12:01.320 --> 00:12:03.310 align:start position:0%
+really what I found once you you get
+through<00:12:01.560><c> the</c><00:12:01.760><c> POC</c><00:12:02.519><c> with</c><00:12:02.760><c> projects</c><00:12:03.120><c> you're</c>
+
+00:12:03.310 --> 00:12:03.320 align:start position:0%
+through the POC with projects you're
+ 
+
+00:12:03.320 --> 00:12:06.030 align:start position:0%
+through the POC with projects you're
+working<00:12:03.639><c> on</c><00:12:04.399><c> it</c><00:12:04.560><c> becomes</c><00:12:05.000><c> much</c><00:12:05.240><c> more</c><00:12:05.639><c> about</c>
+
+00:12:06.030 --> 00:12:06.040 align:start position:0%
+working on it becomes much more about
+ 
+
+00:12:06.040 --> 00:12:08.069 align:start position:0%
+working on it becomes much more about
+upgrading<00:12:06.600><c> and</c><00:12:06.760><c> improving</c><00:12:07.279><c> the</c><00:12:07.440><c> data</c><00:12:07.760><c> sets</c>
+
+00:12:08.069 --> 00:12:08.079 align:start position:0%
+upgrading and improving the data sets
+ 
+
+00:12:08.079 --> 00:12:10.269 align:start position:0%
+upgrading and improving the data sets
+than<00:12:08.240><c> it</c><00:12:08.399><c> is</c><00:12:08.639><c> about</c><00:12:08.920><c> proving</c><00:12:09.279><c> the</c><00:12:09.440><c> application</c>
+
+00:12:10.269 --> 00:12:10.279 align:start position:0%
+than it is about proving the application
+ 
+
+00:12:10.279 --> 00:12:11.990 align:start position:0%
+than it is about proving the application
+so<00:12:10.600><c> what</c><00:12:10.720><c> you</c><00:12:10.839><c> will</c><00:12:11.000><c> naturally</c><00:12:11.360><c> see</c><00:12:11.600><c> is</c><00:12:11.760><c> in</c><00:12:11.880><c> the</c>
+
+00:12:11.990 --> 00:12:12.000 align:start position:0%
+so what you will naturally see is in the
+ 
+
+00:12:12.000 --> 00:12:13.590 align:start position:0%
+so what you will naturally see is in the
+beginning<00:12:12.399><c> the</c><00:12:12.600><c> client</c><00:12:12.959><c> or</c><00:12:13.160><c> whatever</c><00:12:13.440><c> you're</c>
+
+00:12:13.590 --> 00:12:13.600 align:start position:0%
+beginning the client or whatever you're
+ 
+
+00:12:13.600 --> 00:12:16.949 align:start position:0%
+beginning the client or whatever you're
+working<00:12:13.880><c> on</c><00:12:14.480><c> you</c><00:12:14.600><c> will</c><00:12:14.800><c> have</c><00:12:15.279><c> a</c><00:12:15.680><c> fixed</c><00:12:16.160><c> set</c><00:12:16.600><c> of</c>
+
+00:12:16.949 --> 00:12:16.959 align:start position:0%
+working on you will have a fixed set of
+ 
+
+00:12:16.959 --> 00:12:18.910 align:start position:0%
+working on you will have a fixed set of
+of<00:12:17.199><c> documents</c><00:12:17.800><c> of</c><00:12:18.079><c> data</c><00:12:18.440><c> that</c><00:12:18.560><c> you</c><00:12:18.639><c> want</c><00:12:18.760><c> to</c>
+
+00:12:18.910 --> 00:12:18.920 align:start position:0%
+of documents of data that you want to
+ 
+
+00:12:18.920 --> 00:12:21.269 align:start position:0%
+of documents of data that you want to
+put<00:12:19.079><c> in</c><00:12:19.279><c> there</c><00:12:20.040><c> you</c><00:12:20.320><c> do</c><00:12:20.519><c> some</c><00:12:20.760><c> tests</c><00:12:21.120><c> you</c>
+
+00:12:21.269 --> 00:12:21.279 align:start position:0%
+put in there you do some tests you
+ 
+
+00:12:21.279 --> 00:12:23.189 align:start position:0%
+put in there you do some tests you
+validate<00:12:21.760><c> that</c><00:12:22.000><c> this</c><00:12:22.120><c> is</c><00:12:22.360><c> this</c><00:12:22.480><c> is</c><00:12:22.560><c> a</c><00:12:22.720><c> cool</c><00:12:22.959><c> ID</c>
+
+00:12:23.189 --> 00:12:23.199 align:start position:0%
+validate that this is this is a cool ID
+ 
+
+00:12:23.199 --> 00:12:25.430 align:start position:0%
+validate that this is this is a cool ID
+and<00:12:23.320><c> it</c><00:12:23.480><c> works</c><00:12:24.240><c> but</c><00:12:24.519><c> that</c><00:12:24.720><c> that</c><00:12:24.839><c> is</c><00:12:25.040><c> really</c>
+
+00:12:25.430 --> 00:12:25.440 align:start position:0%
+and it works but that that is really
+ 
+
+00:12:25.440 --> 00:12:27.110 align:start position:0%
+and it works but that that is really
+where<00:12:25.680><c> the</c><00:12:25.880><c> actual</c><00:12:26.199><c> testing</c><00:12:26.600><c> starts</c><00:12:27.000><c> and</c>
+
+00:12:27.110 --> 00:12:27.120 align:start position:0%
+where the actual testing starts and
+ 
+
+00:12:27.120 --> 00:12:28.670 align:start position:0%
+where the actual testing starts and
+where<00:12:27.320><c> continuous</c><00:12:27.800><c> Improvement</c><00:12:28.240><c> of</c><00:12:28.360><c> the</c><00:12:28.480><c> data</c>
+
+00:12:28.670 --> 00:12:28.680 align:start position:0%
+where continuous Improvement of the data
+ 
+
+00:12:28.680 --> 00:12:31.590 align:start position:0%
+where continuous Improvement of the data
+set<00:12:29.040><c> comes</c><00:12:29.279><c> into</c><00:12:29.720><c> play</c><00:12:30.720><c> this</c><00:12:30.920><c> setup</c><00:12:31.360><c> that</c><00:12:31.440><c> you</c>
+
+00:12:31.590 --> 00:12:31.600 align:start position:0%
+set comes into play this setup that you
+ 
+
+00:12:31.600 --> 00:12:34.590 align:start position:0%
+set comes into play this setup that you
+have<00:12:31.839><c> over</c><00:12:32.079><c> here</c><00:12:32.600><c> works</c><00:12:33.480><c> very</c><00:12:33.920><c> effective</c><00:12:34.360><c> for</c>
+
+00:12:34.590 --> 00:12:34.600 align:start position:0%
+have over here works very effective for
+ 
+
+00:12:34.600 --> 00:12:37.550 align:start position:0%
+have over here works very effective for
+that<00:12:34.800><c> and</c><00:12:34.920><c> you</c><00:12:35.000><c> can</c><00:12:35.199><c> even</c><00:12:35.519><c> build</c><00:12:36.160><c> your</c><00:12:36.399><c> own</c><00:12:36.959><c> uis</c>
+
+00:12:37.550 --> 00:12:37.560 align:start position:0%
+that and you can even build your own uis
+ 
+
+00:12:37.560 --> 00:12:40.470 align:start position:0%
+that and you can even build your own uis
+guis<00:12:38.240><c> around</c><00:12:39.000><c> these</c><00:12:39.360><c> delete</c><00:12:39.800><c> collection</c><00:12:40.279><c> and</c>
+
+00:12:40.470 --> 00:12:40.480 align:start position:0%
+guis around these delete collection and
+ 
+
+00:12:40.480 --> 00:12:42.550 align:start position:0%
+guis around these delete collection and
+update<00:12:40.920><c> collection</c><00:12:41.440><c> functions</c><00:12:42.240><c> which</c><00:12:42.360><c> is</c>
+
+00:12:42.550 --> 00:12:42.560 align:start position:0%
+update collection functions which is
+ 
+
+00:12:42.560 --> 00:12:44.949 align:start position:0%
+update collection functions which is
+what<00:12:42.760><c> I've</c><00:12:43.360><c> uh</c><00:12:43.519><c> done</c><00:12:43.760><c> using</c><00:12:44.040><c> an</c><00:12:44.199><c> aure</c><00:12:44.519><c> storage</c>
+
+00:12:44.949 --> 00:12:44.959 align:start position:0%
+what I've uh done using an aure storage
+ 
+
+00:12:44.959 --> 00:12:47.269 align:start position:0%
+what I've uh done using an aure storage
+account<00:12:45.279><c> with</c><00:12:45.399><c> some</c><00:12:45.560><c> web</c><00:12:45.839><c> hooks</c><00:12:46.560><c> to</c><00:12:46.920><c> very</c>
+
+00:12:47.269 --> 00:12:47.279 align:start position:0%
+account with some web hooks to very
+ 
+
+00:12:47.279 --> 00:12:49.350 align:start position:0%
+account with some web hooks to very
+effectively<00:12:47.920><c> manage</c><00:12:48.600><c> everything</c><00:12:49.120><c> that's</c>
+
+00:12:49.350 --> 00:12:49.360 align:start position:0%
+effectively manage everything that's
+ 
+
+00:12:49.360 --> 00:12:51.069 align:start position:0%
+effectively manage everything that's
+going<00:12:49.560><c> on</c><00:12:49.800><c> over</c><00:12:50.040><c> here</c><00:12:50.240><c> and</c><00:12:50.399><c> just</c><00:12:50.600><c> have</c><00:12:50.800><c> one</c>
+
+00:12:51.069 --> 00:12:51.079 align:start position:0%
+going on over here and just have one
+ 
+
+00:12:51.079 --> 00:12:53.870 align:start position:0%
+going on over here and just have one
+simple<00:12:51.480><c> query</c><00:12:52.440><c> that</c><00:12:52.880><c> searches</c><00:12:53.360><c> through</c>
+
+00:12:53.870 --> 00:12:53.880 align:start position:0%
+simple query that searches through
+ 
+
+00:12:53.880 --> 00:12:56.230 align:start position:0%
+simple query that searches through
+everything<00:12:54.720><c> so</c><00:12:55.079><c> if</c><00:12:55.199><c> you're</c><00:12:55.399><c> working</c><00:12:55.680><c> on</c><00:12:55.920><c> large</c>
+
+00:12:56.230 --> 00:12:56.240 align:start position:0%
+everything so if you're working on large
+ 
+
+00:12:56.240 --> 00:12:57.910 align:start position:0%
+everything so if you're working on large
+language<00:12:56.560><c> model</c><00:12:56.839><c> applications</c><00:12:57.440><c> right</c><00:12:57.639><c> now</c>
+
+00:12:57.910 --> 00:12:57.920 align:start position:0%
+language model applications right now
+ 
+
+00:12:57.920 --> 00:12:59.750 align:start position:0%
+language model applications right now
+and<00:12:58.000><c> you're</c><00:12:58.160><c> using</c><00:12:58.440><c> a</c><00:12:58.560><c> dedic</c><00:12:59.000><c> at</c><00:12:59.440><c> Factor</c>
+
+00:12:59.750 --> 00:12:59.760 align:start position:0%
+and you're using a dedic at Factor
+ 
+
+00:12:59.760 --> 00:13:01.790 align:start position:0%
+and you're using a dedic at Factor
+database<00:13:00.240><c> like</c><00:13:00.399><c> pine</c><00:13:00.680><c> cone</c><00:13:00.839><c> or</c><00:13:01.000><c> we8</c><00:13:01.519><c> I</c><00:13:01.600><c> would</c>
+
+00:13:01.790 --> 00:13:01.800 align:start position:0%
+database like pine cone or we8 I would
+ 
+
+00:13:01.800 --> 00:13:04.189 align:start position:0%
+database like pine cone or we8 I would
+highly<00:13:02.079><c> recommend</c><00:13:02.560><c> looking</c><00:13:02.920><c> into</c><00:13:03.279><c> PG</c><00:13:03.720><c> factor</c>
+
+00:13:04.189 --> 00:13:04.199 align:start position:0%
+highly recommend looking into PG factor
+ 
+
+00:13:04.199 --> 00:13:06.590 align:start position:0%
+highly recommend looking into PG factor
+and<00:13:04.480><c> at</c><00:13:04.600><c> least</c><00:13:04.839><c> give</c><00:13:04.959><c> it</c><00:13:05.079><c> a</c><00:13:05.240><c> shot</c><00:13:05.920><c> see</c><00:13:06.240><c> if</c><00:13:06.399><c> it</c>
+
+00:13:06.590 --> 00:13:06.600 align:start position:0%
+and at least give it a shot see if it
+ 
+
+00:13:06.600 --> 00:13:08.389 align:start position:0%
+and at least give it a shot see if it
+works<00:13:06.959><c> for</c><00:13:07.120><c> you</c><00:13:07.279><c> see</c><00:13:07.480><c> if</c><00:13:07.560><c> it</c><00:13:07.720><c> makes</c><00:13:07.959><c> sense</c><00:13:08.240><c> for</c>
+
+00:13:08.389 --> 00:13:08.399 align:start position:0%
+works for you see if it makes sense for
+ 
+
+00:13:08.399 --> 00:13:10.829 align:start position:0%
+works for you see if it makes sense for
+you<00:13:08.720><c> so</c><00:13:09.279><c> how</c><00:13:09.440><c> do</c><00:13:09.560><c> you</c><00:13:09.680><c> set</c><00:13:09.839><c> up</c><00:13:09.959><c> the</c><00:13:10.079><c> postour</c><00:13:10.519><c> SQL</c>
+
+00:13:10.829 --> 00:13:10.839 align:start position:0%
+you so how do you set up the postour SQL
+ 
+
+00:13:10.839 --> 00:13:13.590 align:start position:0%
+you so how do you set up the postour SQL
+database<00:13:11.399><c> well</c><00:13:11.920><c> what</c><00:13:12.040><c> you</c><00:13:12.160><c> can</c><00:13:12.320><c> do</c><00:13:12.839><c> is</c><00:13:13.160><c> you</c><00:13:13.360><c> can</c>
+
+00:13:13.590 --> 00:13:13.600 align:start position:0%
+database well what you can do is you can
+ 
+
+00:13:13.600 --> 00:13:16.670 align:start position:0%
+database well what you can do is you can
+have<00:13:13.720><c> a</c><00:13:13.920><c> look</c><00:13:14.279><c> at</c><00:13:14.560><c> either</c><00:13:14.959><c> super</c><00:13:15.360><c> base</c><00:13:16.120><c> which</c><00:13:16.480><c> I</c>
+
+00:13:16.670 --> 00:13:16.680 align:start position:0%
+have a look at either super base which I
+ 
+
+00:13:16.680 --> 00:13:19.550 align:start position:0%
+have a look at either super base which I
+really<00:13:16.959><c> like</c><00:13:17.760><c> um</c><00:13:18.000><c> you</c><00:13:18.120><c> can</c><00:13:18.360><c> start</c><00:13:18.720><c> for</c><00:13:18.959><c> free</c>
+
+00:13:19.550 --> 00:13:19.560 align:start position:0%
+really like um you can start for free
+ 
+
+00:13:19.560 --> 00:13:22.110 align:start position:0%
+really like um you can start for free
+and<00:13:19.839><c> what</c><00:13:19.959><c> you</c><00:13:20.079><c> will</c><00:13:20.360><c> get</c><00:13:20.800><c> is</c><00:13:20.959><c> you</c><00:13:21.079><c> will</c><00:13:21.279><c> get</c><00:13:21.519><c> a</c>
+
+00:13:22.110 --> 00:13:22.120 align:start position:0%
+and what you will get is you will get a
+ 
+
+00:13:22.120 --> 00:13:24.790 align:start position:0%
+and what you will get is you will get a
+managed<00:13:22.800><c> postgress</c><00:13:23.519><c> database</c><00:13:24.399><c> and</c><00:13:24.519><c> you</c><00:13:24.600><c> can</c>
+
+00:13:24.790 --> 00:13:24.800 align:start position:0%
+managed postgress database and you can
+ 
+
+00:13:24.800 --> 00:13:26.990 align:start position:0%
+managed postgress database and you can
+enable<00:13:25.160><c> the</c><00:13:25.320><c> factor</c><00:13:25.880><c> extension</c><00:13:26.600><c> and</c><00:13:26.720><c> that</c><00:13:26.839><c> is</c>
+
+00:13:26.990 --> 00:13:27.000 align:start position:0%
+enable the factor extension and that is
+ 
+
+00:13:27.000 --> 00:13:29.310 align:start position:0%
+enable the factor extension and that is
+just<00:13:27.120><c> for</c><00:13:27.360><c> free</c><00:13:27.880><c> so</c><00:13:28.079><c> that's</c><00:13:28.279><c> one</c><00:13:28.440><c> option</c><00:13:29.199><c> you</c>
+
+00:13:29.310 --> 00:13:29.320 align:start position:0%
+just for free so that's one option you
+ 
+
+00:13:29.320 --> 00:13:31.750 align:start position:0%
+just for free so that's one option you
+can<00:13:29.519><c> also</c><00:13:30.120><c> do</c><00:13:30.320><c> it</c><00:13:30.480><c> like</c><00:13:30.639><c> I</c><00:13:30.760><c> do</c><00:13:30.920><c> it</c><00:13:31.199><c> locally</c>
+
+00:13:31.750 --> 00:13:31.760 align:start position:0%
+can also do it like I do it locally
+ 
+
+00:13:31.760 --> 00:13:33.790 align:start position:0%
+can also do it like I do it locally
+right<00:13:31.920><c> now</c><00:13:32.360><c> or</c><00:13:32.639><c> just</c><00:13:32.839><c> put</c><00:13:32.959><c> it</c><00:13:33.079><c> on</c><00:13:33.199><c> a</c><00:13:33.320><c> server</c>
+
+00:13:33.790 --> 00:13:33.800 align:start position:0%
+right now or just put it on a server
+ 
+
+00:13:33.800 --> 00:13:36.030 align:start position:0%
+right now or just put it on a server
+wherever<00:13:34.120><c> you</c><00:13:34.199><c> want</c><00:13:34.320><c> to</c><00:13:34.480><c> deploy</c><00:13:34.839><c> it</c><00:13:35.480><c> or</c><00:13:35.760><c> what</c><00:13:35.920><c> I</c>
+
+00:13:36.030 --> 00:13:36.040 align:start position:0%
+wherever you want to deploy it or what I
+ 
+
+00:13:36.040 --> 00:13:38.310 align:start position:0%
+wherever you want to deploy it or what I
+do<00:13:36.160><c> for</c><00:13:36.360><c> most</c><00:13:36.519><c> of</c><00:13:36.639><c> my</c><00:13:36.880><c> client</c><00:13:37.279><c> Pro</c><00:13:37.560><c> projects</c><00:13:38.160><c> I</c>
+
+00:13:38.310 --> 00:13:38.320 align:start position:0%
+do for most of my client Pro projects I
+ 
+
+00:13:38.320 --> 00:13:40.629 align:start position:0%
+do for most of my client Pro projects I
+use<00:13:38.680><c> a</c><00:13:38.839><c> manage</c><00:13:39.279><c> progress</c><00:13:39.880><c> SQL</c><00:13:40.240><c> database</c>
+
+00:13:40.629 --> 00:13:40.639 align:start position:0%
+use a manage progress SQL database
+ 
+
+00:13:40.639 --> 00:13:42.189 align:start position:0%
+use a manage progress SQL database
+through<00:13:40.880><c> Microsoft</c><00:13:41.320><c> Azure</c><00:13:41.760><c> because</c><00:13:42.000><c> that's</c>
+
+00:13:42.189 --> 00:13:42.199 align:start position:0%
+through Microsoft Azure because that's
+ 
+
+00:13:42.199 --> 00:13:45.110 align:start position:0%
+through Microsoft Azure because that's
+why<00:13:42.440><c> I</c><00:13:42.800><c> deploy</c><00:13:43.199><c> my</c><00:13:43.360><c> apps</c><00:13:43.680><c> anyway</c><00:13:44.480><c> so</c><00:13:44.800><c> then</c><00:13:44.920><c> it's</c>
+
+00:13:45.110 --> 00:13:45.120 align:start position:0%
+why I deploy my apps anyway so then it's
+ 
+
+00:13:45.120 --> 00:13:47.230 align:start position:0%
+why I deploy my apps anyway so then it's
+all<00:13:45.360><c> hosted</c><00:13:45.880><c> in</c><00:13:46.120><c> there</c><00:13:46.360><c> so</c><00:13:46.639><c> those</c><00:13:46.760><c> are</c><00:13:47.000><c> just</c>
+
+00:13:47.230 --> 00:13:47.240 align:start position:0%
+all hosted in there so those are just
+ 
+
+00:13:47.240 --> 00:13:49.550 align:start position:0%
+all hosted in there so those are just
+some<00:13:47.720><c> ideas</c><00:13:48.120><c> for</c><00:13:48.360><c> you</c><00:13:48.839><c> to</c><00:13:49.040><c> start</c>
+
+00:13:49.550 --> 00:13:49.560 align:start position:0%
+some ideas for you to start
+ 
+
+00:13:49.560 --> 00:13:51.949 align:start position:0%
+some ideas for you to start
+experimenting<00:13:50.399><c> with</c><00:13:50.600><c> it</c><00:13:51.000><c> it's</c><00:13:51.199><c> also</c><00:13:51.519><c> worth</c>
+
+00:13:51.949 --> 00:13:51.959 align:start position:0%
+experimenting with it it's also worth
+ 
+
+00:13:51.959 --> 00:13:54.069 align:start position:0%
+experimenting with it it's also worth
+reading<00:13:52.360><c> through</c><00:13:52.800><c> this</c><00:13:53.040><c> article</c><00:13:53.680><c> which</c><00:13:53.959><c> I</c>
+
+00:13:54.069 --> 00:13:54.079 align:start position:0%
+reading through this article which I
+ 
+
+00:13:54.079 --> 00:13:56.790 align:start position:0%
+reading through this article which I
+will<00:13:54.639><c> link</c><00:13:55.000><c> to</c><00:13:55.240><c> you</c><00:13:55.720><c> as</c><00:13:55.920><c> well</c><00:13:56.440><c> and</c><00:13:56.600><c> that's</c>
+
+00:13:56.790 --> 00:13:56.800 align:start position:0%
+will link to you as well and that's
+ 
+
+00:13:56.800 --> 00:13:58.829 align:start position:0%
+will link to you as well and that's
+really<00:13:57.040><c> what</c><00:13:57.199><c> I</c><00:13:57.360><c> wanted</c><00:13:57.639><c> to</c><00:13:57.800><c> show</c><00:13:58.040><c> you</c><00:13:58.279><c> in</c><00:13:58.440><c> this</c>
+
+00:13:58.829 --> 00:13:58.839 align:start position:0%
+really what I wanted to show you in this
+ 
+
+00:13:58.839 --> 00:14:00.710 align:start position:0%
+really what I wanted to show you in this
+quick<00:13:59.079><c> video</c><00:13:59.600><c> it's</c><00:13:59.759><c> something</c><00:14:00.120><c> I've</c><00:14:00.279><c> been</c>
+
+00:14:00.710 --> 00:14:00.720 align:start position:0%
+quick video it's something I've been
+ 
+
+00:14:00.720 --> 00:14:03.110 align:start position:0%
+quick video it's something I've been
+working<00:14:01.120><c> on</c><00:14:01.480><c> and</c><00:14:01.759><c> I</c><00:14:01.880><c> really</c><00:14:02.240><c> use</c><00:14:02.600><c> my</c><00:14:02.800><c> YouTube</c>
+
+00:14:03.110 --> 00:14:03.120 align:start position:0%
+working on and I really use my YouTube
+ 
+
+00:14:03.120 --> 00:14:05.749 align:start position:0%
+working on and I really use my YouTube
+channel<00:14:03.519><c> as</c><00:14:03.639><c> a</c><00:14:03.800><c> way</c><00:14:04.000><c> to</c><00:14:04.399><c> communicate</c><00:14:05.079><c> what</c><00:14:05.279><c> I</c>
+
+00:14:05.749 --> 00:14:05.759 align:start position:0%
+channel as a way to communicate what I
+ 
+
+00:14:05.759 --> 00:14:07.910 align:start position:0%
+channel as a way to communicate what I
+encounter<00:14:06.320><c> in</c><00:14:06.480><c> my</c><00:14:06.680><c> work</c><00:14:07.079><c> what</c><00:14:07.199><c> I</c><00:14:07.320><c> learn</c><00:14:07.759><c> and</c>
+
+00:14:07.910 --> 00:14:07.920 align:start position:0%
+encounter in my work what I learn and
+ 
+
+00:14:07.920 --> 00:14:09.790 align:start position:0%
+encounter in my work what I learn and
+then<00:14:08.240><c> give</c><00:14:08.480><c> that</c><00:14:08.720><c> back</c><00:14:08.920><c> to</c><00:14:09.120><c> you</c><00:14:09.320><c> guys</c><00:14:09.519><c> so</c><00:14:09.680><c> if</c>
+
+00:14:09.790 --> 00:14:09.800 align:start position:0%
+then give that back to you guys so if
+ 
+
+00:14:09.800 --> 00:14:11.749 align:start position:0%
+then give that back to you guys so if
+that<00:14:09.959><c> sounds</c><00:14:10.800><c> interesting</c><00:14:11.199><c> to</c><00:14:11.360><c> you</c><00:14:11.560><c> you</c><00:14:11.639><c> want</c>
+
+00:14:11.749 --> 00:14:11.759 align:start position:0%
+that sounds interesting to you you want
+ 
+
+00:14:11.759 --> 00:14:13.749 align:start position:0%
+that sounds interesting to you you want
+to<00:14:11.839><c> learn</c><00:14:12.079><c> more</c><00:14:12.279><c> about</c><00:14:12.560><c> that</c><00:14:12.800><c> make</c><00:14:12.959><c> sure</c><00:14:13.320><c> to</c>
+
+00:14:13.749 --> 00:14:13.759 align:start position:0%
+to learn more about that make sure to
+ 
+
+00:14:13.759 --> 00:14:16.629 align:start position:0%
+to learn more about that make sure to
+hit<00:14:13.959><c> that</c><00:14:14.160><c> subscribe</c><00:14:14.800><c> button</c><00:14:15.639><c> and</c><00:14:16.079><c> if</c><00:14:16.199><c> you're</c>
+
+00:14:16.629 --> 00:14:16.639 align:start position:0%
+hit that subscribe button and if you're
+ 
+
+00:14:16.639 --> 00:14:19.030 align:start position:0%
+hit that subscribe button and if you're
+interested<00:14:17.079><c> in</c><00:14:17.279><c> more</c><00:14:17.680><c> AI</c><00:14:18.160><c> lessons</c><00:14:18.519><c> or</c><00:14:18.720><c> lessons</c>
+
+00:14:19.030 --> 00:14:19.040 align:start position:0%
+interested in more AI lessons or lessons
+ 
+
+00:14:19.040 --> 00:14:20.230 align:start position:0%
+interested in more AI lessons or lessons
+that<00:14:19.160><c> I</c><00:14:19.279><c> learned</c><00:14:19.600><c> working</c><00:14:19.920><c> with</c><00:14:20.079><c> these</c>
+
+00:14:20.230 --> 00:14:20.240 align:start position:0%
+that I learned working with these
+ 
+
+00:14:20.240 --> 00:14:22.350 align:start position:0%
+that I learned working with these
+generative<00:14:20.759><c> AI</c><00:14:21.120><c> projects</c><00:14:21.639><c> then</c><00:14:21.839><c> make</c><00:14:22.000><c> sure</c><00:14:22.199><c> to</c>
+
+00:14:22.350 --> 00:14:22.360 align:start position:0%
+generative AI projects then make sure to
+ 
+
+00:14:22.360 --> 00:14:26.560 align:start position:0%
+generative AI projects then make sure to
+check<00:14:22.560><c> out</c><00:14:22.959><c> this</c><00:14:23.320><c> video</c><00:14:23.959><c> next</c>
+

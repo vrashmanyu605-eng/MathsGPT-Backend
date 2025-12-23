@@ -1,0 +1,3192 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.670 align:start position:0%
+ 
+Hey<00:00:00.240><c> everyone,</c><00:00:00.800><c> welcome</c><00:00:01.040><c> to</c><00:00:01.280><c> this</c><00:00:01.439><c> video</c>
+
+00:00:01.670 --> 00:00:01.680 align:start position:0%
+Hey everyone, welcome to this video
+ 
+
+00:00:01.680 --> 00:00:02.950 align:start position:0%
+Hey everyone, welcome to this video
+where<00:00:02.000><c> we're</c><00:00:02.159><c> going</c><00:00:02.320><c> to</c><00:00:02.399><c> take</c><00:00:02.480><c> a</c><00:00:02.639><c> look</c><00:00:02.720><c> at</c>
+
+00:00:02.950 --> 00:00:02.960 align:start position:0%
+where we're going to take a look at
+ 
+
+00:00:02.960 --> 00:00:05.190 align:start position:0%
+where we're going to take a look at
+reranking<00:00:03.760><c> and</c><00:00:04.000><c> how</c><00:00:04.160><c> we</c><00:00:04.319><c> can</c><00:00:04.480><c> use</c><00:00:04.640><c> that</c><00:00:04.960><c> to</c>
+
+00:00:05.190 --> 00:00:05.200 align:start position:0%
+reranking and how we can use that to
+ 
+
+00:00:05.200 --> 00:00:07.430 align:start position:0%
+reranking and how we can use that to
+improve<00:00:05.520><c> the</c><00:00:05.839><c> performance</c><00:00:06.319><c> of</c><00:00:06.640><c> rag</c><00:00:07.120><c> or</c>
+
+00:00:07.430 --> 00:00:07.440 align:start position:0%
+improve the performance of rag or
+ 
+
+00:00:07.440 --> 00:00:09.750 align:start position:0%
+improve the performance of rag or
+retrieval<00:00:08.080><c> augmented</c><00:00:08.559><c> generation</c><00:00:09.200><c> for</c><00:00:09.519><c> very</c>
+
+00:00:09.750 --> 00:00:09.760 align:start position:0%
+retrieval augmented generation for very
+ 
+
+00:00:09.760 --> 00:00:11.830 align:start position:0%
+retrieval augmented generation for very
+little<00:00:10.080><c> effort.</c><00:00:10.880><c> If</c><00:00:11.040><c> you've</c><00:00:11.280><c> been</c><00:00:11.519><c> building</c>
+
+00:00:11.830 --> 00:00:11.840 align:start position:0%
+little effort. If you've been building
+ 
+
+00:00:11.840 --> 00:00:14.310 align:start position:0%
+little effort. If you've been building
+basic<00:00:12.240><c> rack</c><00:00:12.639><c> applications</c><00:00:13.280><c> like</c><00:00:13.519><c> this</c><00:00:13.759><c> one</c><00:00:14.240><c> uh</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+basic rack applications like this one uh
+ 
+
+00:00:14.320 --> 00:00:16.070 align:start position:0%
+basic rack applications like this one uh
+and<00:00:14.480><c> you</c><00:00:14.719><c> have</c><00:00:14.799><c> a</c><00:00:14.960><c> lot</c><00:00:15.040><c> of</c><00:00:15.200><c> data,</c><00:00:15.759><c> you</c><00:00:15.920><c> might</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+and you have a lot of data, you might
+ 
+
+00:00:16.080 --> 00:00:17.750 align:start position:0%
+and you have a lot of data, you might
+have<00:00:16.240><c> run</c><00:00:16.400><c> into</c><00:00:16.720><c> problems</c><00:00:17.119><c> where</c><00:00:17.520><c> it</c>
+
+00:00:17.750 --> 00:00:17.760 align:start position:0%
+have run into problems where it
+ 
+
+00:00:17.760 --> 00:00:20.150 align:start position:0%
+have run into problems where it
+struggles<00:00:18.240><c> to</c><00:00:18.400><c> fetch</c><00:00:18.880><c> the</c><00:00:19.119><c> correct</c><00:00:19.439><c> sources</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+struggles to fetch the correct sources
+ 
+
+00:00:20.160 --> 00:00:21.750 align:start position:0%
+struggles to fetch the correct sources
+even<00:00:20.480><c> though</c><00:00:20.640><c> you're</c><00:00:20.960><c> pretty</c><00:00:21.279><c> sure</c><00:00:21.520><c> the</c>
+
+00:00:21.750 --> 00:00:21.760 align:start position:0%
+even though you're pretty sure the
+ 
+
+00:00:21.760 --> 00:00:23.509 align:start position:0%
+even though you're pretty sure the
+sources<00:00:22.160><c> are</c><00:00:22.320><c> there.</c><00:00:22.880><c> This</c><00:00:23.119><c> is</c><00:00:23.279><c> actually</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+sources are there. This is actually
+ 
+
+00:00:23.519 --> 00:00:25.590 align:start position:0%
+sources are there. This is actually
+quite<00:00:23.760><c> a</c><00:00:24.000><c> common</c><00:00:24.240><c> problem.</c><00:00:24.880><c> Today,</c><00:00:25.359><c> we're</c>
+
+00:00:25.590 --> 00:00:25.600 align:start position:0%
+quite a common problem. Today, we're
+ 
+
+00:00:25.600 --> 00:00:27.029 align:start position:0%
+quite a common problem. Today, we're
+going<00:00:25.680><c> to</c><00:00:25.840><c> address</c><00:00:26.080><c> this</c><00:00:26.400><c> by</c><00:00:26.640><c> adding</c><00:00:26.880><c> a</c>
+
+00:00:27.029 --> 00:00:27.039 align:start position:0%
+going to address this by adding a
+ 
+
+00:00:27.039 --> 00:00:29.910 align:start position:0%
+going to address this by adding a
+reranking<00:00:27.760><c> step</c><00:00:28.000><c> to</c><00:00:28.320><c> our</c><00:00:28.560><c> rag</c><00:00:29.039><c> pipeline</c><00:00:29.599><c> to</c>
+
+00:00:29.910 --> 00:00:29.920 align:start position:0%
+reranking step to our rag pipeline to
+ 
+
+00:00:29.920 --> 00:00:32.310 align:start position:0%
+reranking step to our rag pipeline to
+boost<00:00:30.240><c> the</c><00:00:30.480><c> quality</c><00:00:30.880><c> of</c><00:00:31.119><c> our</c><00:00:31.439><c> results.</c><00:00:32.079><c> It's</c>
+
+00:00:32.310 --> 00:00:32.320 align:start position:0%
+boost the quality of our results. It's
+ 
+
+00:00:32.320 --> 00:00:34.150 align:start position:0%
+boost the quality of our results. It's
+really<00:00:32.559><c> simple</c><00:00:32.800><c> to</c><00:00:33.040><c> implement</c><00:00:33.360><c> as</c><00:00:33.600><c> well.</c><00:00:33.920><c> It's</c>
+
+00:00:34.150 --> 00:00:34.160 align:start position:0%
+really simple to implement as well. It's
+ 
+
+00:00:34.160 --> 00:00:36.470 align:start position:0%
+really simple to implement as well. It's
+really<00:00:34.480><c> just</c><00:00:34.640><c> a</c><00:00:34.880><c> single</c><00:00:35.200><c> API</c><00:00:35.680><c> call.</c><00:00:36.079><c> And</c><00:00:36.239><c> I've</c>
+
+00:00:36.470 --> 00:00:36.480 align:start position:0%
+really just a single API call. And I've
+ 
+
+00:00:36.480 --> 00:00:38.310 align:start position:0%
+really just a single API call. And I've
+seen<00:00:36.640><c> research</c><00:00:37.040><c> papers</c><00:00:37.440><c> claim</c><00:00:37.760><c> that</c><00:00:37.920><c> this</c><00:00:38.160><c> can</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+seen research papers claim that this can
+ 
+
+00:00:38.320 --> 00:00:40.869 align:start position:0%
+seen research papers claim that this can
+improve<00:00:38.640><c> your</c><00:00:38.879><c> search</c><00:00:39.120><c> accuracy</c><00:00:39.760><c> by</c><00:00:40.320><c> 10</c><00:00:40.559><c> to</c>
+
+00:00:40.869 --> 00:00:40.879 align:start position:0%
+improve your search accuracy by 10 to
+ 
+
+00:00:40.879 --> 00:00:42.709 align:start position:0%
+improve your search accuracy by 10 to
+30%.<00:00:41.520><c> Uh,</c><00:00:41.680><c> but</c><00:00:41.920><c> we're</c><00:00:42.079><c> going</c><00:00:42.160><c> to</c><00:00:42.239><c> try</c><00:00:42.399><c> it</c><00:00:42.559><c> on</c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+30%. Uh, but we're going to try it on
+ 
+
+00:00:42.719 --> 00:00:44.709 align:start position:0%
+30%. Uh, but we're going to try it on
+our<00:00:42.879><c> own</c><00:00:43.040><c> pipeline</c><00:00:43.520><c> here</c><00:00:43.680><c> today</c><00:00:43.920><c> as</c><00:00:44.160><c> well</c><00:00:44.480><c> to</c>
+
+00:00:44.709 --> 00:00:44.719 align:start position:0%
+our own pipeline here today as well to
+ 
+
+00:00:44.719 --> 00:00:46.950 align:start position:0%
+our own pipeline here today as well to
+see<00:00:44.800><c> if</c><00:00:44.960><c> it</c><00:00:45.200><c> really</c><00:00:45.440><c> works.</c><00:00:46.160><c> First,</c><00:00:46.559><c> I'll</c><00:00:46.879><c> show</c>
+
+00:00:46.950 --> 00:00:46.960 align:start position:0%
+see if it really works. First, I'll show
+ 
+
+00:00:46.960 --> 00:00:49.110 align:start position:0%
+see if it really works. First, I'll show
+you<00:00:47.120><c> how</c><00:00:47.360><c> re-ranking</c><00:00:48.000><c> works</c><00:00:48.239><c> under</c><00:00:48.559><c> the</c><00:00:48.719><c> hood.</c>
+
+00:00:49.110 --> 00:00:49.120 align:start position:0%
+you how re-ranking works under the hood.
+ 
+
+00:00:49.120 --> 00:00:51.110 align:start position:0%
+you how re-ranking works under the hood.
+Then<00:00:49.440><c> we'll</c><00:00:49.680><c> add</c><00:00:49.840><c> it</c><00:00:50.000><c> to</c><00:00:50.160><c> an</c><00:00:50.320><c> existing</c><00:00:50.719><c> rag</c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+Then we'll add it to an existing rag
+ 
+
+00:00:51.120 --> 00:00:54.069 align:start position:0%
+Then we'll add it to an existing rag
+pipeline<00:00:51.760><c> using</c><00:00:52.160><c> coher's</c><00:00:52.719><c> reranking</c><00:00:53.360><c> API.</c>
+
+00:00:54.069 --> 00:00:54.079 align:start position:0%
+pipeline using coher's reranking API.
+ 
+
+00:00:54.079 --> 00:00:55.910 align:start position:0%
+pipeline using coher's reranking API.
+And<00:00:54.239><c> we'll</c><00:00:54.480><c> finish</c><00:00:54.719><c> up</c><00:00:54.879><c> by</c><00:00:55.199><c> testing</c><00:00:55.520><c> it</c><00:00:55.680><c> and</c>
+
+00:00:55.910 --> 00:00:55.920 align:start position:0%
+And we'll finish up by testing it and
+ 
+
+00:00:55.920 --> 00:00:58.069 align:start position:0%
+And we'll finish up by testing it and
+seeing<00:00:56.320><c> if</c><00:00:56.480><c> it</c><00:00:56.719><c> improved</c><00:00:57.039><c> our</c><00:00:57.280><c> results.</c><00:00:57.840><c> Now,</c>
+
+00:00:58.069 --> 00:00:58.079 align:start position:0%
+seeing if it improved our results. Now,
+ 
+
+00:00:58.079 --> 00:01:00.389 align:start position:0%
+seeing if it improved our results. Now,
+this<00:00:58.399><c> video</c><00:00:58.719><c> is</c><00:00:59.039><c> intended</c><00:00:59.520><c> for</c><00:00:59.840><c> someone</c><00:01:00.160><c> who</c>
+
+00:01:00.389 --> 00:01:00.399 align:start position:0%
+this video is intended for someone who
+ 
+
+00:01:00.399 --> 00:01:02.630 align:start position:0%
+this video is intended for someone who
+is<00:01:00.640><c> already</c><00:01:01.120><c> familiar</c><00:01:01.520><c> with</c><00:01:01.760><c> Rag.</c><00:01:02.320><c> But</c><00:01:02.399><c> if</c><00:01:02.559><c> you</c>
+
+00:01:02.630 --> 00:01:02.640 align:start position:0%
+is already familiar with Rag. But if you
+ 
+
+00:01:02.640 --> 00:01:04.549 align:start position:0%
+is already familiar with Rag. But if you
+need<00:01:02.800><c> a</c><00:01:02.960><c> refresher,</c><00:01:03.600><c> then</c><00:01:03.840><c> check</c><00:01:04.080><c> out</c><00:01:04.239><c> some</c><00:01:04.479><c> of</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+need a refresher, then check out some of
+ 
+
+00:01:04.559 --> 00:01:06.550 align:start position:0%
+need a refresher, then check out some of
+my<00:01:04.799><c> previous</c><00:01:05.280><c> videos</c><00:01:05.600><c> that</c><00:01:05.840><c> I've</c><00:01:06.080><c> made</c><00:01:06.320><c> on</c>
+
+00:01:06.550 --> 00:01:06.560 align:start position:0%
+my previous videos that I've made on
+ 
+
+00:01:06.560 --> 00:01:08.630 align:start position:0%
+my previous videos that I've made on
+this<00:01:06.720><c> topic.</c><00:01:07.439><c> And</c><00:01:07.600><c> here</c><00:01:07.920><c> we'll</c><00:01:08.159><c> also</c><00:01:08.400><c> be</c>
+
+00:01:08.630 --> 00:01:08.640 align:start position:0%
+this topic. And here we'll also be
+ 
+
+00:01:08.640 --> 00:01:10.789 align:start position:0%
+this topic. And here we'll also be
+building<00:01:08.880><c> on</c><00:01:09.119><c> top</c><00:01:09.280><c> of</c><00:01:09.360><c> a</c><00:01:09.600><c> simple</c><00:01:10.000><c> RG</c><00:01:10.400><c> pipeline</c>
+
+00:01:10.789 --> 00:01:10.799 align:start position:0%
+building on top of a simple RG pipeline
+ 
+
+00:01:10.799 --> 00:01:12.950 align:start position:0%
+building on top of a simple RG pipeline
+application<00:01:11.600><c> that</c><00:01:11.840><c> we</c><00:01:12.000><c> built</c><00:01:12.240><c> in</c><00:01:12.479><c> one</c><00:01:12.640><c> of</c><00:01:12.799><c> my</c>
+
+00:01:12.950 --> 00:01:12.960 align:start position:0%
+application that we built in one of my
+ 
+
+00:01:12.960 --> 00:01:14.789 align:start position:0%
+application that we built in one of my
+previous<00:01:13.360><c> videos.</c><00:01:13.920><c> The</c><00:01:14.159><c> links</c><00:01:14.400><c> to</c><00:01:14.560><c> all</c><00:01:14.720><c> of</c>
+
+00:01:14.789 --> 00:01:14.799 align:start position:0%
+previous videos. The links to all of
+ 
+
+00:01:14.799 --> 00:01:16.550 align:start position:0%
+previous videos. The links to all of
+this<00:01:15.040><c> will</c><00:01:15.280><c> be</c><00:01:15.439><c> in</c><00:01:15.600><c> the</c><00:01:15.760><c> description</c><00:01:16.159><c> below.</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+this will be in the description below.
+ 
+
+00:01:16.560 --> 00:01:20.230 align:start position:0%
+this will be in the description below.
+Let's<00:01:16.799><c> get</c><00:01:16.960><c> started.</c>
+
+00:01:20.230 --> 00:01:20.240 align:start position:0%
+ 
+ 
+
+00:01:20.240 --> 00:01:22.230 align:start position:0%
+ 
+Before<00:01:20.640><c> we</c><00:01:20.799><c> get</c><00:01:20.960><c> into</c><00:01:21.200><c> re-ranking,</c><00:01:22.000><c> let's</c>
+
+00:01:22.230 --> 00:01:22.240 align:start position:0%
+Before we get into re-ranking, let's
+ 
+
+00:01:22.240 --> 00:01:24.390 align:start position:0%
+Before we get into re-ranking, let's
+first<00:01:22.479><c> take</c><00:01:22.640><c> a</c><00:01:22.799><c> look</c><00:01:22.880><c> at</c><00:01:23.040><c> our</c><00:01:23.360><c> existing</c><00:01:24.000><c> rag</c>
+
+00:01:24.390 --> 00:01:24.400 align:start position:0%
+first take a look at our existing rag
+ 
+
+00:01:24.400 --> 00:01:26.469 align:start position:0%
+first take a look at our existing rag
+pipeline<00:01:24.799><c> infrastructure.</c><00:01:25.759><c> We</c><00:01:26.000><c> have</c><00:01:26.159><c> a</c>
+
+00:01:26.469 --> 00:01:26.479 align:start position:0%
+pipeline infrastructure. We have a
+ 
+
+00:01:26.479 --> 00:01:28.469 align:start position:0%
+pipeline infrastructure. We have a
+pretty<00:01:26.799><c> standard</c><00:01:27.200><c> setup</c><00:01:27.520><c> here.</c><00:01:28.000><c> Documents</c>
+
+00:01:28.469 --> 00:01:28.479 align:start position:0%
+pretty standard setup here. Documents
+ 
+
+00:01:28.479 --> 00:01:30.950 align:start position:0%
+pretty standard setup here. Documents
+get<00:01:28.720><c> processed</c><00:01:29.200><c> by</c><00:01:29.439><c> an</c><00:01:29.680><c> indexer</c><00:01:30.159><c> module</c><00:01:30.640><c> which</c>
+
+00:01:30.950 --> 00:01:30.960 align:start position:0%
+get processed by an indexer module which
+ 
+
+00:01:30.960 --> 00:01:32.950 align:start position:0%
+get processed by an indexer module which
+splits<00:01:31.360><c> them</c><00:01:31.520><c> into</c><00:01:31.840><c> chunks</c><00:01:32.240><c> and</c><00:01:32.400><c> then</c><00:01:32.720><c> stores</c>
+
+00:01:32.950 --> 00:01:32.960 align:start position:0%
+splits them into chunks and then stores
+ 
+
+00:01:32.960 --> 00:01:34.550 align:start position:0%
+splits them into chunks and then stores
+them<00:01:33.119><c> in</c><00:01:33.280><c> a</c><00:01:33.439><c> vector</c><00:01:33.840><c> database</c><00:01:34.320><c> with</c>
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+them in a vector database with
+ 
+
+00:01:34.560 --> 00:01:36.870 align:start position:0%
+them in a vector database with
+embeddings.<00:01:35.360><c> When</c><00:01:35.520><c> a</c><00:01:35.759><c> query</c><00:01:36.079><c> comes</c><00:01:36.320><c> in,</c><00:01:36.640><c> we</c>
+
+00:01:36.870 --> 00:01:36.880 align:start position:0%
+embeddings. When a query comes in, we
+ 
+
+00:01:36.880 --> 00:01:38.950 align:start position:0%
+embeddings. When a query comes in, we
+use<00:01:37.040><c> a</c><00:01:37.280><c> retriever</c><00:01:37.920><c> to</c><00:01:38.159><c> find</c><00:01:38.320><c> the</c><00:01:38.560><c> relevant</c>
+
+00:01:38.950 --> 00:01:38.960 align:start position:0%
+use a retriever to find the relevant
+ 
+
+00:01:38.960 --> 00:01:41.590 align:start position:0%
+use a retriever to find the relevant
+chunks<00:01:39.600><c> by</c><00:01:39.920><c> comparing</c><00:01:40.400><c> the</c><00:01:40.640><c> embedding</c><00:01:41.200><c> values</c>
+
+00:01:41.590 --> 00:01:41.600 align:start position:0%
+chunks by comparing the embedding values
+ 
+
+00:01:41.600 --> 00:01:44.149 align:start position:0%
+chunks by comparing the embedding values
+of<00:01:41.840><c> the</c><00:01:42.079><c> query</c><00:01:42.560><c> and</c><00:01:42.799><c> the</c><00:01:43.040><c> original</c><00:01:43.439><c> chunk.</c><00:01:44.079><c> uh</c>
+
+00:01:44.149 --> 00:01:44.159 align:start position:0%
+of the query and the original chunk. uh
+ 
+
+00:01:44.159 --> 00:01:46.630 align:start position:0%
+of the query and the original chunk. uh
+and<00:01:44.400><c> then</c><00:01:44.640><c> a</c><00:01:44.880><c> response</c><00:01:45.360><c> generator</c><00:01:45.920><c> uses</c><00:01:46.320><c> those</c>
+
+00:01:46.630 --> 00:01:46.640 align:start position:0%
+and then a response generator uses those
+ 
+
+00:01:46.640 --> 00:01:49.749 align:start position:0%
+and then a response generator uses those
+chunks<00:01:47.040><c> as</c><00:01:47.439><c> context</c><00:01:48.240><c> for</c><00:01:48.399><c> an</c><00:01:48.560><c> LLM</c><00:01:49.200><c> to</c><00:01:49.439><c> create</c>
+
+00:01:49.749 --> 00:01:49.759 align:start position:0%
+chunks as context for an LLM to create
+ 
+
+00:01:49.759 --> 00:01:51.910 align:start position:0%
+chunks as context for an LLM to create
+the<00:01:50.000><c> final</c><00:01:50.320><c> answer.</c><00:01:50.880><c> Now</c><00:01:51.040><c> the</c><00:01:51.280><c> problem</c><00:01:51.600><c> really</c>
+
+00:01:51.910 --> 00:01:51.920 align:start position:0%
+the final answer. Now the problem really
+ 
+
+00:01:51.920 --> 00:01:54.230 align:start position:0%
+the final answer. Now the problem really
+is<00:01:52.159><c> in</c><00:01:52.399><c> this</c><00:01:52.640><c> retrieval</c><00:01:53.119><c> step</c><00:01:53.520><c> by</c><00:01:53.840><c> comparing</c>
+
+00:01:54.230 --> 00:01:54.240 align:start position:0%
+is in this retrieval step by comparing
+ 
+
+00:01:54.240 --> 00:01:56.950 align:start position:0%
+is in this retrieval step by comparing
+the<00:01:54.799><c> um</c><00:01:55.040><c> embedding</c><00:01:55.520><c> distance</c><00:01:56.079><c> of</c><00:01:56.320><c> the</c><00:01:56.560><c> query</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+the um embedding distance of the query
+ 
+
+00:01:56.960 --> 00:01:59.350 align:start position:0%
+the um embedding distance of the query
+and<00:01:57.520><c> uh</c><00:01:57.600><c> the</c><00:01:57.840><c> different</c><00:01:58.079><c> chunks.</c><00:01:58.880><c> We</c><00:01:59.119><c> don't</c>
+
+00:01:59.350 --> 00:01:59.360 align:start position:0%
+and uh the different chunks. We don't
+ 
+
+00:01:59.360 --> 00:02:01.670 align:start position:0%
+and uh the different chunks. We don't
+really<00:01:59.759><c> get</c><00:02:00.079><c> the</c><00:02:00.399><c> best</c><00:02:00.719><c> results.</c><00:02:01.200><c> So</c><00:02:01.360><c> we</c><00:02:01.520><c> end</c>
+
+00:02:01.670 --> 00:02:01.680 align:start position:0%
+really get the best results. So we end
+ 
+
+00:02:01.680 --> 00:02:03.190 align:start position:0%
+really get the best results. So we end
+up<00:02:01.840><c> having</c><00:02:02.000><c> to</c><00:02:02.159><c> fetch</c><00:02:02.479><c> a</c><00:02:02.719><c> lot</c><00:02:02.799><c> of</c><00:02:02.960><c> different</c>
+
+00:02:03.190 --> 00:02:03.200 align:start position:0%
+up having to fetch a lot of different
+ 
+
+00:02:03.200 --> 00:02:04.950 align:start position:0%
+up having to fetch a lot of different
+results<00:02:03.520><c> and</c><00:02:03.840><c> hope</c><00:02:04.000><c> that</c><00:02:04.240><c> the</c><00:02:04.479><c> comparison</c>
+
+00:02:04.950 --> 00:02:04.960 align:start position:0%
+results and hope that the comparison
+ 
+
+00:02:04.960 --> 00:02:07.109 align:start position:0%
+results and hope that the comparison
+gets<00:02:05.200><c> us</c><00:02:05.520><c> most</c><00:02:05.840><c> of</c><00:02:05.920><c> the</c><00:02:06.079><c> right</c><00:02:06.320><c> results.</c><00:02:06.880><c> This</c>
+
+00:02:07.109 --> 00:02:07.119 align:start position:0%
+gets us most of the right results. This
+ 
+
+00:02:07.119 --> 00:02:09.350 align:start position:0%
+gets us most of the right results. This
+means<00:02:07.360><c> we</c><00:02:07.600><c> usually</c><00:02:07.920><c> end</c><00:02:08.160><c> up</c><00:02:08.399><c> with</c><00:02:08.640><c> a</c><00:02:08.879><c> mix</c><00:02:09.119><c> of</c>
+
+00:02:09.350 --> 00:02:09.360 align:start position:0%
+means we usually end up with a mix of
+ 
+
+00:02:09.360 --> 00:02:11.750 align:start position:0%
+means we usually end up with a mix of
+highly<00:02:09.840><c> relevant</c><00:02:10.479><c> and</c><00:02:10.879><c> somewhat</c><00:02:11.360><c> relevant</c>
+
+00:02:11.750 --> 00:02:11.760 align:start position:0%
+highly relevant and somewhat relevant
+ 
+
+00:02:11.760 --> 00:02:13.830 align:start position:0%
+highly relevant and somewhat relevant
+chunks.<00:02:12.239><c> And</c><00:02:12.400><c> the</c><00:02:12.640><c> problem</c><00:02:12.800><c> is</c><00:02:12.959><c> that</c><00:02:13.200><c> LLMs</c>
+
+00:02:13.830 --> 00:02:13.840 align:start position:0%
+chunks. And the problem is that LLMs
+ 
+
+00:02:13.840 --> 00:02:15.990 align:start position:0%
+chunks. And the problem is that LLMs
+have<00:02:14.080><c> limited</c><00:02:14.480><c> context</c><00:02:14.959><c> windows</c><00:02:15.360><c> and</c><00:02:15.599><c> can</c><00:02:15.760><c> get</c>
+
+00:02:15.990 --> 00:02:16.000 align:start position:0%
+have limited context windows and can get
+ 
+
+00:02:16.000 --> 00:02:17.510 align:start position:0%
+have limited context windows and can get
+confused<00:02:16.319><c> when</c><00:02:16.560><c> you</c><00:02:16.720><c> give</c><00:02:16.800><c> it</c><00:02:17.040><c> too</c><00:02:17.280><c> much</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+confused when you give it too much
+ 
+
+00:02:17.520 --> 00:02:19.670 align:start position:0%
+confused when you give it too much
+information.<00:02:18.319><c> So</c><00:02:18.560><c> we</c><00:02:18.800><c> want</c><00:02:18.959><c> to</c><00:02:19.120><c> only</c><00:02:19.360><c> give</c><00:02:19.520><c> it</c>
+
+00:02:19.670 --> 00:02:19.680 align:start position:0%
+information. So we want to only give it
+ 
+
+00:02:19.680 --> 00:02:21.830 align:start position:0%
+information. So we want to only give it
+a<00:02:19.920><c> few</c><00:02:20.080><c> documents.</c><00:02:20.720><c> The</c><00:02:20.959><c> problem</c><00:02:21.200><c> is</c><00:02:21.520><c> what</c><00:02:21.680><c> if</c>
+
+00:02:21.830 --> 00:02:21.840 align:start position:0%
+a few documents. The problem is what if
+ 
+
+00:02:21.840 --> 00:02:24.390 align:start position:0%
+a few documents. The problem is what if
+the<00:02:22.080><c> one</c><00:02:22.160><c> that</c><00:02:22.400><c> we</c><00:02:22.560><c> actually</c><00:02:22.879><c> want</c><00:02:23.440><c> is</c><00:02:23.840><c> outside</c>
+
+00:02:24.390 --> 00:02:24.400 align:start position:0%
+the one that we actually want is outside
+ 
+
+00:02:24.400 --> 00:02:26.150 align:start position:0%
+the one that we actually want is outside
+of<00:02:24.640><c> this</c><00:02:24.959><c> number</c><00:02:25.200><c> of</c><00:02:25.360><c> documents</c><00:02:25.760><c> that</c><00:02:26.000><c> we</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+of this number of documents that we
+ 
+
+00:02:26.160 --> 00:02:28.150 align:start position:0%
+of this number of documents that we
+choose<00:02:26.480><c> as</c><00:02:26.720><c> our</c><00:02:26.959><c> cutoff</c><00:02:27.360><c> point.</c><00:02:27.760><c> For</c><00:02:27.840><c> example,</c>
+
+00:02:28.150 --> 00:02:28.160 align:start position:0%
+choose as our cutoff point. For example,
+ 
+
+00:02:28.160 --> 00:02:30.150 align:start position:0%
+choose as our cutoff point. For example,
+if<00:02:28.400><c> we</c><00:02:28.560><c> choose</c><00:02:28.879><c> three</c><00:02:29.120><c> documents,</c><00:02:29.840><c> um</c><00:02:29.920><c> it</c>
+
+00:02:30.150 --> 00:02:30.160 align:start position:0%
+if we choose three documents, um it
+ 
+
+00:02:30.160 --> 00:02:31.990 align:start position:0%
+if we choose three documents, um it
+might<00:02:30.319><c> turn</c><00:02:30.560><c> out</c><00:02:30.800><c> that</c><00:02:31.200><c> the</c><00:02:31.440><c> fifth</c><00:02:31.680><c> or</c><00:02:31.840><c> the</c>
+
+00:02:31.990 --> 00:02:32.000 align:start position:0%
+might turn out that the fifth or the
+ 
+
+00:02:32.000 --> 00:02:34.229 align:start position:0%
+might turn out that the fifth or the
+sixth<00:02:32.319><c> one</c><00:02:32.560><c> is</c><00:02:32.800><c> the</c><00:02:32.959><c> one</c><00:02:33.120><c> we</c><00:02:33.360><c> actually</c><00:02:33.680><c> want.</c>
+
+00:02:34.229 --> 00:02:34.239 align:start position:0%
+sixth one is the one we actually want.
+ 
+
+00:02:34.239 --> 00:02:36.150 align:start position:0%
+sixth one is the one we actually want.
+This<00:02:34.400><c> is</c><00:02:34.480><c> where</c><00:02:34.720><c> re-ranking</c><00:02:35.360><c> comes</c><00:02:35.519><c> in.</c><00:02:35.920><c> It</c>
+
+00:02:36.150 --> 00:02:36.160 align:start position:0%
+This is where re-ranking comes in. It
+ 
+
+00:02:36.160 --> 00:02:37.910 align:start position:0%
+This is where re-ranking comes in. It
+basically<00:02:36.560><c> helps</c><00:02:36.800><c> you</c><00:02:37.040><c> sort</c><00:02:37.280><c> out</c><00:02:37.440><c> this</c><00:02:37.680><c> pile</c>
+
+00:02:37.910 --> 00:02:37.920 align:start position:0%
+basically helps you sort out this pile
+ 
+
+00:02:37.920 --> 00:02:40.229 align:start position:0%
+basically helps you sort out this pile
+of<00:02:38.080><c> information</c><00:02:38.720><c> to</c><00:02:38.959><c> what</c><00:02:39.200><c> is</c><00:02:39.440><c> most</c><00:02:39.760><c> relevant</c>
+
+00:02:40.229 --> 00:02:40.239 align:start position:0%
+of information to what is most relevant
+ 
+
+00:02:40.239 --> 00:02:42.630 align:start position:0%
+of information to what is most relevant
+to<00:02:40.480><c> the</c><00:02:40.720><c> query</c><00:02:41.040><c> itself.</c><00:02:41.760><c> Instead,</c><00:02:42.400><c> this</c><00:02:42.560><c> is</c>
+
+00:02:42.630 --> 00:02:42.640 align:start position:0%
+to the query itself. Instead, this is
+ 
+
+00:02:42.640 --> 00:02:43.990 align:start position:0%
+to the query itself. Instead, this is
+how<00:02:42.800><c> the</c><00:02:43.040><c> process</c><00:02:43.360><c> could</c><00:02:43.519><c> look</c><00:02:43.760><c> with</c>
+
+00:02:43.990 --> 00:02:44.000 align:start position:0%
+how the process could look with
+ 
+
+00:02:44.000 --> 00:02:45.830 align:start position:0%
+how the process could look with
+reranking.<00:02:44.640><c> So,</c><00:02:44.800><c> the</c><00:02:44.959><c> first</c><00:02:45.120><c> step</c><00:02:45.360><c> is</c><00:02:45.519><c> that</c><00:02:45.680><c> we</c>
+
+00:02:45.830 --> 00:02:45.840 align:start position:0%
+reranking. So, the first step is that we
+ 
+
+00:02:45.840 --> 00:02:47.750 align:start position:0%
+reranking. So, the first step is that we
+still<00:02:46.000><c> fetch</c><00:02:46.319><c> a</c><00:02:46.560><c> lot</c><00:02:46.640><c> of</c><00:02:46.720><c> matching</c><00:02:47.120><c> documents</c>
+
+00:02:47.750 --> 00:02:47.760 align:start position:0%
+still fetch a lot of matching documents
+ 
+
+00:02:47.760 --> 00:02:49.509 align:start position:0%
+still fetch a lot of matching documents
+more<00:02:48.000><c> than</c><00:02:48.160><c> the</c><00:02:48.400><c> number</c><00:02:48.560><c> that</c><00:02:48.800><c> we</c><00:02:49.040><c> intend</c><00:02:49.360><c> to</c>
+
+00:02:49.509 --> 00:02:49.519 align:start position:0%
+more than the number that we intend to
+ 
+
+00:02:49.519 --> 00:02:51.589 align:start position:0%
+more than the number that we intend to
+return<00:02:49.760><c> to</c><00:02:49.920><c> the</c><00:02:50.080><c> LLM.</c><00:02:50.720><c> And</c><00:02:50.879><c> for</c><00:02:51.040><c> this,</c><00:02:51.360><c> we</c>
+
+00:02:51.589 --> 00:02:51.599 align:start position:0%
+return to the LLM. And for this, we
+ 
+
+00:02:51.599 --> 00:02:54.309 align:start position:0%
+return to the LLM. And for this, we
+still<00:02:51.920><c> use</c><00:02:52.560><c> um</c><00:02:52.800><c> vector</c><00:02:53.200><c> embedding</c><00:02:53.680><c> distance</c>
+
+00:02:54.309 --> 00:02:54.319 align:start position:0%
+still use um vector embedding distance
+ 
+
+00:02:54.319 --> 00:02:56.309 align:start position:0%
+still use um vector embedding distance
+as<00:02:54.560><c> a</c><00:02:54.720><c> way</c><00:02:54.800><c> to</c><00:02:55.040><c> find</c><00:02:55.360><c> that</c><00:02:55.599><c> initial</c><00:02:56.000><c> set</c><00:02:56.160><c> of</c>
+
+00:02:56.309 --> 00:02:56.319 align:start position:0%
+as a way to find that initial set of
+ 
+
+00:02:56.319 --> 00:02:58.150 align:start position:0%
+as a way to find that initial set of
+documents.<00:02:56.959><c> Now,</c><00:02:57.120><c> once</c><00:02:57.440><c> we</c><00:02:57.599><c> have</c><00:02:57.760><c> this</c>
+
+00:02:58.150 --> 00:02:58.160 align:start position:0%
+documents. Now, once we have this
+ 
+
+00:02:58.160 --> 00:03:00.309 align:start position:0%
+documents. Now, once we have this
+smaller<00:02:58.560><c> set</c><00:02:58.720><c> of</c><00:02:58.879><c> documents,</c><00:02:59.519><c> we</c><00:02:59.760><c> could</c><00:02:59.920><c> use</c>
+
+00:03:00.309 --> 00:03:00.319 align:start position:0%
+smaller set of documents, we could use
+ 
+
+00:03:00.319 --> 00:03:02.309 align:start position:0%
+smaller set of documents, we could use
+reranking.<00:03:01.120><c> And</c><00:03:01.280><c> reranking</c><00:03:01.840><c> is</c><00:03:02.000><c> a</c><00:03:02.159><c> little</c><00:03:02.239><c> bit</c>
+
+00:03:02.309 --> 00:03:02.319 align:start position:0%
+reranking. And reranking is a little bit
+ 
+
+00:03:02.319 --> 00:03:03.750 align:start position:0%
+reranking. And reranking is a little bit
+more<00:03:02.480><c> expensive,</c><00:03:02.959><c> which</c><00:03:03.120><c> is</c><00:03:03.280><c> why</c><00:03:03.440><c> we</c><00:03:03.599><c> don't</c>
+
+00:03:03.750 --> 00:03:03.760 align:start position:0%
+more expensive, which is why we don't
+ 
+
+00:03:03.760 --> 00:03:05.509 align:start position:0%
+more expensive, which is why we don't
+use<00:03:03.840><c> it</c><00:03:04.000><c> across</c><00:03:04.239><c> the</c><00:03:04.480><c> whole</c><00:03:04.640><c> data</c><00:03:04.879><c> set.</c><00:03:05.280><c> And</c>
+
+00:03:05.509 --> 00:03:05.519 align:start position:0%
+use it across the whole data set. And
+ 
+
+00:03:05.519 --> 00:03:08.070 align:start position:0%
+use it across the whole data set. And
+this<00:03:05.680><c> is</c><00:03:05.840><c> just</c><00:03:06.000><c> a</c><00:03:06.319><c> very</c><00:03:06.640><c> very</c><00:03:07.040><c> simple</c><00:03:07.840><c> um</c>
+
+00:03:08.070 --> 00:03:08.080 align:start position:0%
+this is just a very very simple um
+ 
+
+00:03:08.080 --> 00:03:10.149 align:start position:0%
+this is just a very very simple um
+three-step<00:03:08.720><c> explanation</c><00:03:09.280><c> of</c><00:03:09.440><c> how</c><00:03:09.599><c> it</c><00:03:09.840><c> works.</c>
+
+00:03:10.149 --> 00:03:10.159 align:start position:0%
+three-step explanation of how it works.
+ 
+
+00:03:10.159 --> 00:03:11.910 align:start position:0%
+three-step explanation of how it works.
+So<00:03:10.400><c> in</c><00:03:10.560><c> the</c><00:03:10.720><c> first</c><00:03:10.879><c> step,</c><00:03:11.200><c> we</c><00:03:11.440><c> use</c><00:03:11.680><c> the</c>
+
+00:03:11.910 --> 00:03:11.920 align:start position:0%
+So in the first step, we use the
+ 
+
+00:03:11.920 --> 00:03:14.229 align:start position:0%
+So in the first step, we use the
+distance<00:03:12.400><c> function</c><00:03:12.879><c> to</c><00:03:13.120><c> still</c><00:03:13.519><c> fetch</c><00:03:13.840><c> a</c><00:03:14.080><c> bunch</c>
+
+00:03:14.229 --> 00:03:14.239 align:start position:0%
+distance function to still fetch a bunch
+ 
+
+00:03:14.239 --> 00:03:15.750 align:start position:0%
+distance function to still fetch a bunch
+of<00:03:14.400><c> different</c><00:03:14.640><c> documents.</c><00:03:15.280><c> And</c><00:03:15.440><c> we're</c><00:03:15.680><c> going</c>
+
+00:03:15.750 --> 00:03:15.760 align:start position:0%
+of different documents. And we're going
+ 
+
+00:03:15.760 --> 00:03:17.910 align:start position:0%
+of different documents. And we're going
+to<00:03:15.840><c> fetch</c><00:03:16.239><c> more</c><00:03:16.720><c> than</c><00:03:16.959><c> we</c><00:03:17.120><c> intend</c><00:03:17.519><c> to</c><00:03:17.680><c> return</c>
+
+00:03:17.910 --> 00:03:17.920 align:start position:0%
+to fetch more than we intend to return
+ 
+
+00:03:17.920 --> 00:03:20.550 align:start position:0%
+to fetch more than we intend to return
+to<00:03:18.159><c> the</c><00:03:18.319><c> LLM.</c><00:03:19.200><c> So</c><00:03:19.440><c> for</c><00:03:19.519><c> example,</c><00:03:19.920><c> if</c><00:03:20.159><c> we</c><00:03:20.319><c> wanted</c>
+
+00:03:20.550 --> 00:03:20.560 align:start position:0%
+to the LLM. So for example, if we wanted
+ 
+
+00:03:20.560 --> 00:03:22.309 align:start position:0%
+to the LLM. So for example, if we wanted
+to<00:03:20.720><c> return</c><00:03:21.040><c> just</c><00:03:21.360><c> three</c><00:03:21.680><c> documents</c><00:03:22.000><c> to</c><00:03:22.159><c> the</c>
+
+00:03:22.309 --> 00:03:22.319 align:start position:0%
+to return just three documents to the
+ 
+
+00:03:22.319 --> 00:03:25.110 align:start position:0%
+to return just three documents to the
+LLM,<00:03:22.959><c> we</c><00:03:23.120><c> might</c><00:03:23.280><c> choose</c><00:03:23.519><c> to</c><00:03:23.680><c> fetch</c><00:03:24.000><c> 10</c><00:03:24.239><c> or</c><00:03:24.560><c> 15</c>
+
+00:03:25.110 --> 00:03:25.120 align:start position:0%
+LLM, we might choose to fetch 10 or 15
+ 
+
+00:03:25.120 --> 00:03:27.030 align:start position:0%
+LLM, we might choose to fetch 10 or 15
+at<00:03:25.360><c> this</c><00:03:25.519><c> initial</c><00:03:25.920><c> step.</c><00:03:26.400><c> In</c><00:03:26.640><c> the</c><00:03:26.800><c> second</c>
+
+00:03:27.030 --> 00:03:27.040 align:start position:0%
+at this initial step. In the second
+ 
+
+00:03:27.040 --> 00:03:29.750 align:start position:0%
+at this initial step. In the second
+step,<00:03:27.360><c> we</c><00:03:27.519><c> use</c><00:03:27.760><c> our</c><00:03:28.159><c> reranking</c><00:03:28.879><c> algorithm.</c><00:03:29.599><c> So</c>
+
+00:03:29.750 --> 00:03:29.760 align:start position:0%
+step, we use our reranking algorithm. So
+ 
+
+00:03:29.760 --> 00:03:31.750 align:start position:0%
+step, we use our reranking algorithm. So
+out<00:03:29.920><c> of</c><00:03:30.000><c> these</c><00:03:30.239><c> initial</c><00:03:30.640><c> documents,</c><00:03:31.360><c> we</c><00:03:31.519><c> will</c>
+
+00:03:31.750 --> 00:03:31.760 align:start position:0%
+out of these initial documents, we will
+ 
+
+00:03:31.760 --> 00:03:34.309 align:start position:0%
+out of these initial documents, we will
+actually<00:03:32.239><c> find</c><00:03:32.799><c> a</c><00:03:33.040><c> better</c><00:03:33.360><c> ordering</c><00:03:33.760><c> for</c><00:03:34.000><c> them</c>
+
+00:03:34.309 --> 00:03:34.319 align:start position:0%
+actually find a better ordering for them
+ 
+
+00:03:34.319 --> 00:03:36.309 align:start position:0%
+actually find a better ordering for them
+according<00:03:34.720><c> to</c><00:03:34.959><c> what's</c><00:03:35.360><c> most</c><00:03:35.680><c> relevant</c><00:03:36.000><c> to</c><00:03:36.159><c> the</c>
+
+00:03:36.309 --> 00:03:36.319 align:start position:0%
+according to what's most relevant to the
+ 
+
+00:03:36.319 --> 00:03:37.910 align:start position:0%
+according to what's most relevant to the
+query.<00:03:36.720><c> And</c><00:03:36.879><c> I'll</c><00:03:37.040><c> show</c><00:03:37.200><c> you</c><00:03:37.280><c> how</c><00:03:37.440><c> that</c><00:03:37.680><c> works</c>
+
+00:03:37.910 --> 00:03:37.920 align:start position:0%
+query. And I'll show you how that works
+ 
+
+00:03:37.920 --> 00:03:39.670 align:start position:0%
+query. And I'll show you how that works
+later.<00:03:38.239><c> But</c><00:03:38.480><c> finally</c><00:03:38.879><c> once</c><00:03:39.120><c> we</c><00:03:39.280><c> have</c><00:03:39.440><c> this</c>
+
+00:03:39.670 --> 00:03:39.680 align:start position:0%
+later. But finally once we have this
+ 
+
+00:03:39.680 --> 00:03:42.149 align:start position:0%
+later. But finally once we have this
+ordering<00:03:40.159><c> we</c><00:03:40.400><c> can</c><00:03:40.560><c> pick</c><00:03:41.040><c> the</c><00:03:41.360><c> three</c><00:03:41.840><c> or</c>
+
+00:03:42.149 --> 00:03:42.159 align:start position:0%
+ordering we can pick the three or
+ 
+
+00:03:42.159 --> 00:03:44.470 align:start position:0%
+ordering we can pick the three or
+whatever<00:03:42.560><c> number</c><00:03:43.200><c> of</c><00:03:43.440><c> the</c><00:03:43.680><c> top</c><00:03:44.000><c> relevant</c>
+
+00:03:44.470 --> 00:03:44.480 align:start position:0%
+whatever number of the top relevant
+ 
+
+00:03:44.480 --> 00:03:47.110 align:start position:0%
+whatever number of the top relevant
+documents<00:03:45.040><c> from</c><00:03:45.280><c> the</c><00:03:45.519><c> initial</c><00:03:45.920><c> set.</c><00:03:46.560><c> So</c><00:03:46.799><c> we</c>
+
+00:03:47.110 --> 00:03:47.120 align:start position:0%
+documents from the initial set. So we
+ 
+
+00:03:47.120 --> 00:03:49.430 align:start position:0%
+documents from the initial set. So we
+basically<00:03:47.519><c> get</c><00:03:47.760><c> higher</c><00:03:48.080><c> quality</c><00:03:48.640><c> results</c><00:03:49.120><c> and</c>
+
+00:03:49.430 --> 00:03:49.440 align:start position:0%
+basically get higher quality results and
+ 
+
+00:03:49.440 --> 00:03:51.509 align:start position:0%
+basically get higher quality results and
+have<00:03:49.599><c> a</c><00:03:49.760><c> higher</c><00:03:50.080><c> chance</c><00:03:50.480><c> to</c><00:03:50.720><c> get</c><00:03:50.959><c> the</c><00:03:51.120><c> document</c>
+
+00:03:51.509 --> 00:03:51.519 align:start position:0%
+have a higher chance to get the document
+ 
+
+00:03:51.519 --> 00:03:53.270 align:start position:0%
+have a higher chance to get the document
+that<00:03:51.680><c> we</c><00:03:51.920><c> really</c><00:03:52.159><c> really</c><00:03:52.480><c> need.</c><00:03:52.879><c> And</c><00:03:52.959><c> the</c><00:03:53.120><c> way</c>
+
+00:03:53.270 --> 00:03:53.280 align:start position:0%
+that we really really need. And the way
+ 
+
+00:03:53.280 --> 00:03:54.390 align:start position:0%
+that we really really need. And the way
+we're<00:03:53.440><c> going</c><00:03:53.519><c> to</c><00:03:53.599><c> do</c><00:03:53.680><c> that</c><00:03:53.840><c> is</c><00:03:54.000><c> that</c><00:03:54.239><c> we're</c>
+
+00:03:54.390 --> 00:03:54.400 align:start position:0%
+we're going to do that is that we're
+ 
+
+00:03:54.400 --> 00:03:55.910 align:start position:0%
+we're going to do that is that we're
+just<00:03:54.560><c> going</c><00:03:54.640><c> to</c><00:03:54.799><c> add</c><00:03:55.120><c> an</c><00:03:55.360><c> additional</c>
+
+00:03:55.910 --> 00:03:55.920 align:start position:0%
+just going to add an additional
+ 
+
+00:03:55.920 --> 00:03:58.550 align:start position:0%
+just going to add an additional
+re-ranking<00:03:56.480><c> step</c><00:03:56.799><c> to</c><00:03:57.120><c> our</c><00:03:57.439><c> pipeline.</c><00:03:58.159><c> And</c><00:03:58.319><c> you</c>
+
+00:03:58.550 --> 00:03:58.560 align:start position:0%
+re-ranking step to our pipeline. And you
+ 
+
+00:03:58.560 --> 00:04:00.229 align:start position:0%
+re-ranking step to our pipeline. And you
+can<00:03:58.640><c> think</c><00:03:58.720><c> of</c><00:03:58.879><c> it</c><00:03:59.040><c> mostly</c><00:03:59.439><c> just</c><00:03:59.599><c> as</c><00:03:59.840><c> another</c>
+
+00:04:00.229 --> 00:04:00.239 align:start position:0%
+can think of it mostly just as another
+ 
+
+00:04:00.239 --> 00:04:02.710 align:start position:0%
+can think of it mostly just as another
+step<00:04:00.560><c> within</c><00:04:00.959><c> the</c><00:04:01.120><c> retrieval</c><00:04:01.680><c> process.</c><00:04:02.400><c> Now</c>
+
+00:04:02.710 --> 00:04:02.720 align:start position:0%
+step within the retrieval process. Now
+ 
+
+00:04:02.720 --> 00:04:05.190 align:start position:0%
+step within the retrieval process. Now
+to<00:04:03.040><c> understand</c><00:04:03.599><c> why</c><00:04:04.000><c> and</c><00:04:04.239><c> how</c><00:04:04.480><c> re-ranking</c>
+
+00:04:05.190 --> 00:04:05.200 align:start position:0%
+to understand why and how re-ranking
+ 
+
+00:04:05.200 --> 00:04:06.949 align:start position:0%
+to understand why and how re-ranking
+works,<00:04:05.680><c> let's</c><00:04:05.920><c> first</c><00:04:06.159><c> take</c><00:04:06.319><c> a</c><00:04:06.480><c> look</c><00:04:06.560><c> at</c><00:04:06.720><c> the</c>
+
+00:04:06.949 --> 00:04:06.959 align:start position:0%
+works, let's first take a look at the
+ 
+
+00:04:06.959 --> 00:04:09.110 align:start position:0%
+works, let's first take a look at the
+problem<00:04:07.519><c> with</c><00:04:07.920><c> traditional</c><00:04:08.400><c> vector</c><00:04:08.799><c> search</c>
+
+00:04:09.110 --> 00:04:09.120 align:start position:0%
+problem with traditional vector search
+ 
+
+00:04:09.120 --> 00:04:10.869 align:start position:0%
+problem with traditional vector search
+in<00:04:09.360><c> a</c><00:04:09.599><c> little</c><00:04:09.760><c> bit</c><00:04:09.920><c> more</c><00:04:10.080><c> detail.</c><00:04:10.640><c> With</c>
+
+00:04:10.869 --> 00:04:10.879 align:start position:0%
+in a little bit more detail. With
+ 
+
+00:04:10.879 --> 00:04:12.630 align:start position:0%
+in a little bit more detail. With
+traditional<00:04:11.280><c> vector</c><00:04:11.680><c> search,</c><00:04:12.000><c> your</c><00:04:12.239><c> document</c>
+
+00:04:12.630 --> 00:04:12.640 align:start position:0%
+traditional vector search, your document
+ 
+
+00:04:12.640 --> 00:04:14.949 align:start position:0%
+traditional vector search, your document
+gets<00:04:12.959><c> split</c><00:04:13.280><c> into</c><00:04:13.599><c> little</c><00:04:13.920><c> text</c><00:04:14.239><c> chunks</c><00:04:14.799><c> and</c>
+
+00:04:14.949 --> 00:04:14.959 align:start position:0%
+gets split into little text chunks and
+ 
+
+00:04:14.959 --> 00:04:16.550 align:start position:0%
+gets split into little text chunks and
+then<00:04:15.200><c> each</c><00:04:15.360><c> of</c><00:04:15.519><c> those</c><00:04:15.680><c> chunks</c><00:04:16.079><c> gets</c><00:04:16.320><c> turned</c>
+
+00:04:16.550 --> 00:04:16.560 align:start position:0%
+then each of those chunks gets turned
+ 
+
+00:04:16.560 --> 00:04:18.550 align:start position:0%
+then each of those chunks gets turned
+into<00:04:16.799><c> embeddings</c><00:04:17.440><c> ahead</c><00:04:17.759><c> of</c><00:04:17.919><c> time</c><00:04:18.239><c> just</c><00:04:18.400><c> like</c>
+
+00:04:18.550 --> 00:04:18.560 align:start position:0%
+into embeddings ahead of time just like
+ 
+
+00:04:18.560 --> 00:04:20.229 align:start position:0%
+into embeddings ahead of time just like
+in<00:04:18.720><c> this</c><00:04:18.959><c> diagram</c><00:04:19.280><c> here.</c><00:04:19.600><c> And</c><00:04:19.759><c> when</c><00:04:20.000><c> you</c><00:04:20.079><c> make</c>
+
+00:04:20.229 --> 00:04:20.239 align:start position:0%
+in this diagram here. And when you make
+ 
+
+00:04:20.239 --> 00:04:22.390 align:start position:0%
+in this diagram here. And when you make
+a<00:04:20.479><c> query,</c><00:04:21.040><c> that</c><00:04:21.280><c> query</c><00:04:21.680><c> also</c><00:04:21.919><c> gets</c><00:04:22.240><c> turned</c>
+
+00:04:22.390 --> 00:04:22.400 align:start position:0%
+a query, that query also gets turned
+ 
+
+00:04:22.400 --> 00:04:24.310 align:start position:0%
+a query, that query also gets turned
+into<00:04:22.639><c> an</c><00:04:22.800><c> embedding.</c><00:04:23.360><c> Then</c><00:04:23.600><c> we</c><00:04:23.840><c> just</c><00:04:24.000><c> compare</c>
+
+00:04:24.310 --> 00:04:24.320 align:start position:0%
+into an embedding. Then we just compare
+ 
+
+00:04:24.320 --> 00:04:26.469 align:start position:0%
+into an embedding. Then we just compare
+embeddings<00:04:24.880><c> using</c><00:04:25.360><c> similarity</c><00:04:26.080><c> to</c><00:04:26.240><c> find</c>
+
+00:04:26.469 --> 00:04:26.479 align:start position:0%
+embeddings using similarity to find
+ 
+
+00:04:26.479 --> 00:04:28.390 align:start position:0%
+embeddings using similarity to find
+matches.<00:04:27.199><c> The</c><00:04:27.440><c> problem</c><00:04:27.680><c> here</c><00:04:27.840><c> is</c><00:04:28.000><c> that</c><00:04:28.160><c> the</c>
+
+00:04:28.390 --> 00:04:28.400 align:start position:0%
+matches. The problem here is that the
+ 
+
+00:04:28.400 --> 00:04:30.310 align:start position:0%
+matches. The problem here is that the
+document<00:04:28.720><c> embeddings</c><00:04:29.280><c> are</c><00:04:29.520><c> created</c><00:04:29.919><c> without</c>
+
+00:04:30.310 --> 00:04:30.320 align:start position:0%
+document embeddings are created without
+ 
+
+00:04:30.320 --> 00:04:32.230 align:start position:0%
+document embeddings are created without
+any<00:04:30.639><c> knowledge</c><00:04:30.960><c> of</c><00:04:31.199><c> what</c><00:04:31.440><c> the</c><00:04:31.680><c> user</c><00:04:31.919><c> might</c>
+
+00:04:32.230 --> 00:04:32.240 align:start position:0%
+any knowledge of what the user might
+ 
+
+00:04:32.240 --> 00:04:34.710 align:start position:0%
+any knowledge of what the user might
+ask.<00:04:32.880><c> So</c><00:04:33.040><c> the</c><00:04:33.199><c> embeddings</c><00:04:33.840><c> tend</c><00:04:34.160><c> to</c><00:04:34.320><c> be</c><00:04:34.479><c> a</c>
+
+00:04:34.710 --> 00:04:34.720 align:start position:0%
+ask. So the embeddings tend to be a
+ 
+
+00:04:34.720 --> 00:04:36.230 align:start position:0%
+ask. So the embeddings tend to be a
+little<00:04:34.800><c> bit</c><00:04:34.960><c> general.</c><00:04:35.440><c> Here's</c><00:04:35.680><c> a</c><00:04:35.840><c> concrete</c>
+
+00:04:36.230 --> 00:04:36.240 align:start position:0%
+little bit general. Here's a concrete
+ 
+
+00:04:36.240 --> 00:04:37.909 align:start position:0%
+little bit general. Here's a concrete
+example.<00:04:36.720><c> Let's</c><00:04:36.960><c> say</c><00:04:37.040><c> you</c><00:04:37.280><c> have</c><00:04:37.360><c> a</c><00:04:37.520><c> document</c>
+
+00:04:37.909 --> 00:04:37.919 align:start position:0%
+example. Let's say you have a document
+ 
+
+00:04:37.919 --> 00:04:40.550 align:start position:0%
+example. Let's say you have a document
+about<00:04:38.320><c> Python</c><00:04:38.800><c> coding</c><00:04:39.120><c> concepts</c><00:04:39.759><c> and</c><00:04:40.080><c> another</c>
+
+00:04:40.550 --> 00:04:40.560 align:start position:0%
+about Python coding concepts and another
+ 
+
+00:04:40.560 --> 00:04:43.030 align:start position:0%
+about Python coding concepts and another
+about<00:04:40.960><c> Python</c><00:04:41.520><c> snake</c><00:04:41.840><c> habitats.</c><00:04:42.560><c> If</c><00:04:42.720><c> someone</c>
+
+00:04:43.030 --> 00:04:43.040 align:start position:0%
+about Python snake habitats. If someone
+ 
+
+00:04:43.040 --> 00:04:45.189 align:start position:0%
+about Python snake habitats. If someone
+asks,<00:04:43.360><c> "How</c><00:04:43.600><c> do</c><00:04:43.759><c> I</c><00:04:43.919><c> install</c><00:04:44.320><c> Python?"</c><00:04:44.960><c> Then</c>
+
+00:04:45.189 --> 00:04:45.199 align:start position:0%
+asks, "How do I install Python?" Then
+ 
+
+00:04:45.199 --> 00:04:46.790 align:start position:0%
+asks, "How do I install Python?" Then
+traditional<00:04:45.680><c> vector</c><00:04:46.000><c> search</c><00:04:46.320><c> might</c><00:04:46.479><c> rank</c>
+
+00:04:46.790 --> 00:04:46.800 align:start position:0%
+traditional vector search might rank
+ 
+
+00:04:46.800 --> 00:04:48.870 align:start position:0%
+traditional vector search might rank
+both<00:04:46.960><c> of</c><00:04:47.120><c> these</c><00:04:47.360><c> highly</c><00:04:47.840><c> because</c><00:04:48.320><c> they</c><00:04:48.639><c> both</c>
+
+00:04:48.870 --> 00:04:48.880 align:start position:0%
+both of these highly because they both
+ 
+
+00:04:48.880 --> 00:04:50.950 align:start position:0%
+both of these highly because they both
+contain<00:04:49.120><c> the</c><00:04:49.360><c> word</c><00:04:49.520><c> Python.</c><00:04:50.240><c> But</c><00:04:50.400><c> obviously</c>
+
+00:04:50.950 --> 00:04:50.960 align:start position:0%
+contain the word Python. But obviously
+ 
+
+00:04:50.960 --> 00:04:52.870 align:start position:0%
+contain the word Python. But obviously
+only<00:04:51.199><c> the</c><00:04:51.440><c> coding</c><00:04:51.759><c> document</c><00:04:52.080><c> is</c><00:04:52.400><c> actually</c>
+
+00:04:52.870 --> 00:04:52.880 align:start position:0%
+only the coding document is actually
+ 
+
+00:04:52.880 --> 00:04:54.550 align:start position:0%
+only the coding document is actually
+relevant<00:04:53.280><c> to</c><00:04:53.440><c> that</c><00:04:53.600><c> query.</c><00:04:54.080><c> This</c><00:04:54.240><c> is</c><00:04:54.320><c> where</c>
+
+00:04:54.550 --> 00:04:54.560 align:start position:0%
+relevant to that query. This is where
+ 
+
+00:04:54.560 --> 00:04:56.390 align:start position:0%
+relevant to that query. This is where
+reranking<00:04:55.120><c> is</c><00:04:55.280><c> supposed</c><00:04:55.520><c> to</c><00:04:55.680><c> help.</c><00:04:56.080><c> Instead</c>
+
+00:04:56.390 --> 00:04:56.400 align:start position:0%
+reranking is supposed to help. Instead
+ 
+
+00:04:56.400 --> 00:04:58.790 align:start position:0%
+reranking is supposed to help. Instead
+of<00:04:56.560><c> relying</c><00:04:57.040><c> on</c><00:04:57.280><c> precomputed</c><00:04:58.000><c> embeddings,</c><00:04:58.639><c> a</c>
+
+00:04:58.790 --> 00:04:58.800 align:start position:0%
+of relying on precomputed embeddings, a
+ 
+
+00:04:58.800 --> 00:05:00.870 align:start position:0%
+of relying on precomputed embeddings, a
+re-ranker<00:04:59.360><c> can</c><00:04:59.520><c> look</c><00:04:59.680><c> at</c><00:04:59.840><c> the</c><00:05:00.080><c> actual</c><00:05:00.400><c> query</c>
+
+00:05:00.870 --> 00:05:00.880 align:start position:0%
+re-ranker can look at the actual query
+ 
+
+00:05:00.880 --> 00:05:02.870 align:start position:0%
+re-ranker can look at the actual query
+text<00:05:01.280><c> and</c><00:05:01.520><c> the</c><00:05:01.759><c> actual</c><00:05:02.080><c> document</c><00:05:02.479><c> text</c>
+
+00:05:02.870 --> 00:05:02.880 align:start position:0%
+text and the actual document text
+ 
+
+00:05:02.880 --> 00:05:05.189 align:start position:0%
+text and the actual document text
+together<00:05:03.440><c> and</c><00:05:03.759><c> make</c><00:05:03.919><c> a</c><00:05:04.240><c> much</c><00:05:04.639><c> smarter</c>
+
+00:05:05.189 --> 00:05:05.199 align:start position:0%
+together and make a much smarter
+ 
+
+00:05:05.199 --> 00:05:07.510 align:start position:0%
+together and make a much smarter
+decision<00:05:05.600><c> about</c><00:05:06.000><c> relevance.</c><00:05:06.800><c> So</c><00:05:07.120><c> how</c><00:05:07.280><c> does</c>
+
+00:05:07.510 --> 00:05:07.520 align:start position:0%
+decision about relevance. So how does
+ 
+
+00:05:07.520 --> 00:05:09.670 align:start position:0%
+decision about relevance. So how does
+reranking<00:05:08.160><c> do</c><00:05:08.320><c> that</c><00:05:08.479><c> under</c><00:05:08.720><c> the</c><00:05:08.960><c> hood?</c><00:05:09.440><c> Well,</c>
+
+00:05:09.670 --> 00:05:09.680 align:start position:0%
+reranking do that under the hood? Well,
+ 
+
+00:05:09.680 --> 00:05:11.510 align:start position:0%
+reranking do that under the hood? Well,
+it<00:05:10.000><c> uses</c><00:05:10.479><c> something</c><00:05:10.880><c> called</c><00:05:11.280><c> cross-</c>
+
+00:05:11.510 --> 00:05:11.520 align:start position:0%
+it uses something called cross-
+ 
+
+00:05:11.520 --> 00:05:13.909 align:start position:0%
+it uses something called cross-
+encoding.<00:05:12.479><c> To</c><00:05:12.800><c> explain</c><00:05:13.120><c> it</c><00:05:13.360><c> in</c><00:05:13.520><c> a</c><00:05:13.680><c> very</c>
+
+00:05:13.909 --> 00:05:13.919 align:start position:0%
+encoding. To explain it in a very
+ 
+
+00:05:13.919 --> 00:05:16.469 align:start position:0%
+encoding. To explain it in a very
+simplified<00:05:14.560><c> way,</c><00:05:15.039><c> it</c><00:05:15.360><c> basically</c><00:05:16.000><c> combines</c>
+
+00:05:16.469 --> 00:05:16.479 align:start position:0%
+simplified way, it basically combines
+ 
+
+00:05:16.479 --> 00:05:18.870 align:start position:0%
+simplified way, it basically combines
+the<00:05:16.720><c> query</c><00:05:17.039><c> and</c><00:05:17.199><c> the</c><00:05:17.360><c> source</c><00:05:17.680><c> text</c><00:05:18.160><c> first</c>
+
+00:05:18.870 --> 00:05:18.880 align:start position:0%
+the query and the source text first
+ 
+
+00:05:18.880 --> 00:05:21.270 align:start position:0%
+the query and the source text first
+before<00:05:19.440><c> processing</c><00:05:19.919><c> it</c><00:05:20.160><c> with</c><00:05:20.320><c> a</c><00:05:20.479><c> transformer.</c>
+
+00:05:21.270 --> 00:05:21.280 align:start position:0%
+before processing it with a transformer.
+ 
+
+00:05:21.280 --> 00:05:23.110 align:start position:0%
+before processing it with a transformer.
+This<00:05:21.520><c> is</c><00:05:21.680><c> different</c><00:05:21.919><c> to</c><00:05:22.240><c> traditional</c><00:05:22.720><c> rack</c>
+
+00:05:23.110 --> 00:05:23.120 align:start position:0%
+This is different to traditional rack
+ 
+
+00:05:23.120 --> 00:05:25.350 align:start position:0%
+This is different to traditional rack
+vector<00:05:23.520><c> search</c><00:05:24.080><c> which</c><00:05:24.400><c> process</c><00:05:24.880><c> the</c><00:05:25.039><c> query</c>
+
+00:05:25.350 --> 00:05:25.360 align:start position:0%
+vector search which process the query
+ 
+
+00:05:25.360 --> 00:05:28.390 align:start position:0%
+vector search which process the query
+and<00:05:25.680><c> the</c><00:05:25.840><c> text</c><00:05:26.160><c> separately</c><00:05:27.039><c> and</c><00:05:27.280><c> then</c><00:05:27.840><c> uses</c><00:05:28.240><c> a</c>
+
+00:05:28.390 --> 00:05:28.400 align:start position:0%
+and the text separately and then uses a
+ 
+
+00:05:28.400 --> 00:05:29.909 align:start position:0%
+and the text separately and then uses a
+distance<00:05:28.800><c> function</c><00:05:29.039><c> to</c><00:05:29.280><c> compare</c><00:05:29.680><c> those</c>
+
+00:05:29.909 --> 00:05:29.919 align:start position:0%
+distance function to compare those
+ 
+
+00:05:29.919 --> 00:05:31.830 align:start position:0%
+distance function to compare those
+results.<00:05:30.560><c> The</c><00:05:30.720><c> re-ranking</c><00:05:31.360><c> approach</c>
+
+00:05:31.830 --> 00:05:31.840 align:start position:0%
+results. The re-ranking approach
+ 
+
+00:05:31.840 --> 00:05:33.909 align:start position:0%
+results. The re-ranking approach
+actually<00:05:32.240><c> lets</c><00:05:32.560><c> the</c><00:05:32.800><c> system</c><00:05:33.120><c> pick</c><00:05:33.360><c> up</c><00:05:33.600><c> on</c>
+
+00:05:33.909 --> 00:05:33.919 align:start position:0%
+actually lets the system pick up on
+ 
+
+00:05:33.919 --> 00:05:36.390 align:start position:0%
+actually lets the system pick up on
+subtle<00:05:34.320><c> cues</c><00:05:34.960><c> like</c><00:05:35.280><c> whether</c><00:05:35.600><c> the</c><00:05:35.759><c> query</c><00:05:36.160><c> is</c>
+
+00:05:36.390 --> 00:05:36.400 align:start position:0%
+subtle cues like whether the query is
+ 
+
+00:05:36.400 --> 00:05:38.629 align:start position:0%
+subtle cues like whether the query is
+asking<00:05:36.720><c> about</c><00:05:36.960><c> a</c><00:05:37.199><c> technical</c><00:05:37.680><c> process</c><00:05:38.240><c> or</c>
+
+00:05:38.629 --> 00:05:38.639 align:start position:0%
+asking about a technical process or
+ 
+
+00:05:38.639 --> 00:05:41.189 align:start position:0%
+asking about a technical process or
+general<00:05:39.039><c> information</c><00:05:39.919><c> or</c><00:05:40.160><c> if</c><00:05:40.320><c> the</c><00:05:40.479><c> user</c><00:05:40.800><c> wants</c>
+
+00:05:41.189 --> 00:05:41.199 align:start position:0%
+general information or if the user wants
+ 
+
+00:05:41.199 --> 00:05:43.909 align:start position:0%
+general information or if the user wants
+recent<00:05:41.600><c> data</c><00:05:42.000><c> versus</c><00:05:42.479><c> historical</c><00:05:43.039><c> context.</c>
+
+00:05:43.909 --> 00:05:43.919 align:start position:0%
+recent data versus historical context.
+ 
+
+00:05:43.919 --> 00:05:46.230 align:start position:0%
+recent data versus historical context.
+And<00:05:44.160><c> when</c><00:05:44.320><c> the</c><00:05:44.560><c> query</c><00:05:44.880><c> has</c><00:05:45.120><c> multiple</c><00:05:45.840><c> possible</c>
+
+00:05:46.230 --> 00:05:46.240 align:start position:0%
+And when the query has multiple possible
+ 
+
+00:05:46.240 --> 00:05:48.070 align:start position:0%
+And when the query has multiple possible
+interpretations<00:05:47.280><c> uh</c><00:05:47.360><c> it</c><00:05:47.520><c> tries</c><00:05:47.759><c> to</c><00:05:47.919><c> figure</c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+interpretations uh it tries to figure
+ 
+
+00:05:48.080 --> 00:05:50.390 align:start position:0%
+interpretations uh it tries to figure
+out<00:05:48.240><c> which</c><00:05:48.560><c> one</c><00:05:48.800><c> makes</c><00:05:48.960><c> the</c><00:05:49.199><c> most</c><00:05:49.360><c> sense.</c><00:05:50.160><c> Now,</c>
+
+00:05:50.390 --> 00:05:50.400 align:start position:0%
+out which one makes the most sense. Now,
+ 
+
+00:05:50.400 --> 00:05:52.469 align:start position:0%
+out which one makes the most sense. Now,
+the<00:05:50.560><c> trade-off</c><00:05:51.039><c> is</c><00:05:51.199><c> that</c><00:05:51.440><c> this</c><00:05:51.680><c> approach</c><00:05:52.080><c> is</c>
+
+00:05:52.469 --> 00:05:52.479 align:start position:0%
+the trade-off is that this approach is
+ 
+
+00:05:52.479 --> 00:05:54.310 align:start position:0%
+the trade-off is that this approach is
+much<00:05:52.800><c> slower</c><00:05:53.199><c> than</c><00:05:53.440><c> traditional</c><00:05:53.919><c> vector</c>
+
+00:05:54.310 --> 00:05:54.320 align:start position:0%
+much slower than traditional vector
+ 
+
+00:05:54.320 --> 00:05:56.629 align:start position:0%
+much slower than traditional vector
+search<00:05:54.800><c> because</c><00:05:55.199><c> it</c><00:05:55.440><c> has</c><00:05:55.600><c> to</c><00:05:55.840><c> process</c><00:05:56.240><c> each</c>
+
+00:05:56.629 --> 00:05:56.639 align:start position:0%
+search because it has to process each
+ 
+
+00:05:56.639 --> 00:05:59.270 align:start position:0%
+search because it has to process each
+query<00:05:57.120><c> document</c><00:05:57.520><c> pair</c><00:05:58.080><c> individually.</c><00:05:59.039><c> You</c>
+
+00:05:59.270 --> 00:05:59.280 align:start position:0%
+query document pair individually. You
+ 
+
+00:05:59.280 --> 00:06:00.870 align:start position:0%
+query document pair individually. You
+can't<00:05:59.440><c> premputee</c><00:06:00.000><c> anything.</c><00:06:00.560><c> Every</c>
+
+00:06:00.870 --> 00:06:00.880 align:start position:0%
+can't premputee anything. Every
+ 
+
+00:06:00.880 --> 00:06:03.590 align:start position:0%
+can't premputee anything. Every
+evaluation<00:06:01.759><c> happens</c><00:06:02.240><c> at</c><00:06:02.560><c> runtime.</c><00:06:03.199><c> To</c><00:06:03.440><c> work</c>
+
+00:06:03.590 --> 00:06:03.600 align:start position:0%
+evaluation happens at runtime. To work
+ 
+
+00:06:03.600 --> 00:06:05.510 align:start position:0%
+evaluation happens at runtime. To work
+around<00:06:03.840><c> this</c><00:06:04.000><c> limitation,</c><00:06:04.639><c> we</c><00:06:04.880><c> could</c><00:06:05.039><c> use</c><00:06:05.280><c> a</c>
+
+00:06:05.510 --> 00:06:05.520 align:start position:0%
+around this limitation, we could use a
+ 
+
+00:06:05.520 --> 00:06:07.749 align:start position:0%
+around this limitation, we could use a
+two-staged<00:06:06.240><c> approach.</c><00:06:06.880><c> Um,</c><00:06:07.199><c> for</c><00:06:07.280><c> example,</c>
+
+00:06:07.749 --> 00:06:07.759 align:start position:0%
+two-staged approach. Um, for example,
+ 
+
+00:06:07.759 --> 00:06:09.830 align:start position:0%
+two-staged approach. Um, for example,
+let's<00:06:08.000><c> say</c><00:06:08.080><c> that</c><00:06:08.240><c> we</c><00:06:08.479><c> have</c><00:06:08.639><c> 10,000</c><00:06:09.199><c> documents</c>
+
+00:06:09.830 --> 00:06:09.840 align:start position:0%
+let's say that we have 10,000 documents
+ 
+
+00:06:09.840 --> 00:06:12.469 align:start position:0%
+let's say that we have 10,000 documents
+in<00:06:10.319><c> our</c><00:06:10.639><c> database.</c><00:06:11.360><c> We</c><00:06:11.600><c> can</c><00:06:11.759><c> first</c><00:06:12.000><c> start</c><00:06:12.240><c> by</c>
+
+00:06:12.469 --> 00:06:12.479 align:start position:0%
+in our database. We can first start by
+ 
+
+00:06:12.479 --> 00:06:14.230 align:start position:0%
+in our database. We can first start by
+using<00:06:12.880><c> vector</c><00:06:13.280><c> search,</c><00:06:13.600><c> which</c><00:06:13.840><c> is</c><00:06:14.000><c> much</c>
+
+00:06:14.230 --> 00:06:14.240 align:start position:0%
+using vector search, which is much
+ 
+
+00:06:14.240 --> 00:06:16.790 align:start position:0%
+using vector search, which is much
+faster<00:06:14.800><c> to</c><00:06:14.960><c> get</c><00:06:15.199><c> maybe</c><00:06:15.520><c> the</c><00:06:15.840><c> top</c><00:06:16.240><c> 100</c>
+
+00:06:16.790 --> 00:06:16.800 align:start position:0%
+faster to get maybe the top 100
+ 
+
+00:06:16.800 --> 00:06:18.870 align:start position:0%
+faster to get maybe the top 100
+candidate<00:06:17.280><c> documents.</c><00:06:18.000><c> And</c><00:06:18.160><c> then</c><00:06:18.400><c> we</c><00:06:18.639><c> can</c><00:06:18.800><c> use</c>
+
+00:06:18.870 --> 00:06:18.880 align:start position:0%
+candidate documents. And then we can use
+ 
+
+00:06:18.880 --> 00:06:21.670 align:start position:0%
+candidate documents. And then we can use
+the<00:06:19.120><c> slower</c><00:06:19.600><c> but</c><00:06:19.840><c> more</c><00:06:20.080><c> accurate</c><00:06:20.560><c> reranker</c><00:06:21.440><c> to</c>
+
+00:06:21.670 --> 00:06:21.680 align:start position:0%
+the slower but more accurate reranker to
+ 
+
+00:06:21.680 --> 00:06:24.309 align:start position:0%
+the slower but more accurate reranker to
+pick<00:06:22.000><c> the</c><00:06:22.319><c> top</c><00:06:22.560><c> 10</c><00:06:22.880><c> most</c><00:06:23.199><c> relevant</c><00:06:23.600><c> ones.</c><00:06:24.160><c> And</c>
+
+00:06:24.309 --> 00:06:24.319 align:start position:0%
+pick the top 10 most relevant ones. And
+ 
+
+00:06:24.319 --> 00:06:26.230 align:start position:0%
+pick the top 10 most relevant ones. And
+those<00:06:24.560><c> are</c><00:06:24.639><c> the</c><00:06:24.800><c> ones</c><00:06:24.960><c> that</c><00:06:25.120><c> will</c><00:06:25.440><c> send</c><00:06:25.759><c> to</c><00:06:26.000><c> the</c>
+
+00:06:26.230 --> 00:06:26.240 align:start position:0%
+those are the ones that will send to the
+ 
+
+00:06:26.240 --> 00:06:29.270 align:start position:0%
+those are the ones that will send to the
+LLM.<00:06:27.039><c> Now,</c><00:06:27.360><c> in</c><00:06:27.600><c> reality,</c><00:06:28.400><c> LLM</c><00:06:28.960><c> context</c>
+
+00:06:29.270 --> 00:06:29.280 align:start position:0%
+LLM. Now, in reality, LLM context
+ 
+
+00:06:29.280 --> 00:06:30.950 align:start position:0%
+LLM. Now, in reality, LLM context
+windows<00:06:29.680><c> these</c><00:06:29.919><c> days</c><00:06:30.080><c> are</c><00:06:30.400><c> really,</c><00:06:30.639><c> really</c>
+
+00:06:30.950 --> 00:06:30.960 align:start position:0%
+windows these days are really, really
+ 
+
+00:06:30.960 --> 00:06:32.950 align:start position:0%
+windows these days are really, really
+huge.<00:06:31.360><c> You</c><00:06:31.600><c> could</c><00:06:31.759><c> probably</c><00:06:32.160><c> fit</c><00:06:32.400><c> in</c><00:06:32.639><c> your</c>
+
+00:06:32.950 --> 00:06:32.960 align:start position:0%
+huge. You could probably fit in your
+ 
+
+00:06:32.960 --> 00:06:34.870 align:start position:0%
+huge. You could probably fit in your
+entire<00:06:33.280><c> document</c><00:06:33.759><c> database.</c><00:06:34.400><c> Um,</c><00:06:34.639><c> we're</c>
+
+00:06:34.870 --> 00:06:34.880 align:start position:0%
+entire document database. Um, we're
+ 
+
+00:06:34.880 --> 00:06:37.110 align:start position:0%
+entire document database. Um, we're
+talking<00:06:35.199><c> context</c><00:06:35.600><c> windows</c><00:06:35.919><c> of</c><00:06:36.240><c> 100K</c><00:06:36.720><c> to</c><00:06:36.960><c> a</c>
+
+00:06:37.110 --> 00:06:37.120 align:start position:0%
+talking context windows of 100K to a
+ 
+
+00:06:37.120 --> 00:06:39.270 align:start position:0%
+talking context windows of 100K to a
+million<00:06:37.360><c> tokens</c><00:06:38.160><c> are</c><00:06:38.400><c> now</c><00:06:38.639><c> pretty</c><00:06:38.880><c> much</c><00:06:38.960><c> the</c>
+
+00:06:39.270 --> 00:06:39.280 align:start position:0%
+million tokens are now pretty much the
+ 
+
+00:06:39.280 --> 00:06:41.270 align:start position:0%
+million tokens are now pretty much the
+norm,<00:06:39.600><c> and</c><00:06:39.840><c> it</c><00:06:40.080><c> will</c><00:06:40.319><c> probably</c><00:06:40.720><c> continue</c><00:06:41.039><c> to</c>
+
+00:06:41.270 --> 00:06:41.280 align:start position:0%
+norm, and it will probably continue to
+ 
+
+00:06:41.280 --> 00:06:43.350 align:start position:0%
+norm, and it will probably continue to
+grow<00:06:41.520><c> in</c><00:06:41.759><c> the</c><00:06:41.919><c> future.</c><00:06:42.479><c> So</c><00:06:42.720><c> before</c><00:06:43.039><c> you</c><00:06:43.199><c> try</c>
+
+00:06:43.350 --> 00:06:43.360 align:start position:0%
+grow in the future. So before you try
+ 
+
+00:06:43.360 --> 00:06:44.950 align:start position:0%
+grow in the future. So before you try
+any<00:06:43.600><c> of</c><00:06:43.759><c> this</c><00:06:43.919><c> stuff,</c><00:06:44.240><c> you</c><00:06:44.400><c> could</c><00:06:44.560><c> see</c><00:06:44.639><c> if</c><00:06:44.800><c> you</c>
+
+00:06:44.950 --> 00:06:44.960 align:start position:0%
+any of this stuff, you could see if you
+ 
+
+00:06:44.960 --> 00:06:47.110 align:start position:0%
+any of this stuff, you could see if you
+could<00:06:45.120><c> just</c><00:06:45.280><c> pass</c><00:06:45.520><c> in</c><00:06:46.160><c> all</c><00:06:46.400><c> of</c><00:06:46.479><c> your</c><00:06:46.720><c> documents</c>
+
+00:06:47.110 --> 00:06:47.120 align:start position:0%
+could just pass in all of your documents
+ 
+
+00:06:47.120 --> 00:06:48.790 align:start position:0%
+could just pass in all of your documents
+in<00:06:47.280><c> the</c><00:06:47.440><c> database</c><00:06:47.840><c> and</c><00:06:48.080><c> see</c><00:06:48.160><c> if</c><00:06:48.319><c> it</c><00:06:48.560><c> actually</c>
+
+00:06:48.790 --> 00:06:48.800 align:start position:0%
+in the database and see if it actually
+ 
+
+00:06:48.800 --> 00:06:50.230 align:start position:0%
+in the database and see if it actually
+gets<00:06:48.960><c> you</c><00:06:49.120><c> your</c><00:06:49.360><c> answer.</c><00:06:49.840><c> However,</c>
+
+00:06:50.230 --> 00:06:50.240 align:start position:0%
+gets you your answer. However,
+ 
+
+00:06:50.240 --> 00:06:51.909 align:start position:0%
+gets you your answer. However,
+re-ranking<00:06:50.800><c> might</c><00:06:50.960><c> still</c><00:06:51.199><c> be</c><00:06:51.280><c> effective</c><00:06:51.680><c> if</c>
+
+00:06:51.909 --> 00:06:51.919 align:start position:0%
+re-ranking might still be effective if
+ 
+
+00:06:51.919 --> 00:06:53.590 align:start position:0%
+re-ranking might still be effective if
+you<00:06:52.080><c> are</c><00:06:52.240><c> constrained,</c><00:06:52.800><c> like</c><00:06:52.960><c> you</c><00:06:53.199><c> have</c><00:06:53.280><c> a</c><00:06:53.520><c> lot</c>
+
+00:06:53.590 --> 00:06:53.600 align:start position:0%
+you are constrained, like you have a lot
+ 
+
+00:06:53.600 --> 00:06:55.670 align:start position:0%
+you are constrained, like you have a lot
+of<00:06:53.759><c> other</c><00:06:53.919><c> contexts</c><00:06:54.319><c> you</c><00:06:54.479><c> want</c><00:06:54.560><c> to</c><00:06:54.720><c> use</c><00:06:55.120><c> or</c><00:06:55.520><c> if</c>
+
+00:06:55.670 --> 00:06:55.680 align:start position:0%
+of other contexts you want to use or if
+ 
+
+00:06:55.680 --> 00:06:57.590 align:start position:0%
+of other contexts you want to use or if
+you<00:06:55.840><c> just</c><00:06:56.000><c> want</c><00:06:56.160><c> to</c><00:06:56.319><c> optimize</c><00:06:56.720><c> and</c><00:06:56.960><c> use</c><00:06:57.199><c> fewer</c>
+
+00:06:57.590 --> 00:06:57.600 align:start position:0%
+you just want to optimize and use fewer
+ 
+
+00:06:57.600 --> 00:07:00.150 align:start position:0%
+you just want to optimize and use fewer
+tokens<00:06:58.240><c> when</c><00:06:58.479><c> you</c><00:06:58.560><c> invoke</c><00:06:58.960><c> your</c><00:06:59.120><c> LLM.</c><00:06:59.919><c> Okay,</c>
+
+00:07:00.150 --> 00:07:00.160 align:start position:0%
+tokens when you invoke your LLM. Okay,
+ 
+
+00:07:00.160 --> 00:07:01.990 align:start position:0%
+tokens when you invoke your LLM. Okay,
+now<00:07:00.319><c> let's</c><00:07:00.560><c> look</c><00:07:00.639><c> at</c><00:07:00.800><c> a</c><00:07:00.960><c> practical</c><00:07:01.440><c> example</c><00:07:01.759><c> of</c>
+
+00:07:01.990 --> 00:07:02.000 align:start position:0%
+now let's look at a practical example of
+ 
+
+00:07:02.000 --> 00:07:04.230 align:start position:0%
+now let's look at a practical example of
+how<00:07:02.160><c> we</c><00:07:02.400><c> can</c><00:07:02.560><c> add</c><00:07:02.800><c> this</c><00:07:03.039><c> to</c><00:07:03.199><c> an</c><00:07:03.440><c> existing</c><00:07:03.919><c> rag</c>
+
+00:07:04.230 --> 00:07:04.240 align:start position:0%
+how we can add this to an existing rag
+ 
+
+00:07:04.240 --> 00:07:06.230 align:start position:0%
+how we can add this to an existing rag
+pipeline.<00:07:04.880><c> For</c><00:07:05.120><c> this,</c><00:07:05.360><c> I'm</c><00:07:05.599><c> going</c><00:07:05.680><c> to</c><00:07:05.759><c> use</c><00:07:06.000><c> the</c>
+
+00:07:06.230 --> 00:07:06.240 align:start position:0%
+pipeline. For this, I'm going to use the
+ 
+
+00:07:06.240 --> 00:07:08.150 align:start position:0%
+pipeline. For this, I'm going to use the
+simple<00:07:06.720><c> rag</c><00:07:07.039><c> pipeline</c><00:07:07.440><c> project</c><00:07:07.759><c> that</c><00:07:07.919><c> I've</c>
+
+00:07:08.150 --> 00:07:08.160 align:start position:0%
+simple rag pipeline project that I've
+ 
+
+00:07:08.160 --> 00:07:10.309 align:start position:0%
+simple rag pipeline project that I've
+built,<00:07:08.400><c> which</c><00:07:08.639><c> you</c><00:07:08.800><c> can</c><00:07:08.880><c> find</c><00:07:09.039><c> on</c><00:07:09.280><c> GitHub.</c><00:07:10.000><c> I</c>
+
+00:07:10.309 --> 00:07:10.319 align:start position:0%
+built, which you can find on GitHub. I
+ 
+
+00:07:10.319 --> 00:07:11.990 align:start position:0%
+built, which you can find on GitHub. I
+also<00:07:10.479><c> have</c><00:07:10.639><c> a</c><00:07:10.800><c> separate</c><00:07:11.120><c> video</c><00:07:11.440><c> covering</c><00:07:11.759><c> this</c>
+
+00:07:11.990 --> 00:07:12.000 align:start position:0%
+also have a separate video covering this
+ 
+
+00:07:12.000 --> 00:07:13.749 align:start position:0%
+also have a separate video covering this
+in<00:07:12.160><c> more</c><00:07:12.400><c> detail</c><00:07:12.960><c> if</c><00:07:13.199><c> you</c><00:07:13.280><c> want</c><00:07:13.360><c> to</c><00:07:13.520><c> walk</c>
+
+00:07:13.749 --> 00:07:13.759 align:start position:0%
+in more detail if you want to walk
+ 
+
+00:07:13.759 --> 00:07:15.589 align:start position:0%
+in more detail if you want to walk
+through<00:07:14.000><c> how</c><00:07:14.240><c> it</c><00:07:14.400><c> was</c><00:07:14.560><c> built.</c><00:07:14.960><c> Now,</c><00:07:15.280><c> all</c><00:07:15.440><c> of</c>
+
+00:07:15.589 --> 00:07:15.599 align:start position:0%
+through how it was built. Now, all of
+ 
+
+00:07:15.599 --> 00:07:17.189 align:start position:0%
+through how it was built. Now, all of
+the<00:07:15.759><c> individual</c><00:07:16.319><c> components</c><00:07:16.800><c> of</c><00:07:17.039><c> this</c>
+
+00:07:17.189 --> 00:07:17.199 align:start position:0%
+the individual components of this
+ 
+
+00:07:17.199 --> 00:07:19.430 align:start position:0%
+the individual components of this
+pipeline<00:07:17.759><c> are</c><00:07:18.000><c> implemented</c><00:07:18.639><c> as</c><00:07:18.960><c> a</c><00:07:19.120><c> separate</c>
+
+00:07:19.430 --> 00:07:19.440 align:start position:0%
+pipeline are implemented as a separate
+ 
+
+00:07:19.440 --> 00:07:21.909 align:start position:0%
+pipeline are implemented as a separate
+Python<00:07:19.919><c> class.</c><00:07:20.639><c> This</c><00:07:20.800><c> is</c><00:07:21.039><c> all</c><00:07:21.199><c> hooked</c><00:07:21.520><c> up</c><00:07:21.680><c> in</c>
+
+00:07:21.909 --> 00:07:21.919 align:start position:0%
+Python class. This is all hooked up in
+ 
+
+00:07:21.919 --> 00:07:24.390 align:start position:0%
+Python class. This is all hooked up in
+this<00:07:22.240><c> rag</c><00:07:22.639><c> pipeline</c><00:07:23.199><c> class</c><00:07:23.440><c> here</c><00:07:23.680><c> as</c><00:07:23.919><c> well.</c>
+
+00:07:24.390 --> 00:07:24.400 align:start position:0%
+this rag pipeline class here as well.
+ 
+
+00:07:24.400 --> 00:07:25.830 align:start position:0%
+this rag pipeline class here as well.
+So,<00:07:24.560><c> you</c><00:07:24.720><c> could</c><00:07:24.960><c> see</c><00:07:25.199><c> all</c><00:07:25.440><c> of</c><00:07:25.520><c> these</c>
+
+00:07:25.830 --> 00:07:25.840 align:start position:0%
+So, you could see all of these
+ 
+
+00:07:25.840 --> 00:07:27.749 align:start position:0%
+So, you could see all of these
+components<00:07:26.319><c> being</c><00:07:26.560><c> added</c><00:07:26.960><c> and</c><00:07:27.280><c> connected</c>
+
+00:07:27.749 --> 00:07:27.759 align:start position:0%
+components being added and connected
+ 
+
+00:07:27.759 --> 00:07:29.270 align:start position:0%
+components being added and connected
+together.<00:07:28.319><c> Now,</c><00:07:28.560><c> the</c><00:07:28.720><c> great</c><00:07:28.960><c> thing</c><00:07:29.120><c> about</c>
+
+00:07:29.270 --> 00:07:29.280 align:start position:0%
+together. Now, the great thing about
+ 
+
+00:07:29.280 --> 00:07:31.350 align:start position:0%
+together. Now, the great thing about
+this<00:07:29.520><c> project</c><00:07:29.919><c> is</c><00:07:30.080><c> that</c><00:07:30.319><c> it's</c><00:07:30.720><c> designed</c><00:07:31.120><c> with</c>
+
+00:07:31.350 --> 00:07:31.360 align:start position:0%
+this project is that it's designed with
+ 
+
+00:07:31.360 --> 00:07:33.830 align:start position:0%
+this project is that it's designed with
+modular<00:07:31.919><c> components.</c><00:07:32.560><c> So,</c><00:07:32.800><c> adding</c><00:07:33.120><c> reranking</c>
+
+00:07:33.830 --> 00:07:33.840 align:start position:0%
+modular components. So, adding reranking
+ 
+
+00:07:33.840 --> 00:07:35.990 align:start position:0%
+modular components. So, adding reranking
+is<00:07:34.160><c> pretty</c><00:07:34.639><c> straightforward.</c><00:07:35.520><c> All</c><00:07:35.680><c> we</c><00:07:35.919><c> have</c>
+
+00:07:35.990 --> 00:07:36.000 align:start position:0%
+is pretty straightforward. All we have
+ 
+
+00:07:36.000 --> 00:07:39.110 align:start position:0%
+is pretty straightforward. All we have
+to<00:07:36.160><c> do</c><00:07:36.400><c> is</c><00:07:36.800><c> update</c><00:07:37.280><c> the</c><00:07:37.759><c> retriever</c><00:07:38.479><c> component.</c>
+
+00:07:39.110 --> 00:07:39.120 align:start position:0%
+to do is update the retriever component.
+ 
+
+00:07:39.120 --> 00:07:40.790 align:start position:0%
+to do is update the retriever component.
+So<00:07:39.360><c> let's</c><00:07:39.599><c> take</c><00:07:39.680><c> a</c><00:07:39.840><c> look</c><00:07:40.000><c> at</c><00:07:40.160><c> our</c><00:07:40.479><c> current</c>
+
+00:07:40.790 --> 00:07:40.800 align:start position:0%
+So let's take a look at our current
+ 
+
+00:07:40.800 --> 00:07:42.790 align:start position:0%
+So let's take a look at our current
+retriever<00:07:41.360><c> implementation.</c><00:07:42.240><c> And</c><00:07:42.400><c> as</c><00:07:42.560><c> you</c><00:07:42.639><c> can</c>
+
+00:07:42.790 --> 00:07:42.800 align:start position:0%
+retriever implementation. And as you can
+ 
+
+00:07:42.800 --> 00:07:44.629 align:start position:0%
+retriever implementation. And as you can
+see,<00:07:43.039><c> this</c><00:07:43.199><c> is</c><00:07:43.360><c> pretty</c><00:07:43.680><c> basic.</c><00:07:44.240><c> It</c><00:07:44.479><c> just</c>
+
+00:07:44.629 --> 00:07:44.639 align:start position:0%
+see, this is pretty basic. It just
+ 
+
+00:07:44.639 --> 00:07:47.110 align:start position:0%
+see, this is pretty basic. It just
+delegates<00:07:45.280><c> to</c><00:07:45.599><c> our</c><00:07:45.919><c> databases</c><00:07:46.720><c> search</c>
+
+00:07:47.110 --> 00:07:47.120 align:start position:0%
+delegates to our databases search
+ 
+
+00:07:47.120 --> 00:07:49.589 align:start position:0%
+delegates to our databases search
+method.<00:07:47.680><c> And</c><00:07:47.840><c> it</c><00:07:48.000><c> does</c><00:07:48.240><c> that</c><00:07:48.479><c> to</c><00:07:48.720><c> find</c><00:07:48.960><c> the</c><00:07:49.280><c> top</c>
+
+00:07:49.589 --> 00:07:49.599 align:start position:0%
+method. And it does that to find the top
+ 
+
+00:07:49.599 --> 00:07:52.070 align:start position:0%
+method. And it does that to find the top
+five<00:07:50.080><c> most</c><00:07:50.400><c> similar</c><00:07:50.880><c> chunks</c><00:07:51.360><c> to</c><00:07:51.520><c> the</c><00:07:51.759><c> queries</c>
+
+00:07:52.070 --> 00:07:52.080 align:start position:0%
+five most similar chunks to the queries
+ 
+
+00:07:52.080 --> 00:07:53.830 align:start position:0%
+five most similar chunks to the queries
+embedding.<00:07:52.639><c> But</c><00:07:52.720><c> now</c><00:07:52.960><c> we</c><00:07:53.120><c> can</c><00:07:53.199><c> make</c><00:07:53.360><c> this</c><00:07:53.599><c> a</c>
+
+00:07:53.830 --> 00:07:53.840 align:start position:0%
+embedding. But now we can make this a
+ 
+
+00:07:53.840 --> 00:07:56.150 align:start position:0%
+embedding. But now we can make this a
+little<00:07:53.919><c> bit</c><00:07:54.080><c> smarter</c><00:07:54.479><c> by</c><00:07:54.800><c> adding</c><00:07:55.199><c> reranking.</c>
+
+00:07:56.150 --> 00:07:56.160 align:start position:0%
+little bit smarter by adding reranking.
+ 
+
+00:07:56.160 --> 00:07:58.869 align:start position:0%
+little bit smarter by adding reranking.
+And<00:07:56.400><c> here's</c><00:07:56.800><c> our</c><00:07:57.120><c> upgraded</c><00:07:57.759><c> version.</c><00:07:58.400><c> So</c><00:07:58.639><c> now</c>
+
+00:07:58.869 --> 00:07:58.879 align:start position:0%
+And here's our upgraded version. So now
+ 
+
+00:07:58.879 --> 00:08:00.869 align:start position:0%
+And here's our upgraded version. So now
+we're<00:07:59.199><c> following</c><00:07:59.520><c> the</c><00:07:59.680><c> two-stage</c><00:08:00.319><c> approach</c><00:08:00.639><c> I</c>
+
+00:08:00.869 --> 00:08:00.879 align:start position:0%
+we're following the two-stage approach I
+ 
+
+00:08:00.879 --> 00:08:03.029 align:start position:0%
+we're following the two-stage approach I
+mentioned<00:08:01.199><c> before.</c><00:08:01.840><c> First,</c><00:08:02.240><c> we</c><00:08:02.560><c> retrieve</c>
+
+00:08:03.029 --> 00:08:03.039 align:start position:0%
+mentioned before. First, we retrieve
+ 
+
+00:08:03.039 --> 00:08:05.350 align:start position:0%
+mentioned before. First, we retrieve
+more<00:08:03.360><c> documents</c><00:08:03.840><c> than</c><00:08:04.080><c> we</c><00:08:04.319><c> actually</c><00:08:04.639><c> need.</c><00:08:05.120><c> In</c>
+
+00:08:05.350 --> 00:08:05.360 align:start position:0%
+more documents than we actually need. In
+ 
+
+00:08:05.360 --> 00:08:07.350 align:start position:0%
+more documents than we actually need. In
+this<00:08:05.520><c> case,</c><00:08:05.919><c> three</c><00:08:06.160><c> times</c><00:08:06.400><c> as</c><00:08:06.560><c> many.</c><00:08:06.960><c> So</c><00:08:07.199><c> if</c>
+
+00:08:07.350 --> 00:08:07.360 align:start position:0%
+this case, three times as many. So if
+ 
+
+00:08:07.360 --> 00:08:09.350 align:start position:0%
+this case, three times as many. So if
+our<00:08:07.599><c> top</c><00:08:07.840><c> K</c><00:08:08.080><c> is</c><00:08:08.319><c> five,</c><00:08:08.720><c> we're</c><00:08:09.039><c> actually</c><00:08:09.280><c> going</c>
+
+00:08:09.350 --> 00:08:09.360 align:start position:0%
+our top K is five, we're actually going
+ 
+
+00:08:09.360 --> 00:08:12.309 align:start position:0%
+our top K is five, we're actually going
+to<00:08:09.520><c> fetch</c><00:08:10.080><c> 15</c><00:08:10.560><c> documents</c><00:08:11.199><c> from</c><00:08:11.440><c> our</c><00:08:11.680><c> database.</c>
+
+00:08:12.309 --> 00:08:12.319 align:start position:0%
+to fetch 15 documents from our database.
+ 
+
+00:08:12.319 --> 00:08:13.909 align:start position:0%
+to fetch 15 documents from our database.
+This<00:08:12.479><c> will</c><00:08:12.639><c> give</c><00:08:12.720><c> the</c><00:08:12.879><c> reranker</c><00:08:13.599><c> more</c>
+
+00:08:13.909 --> 00:08:13.919 align:start position:0%
+This will give the reranker more
+ 
+
+00:08:13.919 --> 00:08:16.070 align:start position:0%
+This will give the reranker more
+candidates<00:08:14.319><c> to</c><00:08:14.560><c> choose</c><00:08:14.800><c> from.</c><00:08:15.360><c> Then</c><00:08:15.680><c> we</c><00:08:15.840><c> will</c>
+
+00:08:16.070 --> 00:08:16.080 align:start position:0%
+candidates to choose from. Then we will
+ 
+
+00:08:16.080 --> 00:08:18.070 align:start position:0%
+candidates to choose from. Then we will
+pass<00:08:16.400><c> those</c><00:08:16.720><c> results</c><00:08:17.120><c> to</c><00:08:17.280><c> a</c><00:08:17.520><c> re-ranking</c>
+
+00:08:18.070 --> 00:08:18.080 align:start position:0%
+pass those results to a re-ranking
+ 
+
+00:08:18.080 --> 00:08:19.749 align:start position:0%
+pass those results to a re-ranking
+method<00:08:18.400><c> that</c><00:08:18.639><c> will</c><00:08:18.879><c> select</c><00:08:19.280><c> the</c><00:08:19.520><c> most</c>
+
+00:08:19.749 --> 00:08:19.759 align:start position:0%
+method that will select the most
+ 
+
+00:08:19.759 --> 00:08:21.510 align:start position:0%
+method that will select the most
+relevant<00:08:20.160><c> ones.</c><00:08:20.800><c> Now,</c><00:08:21.039><c> we</c><00:08:21.280><c> haven't</c>
+
+00:08:21.510 --> 00:08:21.520 align:start position:0%
+relevant ones. Now, we haven't
+ 
+
+00:08:21.520 --> 00:08:23.189 align:start position:0%
+relevant ones. Now, we haven't
+implemented<00:08:22.000><c> this</c><00:08:22.240><c> re-ranking</c><00:08:22.879><c> function</c>
+
+00:08:23.189 --> 00:08:23.199 align:start position:0%
+implemented this re-ranking function
+ 
+
+00:08:23.199 --> 00:08:25.270 align:start position:0%
+implemented this re-ranking function
+yet.<00:08:23.520><c> So</c><00:08:23.680><c> let's</c><00:08:23.919><c> go</c><00:08:24.000><c> ahead</c><00:08:24.160><c> and</c><00:08:24.319><c> do</c><00:08:24.479><c> that</c><00:08:24.720><c> next.</c>
+
+00:08:25.270 --> 00:08:25.280 align:start position:0%
+yet. So let's go ahead and do that next.
+ 
+
+00:08:25.280 --> 00:08:27.029 align:start position:0%
+yet. So let's go ahead and do that next.
+For<00:08:25.440><c> the</c><00:08:25.680><c> actual</c><00:08:26.080><c> re-ranking,</c><00:08:26.800><c> we're</c><00:08:26.960><c> going</c>
+
+00:08:27.029 --> 00:08:27.039 align:start position:0%
+For the actual re-ranking, we're going
+ 
+
+00:08:27.039 --> 00:08:30.710 align:start position:0%
+For the actual re-ranking, we're going
+to<00:08:27.199><c> use</c><00:08:27.520><c> Coher's</c><00:08:28.160><c> re-ranking</c><00:08:28.800><c> API.</c><00:08:30.000><c> Coher</c><00:08:30.560><c> has</c>
+
+00:08:30.710 --> 00:08:30.720 align:start position:0%
+to use Coher's re-ranking API. Coher has
+ 
+
+00:08:30.720 --> 00:08:33.110 align:start position:0%
+to use Coher's re-ranking API. Coher has
+some<00:08:30.960><c> really</c><00:08:31.199><c> effective</c><00:08:31.680><c> re-ranking</c><00:08:32.320><c> models,</c>
+
+00:08:33.110 --> 00:08:33.120 align:start position:0%
+some really effective re-ranking models,
+ 
+
+00:08:33.120 --> 00:08:35.829 align:start position:0%
+some really effective re-ranking models,
+and<00:08:33.440><c> their</c><00:08:33.680><c> API</c><00:08:34.240><c> is</c><00:08:34.560><c> also</c><00:08:35.039><c> really</c><00:08:35.360><c> easy</c><00:08:35.599><c> to</c>
+
+00:08:35.829 --> 00:08:35.839 align:start position:0%
+and their API is also really easy to
+ 
+
+00:08:35.839 --> 00:08:37.670 align:start position:0%
+and their API is also really easy to
+use.<00:08:36.399><c> You'll</c><00:08:36.719><c> first</c><00:08:36.880><c> have</c><00:08:37.039><c> to</c><00:08:37.120><c> go</c><00:08:37.279><c> to</c><00:08:37.440><c> their</c>
+
+00:08:37.670 --> 00:08:37.680 align:start position:0%
+use. You'll first have to go to their
+ 
+
+00:08:37.680 --> 00:08:40.550 align:start position:0%
+use. You'll first have to go to their
+website<00:08:38.080><c> and</c><00:08:38.320><c> then</c><00:08:38.560><c> get</c><00:08:38.719><c> an</c><00:08:38.959><c> API</c><00:08:39.440><c> key.</c><00:08:40.159><c> Next,</c>
+
+00:08:40.550 --> 00:08:40.560 align:start position:0%
+website and then get an API key. Next,
+ 
+
+00:08:40.560 --> 00:08:42.310 align:start position:0%
+website and then get an API key. Next,
+you'll<00:08:40.800><c> also</c><00:08:41.039><c> need</c><00:08:41.200><c> to</c><00:08:41.360><c> install</c><00:08:41.599><c> the</c><00:08:41.760><c> coher</c>
+
+00:08:42.310 --> 00:08:42.320 align:start position:0%
+you'll also need to install the coher
+ 
+
+00:08:42.320 --> 00:08:44.149 align:start position:0%
+you'll also need to install the coher
+library<00:08:42.640><c> into</c><00:08:42.880><c> your</c><00:08:43.039><c> Python</c><00:08:43.440><c> environment.</c>
+
+00:08:44.149 --> 00:08:44.159 align:start position:0%
+library into your Python environment.
+ 
+
+00:08:44.159 --> 00:08:46.230 align:start position:0%
+library into your Python environment.
+Here's<00:08:44.399><c> the</c><00:08:44.560><c> command</c><00:08:44.800><c> to</c><00:08:44.959><c> do</c><00:08:45.040><c> that</c><00:08:45.279><c> using</c><00:08:45.519><c> pip.</c>
+
+00:08:46.230 --> 00:08:46.240 align:start position:0%
+Here's the command to do that using pip.
+ 
+
+00:08:46.240 --> 00:08:47.910 align:start position:0%
+Here's the command to do that using pip.
+And<00:08:46.480><c> when</c><00:08:46.640><c> you</c><00:08:46.800><c> are</c><00:08:47.040><c> here</c><00:08:47.120><c> in</c><00:08:47.360><c> the</c><00:08:47.440><c> dashboard</c>
+
+00:08:47.910 --> 00:08:47.920 align:start position:0%
+And when you are here in the dashboard
+ 
+
+00:08:47.920 --> 00:08:50.230 align:start position:0%
+And when you are here in the dashboard
+creating<00:08:48.240><c> an</c><00:08:48.399><c> API</c><00:08:48.800><c> key,</c><00:08:49.279><c> just</c><00:08:49.519><c> note</c><00:08:49.839><c> that</c><00:08:50.000><c> you</c>
+
+00:08:50.230 --> 00:08:50.240 align:start position:0%
+creating an API key, just note that you
+ 
+
+00:08:50.240 --> 00:08:52.389 align:start position:0%
+creating an API key, just note that you
+can<00:08:50.320><c> create</c><00:08:50.640><c> production</c><00:08:51.120><c> keys</c><00:08:51.519><c> or</c><00:08:51.920><c> trial</c>
+
+00:08:52.389 --> 00:08:52.399 align:start position:0%
+can create production keys or trial
+ 
+
+00:08:52.399 --> 00:08:54.470 align:start position:0%
+can create production keys or trial
+keys.<00:08:53.120><c> So,</c><00:08:53.279><c> if</c><00:08:53.519><c> you</c><00:08:53.600><c> want</c><00:08:53.680><c> to</c><00:08:53.839><c> try</c><00:08:54.000><c> for</c><00:08:54.240><c> free,</c>
+
+00:08:54.470 --> 00:08:54.480 align:start position:0%
+keys. So, if you want to try for free,
+ 
+
+00:08:54.480 --> 00:08:57.110 align:start position:0%
+keys. So, if you want to try for free,
+then<00:08:54.800><c> create</c><00:08:55.120><c> a</c><00:08:55.360><c> trial</c><00:08:55.760><c> key.</c><00:08:56.560><c> Now,</c><00:08:56.800><c> back</c><00:08:57.040><c> to</c>
+
+00:08:57.110 --> 00:08:57.120 align:start position:0%
+then create a trial key. Now, back to
+ 
+
+00:08:57.120 --> 00:08:58.949 align:start position:0%
+then create a trial key. Now, back to
+our<00:08:57.440><c> project.</c><00:08:58.000><c> This</c><00:08:58.160><c> is</c><00:08:58.320><c> how</c><00:08:58.560><c> we</c><00:08:58.800><c> can</c>
+
+00:08:58.949 --> 00:08:58.959 align:start position:0%
+our project. This is how we can
+ 
+
+00:08:58.959 --> 00:09:01.110 align:start position:0%
+our project. This is how we can
+implement<00:08:59.279><c> the</c><00:08:59.440><c> reranking.</c><00:09:00.480><c> Uh</c><00:09:00.720><c> let's</c><00:09:00.959><c> walk</c>
+
+00:09:01.110 --> 00:09:01.120 align:start position:0%
+implement the reranking. Uh let's walk
+ 
+
+00:09:01.120 --> 00:09:03.190 align:start position:0%
+implement the reranking. Uh let's walk
+through<00:09:01.360><c> what's</c><00:09:01.600><c> happening</c><00:09:01.839><c> here.</c><00:09:02.560><c> First,</c><00:09:02.959><c> we</c>
+
+00:09:03.190 --> 00:09:03.200 align:start position:0%
+through what's happening here. First, we
+ 
+
+00:09:03.200 --> 00:09:05.269 align:start position:0%
+through what's happening here. First, we
+create<00:09:03.440><c> a</c><00:09:03.600><c> cohhere</c><00:09:04.160><c> client</c><00:09:04.480><c> and</c><00:09:04.720><c> then</c><00:09:04.959><c> call</c>
+
+00:09:05.269 --> 00:09:05.279 align:start position:0%
+create a cohhere client and then call
+ 
+
+00:09:05.279 --> 00:09:08.230 align:start position:0%
+create a cohhere client and then call
+their<00:09:05.600><c> rerank</c><00:09:06.160><c> API.</c><00:09:07.040><c> We</c><00:09:07.279><c> pass</c><00:09:07.519><c> in</c><00:09:07.680><c> the</c><00:09:07.839><c> users</c>
+
+00:09:08.230 --> 00:09:08.240 align:start position:0%
+their rerank API. We pass in the users
+ 
+
+00:09:08.240 --> 00:09:10.070 align:start position:0%
+their rerank API. We pass in the users
+query<00:09:08.640><c> and</c><00:09:08.880><c> all</c><00:09:09.040><c> the</c><00:09:09.200><c> document</c><00:09:09.600><c> chunks</c><00:09:09.920><c> that</c>
+
+00:09:10.070 --> 00:09:10.080 align:start position:0%
+query and all the document chunks that
+ 
+
+00:09:10.080 --> 00:09:12.790 align:start position:0%
+query and all the document chunks that
+we've<00:09:10.240><c> retrieved</c><00:09:10.959><c> and</c><00:09:11.360><c> specify</c><00:09:12.080><c> how</c><00:09:12.320><c> many</c><00:09:12.560><c> top</c>
+
+00:09:12.790 --> 00:09:12.800 align:start position:0%
+we've retrieved and specify how many top
+ 
+
+00:09:12.800 --> 00:09:15.430 align:start position:0%
+we've retrieved and specify how many top
+results<00:09:13.120><c> we</c><00:09:13.360><c> want</c><00:09:13.600><c> back.</c><00:09:14.399><c> Coher's</c><00:09:14.959><c> model</c><00:09:15.200><c> will</c>
+
+00:09:15.430 --> 00:09:15.440 align:start position:0%
+results we want back. Coher's model will
+ 
+
+00:09:15.440 --> 00:09:17.350 align:start position:0%
+results we want back. Coher's model will
+analyze<00:09:15.839><c> each</c><00:09:16.080><c> document</c><00:09:16.480><c> in</c><00:09:16.640><c> the</c><00:09:16.800><c> context</c><00:09:17.120><c> of</c>
+
+00:09:17.350 --> 00:09:17.360 align:start position:0%
+analyze each document in the context of
+ 
+
+00:09:17.360 --> 00:09:20.230 align:start position:0%
+analyze each document in the context of
+this<00:09:17.760><c> specific</c><00:09:18.240><c> query</c><00:09:18.959><c> and</c><00:09:19.200><c> then</c><00:09:19.519><c> returns</c><00:09:20.000><c> a</c>
+
+00:09:20.230 --> 00:09:20.240 align:start position:0%
+this specific query and then returns a
+ 
+
+00:09:20.240 --> 00:09:23.030 align:start position:0%
+this specific query and then returns a
+ranked<00:09:20.640><c> list.</c><00:09:21.519><c> The</c><00:09:21.760><c> response</c><00:09:22.240><c> includes</c><00:09:22.720><c> the</c>
+
+00:09:23.030 --> 00:09:23.040 align:start position:0%
+ranked list. The response includes the
+ 
+
+00:09:23.040 --> 00:09:25.590 align:start position:0%
+ranked list. The response includes the
+indices<00:09:23.519><c> of</c><00:09:23.680><c> the</c><00:09:23.839><c> original</c><00:09:24.240><c> document</c><00:09:25.120><c> ranked</c>
+
+00:09:25.590 --> 00:09:25.600 align:start position:0%
+indices of the original document ranked
+ 
+
+00:09:25.600 --> 00:09:27.430 align:start position:0%
+indices of the original document ranked
+by<00:09:25.839><c> the</c><00:09:26.000><c> relevance</c><00:09:26.480><c> score.</c><00:09:26.959><c> Once</c><00:09:27.200><c> you</c><00:09:27.360><c> have</c>
+
+00:09:27.430 --> 00:09:27.440 align:start position:0%
+by the relevance score. Once you have
+ 
+
+00:09:27.440 --> 00:09:29.030 align:start position:0%
+by the relevance score. Once you have
+your<00:09:27.600><c> API</c><00:09:28.000><c> key,</c><00:09:28.320><c> set</c><00:09:28.480><c> it</c><00:09:28.560><c> up</c><00:09:28.720><c> in</c><00:09:28.880><c> your</c>
+
+00:09:29.030 --> 00:09:29.040 align:start position:0%
+your API key, set it up in your
+ 
+
+00:09:29.040 --> 00:09:30.949 align:start position:0%
+your API key, set it up in your
+environment<00:09:29.440><c> variable</c><00:09:29.920><c> so</c><00:09:30.160><c> that</c><00:09:30.320><c> your</c><00:09:30.480><c> coher</c>
+
+00:09:30.949 --> 00:09:30.959 align:start position:0%
+environment variable so that your coher
+ 
+
+00:09:30.959 --> 00:09:33.269 align:start position:0%
+environment variable so that your coher
+library<00:09:31.360><c> can</c><00:09:31.519><c> pick</c><00:09:31.680><c> it</c><00:09:31.839><c> up.</c><00:09:32.560><c> Here's</c><00:09:32.800><c> what</c><00:09:32.959><c> an</c>
+
+00:09:33.269 --> 00:09:33.279 align:start position:0%
+library can pick it up. Here's what an
+ 
+
+00:09:33.279 --> 00:09:35.269 align:start position:0%
+library can pick it up. Here's what an
+output<00:09:33.680><c> from</c><00:09:34.000><c> this</c><00:09:34.240><c> process</c><00:09:34.640><c> would</c><00:09:34.959><c> actually</c>
+
+00:09:35.269 --> 00:09:35.279 align:start position:0%
+output from this process would actually
+ 
+
+00:09:35.279 --> 00:09:37.750 align:start position:0%
+output from this process would actually
+look<00:09:35.519><c> like.</c><00:09:36.240><c> So</c><00:09:36.480><c> here</c><00:09:36.720><c> we</c><00:09:36.959><c> have</c><00:09:37.120><c> a</c><00:09:37.360><c> bunch</c><00:09:37.519><c> of</c>
+
+00:09:37.750 --> 00:09:37.760 align:start position:0%
+look like. So here we have a bunch of
+ 
+
+00:09:37.760 --> 00:09:43.110 align:start position:0%
+look like. So here we have a bunch of
+reranked<00:09:38.399><c> indices</c><00:09:39.360><c> 7</c><00:09:39.920><c> 2</c><00:09:41.040><c> 0</c><00:09:41.440><c> and</c><00:09:41.760><c> 12.</c><00:09:42.880><c> This</c>
+
+00:09:43.110 --> 00:09:43.120 align:start position:0%
+reranked indices 7 2 0 and 12. This
+ 
+
+00:09:43.120 --> 00:09:45.269 align:start position:0%
+reranked indices 7 2 0 and 12. This
+means<00:09:43.279><c> that</c><00:09:43.519><c> out</c><00:09:43.760><c> of</c><00:09:43.839><c> the</c><00:09:44.240><c> 15</c><00:09:44.800><c> original</c>
+
+00:09:45.269 --> 00:09:45.279 align:start position:0%
+means that out of the 15 original
+ 
+
+00:09:45.279 --> 00:09:47.190 align:start position:0%
+means that out of the 15 original
+documents<00:09:45.680><c> that</c><00:09:45.920><c> we</c><00:09:46.080><c> looked</c><00:09:46.240><c> at,</c><00:09:46.880><c> these</c>
+
+00:09:47.190 --> 00:09:47.200 align:start position:0%
+documents that we looked at, these
+ 
+
+00:09:47.200 --> 00:09:49.829 align:start position:0%
+documents that we looked at, these
+indices<00:09:47.839><c> are</c><00:09:48.080><c> the</c><00:09:48.320><c> top</c><00:09:48.560><c> five</c><00:09:48.880><c> most</c><00:09:49.200><c> relevant</c>
+
+00:09:49.829 --> 00:09:49.839 align:start position:0%
+indices are the top five most relevant
+ 
+
+00:09:49.839 --> 00:09:52.470 align:start position:0%
+indices are the top five most relevant
+in<00:09:50.160><c> this</c><00:09:50.399><c> order.</c><00:09:50.880><c> So</c><00:09:51.200><c> here</c><00:09:51.760><c> document</c><00:09:52.160><c> number</c>
+
+00:09:52.470 --> 00:09:52.480 align:start position:0%
+in this order. So here document number
+ 
+
+00:09:52.480 --> 00:09:54.630 align:start position:0%
+in this order. So here document number
+seven<00:09:52.800><c> in</c><00:09:53.120><c> our</c><00:09:53.360><c> original</c><00:09:53.760><c> set</c><00:09:54.080><c> would</c><00:09:54.320><c> actually</c>
+
+00:09:54.630 --> 00:09:54.640 align:start position:0%
+seven in our original set would actually
+ 
+
+00:09:54.640 --> 00:09:57.110 align:start position:0%
+seven in our original set would actually
+be<00:09:54.800><c> the</c><00:09:55.120><c> top</c><00:09:55.519><c> relevant</c><00:09:56.000><c> document</c><00:09:56.640><c> followed</c><00:09:56.959><c> by</c>
+
+00:09:57.110 --> 00:09:57.120 align:start position:0%
+be the top relevant document followed by
+ 
+
+00:09:57.120 --> 00:10:01.350 align:start position:0%
+be the top relevant document followed by
+document<00:09:57.680><c> 2</c><00:09:58.399><c> 15</c><00:09:58.880><c> 0</c><00:09:59.279><c> and</c><00:09:59.600><c> 12</c><00:10:00.000><c> in</c><00:10:00.320><c> that</c><00:10:00.480><c> order.</c><00:10:01.200><c> So</c>
+
+00:10:01.350 --> 00:10:01.360 align:start position:0%
+document 2 15 0 and 12 in that order. So
+ 
+
+00:10:01.360 --> 00:10:03.590 align:start position:0%
+document 2 15 0 and 12 in that order. So
+now<00:10:01.600><c> we</c><00:10:01.839><c> have</c><00:10:01.920><c> a</c><00:10:02.160><c> smaller</c><00:10:02.640><c> set</c><00:10:02.959><c> of</c><00:10:03.279><c> more</c>
+
+00:10:03.590 --> 00:10:03.600 align:start position:0%
+now we have a smaller set of more
+ 
+
+00:10:03.600 --> 00:10:05.910 align:start position:0%
+now we have a smaller set of more
+relevant<00:10:04.080><c> documents</c><00:10:04.720><c> that</c><00:10:05.040><c> we</c><00:10:05.200><c> can</c><00:10:05.360><c> use</c><00:10:05.680><c> for</c>
+
+00:10:05.910 --> 00:10:05.920 align:start position:0%
+relevant documents that we can use for
+ 
+
+00:10:05.920 --> 00:10:08.310 align:start position:0%
+relevant documents that we can use for
+the<00:10:06.080><c> next</c><00:10:06.320><c> step</c><00:10:06.560><c> in</c><00:10:06.720><c> our</c><00:10:06.959><c> rack</c><00:10:07.360><c> pipeline.</c><00:10:08.080><c> Now</c>
+
+00:10:08.310 --> 00:10:08.320 align:start position:0%
+the next step in our rack pipeline. Now
+ 
+
+00:10:08.320 --> 00:10:10.470 align:start position:0%
+the next step in our rack pipeline. Now
+let's<00:10:08.640><c> actually</c><00:10:08.880><c> see</c><00:10:09.120><c> this</c><00:10:09.279><c> in</c><00:10:09.519><c> action</c><00:10:10.000><c> in</c><00:10:10.240><c> our</c>
+
+00:10:10.470 --> 00:10:10.480 align:start position:0%
+let's actually see this in action in our
+ 
+
+00:10:10.480 --> 00:10:12.230 align:start position:0%
+let's actually see this in action in our
+rack<00:10:10.800><c> pipeline</c><00:10:11.279><c> application.</c><00:10:11.760><c> We</c><00:10:12.000><c> actually</c>
+
+00:10:12.230 --> 00:10:12.240 align:start position:0%
+rack pipeline application. We actually
+ 
+
+00:10:12.240 --> 00:10:14.389 align:start position:0%
+rack pipeline application. We actually
+have<00:10:12.399><c> built-in</c><00:10:12.800><c> evaluation</c><00:10:13.440><c> tools</c><00:10:14.079><c> so</c><00:10:14.240><c> that</c>
+
+00:10:14.389 --> 00:10:14.399 align:start position:0%
+have built-in evaluation tools so that
+ 
+
+00:10:14.399 --> 00:10:16.470 align:start position:0%
+have built-in evaluation tools so that
+we<00:10:14.560><c> can</c><00:10:14.720><c> easily</c><00:10:15.040><c> measure</c><00:10:15.360><c> improvements.</c><00:10:16.160><c> I've</c>
+
+00:10:16.470 --> 00:10:16.480 align:start position:0%
+we can easily measure improvements. I've
+ 
+
+00:10:16.480 --> 00:10:18.310 align:start position:0%
+we can easily measure improvements. I've
+also<00:10:16.640><c> added</c><00:10:16.880><c> a</c><00:10:17.040><c> flag</c><00:10:17.360><c> so</c><00:10:17.519><c> that</c><00:10:17.680><c> we</c><00:10:17.839><c> can</c><00:10:17.920><c> run</c><00:10:18.079><c> the</c>
+
+00:10:18.310 --> 00:10:18.320 align:start position:0%
+also added a flag so that we can run the
+ 
+
+00:10:18.320 --> 00:10:20.550 align:start position:0%
+also added a flag so that we can run the
+same<00:10:18.480><c> evaluation</c><00:10:19.279><c> with</c><00:10:19.519><c> reranking</c><00:10:20.240><c> and</c>
+
+00:10:20.550 --> 00:10:20.560 align:start position:0%
+same evaluation with reranking and
+ 
+
+00:10:20.560 --> 00:10:22.470 align:start position:0%
+same evaluation with reranking and
+without<00:10:20.880><c> it</c><00:10:21.120><c> really</c><00:10:21.360><c> easily.</c><00:10:21.920><c> Now</c><00:10:22.079><c> in</c><00:10:22.320><c> this</c>
+
+00:10:22.470 --> 00:10:22.480 align:start position:0%
+without it really easily. Now in this
+ 
+
+00:10:22.480 --> 00:10:24.949 align:start position:0%
+without it really easily. Now in this
+project,<00:10:22.959><c> I've</c><00:10:23.279><c> already</c><00:10:23.519><c> run</c><00:10:23.760><c> the</c><00:10:24.000><c> command</c><00:10:24.399><c> to</c>
+
+00:10:24.949 --> 00:10:24.959 align:start position:0%
+project, I've already run the command to
+ 
+
+00:10:24.959 --> 00:10:27.350 align:start position:0%
+project, I've already run the command to
+chunk<00:10:25.360><c> and</c><00:10:25.600><c> embed</c><00:10:26.000><c> my</c><00:10:26.160><c> documents.</c><00:10:26.880><c> So</c><00:10:27.120><c> my</c>
+
+00:10:27.350 --> 00:10:27.360 align:start position:0%
+chunk and embed my documents. So my
+ 
+
+00:10:27.360 --> 00:10:29.430 align:start position:0%
+chunk and embed my documents. So my
+database<00:10:27.839><c> is</c><00:10:28.079><c> ready</c><00:10:28.240><c> to</c><00:10:28.480><c> go.</c><00:10:28.800><c> Let's</c><00:10:29.120><c> run</c><00:10:29.279><c> the</c>
+
+00:10:29.430 --> 00:10:29.440 align:start position:0%
+database is ready to go. Let's run the
+ 
+
+00:10:29.440 --> 00:10:31.829 align:start position:0%
+database is ready to go. Let's run the
+evaluation<00:10:30.160><c> first</c><00:10:31.040><c> uh</c><00:10:31.200><c> without</c><00:10:31.600><c> the</c>
+
+00:10:31.829 --> 00:10:31.839 align:start position:0%
+evaluation first uh without the
+ 
+
+00:10:31.839 --> 00:10:34.790 align:start position:0%
+evaluation first uh without the
+re-ranking<00:10:32.480><c> flag</c><00:10:32.720><c> enabled.</c>
+
+00:10:34.790 --> 00:10:34.800 align:start position:0%
+re-ranking flag enabled.
+ 
+
+00:10:34.800 --> 00:10:36.790 align:start position:0%
+re-ranking flag enabled.
+And<00:10:34.959><c> just</c><00:10:35.200><c> to</c><00:10:35.440><c> remind</c><00:10:35.600><c> you</c><00:10:35.839><c> how</c><00:10:36.399><c> uh</c><00:10:36.560><c> the</c>
+
+00:10:36.790 --> 00:10:36.800 align:start position:0%
+And just to remind you how uh the
+ 
+
+00:10:36.800 --> 00:10:39.269 align:start position:0%
+And just to remind you how uh the
+evaluation<00:10:37.440><c> works</c><00:10:37.680><c> in</c><00:10:37.920><c> this</c><00:10:38.079><c> application,</c><00:10:38.959><c> we</c>
+
+00:10:39.269 --> 00:10:39.279 align:start position:0%
+evaluation works in this application, we
+ 
+
+00:10:39.279 --> 00:10:42.710 align:start position:0%
+evaluation works in this application, we
+have<00:10:39.440><c> a</c><00:10:39.839><c> sample</c><00:10:40.320><c> question</c><00:10:40.720><c> set</c><00:10:41.040><c> of</c><00:10:41.600><c> 30</c><00:10:42.160><c> pairs</c>
+
+00:10:42.710 --> 00:10:42.720 align:start position:0%
+have a sample question set of 30 pairs
+ 
+
+00:10:42.720 --> 00:10:44.949 align:start position:0%
+have a sample question set of 30 pairs
+of<00:10:43.040><c> questions</c><00:10:43.360><c> and</c><00:10:43.600><c> answers</c><00:10:44.480><c> uh</c><00:10:44.560><c> that</c><00:10:44.800><c> is</c>
+
+00:10:44.949 --> 00:10:44.959 align:start position:0%
+of questions and answers uh that is
+ 
+
+00:10:44.959 --> 00:10:47.670 align:start position:0%
+of questions and answers uh that is
+based<00:10:45.279><c> on</c><00:10:46.000><c> some</c><00:10:46.240><c> of</c><00:10:46.320><c> these</c><00:10:46.720><c> original</c><00:10:47.200><c> document</c>
+
+00:10:47.670 --> 00:10:47.680 align:start position:0%
+based on some of these original document
+ 
+
+00:10:47.680 --> 00:10:50.310 align:start position:0%
+based on some of these original document
+PDFs<00:10:48.240><c> here.</c><00:10:48.800><c> So</c><00:10:49.040><c> this</c><00:10:49.200><c> has</c><00:10:49.360><c> all</c><00:10:49.600><c> been</c><00:10:49.839><c> chunked</c>
+
+00:10:50.310 --> 00:10:50.320 align:start position:0%
+PDFs here. So this has all been chunked
+ 
+
+00:10:50.320 --> 00:10:51.990 align:start position:0%
+PDFs here. So this has all been chunked
+and<00:10:50.640><c> embedded</c><00:10:51.040><c> for</c><00:10:51.200><c> us</c><00:10:51.279><c> in</c><00:10:51.440><c> our</c><00:10:51.680><c> vector</c>
+
+00:10:51.990 --> 00:10:52.000 align:start position:0%
+and embedded for us in our vector
+ 
+
+00:10:52.000 --> 00:10:54.069 align:start position:0%
+and embedded for us in our vector
+database.<00:10:52.880><c> And</c><00:10:53.120><c> now</c><00:10:53.279><c> we're</c><00:10:53.440><c> testing</c><00:10:53.760><c> to</c><00:10:54.000><c> see</c>
+
+00:10:54.069 --> 00:10:54.079 align:start position:0%
+database. And now we're testing to see
+ 
+
+00:10:54.079 --> 00:10:57.110 align:start position:0%
+database. And now we're testing to see
+whether<00:10:54.720><c> our</c><00:10:55.120><c> system</c><00:10:55.680><c> can</c><00:10:56.000><c> find</c><00:10:56.560><c> the</c><00:10:56.880><c> right</c>
+
+00:10:57.110 --> 00:10:57.120 align:start position:0%
+whether our system can find the right
+ 
+
+00:10:57.120 --> 00:10:59.509 align:start position:0%
+whether our system can find the right
+answer<00:10:57.440><c> to</c><00:10:57.600><c> these</c><00:10:57.920><c> questions.</c>
+
+00:10:59.509 --> 00:10:59.519 align:start position:0%
+answer to these questions.
+ 
+
+00:10:59.519 --> 00:11:01.509 align:start position:0%
+answer to these questions.
+And<00:10:59.760><c> so</c><00:10:59.920><c> without</c><00:11:00.240><c> re-ranking</c><00:11:00.800><c> enabled,</c><00:11:01.360><c> we</c>
+
+00:11:01.509 --> 00:11:01.519 align:start position:0%
+And so without re-ranking enabled, we
+ 
+
+00:11:01.519 --> 00:11:04.630 align:start position:0%
+And so without re-ranking enabled, we
+could<00:11:01.680><c> see</c><00:11:01.760><c> that</c><00:11:02.160><c> the</c><00:11:02.399><c> total</c><00:11:02.800><c> score</c><00:11:03.120><c> is</c><00:11:03.680><c> 24</c><00:11:04.399><c> out</c>
+
+00:11:04.630 --> 00:11:04.640 align:start position:0%
+could see that the total score is 24 out
+ 
+
+00:11:04.640 --> 00:11:06.389 align:start position:0%
+could see that the total score is 24 out
+of<00:11:04.880><c> 30.</c>
+
+00:11:06.389 --> 00:11:06.399 align:start position:0%
+of 30.
+ 
+
+00:11:06.399 --> 00:11:07.990 align:start position:0%
+of 30.
+And<00:11:06.560><c> if</c><00:11:06.720><c> we</c><00:11:06.880><c> scroll</c><00:11:07.120><c> up</c><00:11:07.279><c> to</c><00:11:07.440><c> see</c><00:11:07.600><c> how</c><00:11:07.760><c> it's</c>
+
+00:11:07.990 --> 00:11:08.000 align:start position:0%
+And if we scroll up to see how it's
+ 
+
+00:11:08.000 --> 00:11:10.230 align:start position:0%
+And if we scroll up to see how it's
+actually<00:11:08.320><c> done</c><00:11:08.560><c> this</c><00:11:08.800><c> work,</c><00:11:09.600><c> uh</c><00:11:09.680><c> we</c><00:11:09.920><c> could</c><00:11:10.079><c> see</c>
+
+00:11:10.230 --> 00:11:10.240 align:start position:0%
+actually done this work, uh we could see
+ 
+
+00:11:10.240 --> 00:11:12.550 align:start position:0%
+actually done this work, uh we could see
+that<00:11:10.480><c> during</c><00:11:10.880><c> the</c><00:11:11.200><c> retrieval</c><00:11:11.760><c> process,</c><00:11:12.320><c> it</c>
+
+00:11:12.550 --> 00:11:12.560 align:start position:0%
+that during the retrieval process, it
+ 
+
+00:11:12.560 --> 00:11:15.110 align:start position:0%
+that during the retrieval process, it
+just<00:11:12.720><c> takes</c><00:11:13.200><c> the</c><00:11:13.519><c> top</c><00:11:13.920><c> five</c><00:11:14.320><c> results</c><00:11:14.640><c> that</c><00:11:14.880><c> it</c>
+
+00:11:15.110 --> 00:11:15.120 align:start position:0%
+just takes the top five results that it
+ 
+
+00:11:15.120 --> 00:11:18.550 align:start position:0%
+just takes the top five results that it
+finds<00:11:15.839><c> based</c><00:11:16.240><c> on</c><00:11:16.399><c> each</c><00:11:16.640><c> query.</c><00:11:17.839><c> So</c><00:11:18.079><c> now</c><00:11:18.320><c> let's</c>
+
+00:11:18.550 --> 00:11:18.560 align:start position:0%
+finds based on each query. So now let's
+ 
+
+00:11:18.560 --> 00:11:21.350 align:start position:0%
+finds based on each query. So now let's
+clear<00:11:18.800><c> that</c><00:11:19.040><c> out</c><00:11:19.680><c> and</c><00:11:20.000><c> run</c><00:11:20.160><c> it</c><00:11:20.399><c> again.</c><00:11:21.120><c> This</c>
+
+00:11:21.350 --> 00:11:21.360 align:start position:0%
+clear that out and run it again. This
+ 
+
+00:11:21.360 --> 00:11:24.150 align:start position:0%
+clear that out and run it again. This
+time<00:11:21.600><c> with</c><00:11:21.839><c> the</c><00:11:22.079><c> reranking</c><00:11:22.640><c> flag</c><00:11:22.959><c> enabled.</c>
+
+00:11:24.150 --> 00:11:24.160 align:start position:0%
+time with the reranking flag enabled.
+ 
+
+00:11:24.160 --> 00:11:26.150 align:start position:0%
+time with the reranking flag enabled.
+And<00:11:24.399><c> just</c><00:11:24.560><c> to</c><00:11:24.720><c> show</c><00:11:24.880><c> you</c><00:11:25.040><c> inside</c><00:11:25.360><c> the</c><00:11:25.600><c> code,</c><00:11:26.079><c> uh</c>
+
+00:11:26.150 --> 00:11:26.160 align:start position:0%
+And just to show you inside the code, uh
+ 
+
+00:11:26.160 --> 00:11:28.069 align:start position:0%
+And just to show you inside the code, uh
+this<00:11:26.399><c> re-ranking</c><00:11:26.959><c> flag</c><00:11:27.200><c> here</c><00:11:27.440><c> is</c><00:11:27.680><c> basically</c>
+
+00:11:28.069 --> 00:11:28.079 align:start position:0%
+this re-ranking flag here is basically
+ 
+
+00:11:28.079 --> 00:11:30.710 align:start position:0%
+this re-ranking flag here is basically
+just<00:11:28.560><c> uh</c><00:11:28.720><c> a</c><00:11:28.959><c> boolean</c><00:11:29.440><c> that</c><00:11:29.760><c> is</c><00:11:29.920><c> passed</c><00:11:30.240><c> to</c><00:11:30.480><c> our</c>
+
+00:11:30.710 --> 00:11:30.720 align:start position:0%
+just uh a boolean that is passed to our
+ 
+
+00:11:30.720 --> 00:11:33.190 align:start position:0%
+just uh a boolean that is passed to our
+search<00:11:31.040><c> function.</c><00:11:31.920><c> If</c><00:11:32.079><c> it's</c><00:11:32.320><c> turned</c><00:11:32.560><c> on,</c><00:11:32.959><c> then</c>
+
+00:11:33.190 --> 00:11:33.200 align:start position:0%
+search function. If it's turned on, then
+ 
+
+00:11:33.200 --> 00:11:34.949 align:start position:0%
+search function. If it's turned on, then
+what<00:11:33.360><c> we</c><00:11:33.519><c> do</c><00:11:33.600><c> is</c><00:11:33.760><c> we</c><00:11:34.000><c> triple</c><00:11:34.399><c> our</c><00:11:34.640><c> search</c>
+
+00:11:34.949 --> 00:11:34.959 align:start position:0%
+what we do is we triple our search
+ 
+
+00:11:34.959 --> 00:11:37.350 align:start position:0%
+what we do is we triple our search
+results<00:11:35.360><c> using</c><00:11:35.680><c> vector</c><00:11:36.079><c> search.</c><00:11:36.800><c> And</c><00:11:36.880><c> then</c><00:11:37.120><c> we</c>
+
+00:11:37.350 --> 00:11:37.360 align:start position:0%
+results using vector search. And then we
+ 
+
+00:11:37.360 --> 00:11:40.470 align:start position:0%
+results using vector search. And then we
+rerank<00:11:37.839><c> them</c><00:11:38.079><c> and</c><00:11:38.399><c> return</c><00:11:38.800><c> the</c><00:11:39.040><c> top</c><00:11:39.440><c> K.</c><00:11:40.000><c> Uh</c><00:11:40.240><c> if</c>
+
+00:11:40.470 --> 00:11:40.480 align:start position:0%
+rerank them and return the top K. Uh if
+ 
+
+00:11:40.480 --> 00:11:42.230 align:start position:0%
+rerank them and return the top K. Uh if
+it's<00:11:40.640><c> not</c><00:11:40.800><c> turned</c><00:11:41.040><c> on,</c><00:11:41.279><c> we</c><00:11:41.519><c> just</c><00:11:41.760><c> return</c><00:11:42.000><c> the</c>
+
+00:11:42.230 --> 00:11:42.240 align:start position:0%
+it's not turned on, we just return the
+ 
+
+00:11:42.240 --> 00:11:45.269 align:start position:0%
+it's not turned on, we just return the
+top<00:11:42.480><c> K</c><00:11:42.720><c> from</c><00:11:42.959><c> the</c><00:11:43.120><c> vector</c><00:11:43.440><c> search</c><00:11:43.680><c> itself.</c><00:11:45.040><c> So</c>
+
+00:11:45.269 --> 00:11:45.279 align:start position:0%
+top K from the vector search itself. So
+ 
+
+00:11:45.279 --> 00:11:46.949 align:start position:0%
+top K from the vector search itself. So
+let's<00:11:45.519><c> go</c><00:11:45.680><c> back</c><00:11:45.760><c> to</c><00:11:45.920><c> the</c><00:11:46.079><c> terminal</c><00:11:46.480><c> and</c><00:11:46.720><c> run</c>
+
+00:11:46.949 --> 00:11:46.959 align:start position:0%
+let's go back to the terminal and run
+ 
+
+00:11:46.959 --> 00:11:49.990 align:start position:0%
+let's go back to the terminal and run
+this.<00:11:48.320><c> And</c><00:11:48.560><c> here</c><00:11:48.800><c> is</c><00:11:48.880><c> the</c><00:11:49.120><c> result.</c><00:11:49.519><c> We</c><00:11:49.760><c> now</c>
+
+00:11:49.990 --> 00:11:50.000 align:start position:0%
+this. And here is the result. We now
+ 
+
+00:11:50.000 --> 00:11:53.190 align:start position:0%
+this. And here is the result. We now
+score<00:11:50.399><c> 27</c><00:11:50.959><c> out</c><00:11:51.120><c> of</c><00:11:51.360><c> 30.</c><00:11:51.920><c> So</c><00:11:52.079><c> with</c><00:11:52.320><c> reranking</c><00:11:52.959><c> we</c>
+
+00:11:53.190 --> 00:11:53.200 align:start position:0%
+score 27 out of 30. So with reranking we
+ 
+
+00:11:53.200 --> 00:11:55.190 align:start position:0%
+score 27 out of 30. So with reranking we
+were<00:11:53.360><c> able</c><00:11:53.600><c> to</c><00:11:53.760><c> get</c><00:11:53.920><c> a</c><00:11:54.160><c> slight</c><00:11:54.560><c> bump</c><00:11:54.800><c> in</c><00:11:54.959><c> the</c>
+
+00:11:55.190 --> 00:11:55.200 align:start position:0%
+were able to get a slight bump in the
+ 
+
+00:11:55.200 --> 00:11:57.509 align:start position:0%
+were able to get a slight bump in the
+results.<00:11:55.839><c> It's</c><00:11:56.079><c> still</c><00:11:56.320><c> not</c><00:11:56.560><c> perfect</c><00:11:57.040><c> but</c><00:11:57.279><c> it</c>
+
+00:11:57.509 --> 00:11:57.519 align:start position:0%
+results. It's still not perfect but it
+ 
+
+00:11:57.519 --> 00:12:00.389 align:start position:0%
+results. It's still not perfect but it
+was<00:11:57.760><c> a</c><00:11:58.079><c> pretty</c><00:11:58.399><c> easy</c><00:11:58.720><c> improvement.</c><00:11:59.920><c> And</c><00:12:00.079><c> if</c><00:12:00.240><c> we</c>
+
+00:12:00.389 --> 00:12:00.399 align:start position:0%
+was a pretty easy improvement. And if we
+ 
+
+00:12:00.399 --> 00:12:02.470 align:start position:0%
+was a pretty easy improvement. And if we
+scroll<00:12:00.640><c> up</c><00:12:00.800><c> into</c><00:12:01.040><c> the</c><00:12:01.200><c> log</c><00:12:01.519><c> we</c><00:12:01.760><c> could</c><00:12:01.920><c> also</c><00:12:02.240><c> see</c>
+
+00:12:02.470 --> 00:12:02.480 align:start position:0%
+scroll up into the log we could also see
+ 
+
+00:12:02.480 --> 00:12:04.870 align:start position:0%
+scroll up into the log we could also see
+that<00:12:03.200><c> uh</c><00:12:03.440><c> the</c><00:12:03.680><c> reranking</c><00:12:04.320><c> is</c><00:12:04.560><c> actually</c>
+
+00:12:04.870 --> 00:12:04.880 align:start position:0%
+that uh the reranking is actually
+ 
+
+00:12:04.880 --> 00:12:06.949 align:start position:0%
+that uh the reranking is actually
+working<00:12:05.120><c> as</c><00:12:05.360><c> intended.</c><00:12:06.079><c> So</c><00:12:06.399><c> here</c><00:12:06.639><c> it's</c>
+
+00:12:06.949 --> 00:12:06.959 align:start position:0%
+working as intended. So here it's
+ 
+
+00:12:06.959 --> 00:12:09.430 align:start position:0%
+working as intended. So here it's
+reanking<00:12:07.440><c> the</c><00:12:07.600><c> indices</c><00:12:08.560><c> uh</c><00:12:08.639><c> which</c><00:12:08.880><c> is</c><00:12:09.040><c> not</c><00:12:09.279><c> the</c>
+
+00:12:09.430 --> 00:12:09.440 align:start position:0%
+reanking the indices uh which is not the
+ 
+
+00:12:09.440 --> 00:12:11.750 align:start position:0%
+reanking the indices uh which is not the
+same<00:12:09.600><c> as</c><00:12:09.760><c> the</c><00:12:10.079><c> original</c><00:12:10.560><c> order</c><00:12:11.040><c> that</c><00:12:11.360><c> vector</c>
+
+00:12:11.750 --> 00:12:11.760 align:start position:0%
+same as the original order that vector
+ 
+
+00:12:11.760 --> 00:12:14.069 align:start position:0%
+same as the original order that vector
+search<00:12:12.240><c> would</c><00:12:12.399><c> have</c><00:12:12.560><c> found</c><00:12:12.800><c> them</c><00:12:12.959><c> in.</c><00:12:13.600><c> In</c><00:12:13.839><c> this</c>
+
+00:12:14.069 --> 00:12:14.079 align:start position:0%
+search would have found them in. In this
+ 
+
+00:12:14.079 --> 00:12:16.389 align:start position:0%
+search would have found them in. In this
+example<00:12:14.720><c> because</c><00:12:15.120><c> we</c><00:12:15.440><c> only</c><00:12:15.680><c> want</c><00:12:15.839><c> to</c><00:12:16.000><c> return</c>
+
+00:12:16.389 --> 00:12:16.399 align:start position:0%
+example because we only want to return
+ 
+
+00:12:16.399 --> 00:12:18.310 align:start position:0%
+example because we only want to return
+five<00:12:16.720><c> results.</c><00:12:17.360><c> Uh,</c><00:12:17.680><c> with</c><00:12:17.920><c> traditional</c>
+
+00:12:18.310 --> 00:12:18.320 align:start position:0%
+five results. Uh, with traditional
+ 
+
+00:12:18.320 --> 00:12:19.990 align:start position:0%
+five results. Uh, with traditional
+vector<00:12:18.720><c> search,</c><00:12:19.040><c> we</c><00:12:19.279><c> would</c><00:12:19.360><c> have</c><00:12:19.519><c> missed</c><00:12:19.839><c> out</c>
+
+00:12:19.990 --> 00:12:20.000 align:start position:0%
+vector search, we would have missed out
+ 
+
+00:12:20.000 --> 00:12:22.629 align:start position:0%
+vector search, we would have missed out
+on<00:12:20.399><c> documents</c><00:12:21.120><c> six</c><00:12:21.360><c> and</c><00:12:21.600><c> nine.</c><00:12:22.240><c> It's</c><00:12:22.480><c> not</c>
+
+00:12:22.629 --> 00:12:22.639 align:start position:0%
+on documents six and nine. It's not
+ 
+
+00:12:22.639 --> 00:12:23.990 align:start position:0%
+on documents six and nine. It's not
+going<00:12:22.720><c> to</c><00:12:22.800><c> change</c><00:12:23.040><c> the</c><00:12:23.200><c> world,</c><00:12:23.440><c> but</c><00:12:23.680><c> most</c><00:12:23.839><c> of</c>
+
+00:12:23.990 --> 00:12:24.000 align:start position:0%
+going to change the world, but most of
+ 
+
+00:12:24.000 --> 00:12:25.829 align:start position:0%
+going to change the world, but most of
+the<00:12:24.160><c> time</c><00:12:24.399><c> you</c><00:12:24.639><c> want</c><00:12:24.959><c> as</c><00:12:25.200><c> many</c><00:12:25.360><c> improvements</c>
+
+00:12:25.829 --> 00:12:25.839 align:start position:0%
+the time you want as many improvements
+ 
+
+00:12:25.839 --> 00:12:27.750 align:start position:0%
+the time you want as many improvements
+as<00:12:26.000><c> you</c><00:12:26.240><c> can</c><00:12:26.320><c> get.</c><00:12:26.959><c> Um,</c><00:12:27.200><c> I'm</c><00:12:27.360><c> going</c><00:12:27.440><c> to</c><00:12:27.519><c> have</c><00:12:27.680><c> to</c>
+
+00:12:27.750 --> 00:12:27.760 align:start position:0%
+as you can get. Um, I'm going to have to
+ 
+
+00:12:27.760 --> 00:12:29.509 align:start position:0%
+as you can get. Um, I'm going to have to
+be<00:12:27.839><c> honest</c><00:12:28.079><c> with</c><00:12:28.240><c> you</c><00:12:28.399><c> as</c><00:12:28.560><c> well.</c><00:12:28.880><c> I</c><00:12:29.120><c> did</c><00:12:29.360><c> have</c>
+
+00:12:29.509 --> 00:12:29.519 align:start position:0%
+be honest with you as well. I did have
+ 
+
+00:12:29.519 --> 00:12:32.389 align:start position:0%
+be honest with you as well. I did have
+to<00:12:29.680><c> edit</c><00:12:30.079><c> my</c><00:12:30.320><c> Q&amp;A</c><00:12:30.880><c> sample</c><00:12:31.279><c> set</c><00:12:31.839><c> a</c><00:12:32.079><c> little</c><00:12:32.160><c> bit</c>
+
+00:12:32.389 --> 00:12:32.399 align:start position:0%
+to edit my Q&amp;A sample set a little bit
+ 
+
+00:12:32.399 --> 00:12:34.389 align:start position:0%
+to edit my Q&amp;A sample set a little bit
+just<00:12:32.639><c> to</c><00:12:32.800><c> have</c><00:12:32.959><c> the</c><00:12:33.120><c> type</c><00:12:33.279><c> of</c><00:12:33.519><c> questions</c><00:12:34.079><c> that</c>
+
+00:12:34.389 --> 00:12:34.399 align:start position:0%
+just to have the type of questions that
+ 
+
+00:12:34.399 --> 00:12:36.790 align:start position:0%
+just to have the type of questions that
+re-ranking<00:12:35.040><c> would</c><00:12:35.279><c> really</c><00:12:35.519><c> help</c><00:12:35.680><c> to</c><00:12:35.920><c> improve.</c>
+
+00:12:36.790 --> 00:12:36.800 align:start position:0%
+re-ranking would really help to improve.
+ 
+
+00:12:36.800 --> 00:12:39.110 align:start position:0%
+re-ranking would really help to improve.
+And<00:12:37.040><c> likewise,</c><00:12:37.600><c> in</c><00:12:37.760><c> a</c><00:12:37.920><c> real</c><00:12:38.240><c> world</c><00:12:38.480><c> use</c><00:12:38.720><c> case,</c>
+
+00:12:39.110 --> 00:12:39.120 align:start position:0%
+And likewise, in a real world use case,
+ 
+
+00:12:39.120 --> 00:12:41.110 align:start position:0%
+And likewise, in a real world use case,
+I<00:12:39.360><c> think</c><00:12:39.519><c> re-ranking</c><00:12:40.160><c> would</c><00:12:40.399><c> definitely</c><00:12:40.959><c> have</c>
+
+00:12:41.110 --> 00:12:41.120 align:start position:0%
+I think re-ranking would definitely have
+ 
+
+00:12:41.120 --> 00:12:43.110 align:start position:0%
+I think re-ranking would definitely have
+a<00:12:41.360><c> bigger</c><00:12:41.680><c> effect</c><00:12:41.920><c> in</c><00:12:42.160><c> some</c><00:12:42.399><c> data</c><00:12:42.639><c> set</c><00:12:42.880><c> than</c>
+
+00:12:43.110 --> 00:12:43.120 align:start position:0%
+a bigger effect in some data set than
+ 
+
+00:12:43.120 --> 00:12:45.430 align:start position:0%
+a bigger effect in some data set than
+others.<00:12:44.000><c> Now,</c><00:12:44.240><c> as</c><00:12:44.480><c> I</c><00:12:44.639><c> mentioned</c><00:12:44.880><c> at</c><00:12:45.120><c> the</c><00:12:45.279><c> start</c>
+
+00:12:45.430 --> 00:12:45.440 align:start position:0%
+others. Now, as I mentioned at the start
+ 
+
+00:12:45.440 --> 00:12:47.269 align:start position:0%
+others. Now, as I mentioned at the start
+of<00:12:45.600><c> the</c><00:12:45.760><c> video,</c><00:12:46.320><c> context</c><00:12:46.720><c> windows</c><00:12:47.120><c> have</c>
+
+00:12:47.269 --> 00:12:47.279 align:start position:0%
+of the video, context windows have
+ 
+
+00:12:47.279 --> 00:12:49.910 align:start position:0%
+of the video, context windows have
+become<00:12:47.600><c> so</c><00:12:47.839><c> big</c><00:12:48.000><c> for</c><00:12:48.240><c> LLMs</c><00:12:48.880><c> these</c><00:12:49.120><c> days</c><00:12:49.680><c> that</c>
+
+00:12:49.910 --> 00:12:49.920 align:start position:0%
+become so big for LLMs these days that
+ 
+
+00:12:49.920 --> 00:12:51.910 align:start position:0%
+become so big for LLMs these days that
+you<00:12:50.160><c> might</c><00:12:50.399><c> not</c><00:12:50.639><c> even</c><00:12:50.880><c> need</c><00:12:51.120><c> re-ranking</c><00:12:51.760><c> at</c>
+
+00:12:51.910 --> 00:12:51.920 align:start position:0%
+you might not even need re-ranking at
+ 
+
+00:12:51.920 --> 00:12:53.670 align:start position:0%
+you might not even need re-ranking at
+all.<00:12:52.399><c> You</c><00:12:52.560><c> might</c><00:12:52.800><c> just</c><00:12:52.959><c> be</c><00:12:53.040><c> able</c><00:12:53.200><c> to</c><00:12:53.360><c> put</c>
+
+00:12:53.670 --> 00:12:53.680 align:start position:0%
+all. You might just be able to put
+ 
+
+00:12:53.680 --> 00:12:55.670 align:start position:0%
+all. You might just be able to put
+everything<00:12:54.079><c> into</c><00:12:54.320><c> that</c><00:12:54.560><c> context</c><00:12:54.959><c> window</c><00:12:55.440><c> and</c>
+
+00:12:55.670 --> 00:12:55.680 align:start position:0%
+everything into that context window and
+ 
+
+00:12:55.680 --> 00:12:57.509 align:start position:0%
+everything into that context window and
+then<00:12:55.920><c> get</c><00:12:56.000><c> the</c><00:12:56.240><c> result</c><00:12:56.480><c> that</c><00:12:56.639><c> you</c><00:12:56.800><c> want.</c><00:12:57.279><c> So,</c>
+
+00:12:57.509 --> 00:12:57.519 align:start position:0%
+then get the result that you want. So,
+ 
+
+00:12:57.519 --> 00:12:59.110 align:start position:0%
+then get the result that you want. So,
+it's<00:12:57.760><c> up</c><00:12:57.920><c> to</c><00:12:58.000><c> you</c><00:12:58.240><c> whether</c><00:12:58.639><c> this</c><00:12:58.800><c> is</c><00:12:58.959><c> a</c>
+
+00:12:59.110 --> 00:12:59.120 align:start position:0%
+it's up to you whether this is a
+ 
+
+00:12:59.120 --> 00:13:00.629 align:start position:0%
+it's up to you whether this is a
+technique<00:12:59.360><c> that</c><00:12:59.519><c> you</c><00:12:59.680><c> want</c><00:12:59.839><c> to</c><00:12:59.920><c> implement.</c>
+
+00:13:00.629 --> 00:13:00.639 align:start position:0%
+technique that you want to implement.
+ 
+
+00:13:00.639 --> 00:13:02.470 align:start position:0%
+technique that you want to implement.
+And<00:13:00.800><c> if</c><00:13:00.959><c> you</c><00:13:01.120><c> did</c><00:13:01.360><c> want</c><00:13:01.519><c> to</c><00:13:01.680><c> implement</c><00:13:02.000><c> this,</c>
+
+00:13:02.470 --> 00:13:02.480 align:start position:0%
+And if you did want to implement this,
+ 
+
+00:13:02.480 --> 00:13:04.069 align:start position:0%
+And if you did want to implement this,
+then<00:13:02.720><c> here's</c><00:13:03.040><c> a</c><00:13:03.200><c> couple</c><00:13:03.279><c> of</c><00:13:03.440><c> trade-offs</c><00:13:03.839><c> you</c>
+
+00:13:04.069 --> 00:13:04.079 align:start position:0%
+then here's a couple of trade-offs you
+ 
+
+00:13:04.079 --> 00:13:05.910 align:start position:0%
+then here's a couple of trade-offs you
+have<00:13:04.160><c> to</c><00:13:04.320><c> be</c><00:13:04.399><c> aware</c><00:13:04.639><c> of.</c><00:13:05.040><c> Every</c><00:13:05.360><c> re-ranking</c>
+
+00:13:05.910 --> 00:13:05.920 align:start position:0%
+have to be aware of. Every re-ranking
+ 
+
+00:13:05.920 --> 00:13:08.230 align:start position:0%
+have to be aware of. Every re-ranking
+call<00:13:06.079><c> is</c><00:13:06.320><c> an</c><00:13:06.560><c> additional</c><00:13:06.959><c> API</c><00:13:07.440><c> request,</c><00:13:08.000><c> and</c>
+
+00:13:08.230 --> 00:13:08.240 align:start position:0%
+call is an additional API request, and
+ 
+
+00:13:08.240 --> 00:13:10.310 align:start position:0%
+call is an additional API request, and
+that<00:13:08.560><c> will</c><00:13:08.800><c> have</c><00:13:09.040><c> some</c><00:13:09.279><c> overhead.</c><00:13:10.079><c> uh</c><00:13:10.160><c> you</c>
+
+00:13:10.310 --> 00:13:10.320 align:start position:0%
+that will have some overhead. uh you
+ 
+
+00:13:10.320 --> 00:13:12.870 align:start position:0%
+that will have some overhead. uh you
+might<00:13:10.480><c> see</c><00:13:10.720><c> response</c><00:13:11.120><c> times</c><00:13:11.760><c> increase</c><00:13:12.079><c> from</c><00:13:12.639><c> a</c>
+
+00:13:12.870 --> 00:13:12.880 align:start position:0%
+might see response times increase from a
+ 
+
+00:13:12.880 --> 00:13:14.790 align:start position:0%
+might see response times increase from a
+few<00:13:12.959><c> hundred</c><00:13:13.200><c> milliseconds</c><00:13:13.839><c> to</c><00:13:14.160><c> 1</c><00:13:14.399><c> to</c><00:13:14.639><c> 2</c>
+
+00:13:14.790 --> 00:13:14.800 align:start position:0%
+few hundred milliseconds to 1 to 2
+ 
+
+00:13:14.800 --> 00:13:17.350 align:start position:0%
+few hundred milliseconds to 1 to 2
+seconds.<00:13:15.440><c> Second,</c><00:13:15.920><c> there's</c><00:13:16.320><c> cost.</c><00:13:16.800><c> Ranking</c>
+
+00:13:17.350 --> 00:13:17.360 align:start position:0%
+seconds. Second, there's cost. Ranking
+ 
+
+00:13:17.360 --> 00:13:19.990 align:start position:0%
+seconds. Second, there's cost. Ranking
+APIs<00:13:17.839><c> will</c><00:13:18.079><c> charge</c><00:13:18.480><c> per</c><00:13:18.800><c> request,</c><00:13:19.600><c> so</c><00:13:19.760><c> you</c>
+
+00:13:19.990 --> 00:13:20.000 align:start position:0%
+APIs will charge per request, so you
+ 
+
+00:13:20.000 --> 00:13:21.750 align:start position:0%
+APIs will charge per request, so you
+need<00:13:20.079><c> to</c><00:13:20.240><c> factor</c><00:13:20.560><c> that</c><00:13:20.720><c> into</c><00:13:20.959><c> your</c><00:13:21.200><c> economics.</c>
+
+00:13:21.750 --> 00:13:21.760 align:start position:0%
+need to factor that into your economics.
+ 
+
+00:13:21.760 --> 00:13:23.190 align:start position:0%
+need to factor that into your economics.
+Uh<00:13:22.000><c> the</c><00:13:22.079><c> good</c><00:13:22.240><c> news</c><00:13:22.399><c> is</c><00:13:22.560><c> that</c><00:13:22.720><c> the</c><00:13:22.880><c> cost</c><00:13:23.040><c> is</c>
+
+00:13:23.190 --> 00:13:23.200 align:start position:0%
+Uh the good news is that the cost is
+ 
+
+00:13:23.200 --> 00:13:25.190 align:start position:0%
+Uh the good news is that the cost is
+usually<00:13:23.600><c> quite</c><00:13:23.839><c> cheap</c><00:13:24.240><c> and</c><00:13:24.480><c> likely</c><00:13:24.880><c> to</c><00:13:25.040><c> get</c>
+
+00:13:25.190 --> 00:13:25.200 align:start position:0%
+usually quite cheap and likely to get
+ 
+
+00:13:25.200 --> 00:13:27.269 align:start position:0%
+usually quite cheap and likely to get
+cheaper<00:13:25.519><c> over</c><00:13:25.760><c> time.</c><00:13:26.320><c> And</c><00:13:26.560><c> third,</c><00:13:27.040><c> there's</c>
+
+00:13:27.269 --> 00:13:27.279 align:start position:0%
+cheaper over time. And third, there's
+ 
+
+00:13:27.279 --> 00:13:29.990 align:start position:0%
+cheaper over time. And third, there's
+the<00:13:27.519><c> dependency</c><00:13:28.160><c> on</c><00:13:28.399><c> an</c><00:13:28.639><c> external</c><00:13:29.200><c> service.</c>
+
+00:13:29.990 --> 00:13:30.000 align:start position:0%
+the dependency on an external service.
+ 
+
+00:13:30.000 --> 00:13:31.990 align:start position:0%
+the dependency on an external service.
+So<00:13:30.160><c> in</c><00:13:30.399><c> this</c><00:13:30.639><c> project,</c><00:13:30.959><c> we're</c><00:13:31.200><c> now</c><00:13:31.440><c> relying</c><00:13:31.760><c> on</c>
+
+00:13:31.990 --> 00:13:32.000 align:start position:0%
+So in this project, we're now relying on
+ 
+
+00:13:32.000 --> 00:13:34.550 align:start position:0%
+So in this project, we're now relying on
+coher's<00:13:32.560><c> API</c><00:13:33.040><c> availability.</c><00:13:33.839><c> For</c><00:13:34.079><c> production</c>
+
+00:13:34.550 --> 00:13:34.560 align:start position:0%
+coher's API availability. For production
+ 
+
+00:13:34.560 --> 00:13:36.310 align:start position:0%
+coher's API availability. For production
+systems,<00:13:35.279><c> you</c><00:13:35.519><c> might</c><00:13:35.680><c> want</c><00:13:35.839><c> to</c><00:13:36.000><c> implement</c>
+
+00:13:36.310 --> 00:13:36.320 align:start position:0%
+systems, you might want to implement
+ 
+
+00:13:36.320 --> 00:13:38.790 align:start position:0%
+systems, you might want to implement
+some<00:13:36.560><c> graceful</c><00:13:37.040><c> fallback.</c><00:13:37.839><c> For</c><00:13:38.079><c> most</c><00:13:38.399><c> RAG</c>
+
+00:13:38.790 --> 00:13:38.800 align:start position:0%
+some graceful fallback. For most RAG
+ 
+
+00:13:38.800 --> 00:13:40.629 align:start position:0%
+some graceful fallback. For most RAG
+applications<00:13:39.360><c> though,</c><00:13:39.760><c> the</c><00:13:40.079><c> accuracy</c>
+
+00:13:40.629 --> 00:13:40.639 align:start position:0%
+applications though, the accuracy
+ 
+
+00:13:40.639 --> 00:13:42.470 align:start position:0%
+applications though, the accuracy
+improvement<00:13:41.120><c> is</c><00:13:41.360><c> worth</c><00:13:41.600><c> the</c><00:13:41.760><c> trade-off.</c><00:13:42.320><c> Your</c>
+
+00:13:42.470 --> 00:13:42.480 align:start position:0%
+improvement is worth the trade-off. Your
+ 
+
+00:13:42.480 --> 00:13:44.629 align:start position:0%
+improvement is worth the trade-off. Your
+users<00:13:43.040><c> probably</c><00:13:43.519><c> prefer</c><00:13:43.920><c> getting</c><00:13:44.160><c> the</c><00:13:44.399><c> right</c>
+
+00:13:44.629 --> 00:13:44.639 align:start position:0%
+users probably prefer getting the right
+ 
+
+00:13:44.639 --> 00:13:47.110 align:start position:0%
+users probably prefer getting the right
+answer<00:13:44.959><c> in</c><00:13:45.360><c> two</c><00:13:45.600><c> seconds</c><00:13:46.399><c> than</c><00:13:46.720><c> getting</c><00:13:46.959><c> a</c>
+
+00:13:47.110 --> 00:13:47.120 align:start position:0%
+answer in two seconds than getting a
+ 
+
+00:13:47.120 --> 00:13:49.509 align:start position:0%
+answer in two seconds than getting a
+wrong<00:13:47.360><c> answer</c><00:13:47.680><c> in</c><00:13:48.079><c> half</c><00:13:48.240><c> a</c><00:13:48.480><c> second.</c><00:13:49.120><c> Now,</c><00:13:49.360><c> we</c>
+
+00:13:49.509 --> 00:13:49.519 align:start position:0%
+wrong answer in half a second. Now, we
+ 
+
+00:13:49.519 --> 00:13:51.030 align:start position:0%
+wrong answer in half a second. Now, we
+went<00:13:49.680><c> through</c><00:13:49.839><c> this</c><00:13:50.000><c> pretty</c><00:13:50.240><c> quickly,</c><00:13:50.639><c> so</c><00:13:50.800><c> if</c>
+
+00:13:51.030 --> 00:13:51.040 align:start position:0%
+went through this pretty quickly, so if
+ 
+
+00:13:51.040 --> 00:13:53.110 align:start position:0%
+went through this pretty quickly, so if
+you<00:13:51.120><c> want</c><00:13:51.200><c> to</c><00:13:51.360><c> dive</c><00:13:51.680><c> deeper</c><00:13:52.160><c> into</c><00:13:52.399><c> the</c><00:13:52.639><c> code,</c>
+
+00:13:53.110 --> 00:13:53.120 align:start position:0%
+you want to dive deeper into the code,
+ 
+
+00:13:53.120 --> 00:13:55.110 align:start position:0%
+you want to dive deeper into the code,
+then<00:13:53.440><c> do</c><00:13:53.680><c> check</c><00:13:53.920><c> out</c><00:13:54.000><c> this</c><00:13:54.240><c> GitHub</c><00:13:54.639><c> link</c><00:13:54.880><c> in</c>
+
+00:13:55.110 --> 00:13:55.120 align:start position:0%
+then do check out this GitHub link in
+ 
+
+00:13:55.120 --> 00:13:57.269 align:start position:0%
+then do check out this GitHub link in
+the<00:13:55.279><c> description</c><00:13:56.000><c> where</c><00:13:56.240><c> you</c><00:13:56.480><c> can</c><00:13:56.639><c> find</c><00:13:57.040><c> the</c>
+
+00:13:57.269 --> 00:13:57.279 align:start position:0%
+the description where you can find the
+ 
+
+00:13:57.279 --> 00:13:59.189 align:start position:0%
+the description where you can find the
+full<00:13:57.519><c> project.</c><00:13:58.079><c> The</c><00:13:58.320><c> key</c><00:13:58.480><c> takeaway</c><00:13:58.880><c> here</c><00:13:59.040><c> is</c>
+
+00:13:59.189 --> 00:13:59.199 align:start position:0%
+full project. The key takeaway here is
+ 
+
+00:13:59.199 --> 00:14:00.870 align:start position:0%
+full project. The key takeaway here is
+that<00:13:59.360><c> reranking</c><00:14:00.000><c> is</c><00:14:00.240><c> one</c><00:14:00.480><c> of</c><00:14:00.560><c> the</c><00:14:00.720><c> most</c>
+
+00:14:00.870 --> 00:14:00.880 align:start position:0%
+that reranking is one of the most
+ 
+
+00:14:00.880 --> 00:14:03.509 align:start position:0%
+that reranking is one of the most
+effective<00:14:01.279><c> ways</c><00:14:01.600><c> to</c><00:14:02.480><c> slightly</c><00:14:02.959><c> improve</c><00:14:03.279><c> your</c>
+
+00:14:03.509 --> 00:14:03.519 align:start position:0%
+effective ways to slightly improve your
+ 
+
+00:14:03.519 --> 00:14:06.310 align:start position:0%
+effective ways to slightly improve your
+rag<00:14:03.839><c> accuracy</c><00:14:04.720><c> with</c><00:14:05.279><c> relatively</c><00:14:05.920><c> little</c>
+
+00:14:06.310 --> 00:14:06.320 align:start position:0%
+rag accuracy with relatively little
+ 
+
+00:14:06.320 --> 00:14:08.470 align:start position:0%
+rag accuracy with relatively little
+engineering<00:14:06.880><c> effort.</c><00:14:07.600><c> Again,</c><00:14:08.000><c> you</c><00:14:08.160><c> will</c><00:14:08.320><c> have</c>
+
+00:14:08.470 --> 00:14:08.480 align:start position:0%
+engineering effort. Again, you will have
+ 
+
+00:14:08.480 --> 00:14:09.829 align:start position:0%
+engineering effort. Again, you will have
+to<00:14:08.560><c> trade</c><00:14:08.800><c> it</c><00:14:08.959><c> off</c><00:14:09.120><c> whether</c><00:14:09.440><c> it's</c><00:14:09.600><c> worth</c>
+
+00:14:09.829 --> 00:14:09.839 align:start position:0%
+to trade it off whether it's worth
+ 
+
+00:14:09.839 --> 00:14:11.590 align:start position:0%
+to trade it off whether it's worth
+implementing<00:14:10.320><c> at</c><00:14:10.560><c> all</c><00:14:10.800><c> or</c><00:14:11.120><c> whether</c><00:14:11.360><c> you</c><00:14:11.519><c> can</c>
+
+00:14:11.590 --> 00:14:11.600 align:start position:0%
+implementing at all or whether you can
+ 
+
+00:14:11.600 --> 00:14:13.829 align:start position:0%
+implementing at all or whether you can
+get<00:14:11.760><c> away</c><00:14:12.000><c> with</c><00:14:12.240><c> just</c><00:14:12.720><c> throwing</c><00:14:13.279><c> all</c><00:14:13.519><c> of</c><00:14:13.680><c> your</c>
+
+00:14:13.829 --> 00:14:13.839 align:start position:0%
+get away with just throwing all of your
+ 
+
+00:14:13.839 --> 00:14:15.910 align:start position:0%
+get away with just throwing all of your
+documents<00:14:14.320><c> into</c><00:14:14.560><c> that</c><00:14:14.800><c> context</c><00:14:15.199><c> window.</c><00:14:15.680><c> If</c>
+
+00:14:15.910 --> 00:14:15.920 align:start position:0%
+documents into that context window. If
+ 
+
+00:14:15.920 --> 00:14:17.670 align:start position:0%
+documents into that context window. If
+you<00:14:16.000><c> have</c><00:14:16.160><c> any</c><00:14:16.320><c> questions</c><00:14:16.639><c> or</c><00:14:16.880><c> comments,</c><00:14:17.519><c> let</c>
+
+00:14:17.670 --> 00:14:17.680 align:start position:0%
+you have any questions or comments, let
+ 
+
+00:14:17.680 --> 00:14:19.509 align:start position:0%
+you have any questions or comments, let
+me<00:14:17.760><c> know</c><00:14:17.839><c> in</c><00:14:18.079><c> the</c><00:14:18.240><c> description.</c><00:14:18.959><c> I</c><00:14:19.199><c> hope</c><00:14:19.279><c> this</c>
+
+00:14:19.509 --> 00:14:19.519 align:start position:0%
+me know in the description. I hope this
+ 
+
+00:14:19.519 --> 00:14:21.189 align:start position:0%
+me know in the description. I hope this
+was<00:14:19.760><c> useful</c><00:14:20.000><c> and</c><00:14:20.240><c> I'll</c><00:14:20.480><c> see</c><00:14:20.560><c> you</c><00:14:20.720><c> in</c><00:14:20.880><c> the</c><00:14:21.040><c> next</c>
+
+00:14:21.189 --> 00:14:21.199 align:start position:0%
+was useful and I'll see you in the next
+ 
+
+00:14:21.199 --> 00:14:24.199 align:start position:0%
+was useful and I'll see you in the next
+one.
+

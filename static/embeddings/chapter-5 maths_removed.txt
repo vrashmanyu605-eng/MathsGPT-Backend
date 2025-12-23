@@ -1,0 +1,81 @@
+x = 6/7
+**Linear Equations**
+
+**Example 5.6:** Solve: $\frac{3y}{2} - 3 = 9$
+
+**Solution:** Adding 3 to both sides of the equation, we get
+or $\frac{3y}{2} - 3 + 3 = 9 + 3$
+or $\frac{3y}{2} = 12$
+or $\frac{3y}{2} \times 2 = 12 \times 2$ (Multiplying both sides by 2)
+or $3y = 24$
+or $y = \frac{24}{3}$ (Dividing both sides by 3)
+or $y = 8$
+Hence, $y = 8$ is the solution.
+
+**Example 5.7:** Solve the equation $2(x+3) = 3(2x-7)$
+
+**Solution:** The equation can be written as
+$2x + 6 = 6x - 21$
+or $6x - 21 = 2x + 6$ [Interchanging LHS and RHS]
+or $6x - 21 + 21 = 2x + 6 + 21$ [Adding 21 on both sides]
+or $6x = 2x + 27$
+or $6x - 2x = 2x + 27 - 2x$ [Subtracting 2x from both sides]
+or $4x = 27$
+or $x = \frac{27}{4}$
+Thus, $x = \frac{27}{4}$ is the solution of the equation.
+
+**Note:**
+1. It is not necessary to write the details of what we are adding, subtracting, multiplying or dividing each time.
+2. The process of taking a term from LHS to RHS or RHS to LHS, is called transposing.
+3. When we transpose a term from one side to other side, sign ‘+’ changes to ‘–’, ‘–’ to ‘+’.
+
+---
+**MODULE - 1**
+*Algebra*
+
+**Notes**
+---
+**Mathematics Secondary Course**
+145
+Here's the transcribed text from the image:
+
+**Linear Equations**
+
+3x + 5 – (x + 5) = 30
+or 3x + 5 – x – 5 = 30
+or 3x – x = 30
+or 2x = 30
+or x = 15
+Therefore, the present age of Jacob is 15 years and the present age of his father
+= 3 × 15 = 45 years.
+**Check:** After 5 years, age of Jacob = 15 + 5 = 20 years
+After 5 years, age of his father = 45 + 5 = 50 years
+Difference of their ages = 50 – 20 = 30 years
+
+**Example 5.10:** The sum of three consecutive even integers is 36. Find the integers.
+**Solution:** Let the smallest integer be x.
+Therefore, other two integers are x + 2 and x + 4.
+Since, their sum is 36, we have
+x + (x + 2) + (x + 4) = 36
+or 3x + 6 = 36
+or 3x = 36 – 6
+or x = 10
+Therefore, the required integers are 10, 12 and 14.
+
+**Example 5.11:** The length of a rectangle is 3 cm more than its breadth. If its perimeter is
+34 cm find its length and breadth.
+**Solution:** Let the breadth of rectangle be x cm
+Therefore, its length = x + 3
+Now, since perimeter = 34 cm
+We have 2(x + 3 + x) = 34
+or 2x + 6 + 2x = 34
+or 4x = 34 – 6
+or 4x = 28
+or x = 7
+Therefore, breadth = 7 cm, and length = 7 + 3 = 10 cm.
+
+**MODULE - 1**
+*Algebra*
+Notes
+
+*Mathematics Secondary Course* 147

@@ -34,5 +34,5 @@ dist/
 # Python environment files
 pip-wheel-metadata/
 
-temp/
-uploads/
+static/uploads/
+static/temp/

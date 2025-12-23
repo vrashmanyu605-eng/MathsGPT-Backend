@@ -1,1 +1,1 @@
-# MathsCare
+Advanced Retrieval-Augmented Generation (RAG) application featuring dual vector database support (PgVector & Milvus), intelligent LLM-based document chunking, and semantic search capabilities. FastAPI powers the backend API while React delivers a responsive frontend experience.

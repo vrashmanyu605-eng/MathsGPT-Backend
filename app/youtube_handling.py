@@ -187,16 +187,16 @@ def extract_transcript_with_timestamps(vtt_file: Path) -> list[dict]:
 
     return segments
 
-def extract_clean_text(vtt_file: Path) -> str:
-    # Kept for backward compatibility if needed, but we prefer structured data now
-    segments = extract_transcript_with_timestamps(vtt_file)
-    full_text = " ".join([seg['text'].strip() for seg in segments])
+# def extract_clean_text(vtt_file: Path) -> str:
+#     # Kept for backward compatibility if needed, but we prefer structured data now
+#     segments = extract_transcript_with_timestamps(vtt_file)
+#     full_text = " ".join([seg['text'].strip() for seg in segments])
     
-    txt_file = vtt_file.with_suffix('.txt')
-    with open(txt_file, 'w', encoding='utf-8') as f:
-        f.write(full_text)
+#     txt_file = vtt_file.with_suffix('.txt')
+#     with open(txt_file, 'w', encoding='utf-8') as f:
+#         f.write(full_text)
         
-    return full_text
+#     return full_text
 
 def extract_full_text_from_youtube(vtt_file: Path) -> str:
     """

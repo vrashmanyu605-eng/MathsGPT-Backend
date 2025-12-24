@@ -2,6 +2,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from pathlib import Path
 import json
 import re
 import os
@@ -76,18 +77,15 @@ def perform_ai_driven_chunking(document, max_chunks=20, fallback_chunk_size=1000
         
         # Try to parse the JSON response
         chunks = json.loads(content)
-        print(f"Successfully chunked document into {len(chunks)} AI-driven chunks")
+        print(f"Chunked document into {len(chunks)} chunks")
         
         # Create Document objects with metadata
         documents = []
         for i, chunk in enumerate(chunks):
-            # Calculate relative position for tracking
-            position = i / len(chunks)
             
             # Analyze chunk complexity based on length and unique word density
             words = re.findall(r'\b\w+\b', chunk.lower())
             unique_words = set(words)
-            word_density = len(unique_words) / max(1, len(words))
             
             doc = Document(
                 page_content=chunk,
@@ -95,21 +93,42 @@ def perform_ai_driven_chunking(document, max_chunks=20, fallback_chunk_size=1000
                     "chunk_id": i,
                     "total_chunks": len(chunks),
                     "chunk_size": len(chunk),
-                    "chunk_type": "ai_driven",
-                    "document_position": round(position, 2),
                     "word_count": len(words),
-                    "unique_words": len(unique_words),
-                    "word_density": round(word_density, 2)
+                    "unique_words": len(unique_words)
                 }
             )
             documents.append(doc)
         print("AI chunking ends...")
+        
+        print("File Writing starts....")
+
+        file_path = Path("documents_training_data.json")
+
+        # Load old data
+        if file_path.exists():
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    existing_data = json.load(f)
+                    if not isinstance(existing_data, list):
+                        existing_data = []
+            except json.JSONDecodeError:
+                existing_data = []
+        else:
+            existing_data = []
+
+        # Append new metadata
+        existing_data.extend([doc.page_content for doc in documents])
+
+        # Write back updated JSON
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(existing_data, f, ensure_ascii=False, indent=4)
         return documents
             
     except Exception as e:
         print(f"LLM chunking failed: {e}")
         print("Falling back to basic chunking")
         return fallback_chunking(document, chunk_size=fallback_chunk_size)
+
 
 def fallback_chunking(document, chunk_size=1000, chunk_overlap=100):
     """

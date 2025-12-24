@@ -8,7 +8,7 @@ from fastapi.responses import StreamingResponse
 import shutil
 from fastapi import FastAPI, HTTPException, UploadFile, File
 from app.youtube_handling import download_subtitles, extract_transcript_with_timestamps, extract_full_text_from_youtube
-from app.pdf_handling import extract_text_with_page_numbers, extract_full_text_from_pdf
+from app.pdf_handling import extract_full_text_from_pdf
 from app.training import create_embeddings, find_top_n_similar_embeddings, generate_response_stream
 from app.llm_based_chunking import perform_ai_driven_chunking
 
@@ -192,11 +192,8 @@ async def generate_answer(
             with open(file_path, "wb") as buffer:
                 shutil.copyfileobj(file.file, buffer)
 
-            # For query context from file, we might still just want the full text
-            # OR we can process it page by page if needed. For now, let's just get full text.
-            # But wait, extract_text_with_page_numbers returns a list.
-            pdf_data = await extract_text_with_page_numbers(file_path)
-            extracted_text = "\n".join([item['text'] for item in pdf_data])
+            pdf_data = await extract_full_text_from_pdf(file_path)
+            extracted_text = pdf_data
             
             print(
                 f"DEBUG: Extracted text from file: {extracted_text[:200]}...")

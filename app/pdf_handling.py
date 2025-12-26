@@ -201,6 +201,9 @@ import os
 import logging
 from PIL import Image
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 

@@ -7,75 +7,84 @@ from pathlib import Path
 from fastapi.responses import StreamingResponse
 import shutil
 from fastapi import FastAPI, HTTPException, UploadFile, File
-from app.youtube_handling import download_subtitles, extract_transcript_with_timestamps, extract_full_text_from_youtube
+# from app.youtube_handling import download_subtitles, extract_transcript_with_timestamps, extract_full_text_from_youtube
 from app.pdf_handling import extract_full_text_from_pdf
 from app.training import create_embeddings, find_top_n_similar_embeddings, generate_response_stream
-from app.llm_based_chunking import perform_ai_driven_chunking
+# from app.llm_based_chunking import perform_ai_driven_chunking
+from app.worker_tasks import process_documents
+# from app.tasks import process_file_and_embed
+
+from redis import Redis
+from rq import Queue
+
+redis_conn = Redis()
+task_queue = Queue("documents", connection=redis_conn)
 
 app = FastAPI()
 
-async def process_file_and_embed(file_input, file_type: str, filename: str = None):
-    """
-    General function to process any file type, chunk it using LLM, and create embeddings.
+# async def process_file_and_embed(file_input, file_type: str, filename: str = None):
+#     """
+#     General function to process any file type, chunk it using LLM, and create embeddings.
     
-    Args:
-        file_input: Path to file or URL
-        file_type: 'youtube' or 'pdf'
-        filename: Optional filename for metadata
-    """
-    full_text = ""
+#     Args:
+#         file_input: Path to file or URL
+#         file_type: 'youtube' or 'pdf'
+#         filename: Optional filename for metadata
+#     """
+#     full_text = ""
     
-    match file_type:
-        case "youtube":
-            # call function
-            if not filename:
-                video_id_match = re.search(r'(?:v=|youtu\.be/|embed/)([\w-]+)', file_input)
-                filename = video_id_match.group(1) if video_id_match else "unknown_video"
+#     match file_type:
+#         case "youtube":
+#             # call function
+#             if not filename:
+#                 video_id_match = re.search(r'(?:v=|youtu\.be/|embed/)([\w-]+)', file_input)
+#                 filename = video_id_match.group(1) if video_id_match else "unknown_video"
             
-            vtt_file_path = download_subtitles(file_input)
-            full_text = extract_full_text_from_youtube(vtt_file_path)
+#             vtt_file_path = download_subtitles(file_input)
+#             full_text = extract_full_text_from_youtube(vtt_file_path)
 
-        case "pdf":
-            # call function
-            if not filename:
-                filename = Path(file_input).stem
+#         case "pdf":
+#             # call function
+#             if not filename:
+#                 filename = Path(file_input).stem
 
-            full_text = await extract_full_text_from_pdf(Path(file_input))
-            
-        case _:
-            print("Unsupported file type")
+#             full_text = await extract_full_text_from_pdf(Path(file_input))
+
+#         case _:
+#             print("Unsupported file type")
 
     
-    # 1. Extract Full Text based on type
-    # if file_type == 'youtube':
-    #     # For YouTube, file_input is the URL
-    #     if not filename:
-    #         video_id_match = re.search(r'(?:v=|youtu\.be/|embed/)([\w-]+)', file_input)
-    #         filename = video_id_match.group(1) if video_id_match else "unknown_video"
+#     # 1. Extract Full Text based on type
+#     # if file_type == 'youtube':
+#     #     # For YouTube, file_input is the URL
+#     #     if not filename:
+#     #         video_id_match = re.search(r'(?:v=|youtu\.be/|embed/)([\w-]+)', file_input)
+#     #         filename = video_id_match.group(1) if video_id_match else "unknown_video"
             
-    #     vtt_file_path = download_subtitles(file_input)
-    #     full_text = extract_full_text_from_youtube(vtt_file_path)
+#     #     vtt_file_path = download_subtitles(file_input)
+#     #     full_text = extract_full_text_from_youtube(vtt_file_path)
         
-    # elif file_type == 'pdf':
-    #     # For PDF, file_input is the file path
-    #     if not filename:
-    #         filename = Path(file_input).stem
+#     # elif file_type == 'pdf':
+#     #     # For PDF, file_input is the file path
+#     #     if not filename:
+#     #         filename = Path(file_input).stem
             
-    #     full_text = await extract_full_text_from_pdf(Path(file_input))
+#     #     full_text = await extract_full_text_from_pdf(Path(file_input))
         
-    # else:
-    #     raise ValueError(f"Unsupported file type: {file_type}")
+#     # else:
+#     #     raise ValueError(f"Unsupported file type: {file_type}")
     
-    # if not full_text:
-    #     raise ValueError("Could not extract text from input")
+#     # if not full_text:
+#     #     raise ValueError("Could not extract text from input")
 
-    # 2. Perform AI-Driven Chunking
-    chunked_documents = perform_ai_driven_chunking(full_text)
+#     # 2. Perform AI-Driven Chunking
+#     chunked_documents = perform_ai_driven_chunking(full_text)
     
-    # 3. Create Embeddings
-    create_embeddings(chunked_documents, filename=filename, source=file_type)
+#     # 3. Create Embeddings
+#     create_embeddings(chunked_documents, filename=filename, source=file_type)
     
-    return filename
+#     return filename
+
 
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -111,35 +120,108 @@ async def read_root():
     return "Welcome to the YouTube Embeddings API!"
 
 
+# @app.post("/uploadURL", response_model=APIResponse)
+# async def upload_url(request: UploadURLRequest):
+#     youtube_url = request.url
+
+#     try:
+#         # Use the general processing function
+#         filename = await process_file_and_embed(youtube_url, file_type='youtube')
+
+#         return APIResponse(
+#             dataResponse=DataResponse(
+#                 returnCode=EResultCode.SUCCESS,
+#                 description=f"Documents uploaded successfully. Embeddings saved to database for video: {filename}",
+#             )
+#         )
+#     except Exception as e:
+#         raise HTTPException(
+#             status_code=500,
+#             detail=APIResponse(
+#                 dataResponse=DataResponse(
+#                     returnCode=EResultCode.FAILURE,
+#                     description=f"Error processing YouTube URL: {str(e)}",
+#                 )
+#             ).model_dump()
+#         )
+
 @app.post("/uploadURL", response_model=APIResponse)
 async def upload_url(request: UploadURLRequest):
     youtube_url = request.url
 
     try:
-        # Use the general processing function
-        filename = await process_file_and_embed(youtube_url, file_type='youtube')
+        job = task_queue.enqueue(
+            "app.worker_tasks.process_documents",
+            args=[{
+                "file_input": youtube_url,
+                "file_type": "youtube",
+                "filename": None
+            }],
+            job_timeout = 1800
+        )
 
         return APIResponse(
             dataResponse=DataResponse(
                 returnCode=EResultCode.SUCCESS,
-                description=f"Documents uploaded successfully. Embeddings saved to database for video: {filename}",
+                description=f"Video queued for processing. Job ID: {job.id}",
             )
         )
+
     except Exception as e:
         raise HTTPException(
             status_code=500,
-            detail=APIResponse(
-                dataResponse=DataResponse(
-                    returnCode=EResultCode.FAILURE,
-                    description=f"Error processing YouTube URL: {str(e)}",
-                )
-            ).model_dump()
+            detail=f"Queue error: {str(e)}"
         )
 
 
+# @app.post("/uploadPDF", response_model=APIResponse)
+# async def upload_pdf(file: UploadFile = File(...)):
+#     if not file.filename.endswith(".pdf"):
+#         raise HTTPException(
+#             status_code=400,
+#             detail=APIResponse(
+#                 dataResponse=DataResponse(
+#                     returnCode=EResultCode.FAILURE,
+#                     description="Only PDF files are allowed.",
+#                 )
+#             ).model_dump()
+#         )
+
+#     upload_dir = Path("static/uploads")
+#     upload_dir.mkdir(parents=True, exist_ok=True)
+#     file_path = upload_dir / file.filename
+
+#     try:
+#         with open(file_path, "wb") as buffer:
+#             shutil.copyfileobj(file.file, buffer)
+
+#         # Use the general processing function
+#         filename = await process_file_and_embed(file_path, file_type='pdf', filename=file.filename)
+
+#         return APIResponse(
+#             dataResponse=DataResponse(
+#                 returnCode=EResultCode.SUCCESS,
+#                 description=f"PDF processed and embeddings saved to database for file: {file.filename}",
+#             )
+#         )
+#     except Exception as e:
+#         raise HTTPException(
+#             status_code=500,
+#             detail=APIResponse(
+#                 dataResponse=DataResponse(
+#                     returnCode=EResultCode.FAILURE,
+#                     description=f"Error processing PDF: {str(e)}",
+#                 )   
+#             ).model_dump()
+#         )
+#     finally:
+#         if file_path.exists():
+#             file_path.unlink()  # Delete the uploaded file after processing
+
 @app.post("/uploadPDF", response_model=APIResponse)
 async def upload_pdf(file: UploadFile = File(...)):
-    if not file.filename.endswith(".pdf"):
+
+    if not file.filename.lower().endswith(".pdf"):
         raise HTTPException(
             status_code=400,
             detail=APIResponse(
@@ -155,31 +237,39 @@ async def upload_pdf(file: UploadFile = File(...)):
     file_path = upload_dir / file.filename
 
     try:
+        # Save the PDF
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
 
-        # Use the general processing function
-        filename = await process_file_and_embed(file_path, file_type='pdf', filename=file.filename)
+        # Push job to Redis Queue
+        job = task_queue.enqueue(
+            "app.worker_tasks.process_documents",
+            args=[{
+                "file_input": str(file_path),
+                "file_type": "pdf",
+                "filename": file.filename
+            }],
+            job_timeout = 1800
+        )
 
         return APIResponse(
             dataResponse=DataResponse(
                 returnCode=EResultCode.SUCCESS,
-                description=f"PDF processed and embeddings saved to database for file: {file.filename}",
+                description=f"PDF queued for processing. Job ID: {job.id}",
             )
         )
+
     except Exception as e:
         raise HTTPException(
             status_code=500,
             detail=APIResponse(
                 dataResponse=DataResponse(
                     returnCode=EResultCode.FAILURE,
-                    description=f"Error processing PDF: {str(e)}",
-                )   
+                    description=f"Error queuing PDF: {str(e)}",
+                )
             ).model_dump()
         )
-    finally:
-        if file_path.exists():
-            file_path.unlink()  # Delete the uploaded file after processing
+
 
 
 @app.post("/generateAnswer")

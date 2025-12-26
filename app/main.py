@@ -25,28 +25,49 @@ async def process_file_and_embed(file_input, file_type: str, filename: str = Non
     """
     full_text = ""
     
-    # 1. Extract Full Text based on type
-    if file_type == 'youtube':
-        # For YouTube, file_input is the URL
-        if not filename:
-            video_id_match = re.search(r'(?:v=|youtu\.be/|embed/)([\w-]+)', file_input)
-            filename = video_id_match.group(1) if video_id_match else "unknown_video"
+    match file_type:
+        case "youtube":
+            # call function
+            if not filename:
+                video_id_match = re.search(r'(?:v=|youtu\.be/|embed/)([\w-]+)', file_input)
+                filename = video_id_match.group(1) if video_id_match else "unknown_video"
             
-        vtt_file_path = download_subtitles(file_input)
-        full_text = extract_full_text_from_youtube(vtt_file_path)
-        
-    elif file_type == 'pdf':
-        # For PDF, file_input is the file path
-        if not filename:
-            filename = Path(file_input).stem
+            vtt_file_path = download_subtitles(file_input)
+            full_text = extract_full_text_from_youtube(vtt_file_path)
+
+        case "pdf":
+            # call function
+            if not filename:
+                filename = Path(file_input).stem
+
+            full_text = await extract_full_text_from_pdf(Path(file_input))
             
-        full_text = await extract_full_text_from_pdf(Path(file_input))
-        
-    else:
-        raise ValueError(f"Unsupported file type: {file_type}")
+        case _:
+            print("Unsupported file type")
+
     
-    if not full_text:
-        raise ValueError("Could not extract text from input")
+    # 1. Extract Full Text based on type
+    # if file_type == 'youtube':
+    #     # For YouTube, file_input is the URL
+    #     if not filename:
+    #         video_id_match = re.search(r'(?:v=|youtu\.be/|embed/)([\w-]+)', file_input)
+    #         filename = video_id_match.group(1) if video_id_match else "unknown_video"
+            
+    #     vtt_file_path = download_subtitles(file_input)
+    #     full_text = extract_full_text_from_youtube(vtt_file_path)
+        
+    # elif file_type == 'pdf':
+    #     # For PDF, file_input is the file path
+    #     if not filename:
+    #         filename = Path(file_input).stem
+            
+    #     full_text = await extract_full_text_from_pdf(Path(file_input))
+        
+    # else:
+    #     raise ValueError(f"Unsupported file type: {file_type}")
+    
+    # if not full_text:
+    #     raise ValueError("Could not extract text from input")
 
     # 2. Perform AI-Driven Chunking
     chunked_documents = perform_ai_driven_chunking(full_text)
